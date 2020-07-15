@@ -1,0 +1,10 @@
+,mapcat,mapcolors
+1,Low incidence growth,#f1a340
+2,Elevated incidence growth,#b35806
+3,Elevated incidence plateau,#542788
+4,Sustained decline,#998ec3
+5,Low incidence plateau,#d8daeb
+6,Rebound,#CB2314
+7,1-5 cases in the past two weeks,#bababa
+8,0 cases in the past two weeks,#e0e0e0
+9,No reported cases,white
