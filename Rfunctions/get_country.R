@@ -39,58 +39,40 @@ function(){
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # ~~~~~~~~~~~~~~~~ Setting up folders for data  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  
-  #SETTING DIRECTORY FOR INTERNATIONAL TASK FORCE - if James, defaults to his own account, otherwise appends users' name to the path
-  dir.root <- paste0("C:/Users/",
-                     Sys.getenv("USERNAME"),
-                     "/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")
-  
 
-  rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
-  
-  
-  # # function to get the base JHU data with cases and deaths daily/cumulative 
-  # fun_whoreg <- dget(paste0(rfunctions.dir, "who_regions.R"))
-  # 
-  # wreg <- fun_whoreg() %>% 
-  #   mutate(a3 = countrycode(ou, origin = 'country.name', destination = 'iso3c')) %>% 
-  #   select(a3, region)
   
   # Getting table with country and ISO alpha 3 code:
   iso_data <- maps::iso3166 
   iso_data$a3[iso_data$ISOname=="Kosovo"] <- "XKX"
+  iso_data$a2[iso_data$ISOname=="Kosovo"] <- "XK"
+  iso_data$a2[iso_data$ISOname=="Namibia"] <- "NA"
   
-  whodir <- paste0(dir.root, "Data/WHO Member States/")
+  
+  iso_df <- iso_data %>% filter(!is.na(a2)) %>% 
+    filter(a2 %ni% c("??")) %>% 
+    select(a2, a3) %>% unique()
   
   
   # Adding WHO regions
-  whoreg <- read.csv(paste0(whodir, "who_regions_j.csv"))
-  whoter <- read.csv(paste0(whodir, "who_region_terr.csv")) %>% 
-    select(country, who_region_loc) %>% 
-    rename(who_region = who_region_loc)
-  
-  names(whoreg) <- tolower(names(whoreg))
-  names(whoter) <- tolower(names(whoter))
-  
-  whoregx <- bind_rows(whoreg, whoter)
-  
-  whoreg1 <- whoregx %>% 
-    mutate(a3 = case_when(
-      country %in% c("Eswatini") ~
-        parse_country("Swaziland", 
-              to = "iso3c", how = c("regex", "google", "dstk"),
-              language = c("en")),
-      country %in% c("Kosovo") ~ "XKX",
-      TRUE ~  parse_country(country, to = "iso3c", how = c("regex", "google", "dstk"),
-                                      language = c("en")))) %>% 
-    filter(!is.na(a3)) %>% 
-    select(a3, who_region) %>% 
+  whoreg <- read.csv("https://covid19.who.int/WHO-COVID-19-global-data.csv", stringsAsFactors=FALSE, encoding="UTF-8")  
+
+  whoreg1 <- whoreg %>% select(Country, Country_code, WHO_region) %>% 
+    rename(a2 = Country_code,
+           who_region = WHO_region) %>%  
+    select(Country, a2, who_region) %>% 
     unique() 
 
     
-  iso_dataw <- left_join(iso_data, whoreg1)
+  iso_dataw <- left_join(whoreg1, iso_df)
   
-  iso_dataw$who_region[is.na(iso_dataw$who_region)] <- "Other"
+  iso_dataw$a2[iso_dataw$who_region=="Other"] <- "OT"
+  iso_dataw$a3[iso_dataw$who_region=="Other"] <- "OTH"
+  iso_dataw$a2[iso_dataw$Country=="Namibia"] <- "NA"
+  iso_dataw$a3[iso_dataw$Country=="Namibia"] <- "NAM"
+  iso_dataw$Country[iso_dataw$Country=="Kosovo[1]"] <- "Kosovo"
+  
+  
+  
   
 ## Adding population 
   # str(wb_cachelist, max.level = 1)
@@ -138,16 +120,12 @@ function(){
   # Work in progress !! :)
   
   df <- iso_wp %>% 
-    dplyr::select(ISOname, mapname, sovereignty, a3, a2, who_region, pop_2020yr) %>% 
-    dplyr::rename(country = ISOname,
+    dplyr::select(Country, a3, a2, who_region, pop_2020yr) %>% 
+    dplyr::rename(country = Country,
                   iso3code = a3,
                   iso2code = a2) 
 
   base_frame <- df %>% 
-    dplyr::filter(country %ni% c("Paracel Islands", 
-                                 "Clipperton Island"
-    )) %>% 
-    dplyr::filter(iso3code %ni% c("??", "???")) %>% 
     dplyr::select(country, iso3code, iso2code, who_region, pop_2020yr) %>% 
     unique()
   
