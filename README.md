@@ -7,9 +7,20 @@ processes, the project team will be allowed to remove this notice. This material
 
 ## Project Description:
 
-This project is a repository housing R functions and scripts used in the Centers for Disease Control and Prevention (CDC) COVID-19 Response International Task Force (ITF) [COVID-19 Dashboard](https://app.powerbigov.us/groups/me/apps/8498de59-7f3f-4db4-87fd-49ec8a7565f5/reports/2f3f1d58-2d05-4ca7-a7e0-c3ac9a39b47d/ReportSection)
+This project is a repository housing R functions and scripts used in the Centers for Disease Control and Prevention (CDC) COVID-19 Response International Task Force (ITF) COVID-19 Dashboard
 
-As part of the CDC COVID-19 Response, the ITF Epi and Data Visualization Team has created and maintains a Power BI Dashboard to assist Task Force and response leadership with situational awareness of the global pandemic and response. The dashboard contains analyses of the most updated global case data from multiple sources. The Power BI report that generates the dashboard runs multiple R scripts in order to refresh, process and update the data. The R functions in this project are used to read in case data, apply algorithms and populate the underlying data tables of the report.
+As part of the CDC COVID-19 Response, the ITF Epi and Data Visualization Team has created and maintains a Power BI Dashboard to assist Task Force and response leadership with situational awareness of the global pandemic and response. The dashboard contains analyses of the most updated global case and testing data from multiple sources. The Power BI report that generates the dashboard runs multiple R scripts in order to refresh, process and update the data. The R functions in this project are used to read in case and testing data, apply algorithms and populate the underlying data tables of the report.
+
+In the medium-term, another goal of the ITF is to share several curated Power BI views of global case and testing data on the public CDC COVID Data Tracker (https://www.cdc.gov/covid-data-tracker/index.html#cases) to communicate to the general public the types of analyses CDC is conducting using international data. The code saved to this repository would be used to populate the data underlying those views in a Power BI Dashboard.
+
+The code in this repository assumes a file structure where all code is stored in the same folder, and most require that filepath to be passed as a parameter called "rfunctions.dir." To learn more about using R in Power BI, please consult this resource: https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-r-scripts. An example piece of code that can be called from the Power BI Power Query to run the code is as follows:
+
+### Example Power BI script that pulls in the case and death data sets 
+rfunctions.dir <- {THE FILE PATH WHERE ALL THE CODE IS SAVED LOCALLY}
+
+fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
+
+ncov_cases_deaths <- fun_ncov(rfunctions.dir)
 
 
 ## Public Domain
