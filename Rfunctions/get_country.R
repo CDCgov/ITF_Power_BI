@@ -1,11 +1,12 @@
+# Code for CDC Tracker Power BI file
+# this code is called by R scripts that are run in a Power Query that feeds into a Power BI Report
+# all packages must already be installed on the version of R that is called by Power BI
+# it reads in exclusively public data sets and returns a  data frame with standardized country-level identifies by iso3code
+
 function(){
-  # Creating basic functions to show top few rows of data
-  View50 <- function(x){View(x[1:50,])}
-  View100 <- function(x){View(x[1:100,])}
   
   # Creating the 'not in' function
   `%ni%` <- Negate(`%in%`) 
-  
   
   # Pulling in the load package function R file
   # Load function to install list of packages
@@ -40,7 +41,6 @@ function(){
   # ~~~~~~~~~~~~~~~~ Setting up folders for data  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  
   # Getting table with country and ISO alpha 3 code:
   iso_data <- maps::iso3166 
   iso_data$a3[iso_data$ISOname=="Kosovo"] <- "XKX"
@@ -71,17 +71,18 @@ function(){
   iso_dataw$a3[iso_dataw$Country=="Namibia"] <- "NAM"
   iso_dataw$Country[iso_dataw$Country=="Kosovo[1]"] <- "Kosovo"
   
-  
+  #adding continents
+  continents<-read.csv("https://pkgstore.datahub.io/JohnSnowLabs/country-and-continent-codes-list/country-and-continent-codes-list-csv_csv/data/b7876b7f496677669644f3d1069d3121/country-and-continent-codes-list-csv_csv.csv",
+                       stringsAsFactors = FALSE, encoding="UTF-8") %>%
+    select(Continent_Name,Two_Letter_Country_Code,Three_Letter_Country_Code) %>%
+    rename(a2=Two_Letter_Country_Code,
+           a3=Three_Letter_Country_Code) %>%
+    mutate(a2=if_else(a3=="NAM","NA",a2)) %>%
+    #some countries have multiple continents- they are all in the WHO Euro region, so remove the rows where they have Asia as the continent
+    filter(!(a3 %in% c("ARM","AZE","CYP","GEO","KAZ","RUS","TUR") & Continent_Name=="Asia"))
   
   
 ## Adding population 
-  # str(wb_cachelist, max.level = 1)
-  # View(wb_cachelist$indicators)
-  # View(wbsearch(c("economies")) )
-  # pop_data <- wb(indicator = "SP.POP.TOTL", startdate = 2018, enddate = 2020) %>% 
-  #   select(iso3c, value) %>% 
-  #   rename(a3 = iso3c,
-  #          pop_2018x = value)
   
   url <- "https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html"
   
@@ -113,20 +114,21 @@ function(){
     ungroup()
     
     
-  iso_wp <- left_join(iso_dataw, pop_data)
+  iso_wp <- left_join(left_join(iso_dataw, pop_data),continents) %>%
+    mutate(Continent_Name=if_else(Country=="Kosovo","Europe",Continent_Name))
   
   
 ## Adding income categorizations
   # Work in progress !! :)
   
   df <- iso_wp %>% 
-    dplyr::select(Country, a3, a2, who_region, pop_2020yr) %>% 
+    dplyr::select(Country, a3, a2, who_region, pop_2020yr, Continent_Name) %>% 
     dplyr::rename(country = Country,
                   iso3code = a3,
                   iso2code = a2) 
 
   base_frame <- df %>% 
-    dplyr::select(country, iso3code, iso2code, who_region, pop_2020yr) %>% 
+    dplyr::select(country, iso3code, iso2code, who_region, pop_2020yr, Continent_Name) %>% 
     unique()
   
   return(base_frame)
