@@ -5,7 +5,7 @@ based on the two-week incidence rate standardized to per 100,000 population, and
 # Setting up the data
 The code has been adapted to be run using any data, as long as it is formatted in the following way:
 Each row represents a single geographic unit, with the columns being the cumulative case or death count for each day
-The first three columns have the headings "country_code", "WHO Region", and `Population 2018.x`. The first two should be character variables, and can represent different
+The first three columns have the headings "country_code", "WHO Region", and "`Population 2018.x`". The first two should be character variables, and can represent different
 geographic levels (don't have to be country and region). The third column should be a numeric value representing the latest available estimate of the population for the 
 geographic unit of that row.
 The remaining columns should represent consecutive days of observed cases. The column headers should be the dates. Even if a day has 0 observed cases, a column still 
