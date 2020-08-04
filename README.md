@@ -1,4 +1,4 @@
-# ITF_Power_BI
+# ITF_Power_BI Repository
 
 ## README
 
@@ -11,7 +11,51 @@ This project is a repository housing R functions and scripts used in the Centers
 
 As part of the CDC COVID-19 Response, the ITF Epi and Data Visualization Team has created and maintains an interal Power BI Dashboard to assist Task Force and response leadership with situational awareness of the global pandemic and response. The dashboard contains analyses of the most updated global case and testing data from multiple sources. The Power BI report that generates the dashboard runs multiple R scripts in order to refresh, process and update the data. The R functions in this project are used to read in case and testing data, apply algorithms and populate the underlying data tables of the report. Access to this dashboard is currently limited to CDC staff only.
 
-The ITF plans to share several curated Power BI views of global case and testing data on the public CDC COVID Data Tracker (https://www.cdc.gov/covid-data-tracker/index.html#cases) to communicate to the general public the types of analyses CDC is conducting using international data. The code saved to this repository would be used to populate the data underlying those views in a Power BI Dashboard.
+The ITF plans to share several curated Power BI views of global case and testing data on the public CDC COVID Data Tracker (https://www.cdc.gov/covid-data-tracker/index.html#cases) to communicate to the general public the types of analyses that CDC is conducting using international data. The code saved to this repository would be used to populate the data underlying those views in a Power BI Dashboard.
+
+### Data sources referenced:
+The project uses several publicly-available data sources, including:
+
+#### the COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, cases and Deaths data sets:
+https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
+
+https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
+
+More info here: https://github.com/CSSEGISandData/COVID-19
+
+and here: https://coronavirus.jhu.edu/map.html
+
+Citation: Dong E, Du H, Gardner L. An interactive web-based dashboard to track COVID-19 in real time. Lancet Inf Dis. 20(5):533-534. doi: 10.1016/S1473-3099(20)30120-1
+
+#### The World Health Organization COVID-19 Global data set:
+
+https://covid19.who.int/WHO-COVID-19-global-data.csv
+More info here: https://covid19.who.int/
+
+#### Our World In Data Testing data set:
+
+https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv
+
+More info here: https://ourworldindata.org/coronavirus-testing
+
+Even more info here: https://github.com/owid/covid-19-data/blob/master/public/data/README.md
+
+Citation: Max Roser, Hannah Ritchie, Esteban Ortiz-Ospina and Joe Hasell (2020) - "Coronavirus Pandemic (COVID-19)". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus' [Online Resource]
+
+#### FIND Testing data set:
+
+https://raw.githubusercontent.com/dsbbfinddx/FIND_Cov_19_Tracker/master/input_data/cv_data_download.csv
+
+More info here: https://www.finddx.org/covid-19/test-tracker/
+
+#### Standardized population data:
+
+https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html
+
+#### Continent classifications:
+
+https://pkgstore.datahub.io/JohnSnowLabs/country-and-continent-codes-list/country-and-continent-codes-list-csv_csv/data/b7876b7f496677669644f3d1069d3121/country-and-continent-codes-list-csv_csv.csv                       
+
 
 ## Public Domain
 
