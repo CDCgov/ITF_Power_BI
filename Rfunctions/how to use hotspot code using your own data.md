@@ -28,3 +28,7 @@ Once your data set is formatted, an example of a way to apply the hotspot trajec
 new.data.frame<- hotspot(formatted.data.frame, "Case", 0.1, 10, 100)
 
 The new.data.frame will contain the trajectory categorizations in the "growth.map.cat.labels" column
+
+# Making maps
+The file "hotspot maps colors.csv" contains the hex codes for the different categories that the CDC has used in standard visualizations
+
