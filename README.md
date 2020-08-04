@@ -13,16 +13,6 @@ As part of the CDC COVID-19 Response, the ITF Epi and Data Visualization Team ha
 
 In the medium-term, another goal of the ITF is to share several curated Power BI views of global case and testing data on the public CDC COVID Data Tracker (https://www.cdc.gov/covid-data-tracker/index.html#cases) to communicate to the general public the types of analyses CDC is conducting using international data. The code saved to this repository would be used to populate the data underlying those views in a Power BI Dashboard.
 
-The code in this repository assumes a file structure where all code is stored in the same folder, and most require that filepath to be passed as a parameter called "rfunctions.dir." To learn more about using R in Power BI, please consult this resource: https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-r-scripts. An example piece of code that can be called from the Power BI Power Query to run the code is as follows:
-
-### Example Power BI script that pulls in the case and death data sets 
-rfunctions.dir <- {THE FILE PATH WHERE ALL THE CODE IS SAVED LOCALLY}
-
-fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
-
-ncov_cases_deaths <- fun_ncov(rfunctions.dir)
-
-
 ## Public Domain
 
 This repository constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105. This repository is inthe public domain within the United States, and copyright and related rights in
