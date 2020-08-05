@@ -1,7 +1,7 @@
 # Code for CDC Tracker Power BI file
 # this code is called by an R script run in a Power Query that feeds into a Power BI Report
 # all packages must already be installed on the version of R that is called by Power BI
-# it will output two possible files: a cross-sectional file (requires "cross" for typex) or a longitudinal file (requires "long" for typex)
+# it will output two possible files: a cross-sectional file (requires "map" for typex) or a longitudinal file (requires "long" for typex)
 # it requires an object called "rfunctions.dir" which is the directory where the other code, "get_ncov_data.R" and "traj_sub_functions.R", is stored
 # This code calls applies an algorithm to identify the trajectory status of epidemic curves for cumulative incidence or mortality 
 # This algorithm was developed by the CDC Case Based Surveillance Task Force and will potentially be updated in the future
