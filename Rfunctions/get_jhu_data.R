@@ -99,7 +99,7 @@ fun_frame <- dget(paste0(rfunctions.dir, "get_country_date.R"))
   data.countries$Country.clean <- parse_country(data.countries$Country, to="en-iso")
   data.countries$Country.clean[is.na(data.countries$Country.clean)] <- data.countries$Country[is.na(data.countries$Country.clean)]
   data.countries$Country <- data.countries$Country.clean
-  data.countries$Country[data.countries$Country %in% c("Diamond Princess", "MS Zandaam")] <- "International Conveyance"
+  data.countries$Country[data.countries$Country %in% c("Diamond Princess", "MS Zaandam")] <- "International Conveyance"
   data.countries <- data.countries[c("Country","Date","New Cases","Cumulative Cases","New Deaths","Cumulative Deaths")]
   data.countries <- data.countries[order(data.countries$Country, data.countries$Date),]
   
@@ -119,7 +119,7 @@ df <- data.countries %>%
       country %in% c("Kosovo") ~ "XKX", 
       TRUE ~  parse_country(country, to = "iso3c", how = c("regex", "google", "dstk"),language = c("en")))) %>% 
   filter(!is.na(iso3code)) %>% 
-  #filter(country %ni% c("International Conveyance")) %>% 
+#  filter(country %ni% c("International Conveyance")) %>% 
   select(-country) %>% 
   group_by(iso3code) %>% 
   # Adding back all the first cases
@@ -127,13 +127,21 @@ df <- data.countries %>%
   ungroup() %>% 
   mutate(cases_new = if_else(firstcase==1, cases_cum, as.integer(cases_new))) %>% 
   mutate(deaths_new = if_else(firstcase==1, deaths_cum, as.integer(deaths_new))) %>%
-  select(-firstcase)
+  select(-firstcase) %>%
+  #sum over cruise ships
+  group_by(iso3code,date) %>%
+    summarise(cases_new=sum(cases_new),
+              deaths_new=sum(deaths_new),
+              cases_cum=sum(cases_cum),
+              deaths_cum=sum(deaths_cum)) %>%
+  ungroup()
 
 
 # Adding population from the World Bank and JHU
 dfframe <- fun_frame(rfunctions.dir) %>% 
   filter(date<=max(df$date)) %>% 
-  filter(date>=min(df$date))
+  filter(date>=min(df$date)) %>%
+  filter(iso3code %in% unique(df$iso3code))
 
 
 # Getting the basic final dataset

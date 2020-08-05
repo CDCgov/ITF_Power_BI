@@ -61,15 +61,24 @@ function(){
            who_region = WHO_region) %>%  
     select(Country, a2, who_region) %>% 
     unique() 
-
-    
-  iso_dataw <- left_join(whoreg1, iso_df)
+  whoreg1$a2[whoreg1$Country=="Namibia"] <- "NA"
+  
+  iso_dataw <- full_join(iso_df,whoreg1)
   
   iso_dataw$a2[iso_dataw$who_region=="Other"] <- "OT"
   iso_dataw$a3[iso_dataw$who_region=="Other"] <- "OTH"
   iso_dataw$a2[iso_dataw$Country=="Namibia"] <- "NA"
   iso_dataw$a3[iso_dataw$Country=="Namibia"] <- "NAM"
   iso_dataw$Country[iso_dataw$Country=="Kosovo[1]"] <- "Kosovo"
+  #Taiwan, Hong Kong, Macau, Western Sahara are broken out in the JHU data- HK and Macau are part of WPRO, Taiwan and Western Sahara are not covered
+  iso_dataw$Country[iso_dataw$a3=="TWN"] <- "Taiwan"
+  iso_dataw$Country[iso_dataw$a3=="HKG"] <- "Hong Kong"
+  iso_dataw$Country[iso_dataw$a3=="MAC"] <- "Macau"
+  iso_dataw$Country[iso_dataw$a3=="ESH"] <- "Western Sahara"
+  iso_dataw$who_region[iso_dataw$a3 %in% c("HKG","MAC")] <- "WPRO"
+  iso_dataw$who_region[iso_dataw$a3 %in% c("TWN","ESH")] <- "Other"
+  
+  iso_dataw<-filter(iso_dataw,!is.na(who_region))
   
   #adding continents
   continents<-read.csv("https://pkgstore.datahub.io/JohnSnowLabs/country-and-continent-codes-list/country-and-continent-codes-list-csv_csv/data/b7876b7f496677669644f3d1069d3121/country-and-continent-codes-list-csv_csv.csv",
@@ -115,7 +124,7 @@ function(){
     
     
   iso_wp <- left_join(left_join(iso_dataw, pop_data),continents) %>%
-    mutate(Continent_Name=if_else(Country=="Kosovo","Europe",Continent_Name))
+    mutate(Continent_Name=if_else(Country=="Kosovo","Europe",if_else(Country=="Other","Other",Continent_Name)))
   
   
 ## Adding income categorizations
@@ -125,7 +134,7 @@ function(){
     dplyr::select(Country, a3, a2, who_region, pop_2020yr, Continent_Name) %>% 
     dplyr::rename(country = Country,
                   iso3code = a3,
-                  iso2code = a2) 
+                  iso2code = a2)
 
   base_frame <- df %>% 
     dplyr::select(country, iso3code, iso2code, who_region, pop_2020yr, Continent_Name) %>% 

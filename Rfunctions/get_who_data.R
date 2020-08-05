@@ -50,9 +50,9 @@ w$iso2code <- w$Country_code
 #Expand the time series so all countries have the same number of records
 # Create data frame with all countries and all dates
 dfframe <- fun_date(rfunctions.dir) %>% 
-  filter(date<=max(w$date))%>% 
-  filter(date>=min(w$date))
-
+  filter(date<=max(w$date)) %>% 
+  filter(date>=min(w$date)) %>% 
+  filter(iso2code %in% unique(w$iso2code))
 
 # Get WHO data by ISO code and case count data
 wx <- w %>% select(iso2code, date, New_cases, New_deaths, Cumulative_cases, Cumulative_deaths)
@@ -76,6 +76,7 @@ df <- left_join(dfframe, wx) %>%
          ou_date_match,
          iso2code) %>%
   mutate_if(is.numeric, ~replace(., is.na(.), 0))  
+
 
 return(df)
 }
