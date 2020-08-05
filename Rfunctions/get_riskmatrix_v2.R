@@ -1,7 +1,7 @@
 # Code for CDC Tracker Power BI file
 # this code is called by an R script run in a Power Query that feeds into a Power BI Report
 # all packages must already be installed on the version of R that is called by Power BI
-# it will output two possible files: a cross-sectional file (requires "cross" for typex) or a longitudinal file (requires "long" for typex)
+# it will output two possible files: a cross-sectional file (requires "cross" for typex) or a longitudinal file (requires "date" for typex)
 # it requires an object called "rfunctions.dir" which is the directory where the other code, "get_ncov_data.R", is stored
 
 function(typex, rfunctions.dir){
