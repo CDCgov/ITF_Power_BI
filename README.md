@@ -1,17 +1,20 @@
 # ITF_Power_BI Repository
 
-## README
-
 As a first step, this document is under governance review. When the review completes as appropriate per local and agency 
 processes, the project team will be allowed to remove this notice. This material is draft.
 
 ## Project Description:
 
-This project is a repository housing R functions and scripts used in the Centers for Disease Control and Prevention (CDC) COVID-19 Response International Task Force (ITF) COVID-19 Dashboard
+This project is a repository housing R functions and scripts used in the US Centers for Disease Control and Prevention (CDC) COVID-19 Response International Task Force (ITF) COVID-19 Dashboard
 
 As part of the CDC COVID-19 Response, the ITF Epi and Data Visualization Team has created and maintains an interal Power BI Dashboard to assist Task Force and response leadership with situational awareness of the global pandemic and response. The dashboard contains analyses of the most updated global case and testing data from multiple sources. The Power BI report that generates the dashboard runs multiple R scripts in order to refresh, process and update the data. The R functions in this project are used to read in case and testing data, apply algorithms and populate the underlying data tables of the report. Access to this dashboard is currently limited to CDC staff only.
 
 The ITF plans to share several curated Power BI views of global case and testing data on the public CDC COVID Data Tracker (https://www.cdc.gov/covid-data-tracker/index.html#cases) to communicate to the general public the types of analyses that CDC is conducting using international data. The code saved to this repository would be used to populate the data underlying those views in a Power BI Dashboard.
+
+### How to run:
+Each function that produces a final analytic data set for visualization has been run in the "demo.R" script. These data sets can then be analyzed and visualized directly in R, or imported into Power BI to replicate the visuals produced by the ITF. More information can be found in the [description.md](./Rfunctions/description.md) file in the Rfunctions folder.
+
+In addition, the "hotspot" trajectory code functions that classify epidemic curve status based on the incidence and rate of change have been separated so that they can be run using any data set that has been formatted properly. For instructions on how to run this code, see the [how to use hotspot code using your own data.md"](./Rfunctions/how to use hotspot code using your own data.md) document in the Rfunctions folder.
 
 ### Data sources referenced:
 The project uses several publicly-available data sources, including:
