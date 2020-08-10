@@ -1,6 +1,6 @@
 # ITF_Power_BI Repository
 
-This material is draft.
+This document has completed governance review per local and agency processes. This material is a draft.
 
 ## Project Description:
 
