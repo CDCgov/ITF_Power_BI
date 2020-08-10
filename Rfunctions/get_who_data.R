@@ -44,7 +44,8 @@ w <- read.csv("https://covid19.who.int/WHO-COVID-19-global-data.csv", stringsAsF
 w$Country <- if_else(w$Country=="Kosovo[1]", "Kosovo", w$Country)
 w$Country_code <- if_else(w$Country=="Namibia", "NA", w$Country_code)
 w$Country_code <- if_else(w$Country=="Other", "OT", w$Country_code)
-w$date <- as.Date(w$Date_reported)
+#w$date <- as.Date(w$Date_reported)
+w$date <- as.Date(w[,1])
 w$iso2code <- w$Country_code
 
 #Expand the time series so all countries have the same number of records
