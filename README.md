@@ -14,7 +14,7 @@ The ITF plans to share several curated Power BI views of global case and testing
 ### How to run:
 Each function that produces a final analytic data set for visualization has been run in the "demo.R" script. These data sets can then be analyzed and visualized directly in R, or imported into Power BI to replicate the visuals produced by the ITF. More information can be found in the [description.md](./Rfunctions/description.md) file in the Rfunctions folder.
 
-In addition, the "hotspot" trajectory code functions that classify epidemic curve status based on the incidence and rate of change have been separated so that they can be run using any data set that has been formatted properly. For instructions on how to run this code, see the [how to use hotspot code using your own data.md"](./Rfunctions/how to use hotspot code using your own data.md) document in the Rfunctions folder.
+In addition, the "hotspot" trajectory code functions that classify epidemic curve status based on the incidence and rate of change have been separated so that they can be run using any data set that has been formatted properly. For instructions on how to run this code, see the [how to use hotspot code using your own data.md"]("./Rfunctions/how to use hotspot code using your own data.md") document in the Rfunctions folder.
 
 ### Data sources referenced:
 The project uses several publicly-available data sources, including:
