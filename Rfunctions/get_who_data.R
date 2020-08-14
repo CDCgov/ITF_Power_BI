@@ -76,7 +76,8 @@ df <- left_join(dfframe, wx) %>%
          iso3code,
          ou_date_match,
          iso2code) %>%
-  mutate_if(is.numeric, ~replace(., is.na(.), 0))  
+  mutate_if(is.numeric, ~replace(., is.na(.), 0))   %>%
+  filter(date != Sys.Date()) 
 
 
 return(df)
