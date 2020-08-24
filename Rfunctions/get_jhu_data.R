@@ -30,11 +30,7 @@ ldpkg <- function(x){
 
 
 # Loading the packages
-ldpkg(c("Hmisc", 
-        "tidyverse",
-        "openxlsx",
-        "passport",
-        "readxl"))
+ldpkg(c("tidyverse"))
 
 # Take out all NAs in the dataset and replace with zero
 remove_nas <- function(df) { 
