@@ -304,11 +304,11 @@ hotspot <- function(input.data,
   ds$growth.cat.labels[ds$growth.cat.labels == "elevated incidence growth"] <- "Elevated incidence growth"
   ds$growth.cat.labels[ds$growth.cat.labels == "elevated incidence plateau"] <- "Elevated incidence plateau"
 
-  ds$growth.cat.labels[ds$growth.cat.labels == "Decline"] <- "Sustained decline"
-  ds$growth.cat.labels[ds$growth.cat.labels == "None"] <- "No reported cases"
-  ds$growth.cat.labels[ds$growth.cat.labels == "Lessthan5"] <- "1-5 cases in the past two weeks"
-  ds$growth.cat.labels[ds$growth.cat.labels == "Nonepast2wk"] <- "0 cases in the past two weeks"
-  ds$growth.cat.labels[ds$growth.cat.labels == "First 14 days"] <- "First 14 days of data"
+  ds$growth.cat.labels[ds$growth.cat.labels == "decline"] <- "Sustained decline"
+  ds$growth.cat.labels[ds$growth.cat.labels == "none"] <- "No reported cases"
+  ds$growth.cat.labels[ds$growth.cat.labels == "lessthan5"] <- "1-5 cases in the past two weeks"
+  ds$growth.cat.labels[ds$growth.cat.labels == "nonepast2wk"] <- "0 cases in the past two weeks"
+  ds$growth.cat.labels[ds$growth.cat.labels == "first 14 days"] <- "First 14 days of data"
   
   ds$growth.map.cat.labels <- as.character(ds$epi.curve.map.cat)
   ds$growth.map.cat.labels[ds$growth.map.cat.labels == "low incidence growth"] <- "Low incidence growth"
@@ -316,11 +316,11 @@ hotspot <- function(input.data,
   ds$growth.map.cat.labels[ds$growth.map.cat.labels == "elevated incidence growth"] <- "Elevated incidence growth"
   ds$growth.map.cat.labels[ds$growth.map.cat.labels == "elevated incidence plateau"] <- "Elevated incidence plateau"
   ds$growth.map.cat.labels[ds$growth.map.cat.labels == "rebound"] <- "Rebound"
-  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "Decline"] <- "Sustained decline"
-  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "None"] <- "No reported cases"
-  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "Lessthan5"] <- "1-5 cases in the past two weeks"
-  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "Nonepast2wk"] <- "0 cases in the past two weeks"
-  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "First 14 days"] <- "First 14 days of data"
+  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "decline"] <- "Sustained decline"
+  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "none"] <- "No reported cases"
+  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "lessthan5"] <- "1-5 cases in the past two weeks"
+  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "nonepast2wk"] <- "0 cases in the past two weeks"
+  ds$growth.map.cat.labels[ds$growth.map.cat.labels == "first 14 days"] <- "First 14 days of data"
   
   finaldf <- ds
   
