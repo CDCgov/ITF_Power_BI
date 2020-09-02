@@ -49,7 +49,7 @@ fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #read in the getcategory and hotspot functions
-source(paste0(rfunctions.dir,"traj_sub_functions.R"))
+source(paste0(rfunctions.dir,"traj_sub_functions_noHmisc.R"))
 
 #pull in the JHU or WHO data
 df.Countriesx <- fun_ncov(rfunctions.dir) # Pulling in case and death data
