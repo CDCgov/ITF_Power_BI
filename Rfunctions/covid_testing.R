@@ -80,7 +80,9 @@ function(z,rfunctions.dir){
            total_deaths_per_million=1000000*deaths/population,
            new_cases_per_million=1000000*new_cases/population,
            new_deaths=deaths-lag(deaths,n=1),
-           new_deaths_per_million=1000000*new_deaths/population) %>%
+           tests_per_case=new_tests_smoothed/new_tests,
+           new_deaths_per_million=1000000*new_deaths/population,
+           new_cases_smoothed=rollmean(new_cases,k=7,fill=NA)) %>%
     ungroup() %>%
     rename(total_cases=cases,
            total_tests=tests_cumulative,
@@ -101,7 +103,11 @@ function(z,rfunctions.dir){
   testinglong<-bind_rows(owid,findlong) %>%
     left_join(owid_covs,by="ou_date_match") %>%
     mutate(ou_src_match=paste(iso3code,source,sep="_"))
-    
+   
+  testinglong <- testinglong %>%
+    mutate(perc_positive_testing=(new_cases_smoothed/new_tests_smoothed)*100) %>%
+    mutate(tests_per_case=ifelse((is.nan(tests_per_case) | is.infinite(tests_per_case)),NA,tests_per_case)) 
+  
   
   #get cumulative testing results for just the past 30 days- number of tests, tests per pop, number of cases
   tst_cross30<-testinglong %>%
