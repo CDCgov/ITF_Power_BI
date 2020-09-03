@@ -106,7 +106,8 @@ function(z,rfunctions.dir){
    
   testinglong <- testinglong %>%
     mutate(perc_positive_testing=(new_cases_smoothed/new_tests_smoothed)*100) %>%
-    mutate(tests_per_case=ifelse((is.nan(tests_per_case) | is.infinite(tests_per_case)),NA,tests_per_case)) 
+    mutate(tests_per_case=ifelse((is.nan(tests_per_case) | is.infinite(tests_per_case)),NA,tests_per_case)) %>%
+    mutate(perc_positive_testing=ifelse((is.nan(perc_positive_testing) | is.infinite(perc_positive_testing)),NA,perc_positive_testing)) 
   
   
   #get cumulative testing results for just the past 30 days- number of tests, tests per pop, number of cases
@@ -149,12 +150,24 @@ function(z,rfunctions.dir){
     ungroup()
   
   
-  tst_crossx <- left_join(tst_cross, test_type) %>%
+  tst_crossx1 <- left_join(tst_cross, test_type) %>%
     left_join(tst_cross30,by="ou_src_match") %>%
     left_join(tst_lastdate_newtests,by="ou_src_match") %>%
     #if new tests weren't reported, use the last date with a total reported:
     mutate(last_date_new_tests=if_else(is.na(last_date_new_tests),last_date,last_date_new_tests))
   
+    #NEW addition
+  #add percent positive
+  tst_percentpos <- testinglong %>%
+    filter(!(is.na(perc_positive_testing))) %>%
+    arrange(iso3code,date) %>%
+    group_by(ou_src_match) %>% 
+    summarise(perc_positive_testing=last(perc_positive_testing)) %>%
+    ungroup() 
+  
+  tst_crossx <- left_join(tst_crossx1,tst_percentpos) 
+   
+   
   #get standardized country and continent names
   #function to get the country metadata 
   fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
