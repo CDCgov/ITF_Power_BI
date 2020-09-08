@@ -54,41 +54,49 @@ function(z,rfunctions.dir){
   
   
   #get data from FIND and format in the same way as the OWID
-  find<-read_csv("https://raw.githubusercontent.com/dsbbfinddx/FIND_Cov_19_Tracker/master/input_data/cv_data_download.csv")
+  find<-read_csv("https://raw.githubusercontent.com/dsbbfinddx/FINDCov19TrackerData/master/processed/data_all.csv")
   
-  findlong<-find %>%
-    filter(!is.na(alpha3)) %>%
-    mutate(date=as.character(date),
-           Date=as.Date(date),
+  iso3<-maps::iso3166 %>%
+    mutate(a3=case_when(ISOname=="Kosovo"~"XKX", TRUE~a3),
+           a2=case_when(ISOname=="Namibia"~"NA", TRUE~a2)) %>%
+    select(a2,a3) %>%
+    rename(unit=a2,
+           alpha3=a3)
+  
+  findlong<-filter(find,set=="country") %>%
+    mutate(unit=if_else(name=="Namibia","NA",unit)) %>%
+    left_join(iso3) %>%
+    mutate(date=as.character(time),
+           Date=as.Date(time),
            ou_date_match=paste(alpha3,Date,sep="_"),
            last30days=if_else(Sys.Date()-Date<30,1,0)) %>%
     #Rolling average to match OWID 
-    arrange(alpha3, country, date) %>%
-    group_by(alpha3, country) %>%
+    arrange(unit, name, date) %>%
+    group_by(unit, name) %>%
     #if the case data haven't been updated for the current date yet, but there is testing data, drop the latest testing data until the case data get updated
-    filter(!(date==max(date) & !is.na(tests_cumulative) & is.na(cases))) %>%
-    # #here is code if you want to replace with the day before- not recommended and could be misleading and confusing
-    # mutate(adj_total_cases= if_else(!is.na(tests_cumulative) & !is.na(lag(cases,n=1)), 
-    #                                   case_when(is.na(cases) & date==max(date)~lag(cases,n=1),TRUE~cases),
-    #                                   NA_real_)) %>%
-    mutate(adj_total_cases=if_else(!is.na(tests_cumulative),cases,NA_real_),
-           new_tests_smoothed = rollmean(new_tests, k = 7, fill = NA),
-           new_tests_smoothed_per_thousand=1000*new_tests_smoothed/population,
-           total_tests_per_thousand=1000*tests_cumulative/population,
-           new_tests_per_thousand=1000*new_tests/population,
-           total_cases_per_million=1000000*cases/population,
-           total_deaths_per_million=1000000*deaths/population,
-           new_cases_per_million=1000000*new_cases/population,
-           new_deaths=deaths-lag(deaths,n=1),
-           tests_per_case=new_tests_smoothed/new_tests,
-           new_deaths_per_million=1000000*new_deaths/population,
-           new_cases_smoothed=rollmean(new_cases,k=7,fill=NA)) %>%
+    filter(!(date==max(date) & !is.na(all_cum_tests) & is.na(all_cum_cases))) %>%
+    mutate(adj_total_cases=if_else(!is.na(all_cum_tests),all_cum_cases,NA_real_),
+           new_tests_smoothed = rollmean(new_tests_orig, k = 7, fill = NA),
+           new_tests_smoothed_per_thousand=1000*new_tests_smoothed/(100000*pop_100k),
+           total_tests_per_thousand=1000*all_cum_tests/(100000*pop_100k),
+           new_tests_per_thousand=1000*new_tests_orig/(100000*pop_100k),
+           total_cases_per_million=1000000*all_cum_cases/(100000*pop_100k),
+           total_deaths_per_million=1000000*all_cum_deaths/(100000*pop_100k),
+           new_cases_per_million=1000000*new_cases_orig/(100000*pop_100k),
+           new_deaths=all_cum_deaths-lag(all_cum_deaths,n=1),
+           tests_per_case=new_tests_smoothed/new_tests_orig,
+           new_deaths_per_million=1000000*new_deaths/(100000*pop_100k),
+           new_cases_smoothed=rollmean(new_cases_orig,k=7,fill=NA),
+           population=100000*pop_100k) %>%
     ungroup() %>%
-    rename(total_cases=cases,
-           total_tests=tests_cumulative,
-           total_deaths=deaths,
-           iso3code=alpha3) %>%
-    select(-country,-Continent,-testsPer100k,-source,-deathsPer100k,-casesPer100k,-`Income group`,-Date,-Region) %>%
+    rename(total_cases=all_cum_cases,
+           total_tests=all_cum_tests,
+           total_deaths=all_cum_deaths,
+           iso3code=alpha3,
+           new_tests=new_tests_orig,
+           new_cases=new_cases_orig) %>%
+    select(-set,-name,-unit,-time,-pop_100k,-cap_cum_cases,-cap_new_cases,-cap_cum_deaths,-cap_new_deaths,-cap_cum_tests,-cap_new_tests,
+           -all_new_cases,-all_new_deaths,-new_deaths_orig,-cap_cum_tests,-all_new_tests,-pos,-Date) %>%
     mutate(source="FIND",
            tests_units="FIND data- Unknown")
   
