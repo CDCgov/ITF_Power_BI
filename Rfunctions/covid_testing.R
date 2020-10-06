@@ -76,8 +76,8 @@ function(z,rfunctions.dir){
     #if the case data haven't been updated for the current date yet, but there is testing data, drop the latest testing data until the case data get updated
     filter(!(date==max(date) & !is.na(all_cum_tests) & is.na(all_cum_cases))) %>%
     mutate(adj_total_cases=if_else(!is.na(all_cum_tests),all_cum_cases,NA_real_),
-           new_tests_smoothed = rollmean(new_tests_orig, k = 7, fill = NA),
-           new_tests_smoothed_per_thousand=1000*new_tests_smoothed/(100000*pop_100k),
+           new_tests_smoothed = = pop_100k*cap_new_tests,
+           new_tests_smoothed_per_thousand=1000*cap_new_tests,
            total_tests_per_thousand=1000*all_cum_tests/(100000*pop_100k),
            new_tests_per_thousand=1000*new_tests_orig/(100000*pop_100k),
            total_cases_per_million=1000000*all_cum_cases/(100000*pop_100k),
@@ -86,7 +86,7 @@ function(z,rfunctions.dir){
            new_deaths=all_cum_deaths-lag(all_cum_deaths,n=1),
            tests_per_case=new_tests_smoothed/new_tests_orig,
            new_deaths_per_million=1000000*new_deaths/(100000*pop_100k),
-           new_cases_smoothed=rollmean(new_cases_orig,k=7,fill=NA),
+           new_cases_smoothed=pop_100k*cap_new_cases,
            population=100000*pop_100k) %>%
     ungroup() %>%
     rename(total_cases=all_cum_cases,
