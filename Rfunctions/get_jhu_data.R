@@ -30,8 +30,12 @@ ldpkg <- function(x){
 
 
 # Loading the packages
-ldpkg(c("tidyverse"))
+ldpkg(c("tidyverse", "passport"))
 
+library(tidyverse)
+library(passport)
+  
+ 
 # Take out all NAs in the dataset and replace with zero
 remove_nas <- function(df) { 
   df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
