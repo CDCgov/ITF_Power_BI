@@ -19,7 +19,8 @@ ldpkg <- function(x){
 }
 
 # Loading the packages
-install.packages(c("Hmisc", 
+ldpkg(c("Hmisc", 
+       "data.table",
        "tidyverse",
        "readr",
        "openxlsx",
@@ -39,3 +40,27 @@ install.packages(c("Hmisc",
        "wbstats",
        "rvest",
        "xml2"))
+
+
+library(Hmisc )
+library(data.table)
+library(tidyverse)
+library(readr)
+library(openxlsx)
+library(passport)
+library(readxl)
+library(xlsx)
+library(maps)
+library(httr)
+library(jsonlite)
+library(EpiEstim )
+library(ggplot2)
+library(countrycode)
+library(gridExtra )
+library(ggpubr)
+library(RColorBrewer)
+library(zoo)
+library(stats)
+library(wbstats)
+library(rvest)
+library(xml2)
