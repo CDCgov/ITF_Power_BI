@@ -38,7 +38,8 @@ ldpkg <- function(x){
 # Loading the packages
 ldpkg(c("tidyverse",
         "passport",
-        "readxl"))
+        "readxl",
+        "zoo"))
 
 # function to get the base JHU data with cases and deaths daily/cumulative 
 fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
