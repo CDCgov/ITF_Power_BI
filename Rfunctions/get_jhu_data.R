@@ -115,9 +115,9 @@ df <- data.countries %>%
   mutate(iso3code = case_when(
     country %in% c("International Conveyance") ~ "OTH", 
     country %in% c("Eswatini") ~
-      parse_country("Swaziland", to = "iso3c", how = c("regex", "google"), language = c("en")),
+      parse_country("Swaziland", to = "iso3c", how = c("regex", "google","dstk"), language = c("en")),
       country %in% c("Kosovo") ~ "XKX", 
-      TRUE ~  parse_country(country, to = "iso3c", how = c("regex", "google"),language = c("en")))) %>% 
+      TRUE ~  parse_country(country, to = "iso3c", how = c("regex", "google","dstk"),language = c("en")))) %>% 
   filter(!is.na(iso3code)) %>% 
 #  filter(country %ni% c("International Conveyance")) %>% 
   select(-country) %>% 
