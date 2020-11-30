@@ -111,10 +111,10 @@ function(){
     mutate(a3 = case_when(
       Country %in% c("Eswatini") ~
         parse_country("Swaziland", 
-                      to = "iso3c", how = c("regex", "google"),
+                      to = "iso3c", how = c("regex", "google", "dstk"),
                       language = c("en")),
       Country %in% c("Kosovo") ~ "XKX",
-      TRUE ~  parse_country(Country, to = "iso3c", how = c("regex", "google"),
+      TRUE ~  parse_country(Country, to = "iso3c", how = c("regex", "google","dstk"),
                             language = c("en")))) %>% 
     rename(pop_2020yr = pop) %>% 
     select(a3, pop_2020yr) %>% 
