@@ -42,11 +42,24 @@ function(rfunctions.dir){
 w <- read.csv("https://covid19.who.int/WHO-COVID-19-global-data.csv", stringsAsFactors=FALSE, encoding="UTF-8")
 
 w$Country <- if_else(w$Country=="Kosovo[1]", "Kosovo", w$Country)
+w$Country <- if_else(w$Country=="Bonaire","Bonaire, Sint Eustatius, and Saba", w$Country)
+w$Country <- if_else(w$Country=="Sint Eustatius","Bonaire, Sint Eustatius, and Saba", w$Country)
+w$Country <- if_else(w$Country=="Saba","Bonaire, Sint Eustatius, and Saba", w$Country)
 w$Country_code <- if_else(w$Country=="Namibia", "NA", w$Country_code)
 w$Country_code <- if_else(w$Country=="Other", "OT", w$Country_code)
-#w$date <- as.Date(w$Date_reported)
-w$date <- as.Date(w[,1])
-w$iso2code <- w$Country_code
+w$Country_code <- if_else(w$Country=="Bonaire, Sint Eustatius, and Saba", "BQ", w$Country_code)
+  
+w$date <- w[,1]
+
+#Collapse Bonaire, Sint Eustatius, and Saba to a single Country
+w <- w %>%
+  group_by_if(is.character) %>%
+  summarize_all(list(~sum(., na.rm=T))) %>%
+  ungroup()
+
+w <- w %>%
+  mutate(date = as.Date(date),
+         iso2code = Country_code)
 
 #Expand the time series so all countries have the same number of records
 # Create data frame with all countries and all dates
