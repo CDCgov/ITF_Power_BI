@@ -55,7 +55,10 @@ function(){
   
   # Adding WHO regions
   whoreg <- read.csv("https://covid19.who.int/WHO-COVID-19-global-data.csv", stringsAsFactors=FALSE, encoding="UTF-8")  
-
+  
+  whoreg$Country[whoreg$Country %in% c("Bonaire","Sint Eustatius", "Saba")] <- "Bonaire, Sint Eustatius, and Saba"
+  whoreg$Country_code[whoreg$Country=="Bonaire, Sint Eustatius, and Saba"] <- "BQ"
+  
   whoreg1 <- whoreg %>% select(Country, Country_code, WHO_region) %>% 
     rename(a2 = Country_code,
            who_region = WHO_region) %>%  
