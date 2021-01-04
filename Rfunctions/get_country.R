@@ -96,19 +96,14 @@ function(){
   
 ## Adding population 
   
-  url <- "https://www.cia.gov/library/publications/the-world-factbook/fields/335rank.html"
+  url <- "https://www.cia.gov/the-world-factbook/field/population/country-comparison"
   
-  data <- url %>% read_html %>% html_nodes(xpath='//*[@id="rankOrder"]') %>% html_table()
+  data <- url %>% read_html %>% html_nodes(xpath='//*[@class="content-table table-auto"]') %>% html_table()
   
   data <- data.frame(data)
-  
-  for (i in 1:nrow(data)) {
-    split <- unlist(strsplit(data[i,2], " "))
-    data$totalPop[i] <- split[1]
-  }
-  
-  totalpop <- data[,c(2,3)] %>% 
-    mutate(pop = as.numeric(str_replace_all(Population, ",", "")))
+    
+  totalpop <- data %>% 
+    mutate(pop = as.numeric(str_replace_all(Var.3, ",", "")))
   
   pop_data <- totalpop %>% 
     mutate(a3 = case_when(
