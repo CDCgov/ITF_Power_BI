@@ -53,8 +53,9 @@ function(typex,ncov_data,country_data){
   sourcex_vec <- c("JHU", "WHO") 
   # 4) Whether dataset is cross-sectional or time-series
   # only need cross for public views, limiting here for efficiency in RStudio Connect- uncomment below and delete the next line to include the time series
-  # datatyp_vec <- c("cross", "series")
-  datatyp_vec <- c("cross")
+  # -James F revised this to also generate series data 1/21/2021
+  datatyp_vec <- c("cross", "series")
+  #datatyp_vec <- c("cross")
   
   change_ncov <- function(indicat , 
                          periodx , 
