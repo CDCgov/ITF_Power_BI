@@ -1,10 +1,5 @@
-function(typex){
+function(typex, rfunctions.dir){
 
-  dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-                    paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-                    ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-                           paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-                           "Directory does not exist"))
 # Function to load
 ldpkg <- function(x){
   for( i in x ){
@@ -17,9 +12,6 @@ ldpkg <- function(x){
     }
   }
 }
-
-# folder where all R functions are housed
-rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
 
 # function to get the base JHU data with cases and deaths daily/cumulative 
 fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
