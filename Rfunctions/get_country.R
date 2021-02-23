@@ -118,7 +118,8 @@ function(){
     select(a3, pop_2020yr) %>% 
     group_by(a3) %>% 
     summarise_all(list(~sum(., na.rm=T))) %>% 
-    ungroup()
+    ungroup() %>% 
+    bind_rows( data.frame(a3="MKD",pop_2020yr=2128262 )) # Manually add in North Macedonia
     
     
   iso_wp <- left_join(left_join(iso_dataw, pop_data),continents) %>%
