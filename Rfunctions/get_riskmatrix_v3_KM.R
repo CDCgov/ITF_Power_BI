@@ -22,7 +22,7 @@ ldpkg(c("tidyverse"))
 
 
 # Getting the datasets
-ncov <- fun_ncov()  # The cases and deaths
+ncov <- fun_ncov(rfunctions.dir)  # The cases and deaths
 # rt  <- fun_rt()     # Rt values (7-day sliding window)
 
 df <- ncov %>% select(-ou_date_match)
