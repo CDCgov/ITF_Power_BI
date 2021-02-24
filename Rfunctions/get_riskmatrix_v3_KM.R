@@ -47,11 +47,11 @@ df1 <- df %>%
   mutate(wkdeath_change = if_else(prev_wkdeath>0,
                                   (death_diff)/prev_wkdeath,
                                   NA_real_)) %>%
-  mutate(inci = if_else(`Population 2018`>0, 
-                        ((wkcase/`Population 2018`)/7)*100000, 
+  mutate(inci = if_else(`Population 2018.x`>0, 
+                        ((wkcase/`Population 2018.x`)/7)*100000, 
                         NA_real_)) %>% 
-  mutate(incideath = if_else(`Population 2018`>0, 
-                             ((wkdeath/`Population 2018`)/7)*100000, 
+  mutate(incideath = if_else(`Population 2018.x`>0, 
+                             ((wkdeath/`Population 2018.x`)/7)*100000, 
                              NA_real_)) %>% 
   mutate(pct_chng =if_else( !(is.na(wkcase_change)), wkcase_change*100, NA_real_)) %>%
   mutate(pct_chngdeath =if_else( !(is.na(wkdeath_change)), wkdeath_change*100, NA_real_)) %>%
