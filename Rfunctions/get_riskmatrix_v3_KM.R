@@ -12,7 +12,7 @@ ldpkg <- function(x){
     }
   }
 }
-
+rfunctions.dir <- "https://raw.githubusercontent.com/CDCgov/ITF_Power_BI/master/Rfunctions/" 
 # function to get the base JHU data with cases and deaths daily/cumulative 
 fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
 # fun_rt   <- dget(paste0(rfunctions.dir, "Rt_ncov.R"))
