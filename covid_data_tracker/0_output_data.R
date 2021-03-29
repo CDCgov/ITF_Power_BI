@@ -2,10 +2,10 @@
 
 
 # Path to all local R functions
-rfunctions.dir <- "../r_functions/"
+rfunctions.dir <- "./Rfunctions/"
 
 # Root for this project
-dir.root <- "./"
+dir.root <- "./covid_data_tracker/"
 
 # Output directory to write data
 out.dir <- paste0(dir.root,"output/")
@@ -37,7 +37,7 @@ country_data<-fun_country()
 fun_country_date<-dget(paste0(rfunctions.dir,"get_country_date.R"))
 print("running country date code")
 country_date_long<-fun_country_date(rfunctions.dir)
-write_csv(country_date_long,paste0(outdir,"lookup_country_date.csv"),na="")
+write_csv(country_date_long,paste0(out.dir,"lookup_country_date.csv"),na="")
 
 #cases & deaths
 cases_deaths_script_cross <- dget(paste0(rfunctions.dir, "cases_deaths_script_cross.R"))
@@ -67,7 +67,7 @@ cross_cases_deaths <- cross_dfx_complete %>%
     periodval %in% c("30 days") ~ "x4",
     periodval %in% c("Cumulative") ~ "x5"
   ))
-write_csv(cross_cases_deaths,paste0(outdir,"cross_cases_deaths.csv"),na="")
+write_csv(cross_cases_deaths,paste0(out.dir,"cross_cases_deaths.csv"),na="")
 
 cross_cases_deaths_table <- cross_dfx_complete %>%
   select(Indicator:dftype) %>%
@@ -82,7 +82,7 @@ cross_cases_deaths_table <- cross_dfx_complete %>%
            if_else(Indicator=="Cases", "Cases reported ", "Deaths reported "),
            if_else(periodval %in% c("Cumulative"), "", paste0("in the past ", periodval)
                    )))
-write_csv(cross_cases_deaths_table,paste0(outdir,"cross_cases_deaths_table.csv"),na="")
+write_csv(cross_cases_deaths_table,paste0(out.dir,"cross_cases_deaths_table.csv"),na="")
 
 # #trajectory data -formatted
 # trajectory_output<-dget(paste0(rfunctions.dir, "trajectory_output.R"))
@@ -101,7 +101,7 @@ write_csv(cross_cases_deaths_table,paste0(outdir,"cross_cases_deaths_table.csv")
 #   mutate(hbg.7catx = if_else(is.na(hbg.7catx), hbg.7labels[5], hbg.7catx)) %>%
 #   mutate(hbg.7cat = if_else(is.na(hbg.7cat), 5, hbg.7cat)) %>%
 #   mutate_if(is.numeric, list(~replace_na(., 0)))
-# write_csv(traj_series,paste0(outdir,"traj_series.csv"),na="")
+# write_csv(traj_series,paste0(out.dir,"traj_series.csv"),na="")
 # 
 # 
 # # get cross-sectional data (i.e. map data)
@@ -121,7 +121,7 @@ write_csv(cross_cases_deaths_table,paste0(outdir,"cross_cases_deaths_table.csv")
 #   mutate(hbg.7catx=replace_na(hbg.7catx,"<5 cases reported in the past 2 weeks")) %>% 
 #   mutate(daily.ci.change = round(daily.ci.change, 2))
 # 
-# write_csv(traj_cross_complete,paste0(outdir,"traj_cross.csv"),na="")
+# write_csv(traj_cross_complete,paste0(out.dir,"traj_cross.csv"),na="")
 
 
 #case/death rate of change data
@@ -184,7 +184,7 @@ crossdelta_complete<-cross_delta_case_deaths %>%
   select(names(cross_delta_case_deaths), perc_change_clean, incidence_7days, inc_cat, perc_change_cat, inc_cat_simple, perc_change_cat_simple, traj_cat_simple, country_code_and_data_source)
 
 
-write_csv(crossdelta_complete,paste0(outdir,"cross_delta_cases_deaths.csv"),na="")
+write_csv(crossdelta_complete,paste0(out.dir,"cross_delta_cases_deaths.csv"),na="")
 
 series_delta_case_deaths <- case_death_delta("series",ncov_data,country_data) %>%
   filter(periodval=="7 days" &
@@ -218,5 +218,5 @@ series_delta_case_deaths <- case_death_delta("series",ncov_data,country_data) %>
                                      inc_cat_simple == "High/Substantial" & perc_change_cat_simple == "Increasing" ~ "Substantial/High Incidence, Increasing")) %>%
   mutate(country_code_and_data_source = paste0(country_code, data_source, sep = " "))
 
-write_csv(series_delta_case_deaths,paste0(outdir,"series_delta_cases_deaths.csv"),na="")
+write_csv(series_delta_case_deaths,paste0(out.dir,"series_delta_cases_deaths.csv"),na="")
 
