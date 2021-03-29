@@ -1,7 +1,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function(rfunctions.dir) {
+function() {
   
   # Creating basic functions to show top few rows of data
   View50 <- function(x){View(x[1:50,])}
