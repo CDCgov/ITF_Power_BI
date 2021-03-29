@@ -1,17 +1,16 @@
 # Code that uses existing R functions to output CSVs for ITF Power BI Dashboard
-# "C:\Program Files\R\R-4.0.2\bin\Rscript.exe" -e "source('C:/Users/ouo8/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/PowerBI/R_scripts_testing/r_functions/run_all_functions_save_csvs.R')"
 
 library(readr)
 
+# Path to all local R functions
+rfunctions.dir <- "./Rfunctions/"
 
-  dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-                    paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-                    ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-                           paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-                           "Directory does not exist"))
+# Root for this project
+dir.root <- "./covid_data_tracker/"
 
+# Output directory to write data
+out.dir <- paste0(dir.root,"output/")
 
-output.dir<-paste0(dir.root,"PowerBI/Dashboard_datasets/")
     
 rfunctions.dir <- paste0(dir.root,"PowerBI/R_scripts_testing/r_functions/")
 rfunctions.dir2 <- "https://raw.githubusercontent.com/CDCgov/ITF_Power_BI/master/Rfunctions/"
