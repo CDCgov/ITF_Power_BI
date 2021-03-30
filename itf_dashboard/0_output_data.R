@@ -6,7 +6,7 @@ library(readr)
 rfunctions.dir <- "./Rfunctions/"
 
 # Root for this project
-dir.root <- "./covid_data_tracker/"
+dir.root <- "./itf_dashboard/"
 
 # Output directory to write data
 output.dir <- paste0(dir.root,"output/")
