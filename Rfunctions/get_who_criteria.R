@@ -185,7 +185,7 @@ dfx3 <- dfx3 %>%
 #Decline in deaths for 3 weeks
 k=22
 dfx4 <- dfx3 %>%
-  mutate(case_fatality=deaths_cum/cases_cum) %>%
+  mutate(case_fatality = ifelse(cases_cum == 0, NA, deaths_cum/cases_cum)) %>%
   #group_by(data_source,country_code) %>%
   arrange(data_source.x, country_code, Date) %>%
   mutate(death_dec =  case_fatality < lag(case_fatality)) %>% 
