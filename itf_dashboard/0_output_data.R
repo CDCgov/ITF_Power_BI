@@ -20,7 +20,7 @@ write_csv(Rt_data,paste0(output.dir,"Rt_data.csv"),na="")
 # function to get the base data from JHU and WHO with cases and deaths daily/cumulative 
 fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data_vDASH.R"))
 ncov_cases_deaths <- fun_ncov(rfunctions.dir)
-write_csv(ncov_cases_deaths,paste0(output.dir,"jhu_cases_deaths.csv"),na="")
+write_csv(ncov_cases_deaths,paste0(output.dir,"cases_deaths.csv"),na="")
 
 #getting trajectory data
 fun_traj <- dget(paste0(rfunctions.dir, "trajectory_function_final_newalgo.R"))
