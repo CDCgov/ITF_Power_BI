@@ -198,11 +198,16 @@ dfx4$who_criteria_cases[dfx4$epi_cat=="Decline (criteria met)"] <- "Criteria Met
 dfx4$who_criteria_death_decs2 <- "Criteria Not Met"
 dfx4$who_criteria_death_decs2[dfx4$death_cat=="Decline (criteria met)"] <-"Criteria Met"
 
-namesdf <- c("Country","Date","WHO Region","Population 2020","Country Code","ou_date_src_match","ou_date_match.x",
-           "New Cases","Cumulative Cases","who_criteria_cases","New Deaths","Cumulative Deaths","who_criteria_death_decs2",
-           "wkcase","prev_wkcase","wkdeath","new_tests","total_tests","perc_positive_testing","who_criteria_testing",
-          "who_criteria_testing_last","date_criteria_testing_last", "mean.mtf","mean.ni","mean.li","who_criteria_Rt","case_fatality","who_criteria_death_decs",
-           "epi_cat","death_cat","Source_testing")
+# namesdf <- c("Country","Date","WHO Region","Population 2020","Country Code","ou_date_src_match","ou_date_match.x",
+#            "New Cases","Cumulative Cases","who_criteria_cases","New Deaths","Cumulative Deaths","who_criteria_death_decs2",
+#            "wkcase","prev_wkcase","wkdeath","new_tests","total_tests","perc_positive_testing","who_criteria_testing",
+#           "who_criteria_testing_last","date_criteria_testing_last", "mean.mtf","mean.ni","mean.li","who_criteria_Rt","case_fatality","who_criteria_death_decs",
+#            "epi_cat","death_cat","Source_testing")
+
+# Removing a lot of the columns in this dataset b/c it is too large, many columns are duplicates from other data tables
+namesdf <- c("Country","Date","WHO Region","Country Code","ou_date_src_match","ou_date_match.x",
+             "who_criteria_cases","who_criteria_death_decs2","perc_positive_testing","who_criteria_testing",
+             "who_criteria_Rt","who_criteria_death_decs","Source_testing")
 vars <- names(dfx4) %in% namesdf
 finaldf <- dfx4[vars]
 
