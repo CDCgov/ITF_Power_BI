@@ -220,7 +220,7 @@ Cases,14 days,JHU,TZA,2021-04-05,62092761,cross,0,0,Cases reported in the past 1
 Cases,14 days,JHU,UGA,2021-04-05,44712143,cross,329,0.7,Cases reported in the past 14 days
 Cases,14 days,JHU,UKR,2021-04-05,43745640,cross,203144,464.4,Cases reported in the past 14 days
 Cases,14 days,JHU,URY,2021-04-05,3398239,cross,35728,1051.4,Cases reported in the past 14 days
-Cases,14 days,JHU,USA,2021-04-05,334998398,cross,913134,272.6,Cases reported in the past 14 days
+Cases,14 days,JHU,USA,2021-04-05,334998398,cross,913323,272.6,Cases reported in the past 14 days
 Cases,14 days,JHU,UZB,2021-04-05,30842796,cross,2356,7.6,Cases reported in the past 14 days
 Cases,14 days,JHU,VAT,2021-04-05,1000,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,JHU,VCT,2021-04-05,101145,cross,68,67.2,Cases reported in the past 14 days
@@ -240,7 +240,7 @@ Cases,14 days,WHO,ABW,2021-04-05,120917,cross,879,726.9,Cases reported in the pa
 Cases,14 days,WHO,AFG,2021-04-05,37466414,cross,564,1.5,Cases reported in the past 14 days
 Cases,14 days,WHO,AGO,2021-04-05,33642646,cross,898,2.7,Cases reported in the past 14 days
 Cases,14 days,WHO,AIA,2021-04-05,18403,cross,3,16.3,Cases reported in the past 14 days
-Cases,14 days,WHO,ALB,2021-04-05,3088385,cross,4983,161.3,Cases reported in the past 14 days
+Cases,14 days,WHO,ALB,2021-04-05,3088385,cross,5331,172.6,Cases reported in the past 14 days
 Cases,14 days,WHO,AND,2021-04-05,85645,cross,714,833.7,Cases reported in the past 14 days
 Cases,14 days,WHO,ARE,2021-04-05,9856612,cross,29781,302.1,Cases reported in the past 14 days
 Cases,14 days,WHO,ARG,2021-04-05,45864941,cross,141798,309.2,Cases reported in the past 14 days
@@ -251,7 +251,7 @@ Cases,14 days,WHO,AUS,2021-04-05,25809973,cross,152,0.6,Cases reported in the pa
 Cases,14 days,WHO,AUT,2021-04-05,8884864,cross,43749,492.4,Cases reported in the past 14 days
 Cases,14 days,WHO,AZE,2021-04-05,10282283,cross,24431,237.6,Cases reported in the past 14 days
 Cases,14 days,WHO,BDI,2021-04-05,12241065,cross,346,2.8,Cases reported in the past 14 days
-Cases,14 days,WHO,BEL,2021-04-05,11778842,cross,60457,513.3,Cases reported in the past 14 days
+Cases,14 days,WHO,BEL,2021-04-05,11778842,cross,62424,530,Cases reported in the past 14 days
 Cases,14 days,WHO,BEN,2021-04-05,13301694,cross,495,3.7,Cases reported in the past 14 days
 Cases,14 days,WHO,BES,2021-04-05,0,cross,466,,Cases reported in the past 14 days
 Cases,14 days,WHO,BFA,2021-04-05,21382659,cross,282,1.3,Cases reported in the past 14 days
@@ -290,7 +290,7 @@ Cases,14 days,WHO,CYM,2021-04-05,63131,cross,26,41.2,Cases reported in the past 
 Cases,14 days,WHO,CYP,2021-04-05,1281506,cross,5495,428.8,Cases reported in the past 14 days
 Cases,14 days,WHO,CZE,2021-04-05,10702596,cross,81900,765.2,Cases reported in the past 14 days
 Cases,14 days,WHO,DEU,2021-04-05,79903481,cross,226658,283.7,Cases reported in the past 14 days
-Cases,14 days,WHO,DJI,2021-04-05,938413,cross,2343,249.7,Cases reported in the past 14 days
+Cases,14 days,WHO,DJI,2021-04-05,938413,cross,2108,224.6,Cases reported in the past 14 days
 Cases,14 days,WHO,DMA,2021-04-05,74584,cross,8,10.7,Cases reported in the past 14 days
 Cases,14 days,WHO,DNK,2021-04-05,5894687,cross,10724,181.9,Cases reported in the past 14 days
 Cases,14 days,WHO,DOM,2021-04-05,10597348,cross,4832,45.6,Cases reported in the past 14 days
@@ -298,10 +298,10 @@ Cases,14 days,WHO,DZA,2021-04-05,43576691,cross,1367,3.1,Cases reported in the p
 Cases,14 days,WHO,ECU,2021-04-05,17093159,cross,23083,135,Cases reported in the past 14 days
 Cases,14 days,WHO,EGY,2021-04-05,106437241,cross,9547,9,Cases reported in the past 14 days
 Cases,14 days,WHO,ERI,2021-04-05,6147398,cross,216,3.5,Cases reported in the past 14 days
-Cases,14 days,WHO,ESP,2021-04-05,47260584,cross,44695,94.6,Cases reported in the past 14 days
+Cases,14 days,WHO,ESP,2021-04-05,47260584,cross,77461,163.9,Cases reported in the past 14 days
 Cases,14 days,WHO,EST,2021-04-05,1220042,cross,13387,1097.3,Cases reported in the past 14 days
 Cases,14 days,WHO,ETH,2021-04-05,110871031,cross,27824,25.1,Cases reported in the past 14 days
-Cases,14 days,WHO,FIN,2021-04-05,5587442,cross,6463,115.7,Cases reported in the past 14 days
+Cases,14 days,WHO,FIN,2021-04-05,5587442,cross,7753,138.8,Cases reported in the past 14 days
 Cases,14 days,WHO,FJI,2021-04-05,939535,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,FLK,2021-04-05,3198,cross,1,31.3,Cases reported in the past 14 days
 Cases,14 days,WHO,FRA,2021-04-05,68084217,cross,535178,786.1,Cases reported in the past 14 days
@@ -329,7 +329,7 @@ Cases,14 days,WHO,HKG,2021-04-05,7263234,cross,0,0,Cases reported in the past 14
 Cases,14 days,WHO,HND,2021-04-05,9346277,cross,8547,91.4,Cases reported in the past 14 days
 Cases,14 days,WHO,HRV,2021-04-05,4208973,cross,22375,531.6,Cases reported in the past 14 days
 Cases,14 days,WHO,HTI,2021-04-05,11198240,cross,74,0.7,Cases reported in the past 14 days
-Cases,14 days,WHO,HUN,2021-04-05,9728337,cross,105337,1082.8,Cases reported in the past 14 days
+Cases,14 days,WHO,HUN,2021-04-05,9728337,cross,109211,1122.6,Cases reported in the past 14 days
 Cases,14 days,WHO,IDN,2021-04-05,275122131,cross,74071,26.9,Cases reported in the past 14 days
 Cases,14 days,WHO,IMN,2021-04-05,90895,cross,109,119.9,Cases reported in the past 14 days
 Cases,14 days,WHO,IND,2021-04-05,1339330514,cross,942986,70.4,Cases reported in the past 14 days
@@ -337,13 +337,13 @@ Cases,14 days,WHO,IRL,2021-04-05,5224884,cross,7549,144.5,Cases reported in the 
 Cases,14 days,WHO,IRN,2021-04-05,85888910,cross,131009,152.5,Cases reported in the past 14 days
 Cases,14 days,WHO,IRQ,2021-04-05,39650145,cross,79676,200.9,Cases reported in the past 14 days
 Cases,14 days,WHO,ISL,2021-04-05,354234,cross,106,29.9,Cases reported in the past 14 days
-Cases,14 days,WHO,ISR,2021-04-05,8787045,cross,5766,65.6,Cases reported in the past 14 days
+Cases,14 days,WHO,ISR,2021-04-05,8787045,cross,6716,76.4,Cases reported in the past 14 days
 Cases,14 days,WHO,ITA,2021-04-05,62390364,cross,291888,467.8,Cases reported in the past 14 days
 Cases,14 days,WHO,JAM,2021-04-05,2816602,cross,5325,189.1,Cases reported in the past 14 days
 Cases,14 days,WHO,JEY,2021-04-05,101476,cross,5,4.9,Cases reported in the past 14 days
 Cases,14 days,WHO,JOR,2021-04-05,10909567,cross,97452,893.3,Cases reported in the past 14 days
 Cases,14 days,WHO,JPN,2021-04-05,124687293,cross,28544,22.9,Cases reported in the past 14 days
-Cases,14 days,WHO,KAZ,2021-04-05,19245793,cross,21722,112.9,Cases reported in the past 14 days
+Cases,14 days,WHO,KAZ,2021-04-05,19245793,cross,23538,122.3,Cases reported in the past 14 days
 Cases,14 days,WHO,KEN,2021-04-05,54685051,cross,18078,33.1,Cases reported in the past 14 days
 Cases,14 days,WHO,KGZ,2021-04-05,6018789,cross,1691,28.1,Cases reported in the past 14 days
 Cases,14 days,WHO,KHM,2021-04-05,17304363,cross,999,5.8,Cases reported in the past 14 days
@@ -361,7 +361,7 @@ Cases,14 days,WHO,LKA,2021-04-05,23044123,cross,3236,14,Cases reported in the pa
 Cases,14 days,WHO,LSO,2021-04-05,2177740,cross,172,7.9,Cases reported in the past 14 days
 Cases,14 days,WHO,LTU,2021-04-05,2711566,cross,10872,400.9,Cases reported in the past 14 days
 Cases,14 days,WHO,LUX,2021-04-05,639589,cross,2944,460.3,Cases reported in the past 14 days
-Cases,14 days,WHO,LVA,2021-04-05,1862687,cross,6815,365.9,Cases reported in the past 14 days
+Cases,14 days,WHO,LVA,2021-04-05,1862687,cross,6696,359.5,Cases reported in the past 14 days
 Cases,14 days,WHO,MAC,2021-04-05,630396,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,MAF,2021-04-05,0,cross,54,,Cases reported in the past 14 days
 Cases,14 days,WHO,MAR,2021-04-05,36561813,cross,6488,17.7,Cases reported in the past 14 days
@@ -392,7 +392,7 @@ Cases,14 days,WHO,NER,2021-04-05,23605767,cross,123,0.5,Cases reported in the pa
 Cases,14 days,WHO,NGA,2021-04-05,219463862,cross,1458,0.7,Cases reported in the past 14 days
 Cases,14 days,WHO,NIC,2021-04-05,6243931,cross,75,1.2,Cases reported in the past 14 days
 Cases,14 days,WHO,NIU,2021-04-05,2000,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,NLD,2021-04-05,17337403,cross,100999,582.5,Cases reported in the past 14 days
+Cases,14 days,WHO,NLD,2021-04-05,17337403,cross,100961,582.3,Cases reported in the past 14 days
 Cases,14 days,WHO,NOR,2021-04-05,5509591,cross,12217,221.7,Cases reported in the past 14 days
 Cases,14 days,WHO,NPL,2021-04-05,30424878,cross,2038,6.7,Cases reported in the past 14 days
 Cases,14 days,WHO,NRU,2021-04-05,9770,cross,0,0,Cases reported in the past 14 days
@@ -426,7 +426,7 @@ Cases,14 days,WHO,SLB,2021-04-05,690598,cross,1,0.1,Cases reported in the past 1
 Cases,14 days,WHO,SLE,2021-04-05,6807277,cross,40,0.6,Cases reported in the past 14 days
 Cases,14 days,WHO,SLV,2021-04-05,6528135,cross,1087,16.7,Cases reported in the past 14 days
 Cases,14 days,WHO,SMR,2021-04-05,34467,cross,419,1215.7,Cases reported in the past 14 days
-Cases,14 days,WHO,SOM,2021-04-05,12094640,cross,1823,15.1,Cases reported in the past 14 days
+Cases,14 days,WHO,SOM,2021-04-05,12094640,cross,1698,14,Cases reported in the past 14 days
 Cases,14 days,WHO,SPM,2021-04-05,5321,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,SRB,2021-04-05,6974289,cross,66541,954.1,Cases reported in the past 14 days
 Cases,14 days,WHO,SSD,2021-04-05,10984074,cross,402,3.7,Cases reported in the past 14 days
@@ -694,7 +694,7 @@ Cases,24 hours,JHU,TZA,2021-04-05,62092761,cross,0,0,Cases reported in the past 
 Cases,24 hours,JHU,UGA,2021-04-05,44712143,cross,54,0.1,Cases reported in the past 24 hours
 Cases,24 hours,JHU,UKR,2021-04-05,43745640,cross,10300,23.5,Cases reported in the past 24 hours
 Cases,24 hours,JHU,URY,2021-04-05,3398239,cross,2201,64.8,Cases reported in the past 24 hours
-Cases,24 hours,JHU,USA,2021-04-05,334998398,cross,79075,23.6,Cases reported in the past 24 hours
+Cases,24 hours,JHU,USA,2021-04-05,334998398,cross,79264,23.7,Cases reported in the past 24 hours
 Cases,24 hours,JHU,UZB,2021-04-05,30842796,cross,179,0.6,Cases reported in the past 24 hours
 Cases,24 hours,JHU,VAT,2021-04-05,1000,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,JHU,VCT,2021-04-05,101145,cross,6,5.9,Cases reported in the past 24 hours
@@ -714,7 +714,7 @@ Cases,24 hours,WHO,ABW,2021-04-05,120917,cross,0,0,Cases reported in the past 24
 Cases,24 hours,WHO,AFG,2021-04-05,37466414,cross,41,0.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AGO,2021-04-05,33642646,cross,52,0.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AIA,2021-04-05,18403,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ALB,2021-04-05,3088385,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ALB,2021-04-05,3088385,cross,348,11.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AND,2021-04-05,85645,cross,57,66.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ARE,2021-04-05,9856612,cross,2113,21.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ARG,2021-04-05,45864941,cross,10384,22.6,Cases reported in the past 24 hours
@@ -725,7 +725,7 @@ Cases,24 hours,WHO,AUS,2021-04-05,25809973,cross,7,0,Cases reported in the past 
 Cases,24 hours,WHO,AUT,2021-04-05,8884864,cross,2915,32.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AZE,2021-04-05,10282283,cross,2021,19.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BDI,2021-04-05,12241065,cross,53,0.4,Cases reported in the past 24 hours
-Cases,24 hours,WHO,BEL,2021-04-05,11778842,cross,1,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,BEL,2021-04-05,11778842,cross,652,5.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BEN,2021-04-05,13301694,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BES,2021-04-05,0,cross,0,,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BFA,2021-04-05,21382659,cross,14,0.1,Cases reported in the past 24 hours
@@ -764,7 +764,7 @@ Cases,24 hours,WHO,CYM,2021-04-05,63131,cross,0,0,Cases reported in the past 24 
 Cases,24 hours,WHO,CYP,2021-04-05,1281506,cross,431,33.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CZE,2021-04-05,10702596,cross,1924,18,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DEU,2021-04-05,79903481,cross,8497,10.6,Cases reported in the past 24 hours
-Cases,24 hours,WHO,DJI,2021-04-05,938413,cross,235,25,Cases reported in the past 24 hours
+Cases,24 hours,WHO,DJI,2021-04-05,938413,cross,187,19.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DMA,2021-04-05,74584,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DNK,2021-04-05,5894687,cross,600,10.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DOM,2021-04-05,10597348,cross,514,4.9,Cases reported in the past 24 hours
@@ -772,10 +772,10 @@ Cases,24 hours,WHO,DZA,2021-04-05,43576691,cross,0,0,Cases reported in the past 
 Cases,24 hours,WHO,ECU,2021-04-05,17093159,cross,2506,14.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,EGY,2021-04-05,106437241,cross,709,0.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ERI,2021-04-05,6147398,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ESP,2021-04-05,47260584,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ESP,2021-04-05,47260584,cross,3644,7.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,EST,2021-04-05,1220042,cross,382,31.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ETH,2021-04-05,110871031,cross,1878,1.7,Cases reported in the past 24 hours
-Cases,24 hours,WHO,FIN,2021-04-05,5587442,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,FIN,2021-04-05,5587442,cross,302,5.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FJI,2021-04-05,939535,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FLK,2021-04-05,3198,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FRA,2021-04-05,68084217,cross,66794,98.1,Cases reported in the past 24 hours
@@ -803,7 +803,7 @@ Cases,24 hours,WHO,HKG,2021-04-05,7263234,cross,0,0,Cases reported in the past 2
 Cases,24 hours,WHO,HND,2021-04-05,9346277,cross,752,8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,HRV,2021-04-05,4208973,cross,138,3.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,HTI,2021-04-05,11198240,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,HUN,2021-04-05,9728337,cross,6566,67.5,Cases reported in the past 24 hours
+Cases,24 hours,WHO,HUN,2021-04-05,9728337,cross,3874,39.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IDN,2021-04-05,275122131,cross,6731,2.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IMN,2021-04-05,90895,cross,1,1.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IND,2021-04-05,1339330514,cross,103558,7.7,Cases reported in the past 24 hours
@@ -811,13 +811,13 @@ Cases,24 hours,WHO,IRL,2021-04-05,5224884,cross,453,8.7,Cases reported in the pa
 Cases,24 hours,WHO,IRN,2021-04-05,85888910,cross,11680,13.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IRQ,2021-04-05,39650145,cross,5368,13.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ISL,2021-04-05,354234,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ISR,2021-04-05,8787045,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ISR,2021-04-05,8787045,cross,124,1.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ITA,2021-04-05,62390364,cross,18017,28.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JAM,2021-04-05,2816602,cross,214,7.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JEY,2021-04-05,101476,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JOR,2021-04-05,10909567,cross,6032,55.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JPN,2021-04-05,124687293,cross,2458,2,Cases reported in the past 24 hours
-Cases,24 hours,WHO,KAZ,2021-04-05,19245793,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,KAZ,2021-04-05,19245793,cross,1816,9.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,KEN,2021-04-05,54685051,cross,911,1.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,KGZ,2021-04-05,6018789,cross,139,2.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,KHM,2021-04-05,17304363,cross,63,0.4,Cases reported in the past 24 hours
@@ -835,7 +835,7 @@ Cases,24 hours,WHO,LKA,2021-04-05,23044123,cross,141,0.6,Cases reported in the p
 Cases,24 hours,WHO,LSO,2021-04-05,2177740,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LTU,2021-04-05,2711566,cross,501,18.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LUX,2021-04-05,639589,cross,255,39.9,Cases reported in the past 24 hours
-Cases,24 hours,WHO,LVA,2021-04-05,1862687,cross,357,19.2,Cases reported in the past 24 hours
+Cases,24 hours,WHO,LVA,2021-04-05,1862687,cross,238,12.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MAC,2021-04-05,630396,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MAF,2021-04-05,0,cross,0,,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MAR,2021-04-05,36561813,cross,365,1,Cases reported in the past 24 hours
@@ -866,7 +866,7 @@ Cases,24 hours,WHO,NER,2021-04-05,23605767,cross,8,0,Cases reported in the past 
 Cases,24 hours,WHO,NGA,2021-04-05,219463862,cross,82,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NIC,2021-04-05,6243931,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NIU,2021-04-05,2000,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,NLD,2021-04-05,17337403,cross,6918,39.9,Cases reported in the past 24 hours
+Cases,24 hours,WHO,NLD,2021-04-05,17337403,cross,6900,39.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NOR,2021-04-05,5509591,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NPL,2021-04-05,30424878,cross,176,0.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NRU,2021-04-05,9770,cross,0,0,Cases reported in the past 24 hours
@@ -900,7 +900,7 @@ Cases,24 hours,WHO,SLB,2021-04-05,690598,cross,0,0,Cases reported in the past 24
 Cases,24 hours,WHO,SLE,2021-04-05,6807277,cross,1,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SLV,2021-04-05,6528135,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SMR,2021-04-05,34467,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,SOM,2021-04-05,12094640,cross,125,1,Cases reported in the past 24 hours
+Cases,24 hours,WHO,SOM,2021-04-05,12094640,cross,160,1.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SPM,2021-04-05,5321,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SRB,2021-04-05,6974289,cross,3304,47.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SSD,2021-04-05,10984074,cross,26,0.2,Cases reported in the past 24 hours
@@ -1168,7 +1168,7 @@ Cases,30 days,JHU,TZA,2021-04-05,62092761,cross,0,0,Cases reported in the past 3
 Cases,30 days,JHU,UGA,2021-04-05,44712143,cross,564,1.3,Cases reported in the past 30 days
 Cases,30 days,JHU,UKR,2021-04-05,43745640,cross,364870,834.1,Cases reported in the past 30 days
 Cases,30 days,JHU,URY,2021-04-05,3398239,cross,56948,1675.8,Cases reported in the past 30 days
-Cases,30 days,JHU,USA,2021-04-05,334998398,cross,1762369,526.1,Cases reported in the past 30 days
+Cases,30 days,JHU,USA,2021-04-05,334998398,cross,1762558,526.1,Cases reported in the past 30 days
 Cases,30 days,JHU,UZB,2021-04-05,30842796,cross,3677,11.9,Cases reported in the past 30 days
 Cases,30 days,JHU,VAT,2021-04-05,1000,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,JHU,VCT,2021-04-05,101145,cross,119,117.7,Cases reported in the past 30 days
@@ -1188,7 +1188,7 @@ Cases,30 days,WHO,ABW,2021-04-05,120917,cross,1494,1235.6,Cases reported in the 
 Cases,30 days,WHO,AFG,2021-04-05,37466414,cross,877,2.3,Cases reported in the past 30 days
 Cases,30 days,WHO,AGO,2021-04-05,33642646,cross,1605,4.8,Cases reported in the past 30 days
 Cases,30 days,WHO,AIA,2021-04-05,18403,cross,7,38,Cases reported in the past 30 days
-Cases,30 days,WHO,ALB,2021-04-05,3088385,cross,14882,481.9,Cases reported in the past 30 days
+Cases,30 days,WHO,ALB,2021-04-05,3088385,cross,15230,493.1,Cases reported in the past 30 days
 Cases,30 days,WHO,AND,2021-04-05,85645,cross,1233,1439.7,Cases reported in the past 30 days
 Cases,30 days,WHO,ARE,2021-04-05,9856612,cross,64859,658,Cases reported in the past 30 days
 Cases,30 days,WHO,ARG,2021-04-05,45864941,cross,241683,526.9,Cases reported in the past 30 days
@@ -1199,7 +1199,7 @@ Cases,30 days,WHO,AUS,2021-04-05,25809973,cross,328,1.3,Cases reported in the pa
 Cases,30 days,WHO,AUT,2021-04-05,8884864,cross,88718,998.5,Cases reported in the past 30 days
 Cases,30 days,WHO,AZE,2021-04-05,10282283,cross,34723,337.7,Cases reported in the past 30 days
 Cases,30 days,WHO,BDI,2021-04-05,12241065,cross,665,5.4,Cases reported in the past 30 days
-Cases,30 days,WHO,BEL,2021-04-05,11778842,cross,113571,964.2,Cases reported in the past 30 days
+Cases,30 days,WHO,BEL,2021-04-05,11778842,cross,115538,980.9,Cases reported in the past 30 days
 Cases,30 days,WHO,BEN,2021-04-05,13301694,cross,1242,9.3,Cases reported in the past 30 days
 Cases,30 days,WHO,BES,2021-04-05,0,cross,930,,Cases reported in the past 30 days
 Cases,30 days,WHO,BFA,2021-04-05,21382659,cross,694,3.2,Cases reported in the past 30 days
@@ -1238,7 +1238,7 @@ Cases,30 days,WHO,CYM,2021-04-05,63131,cross,53,84,Cases reported in the past 30
 Cases,30 days,WHO,CYP,2021-04-05,1281506,cross,11436,892.4,Cases reported in the past 30 days
 Cases,30 days,WHO,CZE,2021-04-05,10702596,cross,241656,2257.9,Cases reported in the past 30 days
 Cases,30 days,WHO,DEU,2021-04-05,79903481,cross,401804,502.9,Cases reported in the past 30 days
-Cases,30 days,WHO,DJI,2021-04-05,938413,cross,2801,298.5,Cases reported in the past 30 days
+Cases,30 days,WHO,DJI,2021-04-05,938413,cross,2566,273.4,Cases reported in the past 30 days
 Cases,30 days,WHO,DMA,2021-04-05,74584,cross,21,28.2,Cases reported in the past 30 days
 Cases,30 days,WHO,DNK,2021-04-05,5894687,cross,20476,347.4,Cases reported in the past 30 days
 Cases,30 days,WHO,DOM,2021-04-05,10597348,cross,12208,115.2,Cases reported in the past 30 days
@@ -1246,10 +1246,10 @@ Cases,30 days,WHO,DZA,2021-04-05,43576691,cross,3576,8.2,Cases reported in the p
 Cases,30 days,WHO,ECU,2021-04-05,17093159,cross,44611,261,Cases reported in the past 30 days
 Cases,30 days,WHO,EGY,2021-04-05,106437241,cross,19631,18.4,Cases reported in the past 30 days
 Cases,30 days,WHO,ERI,2021-04-05,6147398,cross,412,6.7,Cases reported in the past 30 days
-Cases,30 days,WHO,ESP,2021-04-05,47260584,cross,116625,246.8,Cases reported in the past 30 days
+Cases,30 days,WHO,ESP,2021-04-05,47260584,cross,149540,316.4,Cases reported in the past 30 days
 Cases,30 days,WHO,EST,2021-04-05,1220042,cross,36097,2958.7,Cases reported in the past 30 days
 Cases,30 days,WHO,ETH,2021-04-05,110871031,cross,51117,46.1,Cases reported in the past 30 days
-Cases,30 days,WHO,FIN,2021-04-05,5587442,cross,16554,296.3,Cases reported in the past 30 days
+Cases,30 days,WHO,FIN,2021-04-05,5587442,cross,17844,319.4,Cases reported in the past 30 days
 Cases,30 days,WHO,FJI,2021-04-05,939535,cross,4,0.4,Cases reported in the past 30 days
 Cases,30 days,WHO,FLK,2021-04-05,3198,cross,1,31.3,Cases reported in the past 30 days
 Cases,30 days,WHO,FRA,2021-04-05,68084217,cross,955064,1402.8,Cases reported in the past 30 days
@@ -1277,7 +1277,7 @@ Cases,30 days,WHO,HKG,2021-04-05,7263234,cross,0,0,Cases reported in the past 30
 Cases,30 days,WHO,HND,2021-04-05,9346277,cross,17901,191.5,Cases reported in the past 30 days
 Cases,30 days,WHO,HRV,2021-04-05,4208973,cross,34044,808.8,Cases reported in the past 30 days
 Cases,30 days,WHO,HTI,2021-04-05,11198240,cross,252,2.3,Cases reported in the past 30 days
-Cases,30 days,WHO,HUN,2021-04-05,9728337,cross,226163,2324.8,Cases reported in the past 30 days
+Cases,30 days,WHO,HUN,2021-04-05,9728337,cross,230037,2364.6,Cases reported in the past 30 days
 Cases,30 days,WHO,IDN,2021-04-05,275122131,cross,166186,60.4,Cases reported in the past 30 days
 Cases,30 days,WHO,IMN,2021-04-05,90895,cross,1025,1127.7,Cases reported in the past 30 days
 Cases,30 days,WHO,IND,2021-04-05,1339330514,cross,1396979,104.3,Cases reported in the past 30 days
@@ -1285,13 +1285,13 @@ Cases,30 days,WHO,IRL,2021-04-05,5224884,cross,15979,305.8,Cases reported in the
 Cases,30 days,WHO,IRN,2021-04-05,85888910,cross,258604,301.1,Cases reported in the past 30 days
 Cases,30 days,WHO,IRQ,2021-04-05,39650145,cross,154447,389.5,Cases reported in the past 30 days
 Cases,30 days,WHO,ISL,2021-04-05,354234,cross,166,46.9,Cases reported in the past 30 days
-Cases,30 days,WHO,ISR,2021-04-05,8787045,cross,38471,437.8,Cases reported in the past 30 days
+Cases,30 days,WHO,ISR,2021-04-05,8787045,cross,39421,448.6,Cases reported in the past 30 days
 Cases,30 days,WHO,ITA,2021-04-05,62390364,cross,645135,1034,Cases reported in the past 30 days
 Cases,30 days,WHO,JAM,2021-04-05,2816602,cross,15887,564,Cases reported in the past 30 days
 Cases,30 days,WHO,JEY,2021-04-05,101476,cross,9,8.9,Cases reported in the past 30 days
 Cases,30 days,WHO,JOR,2021-04-05,10909567,cross,214973,1970.5,Cases reported in the past 30 days
 Cases,30 days,WHO,JPN,2021-04-05,124687293,cross,47433,38,Cases reported in the past 30 days
-Cases,30 days,WHO,KAZ,2021-04-05,19245793,cross,38203,198.5,Cases reported in the past 30 days
+Cases,30 days,WHO,KAZ,2021-04-05,19245793,cross,40019,207.9,Cases reported in the past 30 days
 Cases,30 days,WHO,KEN,2021-04-05,54685051,cross,31259,57.2,Cases reported in the past 30 days
 Cases,30 days,WHO,KGZ,2021-04-05,6018789,cross,2647,44,Cases reported in the past 30 days
 Cases,30 days,WHO,KHM,2021-04-05,17304363,cross,1799,10.4,Cases reported in the past 30 days
@@ -1309,7 +1309,7 @@ Cases,30 days,WHO,LKA,2021-04-05,23044123,cross,8476,36.8,Cases reported in the 
 Cases,30 days,WHO,LSO,2021-04-05,2177740,cross,185,8.5,Cases reported in the past 30 days
 Cases,30 days,WHO,LTU,2021-04-05,2711566,cross,18413,679.1,Cases reported in the past 30 days
 Cases,30 days,WHO,LUX,2021-04-05,639589,cross,6064,948.1,Cases reported in the past 30 days
-Cases,30 days,WHO,LVA,2021-04-05,1862687,cross,14810,795.1,Cases reported in the past 30 days
+Cases,30 days,WHO,LVA,2021-04-05,1862687,cross,14691,788.7,Cases reported in the past 30 days
 Cases,30 days,WHO,MAC,2021-04-05,630396,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,MAF,2021-04-05,0,cross,106,,Cases reported in the past 30 days
 Cases,30 days,WHO,MAR,2021-04-05,36561813,cross,12630,34.5,Cases reported in the past 30 days
@@ -1340,7 +1340,7 @@ Cases,30 days,WHO,NER,2021-04-05,23605767,cross,301,1.3,Cases reported in the pa
 Cases,30 days,WHO,NGA,2021-04-05,219463862,cross,5153,2.3,Cases reported in the past 30 days
 Cases,30 days,WHO,NIC,2021-04-05,6243931,cross,150,2.4,Cases reported in the past 30 days
 Cases,30 days,WHO,NIU,2021-04-05,2000,cross,0,0,Cases reported in the past 30 days
-Cases,30 days,WHO,NLD,2021-04-05,17337403,cross,192367,1109.5,Cases reported in the past 30 days
+Cases,30 days,WHO,NLD,2021-04-05,17337403,cross,192328,1109.3,Cases reported in the past 30 days
 Cases,30 days,WHO,NOR,2021-04-05,5509591,cross,23277,422.5,Cases reported in the past 30 days
 Cases,30 days,WHO,NPL,2021-04-05,30424878,cross,3336,11,Cases reported in the past 30 days
 Cases,30 days,WHO,NRU,2021-04-05,9770,cross,0,0,Cases reported in the past 30 days
@@ -1374,7 +1374,7 @@ Cases,30 days,WHO,SLB,2021-04-05,690598,cross,1,0.1,Cases reported in the past 3
 Cases,30 days,WHO,SLE,2021-04-05,6807277,cross,79,1.2,Cases reported in the past 30 days
 Cases,30 days,WHO,SLV,2021-04-05,6528135,cross,3631,55.6,Cases reported in the past 30 days
 Cases,30 days,WHO,SMR,2021-04-05,34467,cross,879,2550.3,Cases reported in the past 30 days
-Cases,30 days,WHO,SOM,2021-04-05,12094640,cross,4058,33.6,Cases reported in the past 30 days
+Cases,30 days,WHO,SOM,2021-04-05,12094640,cross,3933,32.5,Cases reported in the past 30 days
 Cases,30 days,WHO,SPM,2021-04-05,5321,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,SRB,2021-04-05,6974289,cross,138791,1990,Cases reported in the past 30 days
 Cases,30 days,WHO,SSD,2021-04-05,10984074,cross,1854,16.9,Cases reported in the past 30 days
@@ -1642,7 +1642,7 @@ Cases,7 days,JHU,TZA,2021-04-05,62092761,cross,0,0,Cases reported in the past 7 
 Cases,7 days,JHU,UGA,2021-04-05,44712143,cross,196,0.4,Cases reported in the past 7 days
 Cases,7 days,JHU,UKR,2021-04-05,43745640,cross,104291,238.4,Cases reported in the past 7 days
 Cases,7 days,JHU,URY,2021-04-05,3398239,cross,20374,599.5,Cases reported in the past 7 days
-Cases,7 days,JHU,USA,2021-04-05,334998398,cross,452636,135.1,Cases reported in the past 7 days
+Cases,7 days,JHU,USA,2021-04-05,334998398,cross,452825,135.2,Cases reported in the past 7 days
 Cases,7 days,JHU,UZB,2021-04-05,30842796,cross,1266,4.1,Cases reported in the past 7 days
 Cases,7 days,JHU,VAT,2021-04-05,1000,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,JHU,VCT,2021-04-05,101145,cross,25,24.7,Cases reported in the past 7 days
@@ -1662,7 +1662,7 @@ Cases,7 days,WHO,ABW,2021-04-05,120917,cross,430,355.6,Cases reported in the pas
 Cases,7 days,WHO,AFG,2021-04-05,37466414,cross,395,1.1,Cases reported in the past 7 days
 Cases,7 days,WHO,AGO,2021-04-05,33642646,cross,568,1.7,Cases reported in the past 7 days
 Cases,7 days,WHO,AIA,2021-04-05,18403,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,ALB,2021-04-05,3088385,cross,2049,66.3,Cases reported in the past 7 days
+Cases,7 days,WHO,ALB,2021-04-05,3088385,cross,2397,77.6,Cases reported in the past 7 days
 Cases,7 days,WHO,AND,2021-04-05,85645,cross,381,444.9,Cases reported in the past 7 days
 Cases,7 days,WHO,ARE,2021-04-05,9856612,cross,14939,151.6,Cases reported in the past 7 days
 Cases,7 days,WHO,ARG,2021-04-05,45864941,cross,82148,179.1,Cases reported in the past 7 days
@@ -1673,7 +1673,7 @@ Cases,7 days,WHO,AUS,2021-04-05,25809973,cross,88,0.3,Cases reported in the past
 Cases,7 days,WHO,AUT,2021-04-05,8884864,cross,21900,246.5,Cases reported in the past 7 days
 Cases,7 days,WHO,AZE,2021-04-05,10282283,cross,14534,141.3,Cases reported in the past 7 days
 Cases,7 days,WHO,BDI,2021-04-05,12241065,cross,207,1.7,Cases reported in the past 7 days
-Cases,7 days,WHO,BEL,2021-04-05,11778842,cross,26594,225.8,Cases reported in the past 7 days
+Cases,7 days,WHO,BEL,2021-04-05,11778842,cross,28561,242.5,Cases reported in the past 7 days
 Cases,7 days,WHO,BEN,2021-04-05,13301694,cross,213,1.6,Cases reported in the past 7 days
 Cases,7 days,WHO,BES,2021-04-05,0,cross,164,,Cases reported in the past 7 days
 Cases,7 days,WHO,BFA,2021-04-05,21382659,cross,125,0.6,Cases reported in the past 7 days
@@ -1712,7 +1712,7 @@ Cases,7 days,WHO,CYM,2021-04-05,63131,cross,14,22.2,Cases reported in the past 7
 Cases,7 days,WHO,CYP,2021-04-05,1281506,cross,3082,240.5,Cases reported in the past 7 days
 Cases,7 days,WHO,CZE,2021-04-05,10702596,cross,37048,346.2,Cases reported in the past 7 days
 Cases,7 days,WHO,DEU,2021-04-05,79903481,cross,111610,139.7,Cases reported in the past 7 days
-Cases,7 days,WHO,DJI,2021-04-05,938413,cross,1570,167.3,Cases reported in the past 7 days
+Cases,7 days,WHO,DJI,2021-04-05,938413,cross,1335,142.3,Cases reported in the past 7 days
 Cases,7 days,WHO,DMA,2021-04-05,74584,cross,4,5.4,Cases reported in the past 7 days
 Cases,7 days,WHO,DNK,2021-04-05,5894687,cross,5305,90,Cases reported in the past 7 days
 Cases,7 days,WHO,DOM,2021-04-05,10597348,cross,2312,21.8,Cases reported in the past 7 days
@@ -1720,10 +1720,10 @@ Cases,7 days,WHO,DZA,2021-04-05,43576691,cross,688,1.6,Cases reported in the pas
 Cases,7 days,WHO,ECU,2021-04-05,17093159,cross,11199,65.5,Cases reported in the past 7 days
 Cases,7 days,WHO,EGY,2021-04-05,106437241,cross,4915,4.6,Cases reported in the past 7 days
 Cases,7 days,WHO,ERI,2021-04-05,6147398,cross,126,2,Cases reported in the past 7 days
-Cases,7 days,WHO,ESP,2021-04-05,47260584,cross,5634,11.9,Cases reported in the past 7 days
+Cases,7 days,WHO,ESP,2021-04-05,47260584,cross,37243,78.8,Cases reported in the past 7 days
 Cases,7 days,WHO,EST,2021-04-05,1220042,cross,5567,456.3,Cases reported in the past 7 days
 Cases,7 days,WHO,ETH,2021-04-05,110871031,cross,14626,13.2,Cases reported in the past 7 days
-Cases,7 days,WHO,FIN,2021-04-05,5587442,cross,2103,37.6,Cases reported in the past 7 days
+Cases,7 days,WHO,FIN,2021-04-05,5587442,cross,3393,60.7,Cases reported in the past 7 days
 Cases,7 days,WHO,FJI,2021-04-05,939535,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,FLK,2021-04-05,3198,cross,1,31.3,Cases reported in the past 7 days
 Cases,7 days,WHO,FRA,2021-04-05,68084217,cross,274387,403,Cases reported in the past 7 days
@@ -1751,7 +1751,7 @@ Cases,7 days,WHO,HKG,2021-04-05,7263234,cross,0,0,Cases reported in the past 7 d
 Cases,7 days,WHO,HND,2021-04-05,9346277,cross,3463,37.1,Cases reported in the past 7 days
 Cases,7 days,WHO,HRV,2021-04-05,4208973,cross,12642,300.4,Cases reported in the past 7 days
 Cases,7 days,WHO,HTI,2021-04-05,11198240,cross,52,0.5,Cases reported in the past 7 days
-Cases,7 days,WHO,HUN,2021-04-05,9728337,cross,44855,461.1,Cases reported in the past 7 days
+Cases,7 days,WHO,HUN,2021-04-05,9728337,cross,48729,500.9,Cases reported in the past 7 days
 Cases,7 days,WHO,IDN,2021-04-05,275122131,cross,38170,13.9,Cases reported in the past 7 days
 Cases,7 days,WHO,IMN,2021-04-05,90895,cross,16,17.6,Cases reported in the past 7 days
 Cases,7 days,WHO,IND,2021-04-05,1339330514,cross,549423,41,Cases reported in the past 7 days
@@ -1759,13 +1759,13 @@ Cases,7 days,WHO,IRL,2021-04-05,5224884,cross,3607,69,Cases reported in the past
 Cases,7 days,WHO,IRN,2021-04-05,85888910,cross,76400,89,Cases reported in the past 7 days
 Cases,7 days,WHO,IRQ,2021-04-05,39650145,cross,41140,103.8,Cases reported in the past 7 days
 Cases,7 days,WHO,ISL,2021-04-05,354234,cross,62,17.5,Cases reported in the past 7 days
-Cases,7 days,WHO,ISR,2021-04-05,8787045,cross,1359,15.5,Cases reported in the past 7 days
+Cases,7 days,WHO,ISR,2021-04-05,8787045,cross,2309,26.3,Cases reported in the past 7 days
 Cases,7 days,WHO,ITA,2021-04-05,62390364,cross,136207,218.3,Cases reported in the past 7 days
 Cases,7 days,WHO,JAM,2021-04-05,2816602,cross,2436,86.5,Cases reported in the past 7 days
 Cases,7 days,WHO,JEY,2021-04-05,101476,cross,4,3.9,Cases reported in the past 7 days
 Cases,7 days,WHO,JOR,2021-04-05,10909567,cross,43591,399.6,Cases reported in the past 7 days
 Cases,7 days,WHO,JPN,2021-04-05,124687293,cross,16711,13.4,Cases reported in the past 7 days
-Cases,7 days,WHO,KAZ,2021-04-05,19245793,cross,12099,62.9,Cases reported in the past 7 days
+Cases,7 days,WHO,KAZ,2021-04-05,19245793,cross,13915,72.3,Cases reported in the past 7 days
 Cases,7 days,WHO,KEN,2021-04-05,54685051,cross,8774,16,Cases reported in the past 7 days
 Cases,7 days,WHO,KGZ,2021-04-05,6018789,cross,990,16.4,Cases reported in the past 7 days
 Cases,7 days,WHO,KHM,2021-04-05,17304363,cross,479,2.8,Cases reported in the past 7 days
@@ -1783,7 +1783,7 @@ Cases,7 days,WHO,LKA,2021-04-05,23044123,cross,1348,5.8,Cases reported in the pa
 Cases,7 days,WHO,LSO,2021-04-05,2177740,cross,21,1,Cases reported in the past 7 days
 Cases,7 days,WHO,LTU,2021-04-05,2711566,cross,5847,215.6,Cases reported in the past 7 days
 Cases,7 days,WHO,LUX,2021-04-05,639589,cross,1313,205.3,Cases reported in the past 7 days
-Cases,7 days,WHO,LVA,2021-04-05,1862687,cross,3184,170.9,Cases reported in the past 7 days
+Cases,7 days,WHO,LVA,2021-04-05,1862687,cross,3065,164.5,Cases reported in the past 7 days
 Cases,7 days,WHO,MAC,2021-04-05,630396,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,MAF,2021-04-05,0,cross,30,,Cases reported in the past 7 days
 Cases,7 days,WHO,MAR,2021-04-05,36561813,cross,3538,9.7,Cases reported in the past 7 days
@@ -1814,7 +1814,7 @@ Cases,7 days,WHO,NER,2021-04-05,23605767,cross,54,0.2,Cases reported in the past
 Cases,7 days,WHO,NGA,2021-04-05,219463862,cross,602,0.3,Cases reported in the past 7 days
 Cases,7 days,WHO,NIC,2021-04-05,6243931,cross,38,0.6,Cases reported in the past 7 days
 Cases,7 days,WHO,NIU,2021-04-05,2000,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,NLD,2021-04-05,17337403,cross,49959,288.2,Cases reported in the past 7 days
+Cases,7 days,WHO,NLD,2021-04-05,17337403,cross,49922,287.9,Cases reported in the past 7 days
 Cases,7 days,WHO,NOR,2021-04-05,5509591,cross,5836,105.9,Cases reported in the past 7 days
 Cases,7 days,WHO,NPL,2021-04-05,30424878,cross,1105,3.6,Cases reported in the past 7 days
 Cases,7 days,WHO,NRU,2021-04-05,9770,cross,0,0,Cases reported in the past 7 days
@@ -1848,7 +1848,7 @@ Cases,7 days,WHO,SLB,2021-04-05,690598,cross,0,0,Cases reported in the past 7 da
 Cases,7 days,WHO,SLE,2021-04-05,6807277,cross,18,0.3,Cases reported in the past 7 days
 Cases,7 days,WHO,SLV,2021-04-05,6528135,cross,665,10.2,Cases reported in the past 7 days
 Cases,7 days,WHO,SMR,2021-04-05,34467,cross,144,417.8,Cases reported in the past 7 days
-Cases,7 days,WHO,SOM,2021-04-05,12094640,cross,1070,8.8,Cases reported in the past 7 days
+Cases,7 days,WHO,SOM,2021-04-05,12094640,cross,945,7.8,Cases reported in the past 7 days
 Cases,7 days,WHO,SPM,2021-04-05,5321,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,SRB,2021-04-05,6974289,cross,32163,461.2,Cases reported in the past 7 days
 Cases,7 days,WHO,SSD,2021-04-05,10984074,cross,183,1.7,Cases reported in the past 7 days
@@ -2116,7 +2116,7 @@ Cases,Cumulative,JHU,TZA,2021-04-05,62092761,cross,509,0.8,Cumulative Cases repo
 Cases,Cumulative,JHU,UGA,2021-04-05,44712143,cross,41016,91.7,Cumulative Cases reported 
 Cases,Cumulative,JHU,UKR,2021-04-05,43745640,cross,1807327,4131.4,Cumulative Cases reported 
 Cases,Cumulative,JHU,URY,2021-04-05,3398239,cross,119958,3530,Cumulative Cases reported 
-Cases,Cumulative,JHU,USA,2021-04-05,334998398,cross,30785201,9189.7,Cumulative Cases reported 
+Cases,Cumulative,JHU,USA,2021-04-05,334998398,cross,30785390,9189.7,Cumulative Cases reported 
 Cases,Cumulative,JHU,UZB,2021-04-05,30842796,cross,83802,271.7,Cumulative Cases reported 
 Cases,Cumulative,JHU,VAT,2021-04-05,1000,cross,27,2700,Cumulative Cases reported 
 Cases,Cumulative,JHU,VCT,2021-04-05,101145,cross,1764,1744,Cumulative Cases reported 
@@ -2136,7 +2136,7 @@ Cases,Cumulative,WHO,ABW,2021-04-05,120917,cross,9503,7859.1,Cumulative Cases re
 Cases,Cumulative,WHO,AFG,2021-04-05,37466414,cross,56717,151.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,AGO,2021-04-05,33642646,cross,22631,67.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,AIA,2021-04-05,18403,cross,25,135.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,ALB,2021-04-05,3088385,cross,126183,4085.7,Cumulative Cases reported 
+Cases,Cumulative,WHO,ALB,2021-04-05,3088385,cross,126531,4097,Cumulative Cases reported 
 Cases,Cumulative,WHO,AND,2021-04-05,85645,cross,12231,14281,Cumulative Cases reported 
 Cases,Cumulative,WHO,ARE,2021-04-05,9856612,cross,470136,4769.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,ARG,2021-04-05,45864941,cross,2383537,5196.9,Cumulative Cases reported 
@@ -2147,7 +2147,7 @@ Cases,Cumulative,WHO,AUS,2021-04-05,25809973,cross,29348,113.7,Cumulative Cases 
 Cases,Cumulative,WHO,AUT,2021-04-05,8884864,cross,555411,6251.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,AZE,2021-04-05,10282283,cross,270735,2633,Cumulative Cases reported 
 Cases,Cumulative,WHO,BDI,2021-04-05,12241065,cross,2964,24.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,BEL,2021-04-05,11778842,cross,900996,7649.3,Cumulative Cases reported 
+Cases,Cumulative,WHO,BEL,2021-04-05,11778842,cross,902963,7666,Cumulative Cases reported 
 Cases,Cumulative,WHO,BEN,2021-04-05,13301694,cross,7313,55,Cumulative Cases reported 
 Cases,Cumulative,WHO,BES,2021-04-05,0,cross,1411,,Cumulative Cases reported 
 Cases,Cumulative,WHO,BFA,2021-04-05,21382659,cross,12817,59.9,Cumulative Cases reported 
@@ -2186,7 +2186,7 @@ Cases,Cumulative,WHO,CYM,2021-04-05,63131,cross,501,793.6,Cumulative Cases repor
 Cases,Cumulative,WHO,CYP,2021-04-05,1281506,cross,47713,3723.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,CZE,2021-04-05,10702596,cross,1553820,14518.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,DEU,2021-04-05,79903481,cross,2893883,3621.7,Cumulative Cases reported 
-Cases,Cumulative,WHO,DJI,2021-04-05,938413,cross,8931,951.7,Cumulative Cases reported 
+Cases,Cumulative,WHO,DJI,2021-04-05,938413,cross,8696,926.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,DMA,2021-04-05,74584,cross,165,221.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,DNK,2021-04-05,5894687,cross,233318,3958.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,DOM,2021-04-05,10597348,cross,254295,2399.6,Cumulative Cases reported 
@@ -2194,10 +2194,10 @@ Cases,Cumulative,WHO,DZA,2021-04-05,43576691,cross,117524,269.7,Cumulative Cases
 Cases,Cumulative,WHO,ECU,2021-04-05,17093159,cross,335681,1963.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,EGY,2021-04-05,106437241,cross,204965,192.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,ERI,2021-04-05,6147398,cross,3334,54.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,ESP,2021-04-05,47260584,cross,3291394,6964.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,ESP,2021-04-05,47260584,cross,3309078,7001.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,EST,2021-04-05,1220042,cross,109781,8998.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,ETH,2021-04-05,110871031,cross,215189,194.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,FIN,2021-04-05,5587442,cross,78106,1397.9,Cumulative Cases reported 
+Cases,Cumulative,WHO,FIN,2021-04-05,5587442,cross,79396,1421,Cumulative Cases reported 
 Cases,Cumulative,WHO,FJI,2021-04-05,939535,cross,67,7.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,FLK,2021-04-05,3198,cross,52,1626,Cumulative Cases reported 
 Cases,Cumulative,WHO,FRA,2021-04-05,68084217,cross,4746588,6971.6,Cumulative Cases reported 
@@ -2225,7 +2225,7 @@ Cases,Cumulative,WHO,HKG,2021-04-05,7263234,cross,0,0,Cumulative Cases reported
 Cases,Cumulative,WHO,HND,2021-04-05,9346277,cross,190478,2038,Cumulative Cases reported 
 Cases,Cumulative,WHO,HRV,2021-04-05,4208973,cross,280164,6656.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,HTI,2021-04-05,11198240,cross,12788,114.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,HUN,2021-04-05,9728337,cross,685979,7051.3,Cumulative Cases reported 
+Cases,Cumulative,WHO,HUN,2021-04-05,9728337,cross,689853,7091.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,IDN,2021-04-05,275122131,cross,1534255,557.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,IMN,2021-04-05,90895,cross,1571,1728.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,IND,2021-04-05,1339330514,cross,12589067,940,Cumulative Cases reported 
@@ -2233,13 +2233,13 @@ Cases,Cumulative,WHO,IRL,2021-04-05,5224884,cross,238148,4558,Cumulative Cases r
 Cases,Cumulative,WHO,IRN,2021-04-05,85888910,cross,1932074,2249.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,IRQ,2021-04-05,39650145,cross,873568,2203.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,ISL,2021-04-05,354234,cross,6225,1757.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,ISR,2021-04-05,8787045,cross,833200,9482.1,Cumulative Cases reported 
+Cases,Cumulative,WHO,ISR,2021-04-05,8787045,cross,834150,9493,Cumulative Cases reported 
 Cases,Cumulative,WHO,ITA,2021-04-05,62390364,cross,3668264,5879.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,JAM,2021-04-05,2816602,cross,40663,1443.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,JEY,2021-04-05,101476,cross,3229,3182,Cumulative Cases reported 
 Cases,Cumulative,WHO,JOR,2021-04-05,10909567,cross,632907,5801.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,JPN,2021-04-05,124687293,cross,485325,389.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,KAZ,2021-04-05,19245793,cross,305860,1589.2,Cumulative Cases reported 
+Cases,Cumulative,WHO,KAZ,2021-04-05,19245793,cross,307676,1598.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,KEN,2021-04-05,54685051,cross,138988,254.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,KGZ,2021-04-05,6018789,cross,89153,1481.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,KHM,2021-04-05,17304363,cross,2752,15.9,Cumulative Cases reported 
@@ -2257,7 +2257,7 @@ Cases,Cumulative,WHO,LKA,2021-04-05,23044123,cross,93436,405.5,Cumulative Cases 
 Cases,Cumulative,WHO,LSO,2021-04-05,2177740,cross,10707,491.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,LTU,2021-04-05,2711566,cross,220212,8121.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,LUX,2021-04-05,639589,cross,62360,9750,Cumulative Cases reported 
-Cases,Cumulative,WHO,LVA,2021-04-05,1862687,cross,104224,5595.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,LVA,2021-04-05,1862687,cross,104105,5589,Cumulative Cases reported 
 Cases,Cumulative,WHO,MAC,2021-04-05,630396,cross,0,0,Cumulative Cases reported 
 Cases,Cumulative,WHO,MAF,2021-04-05,0,cross,1687,,Cumulative Cases reported 
 Cases,Cumulative,WHO,MAR,2021-04-05,36561813,cross,498197,1362.6,Cumulative Cases reported 
@@ -2288,7 +2288,7 @@ Cases,Cumulative,WHO,NER,2021-04-05,23605767,cross,5041,21.4,Cumulative Cases re
 Cases,Cumulative,WHO,NGA,2021-04-05,219463862,cross,163195,74.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,NIC,2021-04-05,6243931,cross,5326,85.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,NIU,2021-04-05,2000,cross,0,0,Cumulative Cases reported 
-Cases,Cumulative,WHO,NLD,2021-04-05,17337403,cross,1302146,7510.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,NLD,2021-04-05,17337403,cross,1302101,7510.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,NOR,2021-04-05,5509591,cross,96770,1756.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,NPL,2021-04-05,30424878,cross,277944,913.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,NRU,2021-04-05,9770,cross,0,0,Cumulative Cases reported 
@@ -2322,7 +2322,7 @@ Cases,Cumulative,WHO,SLB,2021-04-05,690598,cross,19,2.8,Cumulative Cases reporte
 Cases,Cumulative,WHO,SLE,2021-04-05,6807277,cross,3988,58.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,SLV,2021-04-05,6528135,cross,64431,987,Cumulative Cases reported 
 Cases,Cumulative,WHO,SMR,2021-04-05,34467,cross,4775,13853.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,SOM,2021-04-05,12094640,cross,11908,98.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,SOM,2021-04-05,12094640,cross,11783,97.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,SPM,2021-04-05,5321,cross,24,451,Cumulative Cases reported 
 Cases,Cumulative,WHO,SRB,2021-04-05,6974289,cross,617669,8856.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,SSD,2021-04-05,10984074,cross,10281,93.6,Cumulative Cases reported 
@@ -2590,7 +2590,7 @@ Deaths,14 days,JHU,TZA,2021-04-05,62092761,cross,0,0,Deaths reported in the past
 Deaths,14 days,JHU,UGA,2021-04-05,44712143,cross,1,0,Deaths reported in the past 14 days
 Deaths,14 days,JHU,UKR,2021-04-05,43745640,cross,4578,10.5,Deaths reported in the past 14 days
 Deaths,14 days,JHU,URY,2021-04-05,3398239,cross,335,9.9,Deaths reported in the past 14 days
-Deaths,14 days,JHU,USA,2021-04-05,334998398,cross,12386,3.7,Deaths reported in the past 14 days
+Deaths,14 days,JHU,USA,2021-04-05,334998398,cross,12391,3.7,Deaths reported in the past 14 days
 Deaths,14 days,JHU,UZB,2021-04-05,30842796,cross,9,0,Deaths reported in the past 14 days
 Deaths,14 days,JHU,VAT,2021-04-05,1000,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,JHU,VCT,2021-04-05,101145,cross,1,1,Deaths reported in the past 14 days
@@ -2610,7 +2610,7 @@ Deaths,14 days,WHO,ABW,2021-04-05,120917,cross,5,4.1,Deaths reported in the past
 Deaths,14 days,WHO,AFG,2021-04-05,37466414,cross,44,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,AGO,2021-04-05,33642646,cross,15,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,AIA,2021-04-05,18403,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,ALB,2021-04-05,3088385,cross,119,3.9,Deaths reported in the past 14 days
+Deaths,14 days,WHO,ALB,2021-04-05,3088385,cross,128,4.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,AND,2021-04-05,85645,cross,4,4.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ARE,2021-04-05,9856612,cross,72,0.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ARG,2021-04-05,45864941,cross,1589,3.5,Deaths reported in the past 14 days
@@ -2621,7 +2621,7 @@ Deaths,14 days,WHO,AUS,2021-04-05,25809973,cross,0,0,Deaths reported in the past
 Deaths,14 days,WHO,AUT,2021-04-05,8884864,cross,353,4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,AZE,2021-04-05,10282283,cross,326,3.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,BDI,2021-04-05,12241065,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,BEL,2021-04-05,11778842,cross,414,3.5,Deaths reported in the past 14 days
+Deaths,14 days,WHO,BEL,2021-04-05,11778842,cross,440,3.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,BEN,2021-04-05,13301694,cross,3,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,BES,2021-04-05,0,cross,5,,Deaths reported in the past 14 days
 Deaths,14 days,WHO,BFA,2021-04-05,21382659,cross,5,0,Deaths reported in the past 14 days
@@ -2660,7 +2660,7 @@ Deaths,14 days,WHO,CYM,2021-04-05,63131,cross,0,0,Deaths reported in the past 14
 Deaths,14 days,WHO,CYP,2021-04-05,1281506,cross,18,1.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CZE,2021-04-05,10702596,cross,2247,21,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DEU,2021-04-05,79903481,cross,2299,2.9,Deaths reported in the past 14 days
-Deaths,14 days,WHO,DJI,2021-04-05,938413,cross,16,1.7,Deaths reported in the past 14 days
+Deaths,14 days,WHO,DJI,2021-04-05,938413,cross,12,1.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DMA,2021-04-05,74584,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DNK,2021-04-05,5894687,cross,29,0.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DOM,2021-04-05,10597348,cross,74,0.7,Deaths reported in the past 14 days
@@ -2668,7 +2668,7 @@ Deaths,14 days,WHO,DZA,2021-04-05,43576691,cross,45,0.1,Deaths reported in the p
 Deaths,14 days,WHO,ECU,2021-04-05,17093159,cross,505,3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,EGY,2021-04-05,106437241,cross,565,0.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ERI,2021-04-05,6147398,cross,3,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,ESP,2021-04-05,47260584,cross,350,0.7,Deaths reported in the past 14 days
+Deaths,14 days,WHO,ESP,2021-04-05,47260584,cross,552,1.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,EST,2021-04-05,1220042,cross,153,12.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ETH,2021-04-05,110871031,cross,304,0.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,FIN,2021-04-05,5587442,cross,41,0.7,Deaths reported in the past 14 days
@@ -2699,7 +2699,7 @@ Deaths,14 days,WHO,HKG,2021-04-05,7263234,cross,0,0,Deaths reported in the past 
 Deaths,14 days,WHO,HND,2021-04-05,9346277,cross,210,2.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,HRV,2021-04-05,4208973,cross,297,7.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,HTI,2021-04-05,11198240,cross,1,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,HUN,2021-04-05,9728337,cross,3264,33.6,Deaths reported in the past 14 days
+Deaths,14 days,WHO,HUN,2021-04-05,9728337,cross,3477,35.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,IDN,2021-04-05,275122131,cross,2119,0.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,IMN,2021-04-05,90895,cross,3,3.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,IND,2021-04-05,1339330514,cross,5134,0.4,Deaths reported in the past 14 days
@@ -2707,7 +2707,7 @@ Deaths,14 days,WHO,IRL,2021-04-05,5224884,cross,131,2.5,Deaths reported in the p
 Deaths,14 days,WHO,IRN,2021-04-05,85888910,cross,1363,1.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,IRQ,2021-04-05,39650145,cross,456,1.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ISL,2021-04-05,354234,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,ISR,2021-04-05,8787045,cross,134,1.5,Deaths reported in the past 14 days
+Deaths,14 days,WHO,ISR,2021-04-05,8787045,cross,143,1.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ITA,2021-04-05,62390364,cross,6088,9.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,JAM,2021-04-05,2816602,cross,82,2.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,JEY,2021-04-05,101476,cross,0,0,Deaths reported in the past 14 days
@@ -2731,7 +2731,7 @@ Deaths,14 days,WHO,LKA,2021-04-05,23044123,cross,35,0.2,Deaths reported in the p
 Deaths,14 days,WHO,LSO,2021-04-05,2177740,cross,6,0.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LTU,2021-04-05,2711566,cross,129,4.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LUX,2021-04-05,639589,cross,37,5.8,Deaths reported in the past 14 days
-Deaths,14 days,WHO,LVA,2021-04-05,1862687,cross,108,5.8,Deaths reported in the past 14 days
+Deaths,14 days,WHO,LVA,2021-04-05,1862687,cross,105,5.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MAC,2021-04-05,630396,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MAF,2021-04-05,0,cross,1,,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MAR,2021-04-05,36561813,cross,83,0.2,Deaths reported in the past 14 days
@@ -2762,7 +2762,7 @@ Deaths,14 days,WHO,NER,2021-04-05,23605767,cross,3,0,Deaths reported in the past
 Deaths,14 days,WHO,NGA,2021-04-05,219463862,cross,28,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NIC,2021-04-05,6243931,cross,2,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NIU,2021-04-05,2000,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,NLD,2021-04-05,17337403,cross,350,2,Deaths reported in the past 14 days
+Deaths,14 days,WHO,NLD,2021-04-05,17337403,cross,349,2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NOR,2021-04-05,5509591,cross,25,0.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NPL,2021-04-05,30424878,cross,16,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NRU,2021-04-05,9770,cross,0,0,Deaths reported in the past 14 days
@@ -2796,7 +2796,7 @@ Deaths,14 days,WHO,SLB,2021-04-05,690598,cross,0,0,Deaths reported in the past 1
 Deaths,14 days,WHO,SLE,2021-04-05,6807277,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SLV,2021-04-05,6528135,cross,46,0.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SMR,2021-04-05,34467,cross,5,14.5,Deaths reported in the past 14 days
-Deaths,14 days,WHO,SOM,2021-04-05,12094640,cross,139,1.1,Deaths reported in the past 14 days
+Deaths,14 days,WHO,SOM,2021-04-05,12094640,cross,128,1.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SPM,2021-04-05,5321,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SRB,2021-04-05,6974289,cross,524,7.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SSD,2021-04-05,10984074,cross,7,0.1,Deaths reported in the past 14 days
@@ -3064,7 +3064,7 @@ Deaths,24 hours,JHU,TZA,2021-04-05,62092761,cross,0,0,Deaths reported in the pas
 Deaths,24 hours,JHU,UGA,2021-04-05,44712143,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,JHU,UKR,2021-04-05,43745640,cross,261,0.6,Deaths reported in the past 24 hours
 Deaths,24 hours,JHU,URY,2021-04-05,3398239,cross,45,1.3,Deaths reported in the past 24 hours
-Deaths,24 hours,JHU,USA,2021-04-05,334998398,cross,607,0.2,Deaths reported in the past 24 hours
+Deaths,24 hours,JHU,USA,2021-04-05,334998398,cross,612,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,JHU,UZB,2021-04-05,30842796,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,JHU,VAT,2021-04-05,1000,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,JHU,VCT,2021-04-05,101145,cross,0,0,Deaths reported in the past 24 hours
@@ -3084,7 +3084,7 @@ Deaths,24 hours,WHO,ABW,2021-04-05,120917,cross,0,0,Deaths reported in the past 
 Deaths,24 hours,WHO,AFG,2021-04-05,37466414,cross,11,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,AGO,2021-04-05,33642646,cross,2,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,AIA,2021-04-05,18403,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,ALB,2021-04-05,3088385,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,ALB,2021-04-05,3088385,cross,9,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,AND,2021-04-05,85645,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ARE,2021-04-05,9856612,cross,6,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ARG,2021-04-05,45864941,cross,83,0.2,Deaths reported in the past 24 hours
@@ -3095,7 +3095,7 @@ Deaths,24 hours,WHO,AUS,2021-04-05,25809973,cross,0,0,Deaths reported in the pas
 Deaths,24 hours,WHO,AUT,2021-04-05,8884864,cross,24,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,AZE,2021-04-05,10282283,cross,29,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,BDI,2021-04-05,12241065,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,BEL,2021-04-05,11778842,cross,7,0.1,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,BEL,2021-04-05,11778842,cross,33,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,BEN,2021-04-05,13301694,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,BES,2021-04-05,0,cross,0,,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,BFA,2021-04-05,21382659,cross,0,0,Deaths reported in the past 24 hours
@@ -3142,7 +3142,7 @@ Deaths,24 hours,WHO,DZA,2021-04-05,43576691,cross,0,0,Deaths reported in the pas
 Deaths,24 hours,WHO,ECU,2021-04-05,17093159,cross,46,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,EGY,2021-04-05,106437241,cross,40,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ERI,2021-04-05,6147398,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,ESP,2021-04-05,47260584,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,ESP,2021-04-05,47260584,cross,25,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,EST,2021-04-05,1220042,cross,9,0.7,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ETH,2021-04-05,110871031,cross,27,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,FIN,2021-04-05,5587442,cross,0,0,Deaths reported in the past 24 hours
@@ -3173,7 +3173,7 @@ Deaths,24 hours,WHO,HKG,2021-04-05,7263234,cross,0,0,Deaths reported in the past
 Deaths,24 hours,WHO,HND,2021-04-05,9346277,cross,18,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,HRV,2021-04-05,4208973,cross,25,0.6,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,HTI,2021-04-05,11198240,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,HUN,2021-04-05,9728337,cross,211,2.2,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,HUN,2021-04-05,9728337,cross,213,2.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,IDN,2021-04-05,275122131,cross,427,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,IMN,2021-04-05,90895,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,IND,2021-04-05,1339330514,cross,478,0,Deaths reported in the past 24 hours
@@ -3181,7 +3181,7 @@ Deaths,24 hours,WHO,IRL,2021-04-05,5224884,cross,3,0.1,Deaths reported in the pa
 Deaths,24 hours,WHO,IRN,2021-04-05,85888910,cross,161,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,IRQ,2021-04-05,39650145,cross,33,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ISL,2021-04-05,354234,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,ISR,2021-04-05,8787045,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,ISR,2021-04-05,8787045,cross,7,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ITA,2021-04-05,62390364,cross,326,0.5,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,JAM,2021-04-05,2816602,cross,2,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,JEY,2021-04-05,101476,cross,0,0,Deaths reported in the past 24 hours
@@ -3205,7 +3205,7 @@ Deaths,24 hours,WHO,LKA,2021-04-05,23044123,cross,6,0,Deaths reported in the pas
 Deaths,24 hours,WHO,LSO,2021-04-05,2177740,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LTU,2021-04-05,2711566,cross,6,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LUX,2021-04-05,639589,cross,5,0.8,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,LVA,2021-04-05,1862687,cross,11,0.6,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,LVA,2021-04-05,1862687,cross,8,0.4,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MAC,2021-04-05,630396,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MAF,2021-04-05,0,cross,0,,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MAR,2021-04-05,36561813,cross,8,0,Deaths reported in the past 24 hours
@@ -3277,7 +3277,7 @@ Deaths,24 hours,WHO,SSD,2021-04-05,10984074,cross,1,0,Deaths reported in the pas
 Deaths,24 hours,WHO,STP,2021-04-05,213948,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SUR,2021-04-05,614749,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SVK,2021-04-05,5436066,cross,69,1.3,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,SVN,2021-04-05,2102106,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,SVN,2021-04-05,2102106,cross,1,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SWE,2021-04-05,10261767,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SWZ,2021-04-05,1113276,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SXM,2021-04-05,44564,cross,0,0,Deaths reported in the past 24 hours
@@ -3538,7 +3538,7 @@ Deaths,30 days,JHU,TZA,2021-04-05,62092761,cross,0,0,Deaths reported in the past
 Deaths,30 days,JHU,UGA,2021-04-05,44712143,cross,1,0,Deaths reported in the past 30 days
 Deaths,30 days,JHU,UKR,2021-04-05,43745640,cross,7863,18,Deaths reported in the past 30 days
 Deaths,30 days,JHU,URY,2021-04-05,3398239,cross,501,14.7,Deaths reported in the past 30 days
-Deaths,30 days,JHU,USA,2021-04-05,334998398,cross,30234,9,Deaths reported in the past 30 days
+Deaths,30 days,JHU,USA,2021-04-05,334998398,cross,30239,9,Deaths reported in the past 30 days
 Deaths,30 days,JHU,UZB,2021-04-05,30842796,cross,9,0,Deaths reported in the past 30 days
 Deaths,30 days,JHU,VAT,2021-04-05,1000,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,JHU,VCT,2021-04-05,101145,cross,2,2,Deaths reported in the past 30 days
@@ -3558,7 +3558,7 @@ Deaths,30 days,WHO,ABW,2021-04-05,120917,cross,11,9.1,Deaths reported in the pas
 Deaths,30 days,WHO,AFG,2021-04-05,37466414,cross,59,0.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,AGO,2021-04-05,33642646,cross,31,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,AIA,2021-04-05,18403,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,ALB,2021-04-05,3088385,cross,359,11.6,Deaths reported in the past 30 days
+Deaths,30 days,WHO,ALB,2021-04-05,3088385,cross,368,11.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,AND,2021-04-05,85645,cross,5,5.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ARE,2021-04-05,9856612,cross,214,2.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ARG,2021-04-05,45864941,cross,3322,7.2,Deaths reported in the past 30 days
@@ -3569,7 +3569,7 @@ Deaths,30 days,WHO,AUS,2021-04-05,25809973,cross,0,0,Deaths reported in the past
 Deaths,30 days,WHO,AUT,2021-04-05,8884864,cross,676,7.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,AZE,2021-04-05,10282283,cross,442,4.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,BDI,2021-04-05,12241065,cross,3,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,BEL,2021-04-05,11778842,cross,814,6.9,Deaths reported in the past 30 days
+Deaths,30 days,WHO,BEL,2021-04-05,11778842,cross,840,7.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,BEN,2021-04-05,13301694,cross,18,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,BES,2021-04-05,0,cross,6,,Deaths reported in the past 30 days
 Deaths,30 days,WHO,BFA,2021-04-05,21382659,cross,7,0,Deaths reported in the past 30 days
@@ -3608,7 +3608,7 @@ Deaths,30 days,WHO,CYM,2021-04-05,63131,cross,0,0,Deaths reported in the past 30
 Deaths,30 days,WHO,CYP,2021-04-05,1281506,cross,29,2.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CZE,2021-04-05,10702596,cross,5499,51.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DEU,2021-04-05,79903481,cross,5209,6.5,Deaths reported in the past 30 days
-Deaths,30 days,WHO,DJI,2021-04-05,938413,cross,17,1.8,Deaths reported in the past 30 days
+Deaths,30 days,WHO,DJI,2021-04-05,938413,cross,13,1.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DMA,2021-04-05,74584,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DNK,2021-04-05,5894687,cross,52,0.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DOM,2021-04-05,10597348,cross,196,1.8,Deaths reported in the past 30 days
@@ -3616,7 +3616,7 @@ Deaths,30 days,WHO,DZA,2021-04-05,43576691,cross,95,0.2,Deaths reported in the p
 Deaths,30 days,WHO,ECU,2021-04-05,17093159,cross,959,5.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,EGY,2021-04-05,106437241,cross,1247,1.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ERI,2021-04-05,6147398,cross,3,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,ESP,2021-04-05,47260584,cross,1668,3.5,Deaths reported in the past 30 days
+Deaths,30 days,WHO,ESP,2021-04-05,47260584,cross,1906,4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,EST,2021-04-05,1220042,cross,306,25.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ETH,2021-04-05,110871031,cross,559,0.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,FIN,2021-04-05,5587442,cross,79,1.4,Deaths reported in the past 30 days
@@ -3647,7 +3647,7 @@ Deaths,30 days,WHO,HKG,2021-04-05,7263234,cross,0,0,Deaths reported in the past 
 Deaths,30 days,WHO,HND,2021-04-05,9346277,cross,409,4.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,HRV,2021-04-05,4208973,cross,498,11.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,HTI,2021-04-05,11198240,cross,2,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,HUN,2021-04-05,9728337,cross,5950,61.2,Deaths reported in the past 30 days
+Deaths,30 days,WHO,HUN,2021-04-05,9728337,cross,6163,63.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,IDN,2021-04-05,275122131,cross,4643,1.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,IMN,2021-04-05,90895,cross,4,4.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,IND,2021-04-05,1339330514,cross,7445,0.6,Deaths reported in the past 30 days
@@ -3655,7 +3655,7 @@ Deaths,30 days,WHO,IRL,2021-04-05,5224884,cross,313,6,Deaths reported in the pas
 Deaths,30 days,WHO,IRN,2021-04-05,85888910,cross,2648,3.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,IRQ,2021-04-05,39650145,cross,926,2.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ISL,2021-04-05,354234,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,ISR,2021-04-05,8787045,cross,388,4.4,Deaths reported in the past 30 days
+Deaths,30 days,WHO,ISR,2021-04-05,8787045,cross,397,4.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ITA,2021-04-05,62390364,cross,11759,18.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,JAM,2021-04-05,2816602,cross,172,6.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,JEY,2021-04-05,101476,cross,0,0,Deaths reported in the past 30 days
@@ -3679,7 +3679,7 @@ Deaths,30 days,WHO,LKA,2021-04-05,23044123,cross,88,0.4,Deaths reported in the p
 Deaths,30 days,WHO,LSO,2021-04-05,2177740,cross,8,0.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LTU,2021-04-05,2711566,cross,294,10.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LUX,2021-04-05,639589,cross,103,16.1,Deaths reported in the past 30 days
-Deaths,30 days,WHO,LVA,2021-04-05,1862687,cross,254,13.6,Deaths reported in the past 30 days
+Deaths,30 days,WHO,LVA,2021-04-05,1862687,cross,251,13.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MAC,2021-04-05,630396,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MAF,2021-04-05,0,cross,1,,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MAR,2021-04-05,36561813,cross,177,0.5,Deaths reported in the past 30 days
@@ -3710,7 +3710,7 @@ Deaths,30 days,WHO,NER,2021-04-05,23605767,cross,16,0.1,Deaths reported in the p
 Deaths,30 days,WHO,NGA,2021-04-05,219463862,cross,104,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NIC,2021-04-05,6243931,cross,4,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NIU,2021-04-05,2000,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,NLD,2021-04-05,17337403,cross,865,5,Deaths reported in the past 30 days
+Deaths,30 days,WHO,NLD,2021-04-05,17337403,cross,864,5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NOR,2021-04-05,5509591,cross,41,0.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NPL,2021-04-05,30424878,cross,22,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NRU,2021-04-05,9770,cross,0,0,Deaths reported in the past 30 days
@@ -3744,7 +3744,7 @@ Deaths,30 days,WHO,SLB,2021-04-05,690598,cross,0,0,Deaths reported in the past 3
 Deaths,30 days,WHO,SLE,2021-04-05,6807277,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SLV,2021-04-05,6528135,cross,131,2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SMR,2021-04-05,34467,cross,8,23.2,Deaths reported in the past 30 days
-Deaths,30 days,WHO,SOM,2021-04-05,12094640,cross,294,2.4,Deaths reported in the past 30 days
+Deaths,30 days,WHO,SOM,2021-04-05,12094640,cross,283,2.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SPM,2021-04-05,5321,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SRB,2021-04-05,6974289,cross,933,13.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SSD,2021-04-05,10984074,cross,13,0.1,Deaths reported in the past 30 days
@@ -4012,7 +4012,7 @@ Deaths,7 days,JHU,TZA,2021-04-05,62092761,cross,0,0,Deaths reported in the past 
 Deaths,7 days,JHU,UGA,2021-04-05,44712143,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,JHU,UKR,2021-04-05,43745640,cross,2503,5.7,Deaths reported in the past 7 days
 Deaths,7 days,JHU,URY,2021-04-05,3398239,cross,218,6.4,Deaths reported in the past 7 days
-Deaths,7 days,JHU,USA,2021-04-05,334998398,cross,5453,1.6,Deaths reported in the past 7 days
+Deaths,7 days,JHU,USA,2021-04-05,334998398,cross,5458,1.6,Deaths reported in the past 7 days
 Deaths,7 days,JHU,UZB,2021-04-05,30842796,cross,5,0,Deaths reported in the past 7 days
 Deaths,7 days,JHU,VAT,2021-04-05,1000,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,JHU,VCT,2021-04-05,101145,cross,0,0,Deaths reported in the past 7 days
@@ -4032,7 +4032,7 @@ Deaths,7 days,WHO,ABW,2021-04-05,120917,cross,4,3.3,Deaths reported in the past 
 Deaths,7 days,WHO,AFG,2021-04-05,37466414,cross,36,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,AGO,2021-04-05,33642646,cross,9,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,AIA,2021-04-05,18403,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,ALB,2021-04-05,3088385,cross,46,1.5,Deaths reported in the past 7 days
+Deaths,7 days,WHO,ALB,2021-04-05,3088385,cross,55,1.8,Deaths reported in the past 7 days
 Deaths,7 days,WHO,AND,2021-04-05,85645,cross,2,2.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ARE,2021-04-05,9856612,cross,29,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ARG,2021-04-05,45864941,cross,738,1.6,Deaths reported in the past 7 days
@@ -4043,7 +4043,7 @@ Deaths,7 days,WHO,AUS,2021-04-05,25809973,cross,0,0,Deaths reported in the past 
 Deaths,7 days,WHO,AUT,2021-04-05,8884864,cross,183,2.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,AZE,2021-04-05,10282283,cross,186,1.8,Deaths reported in the past 7 days
 Deaths,7 days,WHO,BDI,2021-04-05,12241065,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,BEL,2021-04-05,11778842,cross,225,1.9,Deaths reported in the past 7 days
+Deaths,7 days,WHO,BEL,2021-04-05,11778842,cross,251,2.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,BEN,2021-04-05,13301694,cross,3,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,BES,2021-04-05,0,cross,1,,Deaths reported in the past 7 days
 Deaths,7 days,WHO,BFA,2021-04-05,21382659,cross,5,0,Deaths reported in the past 7 days
@@ -4082,7 +4082,7 @@ Deaths,7 days,WHO,CYM,2021-04-05,63131,cross,0,0,Deaths reported in the past 7 d
 Deaths,7 days,WHO,CYP,2021-04-05,1281506,cross,9,0.7,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CZE,2021-04-05,10702596,cross,1021,9.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DEU,2021-04-05,79903481,cross,1100,1.4,Deaths reported in the past 7 days
-Deaths,7 days,WHO,DJI,2021-04-05,938413,cross,13,1.4,Deaths reported in the past 7 days
+Deaths,7 days,WHO,DJI,2021-04-05,938413,cross,9,1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DMA,2021-04-05,74584,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DNK,2021-04-05,5894687,cross,15,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DOM,2021-04-05,10597348,cross,42,0.4,Deaths reported in the past 7 days
@@ -4090,7 +4090,7 @@ Deaths,7 days,WHO,DZA,2021-04-05,43576691,cross,22,0.1,Deaths reported in the pa
 Deaths,7 days,WHO,ECU,2021-04-05,17093159,cross,218,1.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,EGY,2021-04-05,106437241,cross,281,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ERI,2021-04-05,6147398,cross,1,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,ESP,2021-04-05,47260584,cross,40,0.1,Deaths reported in the past 7 days
+Deaths,7 days,WHO,ESP,2021-04-05,47260584,cross,214,0.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,EST,2021-04-05,1220042,cross,71,5.8,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ETH,2021-04-05,110871031,cross,162,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,FIN,2021-04-05,5587442,cross,29,0.5,Deaths reported in the past 7 days
@@ -4121,7 +4121,7 @@ Deaths,7 days,WHO,HKG,2021-04-05,7263234,cross,0,0,Deaths reported in the past 7
 Deaths,7 days,WHO,HND,2021-04-05,9346277,cross,83,0.9,Deaths reported in the past 7 days
 Deaths,7 days,WHO,HRV,2021-04-05,4208973,cross,172,4.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,HTI,2021-04-05,11198240,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,HUN,2021-04-05,9728337,cross,1554,16,Deaths reported in the past 7 days
+Deaths,7 days,WHO,HUN,2021-04-05,9728337,cross,1767,18.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,IDN,2021-04-05,275122131,cross,1220,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,IMN,2021-04-05,90895,cross,3,3.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,IND,2021-04-05,1339330514,cross,3258,0.2,Deaths reported in the past 7 days
@@ -4129,7 +4129,7 @@ Deaths,7 days,WHO,IRL,2021-04-05,5224884,cross,52,1,Deaths reported in the past 
 Deaths,7 days,WHO,IRN,2021-04-05,85888910,cross,763,0.9,Deaths reported in the past 7 days
 Deaths,7 days,WHO,IRQ,2021-04-05,39650145,cross,251,0.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ISL,2021-04-05,354234,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,ISR,2021-04-05,8787045,cross,54,0.6,Deaths reported in the past 7 days
+Deaths,7 days,WHO,ISR,2021-04-05,8787045,cross,63,0.7,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ITA,2021-04-05,62390364,cross,3097,5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,JAM,2021-04-05,2816602,cross,45,1.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,JEY,2021-04-05,101476,cross,0,0,Deaths reported in the past 7 days
@@ -4153,7 +4153,7 @@ Deaths,7 days,WHO,LKA,2021-04-05,23044123,cross,20,0.1,Deaths reported in the pa
 Deaths,7 days,WHO,LSO,2021-04-05,2177740,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LTU,2021-04-05,2711566,cross,55,2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LUX,2021-04-05,639589,cross,17,2.7,Deaths reported in the past 7 days
-Deaths,7 days,WHO,LVA,2021-04-05,1862687,cross,56,3,Deaths reported in the past 7 days
+Deaths,7 days,WHO,LVA,2021-04-05,1862687,cross,53,2.8,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MAC,2021-04-05,630396,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MAF,2021-04-05,0,cross,1,,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MAR,2021-04-05,36561813,cross,52,0.1,Deaths reported in the past 7 days
@@ -4184,7 +4184,7 @@ Deaths,7 days,WHO,NER,2021-04-05,23605767,cross,3,0,Deaths reported in the past 
 Deaths,7 days,WHO,NGA,2021-04-05,219463862,cross,10,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NIC,2021-04-05,6243931,cross,1,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NIU,2021-04-05,2000,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,NLD,2021-04-05,17337403,cross,161,0.9,Deaths reported in the past 7 days
+Deaths,7 days,WHO,NLD,2021-04-05,17337403,cross,160,0.9,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NOR,2021-04-05,5509591,cross,17,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NPL,2021-04-05,30424878,cross,5,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NRU,2021-04-05,9770,cross,0,0,Deaths reported in the past 7 days
@@ -4218,7 +4218,7 @@ Deaths,7 days,WHO,SLB,2021-04-05,690598,cross,0,0,Deaths reported in the past 7 
 Deaths,7 days,WHO,SLE,2021-04-05,6807277,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SLV,2021-04-05,6528135,cross,27,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SMR,2021-04-05,34467,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,SOM,2021-04-05,12094640,cross,72,0.6,Deaths reported in the past 7 days
+Deaths,7 days,WHO,SOM,2021-04-05,12094640,cross,61,0.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SPM,2021-04-05,5321,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SRB,2021-04-05,6974289,cross,268,3.8,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SSD,2021-04-05,10984074,cross,5,0,Deaths reported in the past 7 days
@@ -4486,7 +4486,7 @@ Deaths,Cumulative,JHU,TZA,2021-04-05,62092761,cross,21,0,Cumulative Deaths repor
 Deaths,Cumulative,JHU,UGA,2021-04-05,44712143,cross,335,0.7,Cumulative Deaths reported 
 Deaths,Cumulative,JHU,UKR,2021-04-05,43745640,cross,36255,82.9,Cumulative Deaths reported 
 Deaths,Cumulative,JHU,URY,2021-04-05,3398239,cross,1146,33.7,Cumulative Deaths reported 
-Deaths,Cumulative,JHU,USA,2021-04-05,334998398,cross,555608,165.9,Cumulative Deaths reported 
+Deaths,Cumulative,JHU,USA,2021-04-05,334998398,cross,555613,165.9,Cumulative Deaths reported 
 Deaths,Cumulative,JHU,UZB,2021-04-05,30842796,cross,631,2,Cumulative Deaths reported 
 Deaths,Cumulative,JHU,VAT,2021-04-05,1000,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,JHU,VCT,2021-04-05,101145,cross,10,9.9,Cumulative Deaths reported 
@@ -4506,7 +4506,7 @@ Deaths,Cumulative,WHO,ABW,2021-04-05,120917,cross,86,71.1,Cumulative Deaths repo
 Deaths,Cumulative,WHO,AFG,2021-04-05,37466414,cross,2508,6.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,AGO,2021-04-05,33642646,cross,542,1.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,AIA,2021-04-05,18403,cross,0,0,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,ALB,2021-04-05,3088385,cross,2256,73,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,ALB,2021-04-05,3088385,cross,2265,73.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,AND,2021-04-05,85645,cross,117,136.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ARE,2021-04-05,9856612,cross,1510,15.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ARG,2021-04-05,45864941,cross,56106,122.3,Cumulative Deaths reported 
@@ -4517,7 +4517,7 @@ Deaths,Cumulative,WHO,AUS,2021-04-05,25809973,cross,909,3.5,Cumulative Deaths re
 Deaths,Cumulative,WHO,AUT,2021-04-05,8884864,cross,9189,103.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,AZE,2021-04-05,10282283,cross,3677,35.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,BDI,2021-04-05,12241065,cross,6,0,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,BEL,2021-04-05,11778842,cross,23169,196.7,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,BEL,2021-04-05,11778842,cross,23195,196.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,BEN,2021-04-05,13301694,cross,93,0.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,BES,2021-04-05,0,cross,11,,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,BFA,2021-04-05,21382659,cross,150,0.7,Cumulative Deaths reported 
@@ -4556,7 +4556,7 @@ Deaths,Cumulative,WHO,CYM,2021-04-05,63131,cross,2,3.2,Cumulative Deaths reporte
 Deaths,Cumulative,WHO,CYP,2021-04-05,1281506,cross,261,20.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CZE,2021-04-05,10702596,cross,27057,252.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DEU,2021-04-05,79903481,cross,77013,96.4,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,DJI,2021-04-05,938413,cross,80,8.5,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,DJI,2021-04-05,938413,cross,76,8.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DMA,2021-04-05,74584,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DNK,2021-04-05,5894687,cross,2429,41.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DOM,2021-04-05,10597348,cross,3346,31.6,Cumulative Deaths reported 
@@ -4564,7 +4564,7 @@ Deaths,Cumulative,WHO,DZA,2021-04-05,43576691,cross,3102,7.1,Cumulative Deaths r
 Deaths,Cumulative,WHO,ECU,2021-04-05,17093159,cross,16956,99.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,EGY,2021-04-05,106437241,cross,12163,11.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ERI,2021-04-05,6147398,cross,10,0.2,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,ESP,2021-04-05,47260584,cross,75541,159.8,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,ESP,2021-04-05,47260584,cross,75773,160.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,EST,2021-04-05,1220042,cross,950,77.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ETH,2021-04-05,110871031,cross,2963,2.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,FIN,2021-04-05,5587442,cross,846,15.1,Cumulative Deaths reported 
@@ -4595,7 +4595,7 @@ Deaths,Cumulative,WHO,HKG,2021-04-05,7263234,cross,0,0,Cumulative Deaths reporte
 Deaths,Cumulative,WHO,HND,2021-04-05,9346277,cross,4640,49.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,HRV,2021-04-05,4208973,cross,6083,144.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,HTI,2021-04-05,11198240,cross,252,2.3,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,HUN,2021-04-05,9728337,cross,21715,223.2,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,HUN,2021-04-05,9728337,cross,21928,225.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,IDN,2021-04-05,275122131,cross,41669,15.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,IMN,2021-04-05,90895,cross,29,31.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,IND,2021-04-05,1339330514,cross,165101,12.3,Cumulative Deaths reported 
@@ -4603,7 +4603,7 @@ Deaths,Cumulative,WHO,IRL,2021-04-05,5224884,cross,4718,90.3,Cumulative Deaths r
 Deaths,Cumulative,WHO,IRN,2021-04-05,85888910,cross,63160,73.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,IRQ,2021-04-05,39650145,cross,14463,36.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ISL,2021-04-05,354234,cross,29,8.2,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,ISR,2021-04-05,8787045,cross,6231,70.9,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,ISR,2021-04-05,8787045,cross,6240,71,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ITA,2021-04-05,62390364,cross,111030,178,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,JAM,2021-04-05,2816602,cross,615,21.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,JEY,2021-04-05,101476,cross,69,68,Cumulative Deaths reported 
@@ -4627,7 +4627,7 @@ Deaths,Cumulative,WHO,LKA,2021-04-05,23044123,cross,581,2.5,Cumulative Deaths re
 Deaths,Cumulative,WHO,LSO,2021-04-05,2177740,cross,315,14.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LTU,2021-04-05,2711566,cross,3615,133.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LUX,2021-04-05,639589,cross,755,118,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,LVA,2021-04-05,1862687,cross,1934,103.8,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,LVA,2021-04-05,1862687,cross,1931,103.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MAC,2021-04-05,630396,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MAF,2021-04-05,0,cross,13,,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MAR,2021-04-05,36561813,cross,8850,24.2,Cumulative Deaths reported 
@@ -4658,7 +4658,7 @@ Deaths,Cumulative,WHO,NER,2021-04-05,23605767,cross,188,0.8,Cumulative Deaths re
 Deaths,Cumulative,WHO,NGA,2021-04-05,219463862,cross,2058,0.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NIC,2021-04-05,6243931,cross,178,2.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NIU,2021-04-05,2000,cross,0,0,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,NLD,2021-04-05,17337403,cross,16622,95.9,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,NLD,2021-04-05,17337403,cross,16621,95.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NOR,2021-04-05,5509591,cross,673,12.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NPL,2021-04-05,30424878,cross,3032,10,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NRU,2021-04-05,9770,cross,0,0,Cumulative Deaths reported 
@@ -4692,7 +4692,7 @@ Deaths,Cumulative,WHO,SLB,2021-04-05,690598,cross,0,0,Cumulative Deaths reported
 Deaths,Cumulative,WHO,SLE,2021-04-05,6807277,cross,79,1.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SLV,2021-04-05,6528135,cross,2025,31,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SMR,2021-04-05,34467,cross,84,243.7,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,SOM,2021-04-05,12094640,cross,568,4.7,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,SOM,2021-04-05,12094640,cross,557,4.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SPM,2021-04-05,5321,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SRB,2021-04-05,6974289,cross,5458,78.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SSD,2021-04-05,10984074,cross,113,1,Cumulative Deaths reported 
