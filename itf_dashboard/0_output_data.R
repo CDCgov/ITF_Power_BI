@@ -81,3 +81,9 @@ write.csv(vax_dict$manufacturers, paste0(output.dir, "vaccinations_manufacturers
 write.csv(vax_dict$rollout, paste0(output.dir, "vaccinations_rollout.csv"), na="", row.names=FALSE)
 write.csv(vax_dict$categories, paste0(output.dir, "vaccinations_categories.csv"), na="", row.names=FALSE)
 
+# overlay data
+fun_overlay <- dget(paste0(rfunctions.dir, "get_country_overlays.R"))
+overlay_dict <- fun_overlay(rfunctions.dir)
+write.csv(overlay_dict$cases_deaths, paste0(output.dir, "overlay_cases_deaths.csv"), na="", row.names=FALSE)
+write.csv(overlay_dict$stringency, paste0(output.dir, "overlay_stringency.csv"), na="", row.names=FALSE)
+write.csv(overlay_dict$mobility, paste0(output.dir, "overlay_mobility.csv"), na="", row.names=FALSE)
