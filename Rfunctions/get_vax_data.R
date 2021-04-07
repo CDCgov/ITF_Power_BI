@@ -104,7 +104,7 @@ function() {
   vax_all.long$data_field <- map_data_field[vax_all.long$raw_field]
   vax_all.long$data_suffix <- map_data_suffix[vax_all.long$raw_field]
   vax_all.long$count_or_rate <- map_count_or_rate[vax_all.long$raw_field]
-  vax_all.long$iso_date_match <- paste(vax_all.long$iso_code, vax_all.long$date, sep="_")
+  vax_all.long$ou_date_match <- paste(vax_all.long$iso_code, vax_all.long$date, sep="_")
 
   count_vaccinated_filter <- function(df) { return(df$raw_field == "total_vaccinations" | df$raw_field == "people_vaccinated" | df$raw_field == "people_fully_vaccinated")}
   count_vaccinated_breaks <- c(0,1e3,1e4,1e5,1e6,1e7,Inf)
