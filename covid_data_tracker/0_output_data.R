@@ -59,6 +59,7 @@ cross_dfx_complete<-cross_dfx %>%
   #re-order names
   select(names(cross_dfx))
 
+# Create time interval data
 cross_cases_deaths <- cross_dfx_complete %>%
   mutate(periodvalx = case_when(
     periodval %in% c("24 hours") ~ "x1",
