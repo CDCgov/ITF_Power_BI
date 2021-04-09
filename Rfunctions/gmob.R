@@ -71,7 +71,7 @@ function(rfunctions.dir){
   
   ## read in Johns Hopkins Data
   #Import Country Time Series
-  df <- fun_frame() %>% 
+  df <- fun_frame(rfunctions.dir) %>% 
     select(iso2code, iso3code) %>% unique()
 
   gmob1 <- gmob %>% 

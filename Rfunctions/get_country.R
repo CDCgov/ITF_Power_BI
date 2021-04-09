@@ -1,45 +1,29 @@
-# Code for CDC Tracker Power BI file
-# this code is called by R scripts that are run in a Power Query that feeds into a Power BI Report
-# all packages must already be installed on the version of R that is called by Power BI
-# it reads in exclusively public data sets and returns a  data frame with standardized country-level identifies by iso3code
+#' Code for CDC Tracker Power BI file
+#' This function reads in exclusively public data
+#' @param functions.dir The directory where the other code resides
+#' @return A dataframe of country metadata with standardized country-level identifiers by iso3code
 
-function(){
+function(functions.dir){
   
   # Creating the 'not in' function
-  `%ni%` <- Negate(`%in%`) 
+  `%ni%` <- Negate(`%in%`)
   
   # Pulling in the load package function R file
   # Load function to install list of packages
-  ldpkg <- function(x){
-    for( i in x ){
-      #  require returns TRUE invisibly if it was able to load package
-      if( ! require( i , character.only = TRUE ) ){
-        #  If package was not able to be loaded then re-install
-        install.packages( i , dependencies = TRUE )
-        #  Load package after installing
-        require( i , character.only = TRUE )
-      }
-    }
-  }
-  
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
   
   # Loading the packages
   ldpkg(c("maps", 
           "tidyverse",
           "countrycode",
           "passport",
-   #       "wbstats",
           "rvest"
           ))
   
   # Take out all NAs in the dataset and replace with zero
   remove_nas <- function(df) { 
-    df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
-  
-  
-  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  # ~~~~~~~~~~~~~~~~ Setting up folders for data  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))
+  }
 
   # Getting table with country and ISO alpha 3 code:
   iso_data <- maps::iso3166 

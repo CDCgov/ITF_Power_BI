@@ -50,7 +50,7 @@ remove_nas <- function(df) {
 # rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
 
 
-fun_frame <- dget(paste0(rfunctions.dir, "get_country_date_vDASH.R"))
+fun_frame <- dget(paste0(rfunctions.dir, "get_country_date.R"))
 
 
 

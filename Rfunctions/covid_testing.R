@@ -179,7 +179,7 @@ function(z,rfunctions.dir){
   #get standardized country and continent names
   #function to get the country metadata 
   fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
-  geodf <- fun_country() %>%
+  geodf <- fun_country(rfunctions.dir) %>%
     select(iso3code,country,Continent_Name, who_region) %>%
     rename(location=country,
            continent=Continent_Name)

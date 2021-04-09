@@ -44,7 +44,7 @@ function(rfunctions.dir){
   # 
   # rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
   
-  fun_date <- dget(paste0(rfunctions.dir, "get_country_date_vDASH.R"))
+  fun_date <- dget(paste0(rfunctions.dir, "get_country_date.R"))
   
 w <- read.csv("https://covid19.who.int/WHO-COVID-19-global-data.csv", stringsAsFactors=FALSE, encoding="UTF-8")
 # w <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vSe-8lf6l_ShJHvd126J-jGti992SUbNLu-kmJfx1IRkvma_r4DHi0bwEW89opArs8ZkSY5G2-Bc1yT/pub?gid=0&single=true&output=csv", stringsAsFactors=FALSE, encoding="UTF-8")

@@ -39,13 +39,13 @@ write_csv(testing_data,paste0(output.dir,"testing_data.csv"),na="")
 write_csv(testing_cross,paste0(output.dir,"testing_cross.csv"),na="")
 
 #country data
-fun_country <- dget(paste0(rfunctions.dir, "get_country_vDASH.R"))
-country_data <- fun_country()
+fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
+country_data <- fun_country(rfunctions.dir)
 write_csv(country_data,paste0(output.dir,"country_data.csv"),na="")
 
 #index data
-fun_frame <- dget(paste0(rfunctions.dir, "get_country_date_vDASH.R"))
-index_data <- fun_frame(rfunctions.dir)
+fun_frame <- dget(paste0(rfunctions.dir, "get_country_date.R"))
+index_data <- fun_frame(rfunctions.dir, country_data)
 write_csv(index_data,paste0(output.dir,"index_data.csv"),na="")
 
 # Getting google mobility dataset
