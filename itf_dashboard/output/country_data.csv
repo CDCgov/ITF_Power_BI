@@ -1,237 +1,239 @@
-country,iso3code,iso2code,who_region,pop_2020yr
-Aruba,ABW,AW,AMRO,120917
-Afghanistan,AFG,AF,EMRO,37466414
-Angola,AGO,AO,AFRO,33642646
-Anguilla,AIA,AI,AMRO,18403
-Albania,ALB,AL,EURO,3088385
-Andorra,AND,AD,EURO,85645
-United Arab Emirates,ARE,AE,EMRO,9856612
-Argentina,ARG,AR,AMRO,45864941
-Armenia,ARM,AM,EURO,3011609
-American Samoa,ASM,AS,WPRO,46366
-Antigua and Barbuda,ATG,AG,AMRO,99175
-Australia,AUS,AU,WPRO,25809973
-Austria,AUT,AT,EURO,8884864
-Azerbaijan,AZE,AZ,EURO,10282283
-Burundi,BDI,BI,AFRO,12241065
-Belgium,BEL,BE,EURO,11778842
-Benin,BEN,BJ,AFRO,13301694
-Burkina Faso,BFA,BF,AFRO,21382659
-Bangladesh,BGD,BD,SEARO,164098818
-Bulgaria,BGR,BG,EURO,6919180
-Bahrain,BHR,BH,EMRO,1526929
-Bahamas,BHS,BS,AMRO,352655
-Bosnia and Herzegovina,BIH,BA,EURO,3824782
-Saint Barthélemy,BLM,BL,AMRO,7116
-Belarus,BLR,BY,EURO,9441842
-Belize,BLZ,BZ,AMRO,405633
-Bermuda,BMU,BM,AMRO,72084
-Bolivia (Plurinational State of),BOL,BO,AMRO,11758869
-Brazil,BRA,BR,AMRO,213445417
-Barbados,BRB,BB,AMRO,301865
-Brunei Darussalam,BRN,BN,WPRO,471103
-Bhutan,BTN,BT,SEARO,857423
-Botswana,BWA,BW,AFRO,2350667
-Central African Republic,CAF,CF,AFRO,5357984
-Canada,CAN,CA,AMRO,37943231
-Switzerland,CHE,CH,EURO,8453550
-Chile,CHL,CL,AMRO,18307925
-China,CHN,CN,WPRO,1397897720
-Côte d’Ivoire,CIV,CI,AFRO,28088455
-Cameroon,CMR,CM,AFRO,28524175
-Democratic Republic of the Congo,COD,CD,AFRO,105044646
-Congo,COG,CG,AFRO,5417414
-Cook Islands,COK,CK,WPRO,8327
-Colombia,COL,CO,AMRO,50355650
-Comoros,COM,KM,AFRO,864335
-Cabo Verde,CPV,CV,AFRO,589451
-Costa Rica,CRI,CR,AMRO,5151140
-Cuba,CUB,CU,AMRO,11032343
-Curaçao,CUW,CW,AMRO,151885
-Cayman Islands,CYM,KY,AMRO,63131
-Cyprus,CYP,CY,EURO,1281506
-Czechia,CZE,CZ,EURO,10702596
-Germany,DEU,DE,EURO,79903481
-Djibouti,DJI,DJ,EMRO,938413
-Dominica,DMA,DM,AMRO,74584
-Denmark,DNK,DK,EURO,5894687
-Dominican Republic,DOM,DO,AMRO,10597348
-Algeria,DZA,DZ,AFRO,43576691
-Ecuador,ECU,EC,AMRO,17093159
-Egypt,EGY,EG,EMRO,106437241
-Eritrea,ERI,ER,AFRO,6147398
-Western Sahara,ESH,EH,Other,
-Spain,ESP,ES,EURO,47260584
-Estonia,EST,EE,EURO,1220042
-Ethiopia,ETH,ET,AFRO,110871031
-Finland,FIN,FI,EURO,5587442
-Fiji,FJI,FJ,WPRO,939535
-Falkland Islands (Malvinas),FLK,FK,AMRO,3198
-France,FRA,FR,EURO,68084217
-Faroe Islands,FRO,FO,EURO,51943
-Micronesia (Federated States of),FSM,FM,WPRO,101675
-Gabon,GAB,GA,AFRO,2284912
-The United Kingdom,GBR,GB,EURO,66052076
-Georgia,GEO,GE,EURO,4933674
-Guernsey,GGY,GG,EURO,67334
-Ghana,GHA,GH,AFRO,32372889
-Gibraltar,GIB,GI,EURO,29516
-Guinea,GIN,GN,AFRO,12877894
-Guadeloupe,GLP,GP,AMRO,
-Gambia,GMB,GM,AFRO,2221301
-Guinea-Bissau,GNB,GW,AFRO,1976187
-Equatorial Guinea,GNQ,GQ,AFRO,857008
-Greece,GRC,GR,EURO,10569703
-Grenada,GRD,GD,AMRO,113570
-Greenland,GRL,GL,EURO,57799
-Guatemala,GTM,GT,AMRO,17422821
-French Guiana,GUF,GF,AMRO,
-Guam,GUM,GU,WPRO,168801
-Guyana,GUY,GY,AMRO,787971
-Hong Kong,HKG,HK,WPRO,7263234
-Honduras,HND,HN,AMRO,9346277
-Croatia,HRV,HR,EURO,4208973
-Haiti,HTI,HT,AMRO,11198240
-Hungary,HUN,HU,EURO,9728337
-Indonesia,IDN,ID,SEARO,275122131
-Isle of Man,IMN,IM,EURO,90895
-India,IND,IN,SEARO,1339330514
-Ireland,IRL,IE,EURO,5224884
-Iran (Islamic Republic of),IRN,IR,EMRO,85888910
-Iraq,IRQ,IQ,EMRO,39650145
-Iceland,ISL,IS,EURO,354234
-Israel,ISR,IL,EURO,8787045
-Italy,ITA,IT,EURO,62390364
-Jamaica,JAM,JM,AMRO,2816602
-Jersey,JEY,JE,EURO,101476
-Jordan,JOR,JO,EMRO,10909567
-Japan,JPN,JP,WPRO,124687293
-Kazakhstan,KAZ,KZ,EURO,19245793
-Kenya,KEN,KE,AFRO,54685051
-Kyrgyzstan,KGZ,KG,EURO,6018789
-Cambodia,KHM,KH,WPRO,17304363
-Kiribati,KIR,KI,WPRO,113001
-Saint Kitts and Nevis,KNA,KN,AMRO,54149
-Republic of Korea,KOR,KR,WPRO,51715162
-Kuwait,KWT,KW,EMRO,3032065
-Lao People's Democratic Republic,LAO,LA,WPRO,7574356
-Lebanon,LBN,LB,EMRO,5261372
-Liberia,LBR,LR,AFRO,5214030
-Libya,LBY,LY,EMRO,7017224
-Saint Lucia,LCA,LC,AMRO,166637
-Liechtenstein,LIE,LI,EURO,39425
-Sri Lanka,LKA,LK,SEARO,23044123
-Lesotho,LSO,LS,AFRO,2177740
-Lithuania,LTU,LT,EURO,2711566
-Luxembourg,LUX,LU,EURO,639589
-Latvia,LVA,LV,EURO,1862687
-Macau,MAC,MO,WPRO,630396
-Saint Martin,MAF,MF,AMRO,
-Morocco,MAR,MA,EMRO,36561813
-Monaco,MCO,MC,EURO,31223
-Republic of Moldova,MDA,MD,EURO,3323875
-Madagascar,MDG,MG,AFRO,27534354
-Maldives,MDV,MV,SEARO,390669
-Mexico,MEX,MX,AMRO,130207371
-Marshall Islands,MHL,MH,WPRO,78831
-North Macedonia,MKD,MK,EURO,
-Mali,MLI,ML,AFRO,20137527
-Malta,MLT,MT,EURO,460891
-Myanmar,MMR,MM,SEARO,57069099
-Montenegro,MNE,ME,EURO,607414
-Mongolia,MNG,MN,WPRO,3198913
-Northern Mariana Islands (Commonwealth of the),MNP,MP,WPRO,51659
-Mozambique,MOZ,MZ,AFRO,30888034
-Mauritania,MRT,MR,AFRO,4079284
-Montserrat,MSR,MS,AMRO,5387
-Martinique,MTQ,MQ,AMRO,
-Mauritius,MUS,MU,AFRO,1386129
-Malawi,MWI,MW,AFRO,20308502
-Malaysia,MYS,MY,WPRO,33519406
-Mayotte,MYT,YT,AFRO,
-Namibia,NAM,NA,AFRO,2678191
-New Caledonia,NCL,NC,WPRO,293608
-Niger,NER,NE,AFRO,23605767
-Nigeria,NGA,NG,AFRO,219463862
-Nicaragua,NIC,NI,AMRO,6243931
-Niue,NIU,NU,WPRO,2000
-Netherlands,NLD,NL,EURO,17337403
-Norway,NOR,NO,EURO,5509591
-Nepal,NPL,NP,SEARO,30424878
-Nauru,NRU,NR,WPRO,9770
-New Zealand,NZL,NZ,WPRO,4991442
-Oman,OMN,OM,EMRO,3694755
-Pakistan,PAK,PK,EMRO,238181034
-Panama,PAN,PA,AMRO,3928646
-Pitcairn Islands,PCN,PN,WPRO,50
-Peru,PER,PE,AMRO,32201224
-Philippines,PHL,PH,WPRO,110818325
-Palau,PLW,PW,WPRO,21613
-Papua New Guinea,PNG,PG,WPRO,7399757
-Poland,POL,PL,EURO,38185913
-Puerto Rico,PRI,PR,AMRO,3142779
-Democratic People's Republic of Korea,PRK,KP,SEARO,25831360
-Portugal,PRT,PT,EURO,10263850
-Paraguay,PRY,PY,AMRO,7272639
-"occupied Palestinian territory, including east Jerusalem",PSE,PS,EMRO,4906308
-French Polynesia,PYF,PF,WPRO,297154
-Qatar,QAT,QA,EMRO,2479995
-Réunion,REU,RE,AFRO,
-Romania,ROU,RO,EURO,21230362
-Russian Federation,RUS,RU,EURO,142320790
-Rwanda,RWA,RW,AFRO,12943132
-Saudi Arabia,SAU,SA,EMRO,34783757
-Sudan,SDN,SD,EMRO,46751152
-Senegal,SEN,SN,AFRO,16082442
-Singapore,SGP,SG,WPRO,5866139
-Solomon Islands,SLB,SB,WPRO,690598
-Sierra Leone,SLE,SL,AFRO,6807277
-El Salvador,SLV,SV,AMRO,6528135
-San Marino,SMR,SM,EURO,34467
-Somalia,SOM,SO,EMRO,12094640
-Saint Pierre and Miquelon,SPM,PM,AMRO,5321
-Serbia,SRB,RS,EURO,6974289
-South Sudan,SSD,SS,AFRO,10984074
-Sao Tome and Principe,STP,ST,AFRO,213948
-Suriname,SUR,SR,AMRO,614749
-Slovakia,SVK,SK,EURO,5436066
-Slovenia,SVN,SI,EURO,2102106
-Sweden,SWE,SE,EURO,10261767
-Eswatini,SWZ,SZ,AFRO,1113276
-Sint Maarten,SXM,SX,AMRO,44564
-Seychelles,SYC,SC,AFRO,96387
-Syrian Arab Republic,SYR,SY,EMRO,20384316
-Turks and Caicos Islands,TCA,TC,AMRO,57196
-Chad,TCD,TD,AFRO,17414108
-Togo,TGO,TG,AFRO,8283189
-Thailand,THA,TH,SEARO,69480520
-Tajikistan,TJK,TJ,EURO,8990874
-Tokelau,TKL,TK,WPRO,1647
-Turkmenistan,TKM,TM,EURO,5579889
-Timor-Leste,TLS,TL,SEARO,1413958
-Tonga,TON,TO,WPRO,105780
-Trinidad and Tobago,TTO,TT,AMRO,1221047
-Tunisia,TUN,TN,EMRO,11811335
-Turkey,TUR,TR,EURO,82482383
-Tuvalu,TUV,TV,WPRO,11448
-Taiwan,TWN,TW,Other,23572052
-United Republic of Tanzania,TZA,TZ,AFRO,62092761
-Uganda,UGA,UG,AFRO,44712143
-Ukraine,UKR,UA,EURO,43745640
-Uruguay,URY,UY,AMRO,3398239
-United States of America,USA,US,AMRO,334998398
-Uzbekistan,UZB,UZ,EURO,30842796
-Holy See,VAT,VA,EURO,1000
-Saint Vincent and the Grenadines,VCT,VC,AMRO,101145
-Venezuela (Bolivarian Republic of),VEN,VE,AMRO,29069153
-British Virgin Islands,VGB,VG,AMRO,37891
-United States Virgin Islands,VIR,VI,AMRO,
-Viet Nam,VNM,VN,WPRO,102789598
-Vanuatu,VUT,VU,WPRO,303009
-Wallis and Futuna,WLF,WF,WPRO,15851
-Samoa,WSM,WS,WPRO,204898
-Kosovo,XKX,XK,EURO,1935259
-Yemen,YEM,YE,EMRO,30399243
-South Africa,ZAF,ZA,AFRO,56978635
-Zambia,ZMB,ZM,AFRO,19077816
-Zimbabwe,ZWE,ZW,AFRO,14829988
+country,iso3code,iso2code,who_region,pop_2020yr,Continent_Name
+Aruba,ABW,AW,AMRO,120917,North America
+Afghanistan,AFG,AF,EMRO,37466414,Asia
+Angola,AGO,AO,AFRO,33642646,Africa
+Anguilla,AIA,AI,AMRO,18403,North America
+Albania,ALB,AL,EURO,3088385,Europe
+Andorra,AND,AD,EURO,85645,Europe
+United Arab Emirates,ARE,AE,EMRO,9856612,Asia
+Argentina,ARG,AR,AMRO,45864941,South America
+Armenia,ARM,AM,EURO,3011609,Europe
+American Samoa,ASM,AS,WPRO,46366,Oceania
+Antigua and Barbuda,ATG,AG,AMRO,99175,North America
+Australia,AUS,AU,WPRO,25809973,Oceania
+Austria,AUT,AT,EURO,8884864,Europe
+Azerbaijan,AZE,AZ,EURO,10282283,Europe
+Burundi,BDI,BI,AFRO,12241065,Africa
+Belgium,BEL,BE,EURO,11778842,Europe
+Benin,BEN,BJ,AFRO,13301694,Africa
+"Bonaire, Sint Eustatius, and Saba",BES,BQ,AMRO,,North America
+Burkina Faso,BFA,BF,AFRO,21382659,Africa
+Bangladesh,BGD,BD,SEARO,164098818,Asia
+Bulgaria,BGR,BG,EURO,6919180,Europe
+Bahrain,BHR,BH,EMRO,1526929,Asia
+Bahamas,BHS,BS,AMRO,352655,North America
+Bosnia and Herzegovina,BIH,BA,EURO,3824782,Europe
+Saint Barthélemy,BLM,BL,AMRO,7116,North America
+Belarus,BLR,BY,EURO,9441842,Europe
+Belize,BLZ,BZ,AMRO,405633,North America
+Bermuda,BMU,BM,AMRO,72084,North America
+Bolivia (Plurinational State of),BOL,BO,AMRO,11758869,South America
+Brazil,BRA,BR,AMRO,213445417,South America
+Barbados,BRB,BB,AMRO,301865,North America
+Brunei Darussalam,BRN,BN,WPRO,471103,Asia
+Bhutan,BTN,BT,SEARO,857423,Asia
+Botswana,BWA,BW,AFRO,2350667,Africa
+Central African Republic,CAF,CF,AFRO,5357984,Africa
+Canada,CAN,CA,AMRO,37943231,North America
+Switzerland,CHE,CH,EURO,8453550,Europe
+Chile,CHL,CL,AMRO,18307925,South America
+China,CHN,CN,WPRO,1397897720,Asia
+Côte d’Ivoire,CIV,CI,AFRO,28088455,Africa
+Cameroon,CMR,CM,AFRO,28524175,Africa
+Democratic Republic of the Congo,COD,CD,AFRO,105044646,Africa
+Congo,COG,CG,AFRO,5417414,Africa
+Cook Islands,COK,CK,WPRO,8327,Oceania
+Colombia,COL,CO,AMRO,50355650,South America
+Comoros,COM,KM,AFRO,864335,Africa
+Cabo Verde,CPV,CV,AFRO,589451,Africa
+Costa Rica,CRI,CR,AMRO,5151140,North America
+Cuba,CUB,CU,AMRO,11032343,North America
+Curaçao,CUW,CW,AMRO,151885,North America
+Cayman Islands,CYM,KY,AMRO,63131,North America
+Cyprus,CYP,CY,EURO,1281506,Europe
+Czechia,CZE,CZ,EURO,10702596,Europe
+Germany,DEU,DE,EURO,79903481,Europe
+Djibouti,DJI,DJ,EMRO,938413,Africa
+Dominica,DMA,DM,AMRO,74584,North America
+Denmark,DNK,DK,EURO,5894687,Europe
+Dominican Republic,DOM,DO,AMRO,10597348,North America
+Algeria,DZA,DZ,AFRO,43576691,Africa
+Ecuador,ECU,EC,AMRO,17093159,South America
+Egypt,EGY,EG,EMRO,106437241,Africa
+Eritrea,ERI,ER,AFRO,6147398,Africa
+Western Sahara,ESH,EH,Other,,Africa
+Spain,ESP,ES,EURO,47260584,Europe
+Estonia,EST,EE,EURO,1220042,Europe
+Ethiopia,ETH,ET,AFRO,110871031,Africa
+Finland,FIN,FI,EURO,5587442,Europe
+Fiji,FJI,FJ,WPRO,939535,Oceania
+Falkland Islands (Malvinas),FLK,FK,AMRO,3198,South America
+France,FRA,FR,EURO,68084217,Europe
+Faroe Islands,FRO,FO,EURO,51943,Europe
+Micronesia (Federated States of),FSM,FM,WPRO,101675,Oceania
+Gabon,GAB,GA,AFRO,2284912,Africa
+The United Kingdom,GBR,GB,EURO,66052076,Europe
+Georgia,GEO,GE,EURO,4933674,Europe
+Guernsey,GGY,GG,EURO,67334,Europe
+Ghana,GHA,GH,AFRO,32372889,Africa
+Gibraltar,GIB,GI,EURO,29516,Europe
+Guinea,GIN,GN,AFRO,12877894,Africa
+Guadeloupe,GLP,GP,AMRO,,North America
+Gambia,GMB,GM,AFRO,2221301,Africa
+Guinea-Bissau,GNB,GW,AFRO,1976187,Africa
+Equatorial Guinea,GNQ,GQ,AFRO,857008,Africa
+Greece,GRC,GR,EURO,10569703,Europe
+Grenada,GRD,GD,AMRO,113570,North America
+Greenland,GRL,GL,EURO,57799,North America
+Guatemala,GTM,GT,AMRO,17422821,North America
+French Guiana,GUF,GF,AMRO,,South America
+Guam,GUM,GU,WPRO,168801,Oceania
+Guyana,GUY,GY,AMRO,787971,South America
+Hong Kong,HKG,HK,WPRO,7263234,Asia
+Honduras,HND,HN,AMRO,9346277,North America
+Croatia,HRV,HR,EURO,4208973,Europe
+Haiti,HTI,HT,AMRO,11198240,North America
+Hungary,HUN,HU,EURO,9728337,Europe
+Indonesia,IDN,ID,SEARO,275122131,Asia
+Isle of Man,IMN,IM,EURO,90895,Europe
+India,IND,IN,SEARO,1339330514,Asia
+Ireland,IRL,IE,EURO,5224884,Europe
+Iran (Islamic Republic of),IRN,IR,EMRO,85888910,Asia
+Iraq,IRQ,IQ,EMRO,39650145,Asia
+Iceland,ISL,IS,EURO,354234,Europe
+Israel,ISR,IL,EURO,8787045,Asia
+Italy,ITA,IT,EURO,62390364,Europe
+Jamaica,JAM,JM,AMRO,2816602,North America
+Jersey,JEY,JE,EURO,101476,Europe
+Jordan,JOR,JO,EMRO,10909567,Asia
+Japan,JPN,JP,WPRO,124687293,Asia
+Kazakhstan,KAZ,KZ,EURO,19245793,Europe
+Kenya,KEN,KE,AFRO,54685051,Africa
+Kyrgyzstan,KGZ,KG,EURO,6018789,Asia
+Cambodia,KHM,KH,WPRO,17304363,Asia
+Kiribati,KIR,KI,WPRO,113001,Oceania
+Saint Kitts and Nevis,KNA,KN,AMRO,54149,North America
+Republic of Korea,KOR,KR,WPRO,51715162,Asia
+Kuwait,KWT,KW,EMRO,3032065,Asia
+Lao People's Democratic Republic,LAO,LA,WPRO,7574356,Asia
+Lebanon,LBN,LB,EMRO,5261372,Asia
+Liberia,LBR,LR,AFRO,5214030,Africa
+Libya,LBY,LY,EMRO,7017224,Africa
+Saint Lucia,LCA,LC,AMRO,166637,North America
+Liechtenstein,LIE,LI,EURO,39425,Europe
+Sri Lanka,LKA,LK,SEARO,23044123,Asia
+Lesotho,LSO,LS,AFRO,2177740,Africa
+Lithuania,LTU,LT,EURO,2711566,Europe
+Luxembourg,LUX,LU,EURO,639589,Europe
+Latvia,LVA,LV,EURO,1862687,Europe
+Macau,MAC,MO,WPRO,630396,Asia
+Saint Martin,MAF,MF,AMRO,,North America
+Morocco,MAR,MA,EMRO,36561813,Africa
+Monaco,MCO,MC,EURO,31223,Europe
+Republic of Moldova,MDA,MD,EURO,3323875,Europe
+Madagascar,MDG,MG,AFRO,27534354,Africa
+Maldives,MDV,MV,SEARO,390669,Asia
+Mexico,MEX,MX,AMRO,130207371,North America
+Marshall Islands,MHL,MH,WPRO,78831,Oceania
+North Macedonia,MKD,MK,EURO,2128262,Europe
+Mali,MLI,ML,AFRO,20137527,Africa
+Malta,MLT,MT,EURO,460891,Europe
+Myanmar,MMR,MM,SEARO,57069099,Asia
+Montenegro,MNE,ME,EURO,607414,Europe
+Mongolia,MNG,MN,WPRO,3198913,Asia
+Northern Mariana Islands (Commonwealth of the),MNP,MP,WPRO,51659,Oceania
+Mozambique,MOZ,MZ,AFRO,30888034,Africa
+Mauritania,MRT,MR,AFRO,4079284,Africa
+Montserrat,MSR,MS,AMRO,5387,North America
+Martinique,MTQ,MQ,AMRO,,North America
+Mauritius,MUS,MU,AFRO,1386129,Africa
+Malawi,MWI,MW,AFRO,20308502,Africa
+Malaysia,MYS,MY,WPRO,33519406,Asia
+Mayotte,MYT,YT,AFRO,,Africa
+Namibia,NAM,NA,AFRO,2678191,Africa
+New Caledonia,NCL,NC,WPRO,293608,Oceania
+Niger,NER,NE,AFRO,23605767,Africa
+Nigeria,NGA,NG,AFRO,219463862,Africa
+Nicaragua,NIC,NI,AMRO,6243931,North America
+Niue,NIU,NU,WPRO,2000,Oceania
+Netherlands,NLD,NL,EURO,17337403,Europe
+Norway,NOR,NO,EURO,5509591,Europe
+Nepal,NPL,NP,SEARO,30424878,Asia
+Nauru,NRU,NR,WPRO,9770,Oceania
+New Zealand,NZL,NZ,WPRO,4991442,Oceania
+Oman,OMN,OM,EMRO,3694755,Asia
+Pakistan,PAK,PK,EMRO,238181034,Asia
+Panama,PAN,PA,AMRO,3928646,North America
+Pitcairn Islands,PCN,PN,WPRO,50,Oceania
+Peru,PER,PE,AMRO,32201224,South America
+Philippines,PHL,PH,WPRO,110818325,Asia
+Palau,PLW,PW,WPRO,21613,Oceania
+Papua New Guinea,PNG,PG,WPRO,7399757,Oceania
+Poland,POL,PL,EURO,38185913,Europe
+Puerto Rico,PRI,PR,AMRO,3142779,North America
+Democratic People's Republic of Korea,PRK,KP,SEARO,25831360,Asia
+Portugal,PRT,PT,EURO,10263850,Europe
+Paraguay,PRY,PY,AMRO,7272639,South America
+"occupied Palestinian territory, including east Jerusalem",PSE,PS,EMRO,4906308,Asia
+French Polynesia,PYF,PF,WPRO,297154,Oceania
+Qatar,QAT,QA,EMRO,2479995,Asia
+Réunion,REU,RE,AFRO,,Africa
+Romania,ROU,RO,EURO,21230362,Europe
+Russian Federation,RUS,RU,EURO,142320790,Europe
+Rwanda,RWA,RW,AFRO,12943132,Africa
+Saudi Arabia,SAU,SA,EMRO,34783757,Asia
+Sudan,SDN,SD,EMRO,46751152,Africa
+Senegal,SEN,SN,AFRO,16082442,Africa
+Singapore,SGP,SG,WPRO,5866139,Asia
+Solomon Islands,SLB,SB,WPRO,690598,Oceania
+Sierra Leone,SLE,SL,AFRO,6807277,Africa
+El Salvador,SLV,SV,AMRO,6528135,North America
+San Marino,SMR,SM,EURO,34467,Europe
+Somalia,SOM,SO,EMRO,12094640,Africa
+Saint Pierre and Miquelon,SPM,PM,AMRO,5321,North America
+Serbia,SRB,RS,EURO,6974289,Europe
+South Sudan,SSD,SS,AFRO,10984074,Africa
+Sao Tome and Principe,STP,ST,AFRO,213948,Africa
+Suriname,SUR,SR,AMRO,614749,South America
+Slovakia,SVK,SK,EURO,5436066,Europe
+Slovenia,SVN,SI,EURO,2102106,Europe
+Sweden,SWE,SE,EURO,10261767,Europe
+Eswatini,SWZ,SZ,AFRO,1113276,Africa
+Sint Maarten,SXM,SX,AMRO,44564,North America
+Seychelles,SYC,SC,AFRO,96387,Africa
+Syrian Arab Republic,SYR,SY,EMRO,20384316,Asia
+Turks and Caicos Islands,TCA,TC,AMRO,57196,North America
+Chad,TCD,TD,AFRO,17414108,Africa
+Togo,TGO,TG,AFRO,8283189,Africa
+Thailand,THA,TH,SEARO,69480520,Asia
+Tajikistan,TJK,TJ,EURO,8990874,Asia
+Tokelau,TKL,TK,WPRO,1647,Oceania
+Turkmenistan,TKM,TM,EURO,5579889,Asia
+Timor-Leste,TLS,TL,SEARO,1413958,Asia
+Tonga,TON,TO,WPRO,105780,Oceania
+Trinidad and Tobago,TTO,TT,AMRO,1221047,North America
+Tunisia,TUN,TN,EMRO,11811335,Africa
+Turkey,TUR,TR,EURO,82482383,Europe
+Tuvalu,TUV,TV,WPRO,11448,Oceania
+Taiwan,TWN,TW,Other,23572052,Asia
+United Republic of Tanzania,TZA,TZ,AFRO,62092761,Africa
+Uganda,UGA,UG,AFRO,44712143,Africa
+Ukraine,UKR,UA,EURO,43745640,Europe
+Uruguay,URY,UY,AMRO,3398239,South America
+United States of America,USA,US,AMRO,334998398,North America
+Uzbekistan,UZB,UZ,EURO,30842796,Asia
+Holy See,VAT,VA,EURO,1000,Europe
+Saint Vincent and the Grenadines,VCT,VC,AMRO,101145,North America
+Venezuela (Bolivarian Republic of),VEN,VE,AMRO,29069153,South America
+British Virgin Islands,VGB,VG,AMRO,37891,North America
+United States Virgin Islands,VIR,VI,AMRO,,North America
+Viet Nam,VNM,VN,WPRO,102789598,Asia
+Vanuatu,VUT,VU,WPRO,303009,Oceania
+Wallis and Futuna,WLF,WF,WPRO,15851,Oceania
+Samoa,WSM,WS,WPRO,204898,Oceania
+Kosovo,XKX,XK,EURO,1935259,Europe
+Yemen,YEM,YE,EMRO,30399243,Asia
+South Africa,ZAF,ZA,AFRO,56978635,Africa
+Zambia,ZMB,ZM,AFRO,19077816,Africa
+Zimbabwe,ZWE,ZW,AFRO,14829988,Africa
+Other,OTH,OT,Other,,Other
