@@ -32,9 +32,9 @@ function(rfunctions.dir) {
     rename(population_2020 = population_2018.x) %>%
     mutate(new_cases = case_when(new_cases < 0 ~ 0, new_cases >= 0 ~ new_cases),
            new_deaths = case_when(new_deaths < 0 ~ 0, new_deaths >= 0 ~ new_deaths)) %>%
-    mutate(mort = 10000 * new_deaths / population_2020,
+    mutate(mort = 1000000 * new_deaths / population_2020,
            inc = 100000 * new_cases / population_2020,
-           mort_cum = 10000 * cumulative_deaths / population_2020,
+           mort_cum = 1000000 * cumulative_deaths / population_2020,
            inc_cum = 100000 * cumulative_cases / population_2020) %>%
     mutate(ou_date_match = paste(country_code, date, sep="_")) %>%
     filter(population_2020>0) %>%
