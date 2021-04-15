@@ -109,20 +109,24 @@ function() {
   count_vaccinated_filter <- function(df) { return(df$raw_field == "total_vaccinations" | df$raw_field == "people_vaccinated" | df$raw_field == "people_fully_vaccinated")}
   count_vaccinated_breaks <- c(0,1e3,1e4,1e5,1e6,1e7,Inf)
   count_vaccinated_ticks <- c(1e3,1e4,1e5,1e6,1e7,5e8)
-  rate_vaccinated_filter <- function(df) { return(df$raw_field == "total_vaccinations_per_hundred" | df$raw_field == "people_vaccinated_per_hundred" | df$raw_field == "people_fully_vaccinated_per_hundred")}
+  rate_vaccinated_filter <- function(df) { return(df$raw_field == "people_vaccinated_per_hundred" | df$raw_field == "people_fully_vaccinated_per_hundred")}
   rate_vaccinated_breaks <- c(0,0.05,1,5,10,20,Inf)
   rate_vaccinated_ticks <- c(0.05,1,5,10,20,100)
+  rate_doses_filter <- function(df) { return(df$raw_field == "total_vaccinations_per_hundred")}
+  rate_doses_breaks <- c(0,0.05,1,5,10,20,Inf)
+  rate_doses_ticks <- c(0.05,1,5,10,20,200)
   count_daily_filter <- function(df) { return(df$raw_field == "daily_vaccinations")}
   count_daily_breaks <- c(0,10,1e2,1e3,1e4,1e5,Inf)
   count_daily_ticks <- c(10,1e2,1e3,1e4,1e5,5e6)
   rate_daily_filter <- function(df) { return(df$raw_field == "daily_vaccinations_per_million")}
   rate_daily_breaks <- c(0,1,10,50,100,1e3,Inf)
-  rate_daily_ticks <- c(1,10,50,100,1e3,5e4)
+  rate_daily_ticks <- c(1,10,50,100,1e3,10e4)
   
   vax_all.long$data_cat_num <- NA
   
   vax_all.long$data_cat_num[count_vaccinated_filter(vax_all.long)] <- cut(vax_all.long$data_value[count_vaccinated_filter(vax_all.long)], breaks = count_vaccinated_breaks, na.rm = TRUE)
   vax_all.long$data_cat_num[rate_vaccinated_filter(vax_all.long)] <- cut(vax_all.long$data_value[rate_vaccinated_filter(vax_all.long)], breaks = rate_vaccinated_breaks, na.rm = TRUE)
+  vax_all.long$data_cat_num[rate_doses_filter(vax_all.long)] <- cut(vax_all.long$data_value[rate_doses_filter(vax_all.long)], breaks = rate_doses_breaks, na.rm = TRUE)
   vax_all.long$data_cat_num[count_daily_filter(vax_all.long)] <- cut(vax_all.long$data_value[count_daily_filter(vax_all.long)], breaks = count_daily_breaks, na.rm = TRUE)
   vax_all.long$data_cat_num[rate_daily_filter(vax_all.long)] <- cut(vax_all.long$data_value[rate_daily_filter(vax_all.long)], breaks = rate_daily_breaks, na.rm = TRUE)
   
@@ -140,6 +144,7 @@ function() {
   cats$tick_value <- 0
   cats$tick_value[count_vaccinated_filter(cats)] <- count_vaccinated_ticks[cats$cat_num[count_vaccinated_filter(cats)]]
   cats$tick_value[rate_vaccinated_filter(cats)] <- rate_vaccinated_ticks[cats$cat_num[rate_vaccinated_filter(cats)]]
+  cats$tick_value[rate_doses_filter(cats)] <- rate_doses_ticks[cats$cat_num[rate_doses_filter(cats)]]
   cats$tick_value[count_daily_filter(cats)] <- count_daily_ticks[cats$cat_num[count_daily_filter(cats)]]
   cats$tick_value[rate_daily_filter(cats)] <- rate_daily_ticks[cats$cat_num[rate_daily_filter(cats)]]
   
