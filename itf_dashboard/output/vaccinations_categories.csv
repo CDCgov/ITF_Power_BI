@@ -10,7 +10,7 @@
 3,"total_vaccinations_per_hundred","Cumulative Doses Administered","Per 100 people","Rate",5
 4,"total_vaccinations_per_hundred","Cumulative Doses Administered","Per 100 people","Rate",10
 5,"total_vaccinations_per_hundred","Cumulative Doses Administered","Per 100 people","Rate",20
-6,"total_vaccinations_per_hundred","Cumulative Doses Administered","Per 100 people","Rate",100
+6,"total_vaccinations_per_hundred","Cumulative Doses Administered","Per 100 people","Rate",200
 1,"people_vaccinated","Cumulative People Vaccinated (1 or more)"," ","Count",1000
 2,"people_vaccinated","Cumulative People Vaccinated (1 or more)"," ","Count",10000
 3,"people_vaccinated","Cumulative People Vaccinated (1 or more)"," ","Count",1e+05
@@ -46,4 +46,4 @@
 3,"daily_vaccinations_per_million","Daily Doses Administered (7-day average)","Per 1M people","Rate",50
 4,"daily_vaccinations_per_million","Daily Doses Administered (7-day average)","Per 1M people","Rate",100
 5,"daily_vaccinations_per_million","Daily Doses Administered (7-day average)","Per 1M people","Rate",1000
-6,"daily_vaccinations_per_million","Daily Doses Administered (7-day average)","Per 1M people","Rate",50000
+6,"daily_vaccinations_per_million","Daily Doses Administered (7-day average)","Per 1M people","Rate",1e+05
