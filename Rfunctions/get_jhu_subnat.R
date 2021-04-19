@@ -1,58 +1,27 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function(){
-# Creating basic functions to show top few rows of data
-View50 <- function(x){View(x[1:50,])}
-View100 <- function(x){View(x[1:100,])}
+function(rfunctions.dir){
 
-# Creating the 'not in' function
-`%ni%` <- Negate(`%in%`) 
-
-
-# Pulling in the load package function R file
-# Load function to install list of packages
-ldpkg <- function(x){
-  for( i in x ){
-    #  require returns TRUE invisibly if it was able to load package
-    if( ! require( i , character.only = TRUE ) ){
-      #  If package was not able to be loaded then re-install
-      install.packages( i , dependencies = TRUE )
-      #  Load package after installing
-      require( i , character.only = TRUE )
-    }
-  }
-}
-
-
-# Loading the packages
-ldpkg(c("Hmisc", 
-        "tidyverse",
-        "openxlsx",
-        "passport",
-        "readxl"))
-
-# Take out all NAs in the dataset and replace with zero
-remove_nas <- function(df) { 
-  df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
-
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~ Setting up folders for data  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-#SETTING DIRECTORY FOR INTERNATIONAL TASK FORCE - if James, defaults to his own account, otherwise appends users' name to the path
-# if(Sys.getenv("USERNAME")=="kux9") {
-#   dir.root <- "C:/Users/kux9/OneDrive - CDC/COVID19/"
-# } else dir.root <- paste0("C:/Users/",
-#                           Sys.getenv("USERNAME"),
-#                           "/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")
-
-
-#Define Directories
-# dir.data <- paste0(dir.root,"Data/")
-# dir.who.regions <- paste0(dir.root,"Data/")
+  # Creating the 'not in' function
+  `%ni%` <- Negate(`%in%`) 
+  
+  
+  # Pulling in the load package function R file
+  # Load function to install list of packages
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
+  
+  
+  # Loading the packages
+  ldpkg(c("Hmisc", 
+          "tidyverse",
+          "openxlsx",
+          "passport",
+          "readxl"))
+  
+  # Take out all NAs in the dataset and replace with zero
+  remove_nas <- function(df) { 
+    df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,5 +55,5 @@ remove_nas <- function(df) {
   data.long$`New Cases`[data.long$`New Cases` <0] <- 0
   data.long$`New Deaths`[data.long$`New Deaths` <0] <- 0
   
-return(data.long)  
+  return(data.long)  
 }

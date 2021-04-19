@@ -9,7 +9,23 @@
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-function(typex, rfunctions.dir){
+function(typex, rfunctions.dir, df_ncov){
+  
+  # If base data frame is missing, then call the script to generate it
+  if (missing(df_ncov)) {
+    # Function to get base dataframe with cases and deaths daily/cumulative
+    fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
+    df_ncov <- fun_ncov(rfunctions.dir)
+  }
+  
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
+  
+  # Loading the packages
+  ldpkg(c("tidyverse",
+          "passport",
+          "readxl",
+          "data.table",
+          "zoo"))
 
 final_hotspot  <- function(typex, dfsource){
 
@@ -17,46 +33,6 @@ final_hotspot  <- function(typex, dfsource){
 remove_nas <- function(df) { 
   df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
 
-# dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-#                   paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-#                   ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-#                          paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-#                          "Directory does not exist"))
-
-
-# Power BI script that pulls in all the analytic datasets in long format by Country and Date
-# Folder path for all the Power BI scripts
-# rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
-
-
-# function to get the base JHU data with cases and deaths daily/cumulative 
-fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data_vDASH.R"))
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ===== Beginning of Epi curve segmentation Function ===============
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Pulling in the load package function R file
-# Load function to install list of packages
-ldpkg <- function(x){
-  for( i in x ){
-    #  require returns TRUE invisibly if it was able to load package
-    if( ! require( i , character.only = TRUE ) ){
-      #  If package was not able to be loaded then re-install
-      install.packages( i , dependencies = TRUE )
-      #  Load package after installing
-      require( i , character.only = TRUE )
-    }
-  }
-}
-
-# Loading the packages
-ldpkg(c("tidyverse",
-        "passport",
-        "readxl",
-        "data.table",
-        "zoo"))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ~~~~~~~~~~~~~~~~ NEW hotspot algorithm (from CBS github 9/24) ~~~~~~~~~~~~~~~~~
@@ -64,7 +40,7 @@ ldpkg(c("tidyverse",
 
 source(paste0(rfunctions.dir,"traj_sub_functions_vDASH.R"))
 
-df.Countriesx <- fun_ncov(rfunctions.dir) # Pulling in case and death data
+df.Countriesx <- df_ncov # Pulling in case and death data
 df.Countries.Daily <- df.Countriesx %>% filter(data_source %in% dfsource) 
 
 #consolidate the df.Countries.Daily dataset as some areas have multiple observations

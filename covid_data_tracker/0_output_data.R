@@ -13,35 +13,39 @@ out.dir <- paste0(dir.root,"output/")
 #read in packages needed to run code
 source(paste0(rfunctions.dir,"packages_for_Power_BI.R"))
 
+#country metadata
+fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
+print("running country code")
+country_data <- fun_country(rfunctions.dir)
+
+#country date metadata
+fun_country_date <- dget(paste0(rfunctions.dir,"get_country_date.R"))
+print("running country date code")
+country_date_long <- fun_country_date(rfunctions.dir, country_data)
+write_csv(country_date_long,paste0(out.dir,"lookup_country_date.csv"),na="")
+
+# get the base jhu and who dataframes
+fun_jhu <- dget(paste0(rfunctions.dir, "get_jhu_data.R"))
+df_jhu <- fun_jhu(rfunctions.dir, df_country_date)
+fun_who <- dget(paste0(rfunctions.dir, "get_who_data.R"))
+df_who <- fun_who(rfunctions.dir, df_country_date)
+
 
 #read in datasets that are input data for subsequent functions
 #cases and deaths
 fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
 print("running country case death code")
-ncov_data<-fun_ncov(rfunctions.dir)
-#country metadata
-fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
-print("running country code")
-country_data<-fun_country(rfunctions.dir)
+ncov_data <- fun_ncov(rfunctions.dir, df_jhu, df_who)
 
 # #trajectory raw data
 # traj_series <- dget(paste0(rfunctions.dir, "trajectory_function_final_v2.R"))
 # print("running trajectory code")
 # traj_out_series<-traj_series("date",rfunctions.dir) #needs library(data.table)
 
-
-#start code to output tables for Tracker
-
-#country date metadata
-fun_country_date<-dget(paste0(rfunctions.dir,"get_country_date.R"))
-print("running country date code")
-country_date_long<-fun_country_date(rfunctions.dir, country_data)
-write_csv(country_date_long,paste0(out.dir,"lookup_country_date.csv"),na="")
-
 #cases & deaths
 cases_deaths_script_cross <- dget(paste0(rfunctions.dir, "cases_deaths_script_cross.R"))
 print("running case death cross code")
-cross_dfx<-cases_deaths_script_cross(ncov_data)
+cross_dfx <- cases_deaths_script_cross(ncov_data)
 
 cross_dfx_complete<-cross_dfx %>%
   #create empty rows for country/indicator/data source pairs without data in original source

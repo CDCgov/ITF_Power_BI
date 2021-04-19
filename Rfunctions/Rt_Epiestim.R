@@ -1,38 +1,22 @@
-function(rfunctions.dir){
+function(rfunctions.dir, df_jhu){
 
-#SETTING DIRECTORY FOR INTERNATIONAL TASK FORCE 
-# dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-#                     paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-#                     ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-#                            paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-#                            "Directory does not exist"))
+
+  # Pulling in the load package function R file
+  # Load function to install list of packages
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
+
+
+  # Load/install packages 
+  ldpkg(c("EpiEstim", 
+          "ggplot2",
+          "readxl"))
   
-# folder where all R functions are housed
-# rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
-
-# Function to load
-ldpkg <- function(x){
-  for( i in x ){
-    #  require returns TRUE invisibly if it was able to load package
-    if( ! require( i , character.only = TRUE ) ){
-      #  If package was not able to be loaded then re-install
-      install.packages( i , dependencies = TRUE )
-      #  Load package after installing
-      require( i , character.only = TRUE )
-    }
+  # If JHU dataframe is missing as input, then call the script to generate it
+  if (missing(df_jhu)) {
+    # Function to get JHU data
+    fun_jhu <- dget(paste0(rfunctions.dir, "get_jhu_data.R"))
+    df_jhu <- fun_jhu(rfunctions.dir)
   }
-}
-
-
-
-# function to get the base JHU data with cases and deaths daily/cumulative 
-jhu_data <- dget(paste0(rfunctions.dir, "get_jhu_data_vDASH.R"))
-
-
-# Load/install packages 
-ldpkg(c("EpiEstim", 
-        "ggplot2",
-        "readxl"))
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -137,9 +121,8 @@ epi_curve_7<-function(country,ctyname)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Overall function to generate Rt dataset ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-base_data <- jhu_data(rfunctions.dir)
-row.names(base_data)<-NULL
-dx <- base_data
+row.names(df_jhu)<-NULL
+dx <- df_jhu
 ######country data
 #d <- read_excel(paste0(dir.data, "JHU Data by Country - Long.xlsx"))
 index<-which(dx$date==min(dx$date))
@@ -176,8 +159,8 @@ combined_output[which(combined_output$cum_cases<12), c(4:12)] <- NA
 
 # Creating the match variable so datasets can be joined in Power BI 
 # using Country, Date ---> combines country code and date
-names(base_data) <- tolower(names(base_data))
-base_frame <- base_data %>% 
+names(df_jhu) <- tolower(names(df_jhu))
+base_frame <- df_jhu %>% 
   select(ou_date_match, country, date, iso3code) %>% 
   unique()
 

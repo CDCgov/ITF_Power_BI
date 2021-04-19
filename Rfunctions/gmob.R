@@ -2,10 +2,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function(rfunctions.dir){
-  # Creating basic functions to show top few rows of data
-  View50 <- function(x){View(x[1:50,])}
-  View100 <- function(x){View(x[1:100,])}
+function(rfunctions.dir, df_country, df_gmob_raw){
   
   # Creating the 'not in' function
   `%ni%` <- Negate(`%in%`) 
@@ -13,17 +10,7 @@ function(rfunctions.dir){
   
   # Pulling in the load package function R file
   # Load function to install list of packages
-  ldpkg <- function(x){
-    for( i in x ){
-      #  require returns TRUE invisibly if it was able to load package
-      if( ! require( i , character.only = TRUE ) ){
-        #  If package was not able to be loaded then re-install
-        install.packages( i , dependencies = TRUE )
-        #  Load package after installing
-        require( i , character.only = TRUE )
-      }
-    }
-  }
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
   
   
   # Loading the packages
@@ -42,36 +29,32 @@ function(rfunctions.dir){
   # ~~~~~~~~~~~~~~~~ Setting up folders for data  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-  # 
-  # dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-  #                   paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-  #                   ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-  #                          paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-  #                          "Directory does not exist"))  
-  # 
-  # # Folder path for all the Power BI R function scripts
-  # rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
+  # If country metadata not present as input, then call the script to generate it
+  if (missing(df_country)) {
+    # Function to get the country metadata 
+    fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
+    df_country <- fun_country(rfunctions.dir)
+  }
   
-  # Getting the function to get the basic data frame with country and date
-  fun_frame <- dget(paste0(rfunctions.dir, "get_country.R"))
+  # If google mobility not present as input, download it from google
+  if (missing(df_gmob_raw)) {
+    df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+  }
   
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-  
-  gpath <- "https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv"
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   # Pulling in the Google mobility data  
-  gmob <- read.csv(gpath)
+  gmob <- df_gmob_raw
   
   # Correcting Namibia's ISO code
   gmob$country_region_code[gmob$country_region=="Namibia"] <- "NA"
   
   ## read in Johns Hopkins Data
   #Import Country Time Series
-  df <- fun_frame(rfunctions.dir) %>% 
+  df <- df_country %>% 
     select(iso2code, iso3code) %>% unique()
 
   gmob1 <- gmob %>% 
@@ -91,4 +74,4 @@ function(rfunctions.dir){
     dplyr::mutate(ou_date_match = paste(iso3code, Date, sep="_")) 
   
   return(dfx)
-  }
+}

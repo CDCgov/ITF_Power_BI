@@ -1,13 +1,4 @@
-function(rfunctions.dir){
-  
-  # dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-  #                   paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-  #                   ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-  #                          paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-  #                          "Directory does not exist"))
-  # 
-  # rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
-  #rfunctions.dir <- "https://raw.githubusercontent.com/CDCgov/ITF_Power_BI/master/Rfunctions/"
+function(rfunctions.dir, df_who){
   
   ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
   
@@ -17,8 +8,12 @@ function(rfunctions.dir){
           "readxl",
           "zoo"))
   
-  # function to get the base JHU data with cases and deaths daily/cumulative 
-  who <- dget(paste0(rfunctions.dir, "get_who_data.R"))
+  # If WHO dataframe is missing as input, then call the script to generate it
+  if (missing(df_who)) {
+    # Function to get WHO data
+    fun_who <- dget(paste0(rfunctions.dir, "get_who_data.R"))
+    df_who <- fun_who(rfunctions.dir)
+  }
   
   # Getting the MTF serial interval estimates
   # mtfest <- paste0(dir.root, "PowerBI/Metadata/serial_interval_mtf.csv")
@@ -140,7 +135,7 @@ function(rfunctions.dir){
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # ============= Overall function to generate Rt dataset ~~~~~~~===============
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  base_data <- who(rfunctions.dir)
+  base_data <- df_who
   row.names(base_data)<-NULL
   
   dx <- base_data

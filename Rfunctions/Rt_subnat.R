@@ -1,35 +1,19 @@
-function(rfunctions.dir){
+function(rfunctions.dir, df_jhu_subnat){
   
-  #SETTING DIRECTORY FOR INTERNATIONAL TASK FORCE
-  # dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-  #                   paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-  #                   ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-  #                          paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-  #                          "Directory does not exist"))
-  
-  # folder where all R functions are housed
-  # rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
-  
-  
-  # Function to load
-  ldpkg <- function(x){
-    for( i in x ){
-      #  require returns TRUE invisibly if it was able to load package
-      if( ! require( i , character.only = TRUE ) ){
-        #  If package was not able to be loaded then re-install
-        install.packages( i , dependencies = TRUE )
-        #  Load package after installing
-        require( i , character.only = TRUE )
-      }
-    }
-  }
+  # Pulling in the load package function R file
+  # Load function to install list of packages
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
   
   # Creating the 'not in' function
   `%ni%` <- Negate(`%in%`) 
-  
 
   # function to get the base JHU data with cases and deaths daily/cumulative 
-  jhu_subnat <- dget(paste0(rfunctions.dir, "get_jhu_subnat.R"))
+  # If JHU dataframe is missing as input, then call the script to generate it
+  if (missing(df_jhu_subnat)) {
+    # Function to get JHU data with cases and deaths daily/cumulative
+    fun_jhu_subnat <- dget(paste0(rfunctions.dir, "get_jhu_subnat.R"))
+    df_jhu_subnat <- fun_jhu_subnat(rfunctions.dir)
+  }
   
   
   # Load/install packages 
@@ -40,7 +24,7 @@ function(rfunctions.dir){
           "passport",
           "readxl"))
 
-data.longx <- jhu_subnat(rfunctions.dir)
+data.longx <- df_jhu_subnat
 
 ############## epi_curve function 7 day sliding window####################################
 epi_curve<-function(country,ctyname,index2)

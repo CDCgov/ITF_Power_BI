@@ -1,20 +1,11 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function(rfunctions.dir) {
+function(rfunctions.dir, df_ncov, df_gmob_raw) {
+  
   # Pulling in the load package function R file
   # Load function to install list of packages
-  ldpkg <- function(x){
-    for( i in x ){
-      #  require returns TRUE invisibly if it was able to load package
-      if( ! require( i , character.only = TRUE ) ){
-        #  If package was not able to be loaded then re-install
-        install.packages( i , dependencies = TRUE )
-        #  Load package after installing
-        require( i , character.only = TRUE )
-      }
-    }
-  }
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
   
   # Loading the packages
   ldpkg(c("tidyverse",
@@ -22,14 +13,22 @@ function(rfunctions.dir) {
           "passport",
           "stringr"))
 
-  #Get Case Data
-  fun_get_data <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
-  ncov_data_raw <- fun_get_data(rfunctions.dir)
-  ncov_data <- ncov_data_raw %>%
+  # If NCOV base dataframe is missing as input, then call the script to generate it
+  if (missing(df_ncov)) {
+    # Function to get NCOV base data - cases and deaths
+    fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
+    df_ncov <- fun_ncov(rfunctions.dir)
+  }
+  
+  # If google mobility not present as input, download it from google
+  if (missing(df_gmob_raw)) {
+    df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+  }
+  
+  ncov_data <- df_ncov %>%
     select(!`Country Code`) %>%
     rename_all(tolower) %>%
     rename_all(gsub, pattern=" ", replacement="_") %>%
-    rename(population_2020 = population_2018.x) %>%
     mutate(new_cases = case_when(new_cases < 0 ~ 0, new_cases >= 0 ~ new_cases),
            new_deaths = case_when(new_deaths < 0 ~ 0, new_deaths >= 0 ~ new_deaths)) %>%
     mutate(mort = 1000000 * new_deaths / population_2020,
@@ -60,8 +59,7 @@ function(rfunctions.dir) {
 
 
   #Get Movement Data
-  df.movement.raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
-  df.movement <- df.movement.raw %>%
+  df.movement <- df_gmob_raw %>%
     rename_all(tolower) %>%
     select_all(~gsub("_percent_change_from_baseline","",.)) %>%
     filter(sub_region_1=="" & sub_region_2=="" & metro_area=="") %>%

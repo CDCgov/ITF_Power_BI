@@ -1,30 +1,34 @@
-function(rfunctions.dir){
-
-  # dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-  #                   paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-  #                   ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-  #                          paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-  #                          "Directory does not exist"))
-  # 
-  # rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
+function(rfunctions.dir, df_rt_jhu, df_rt_who){
   
   ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
-  jhu <- dget(paste0(rfunctions.dir, "Rt_jhu.R"))
-  who <- dget(paste0(rfunctions.dir, "Rt_who.R"))
+  
+  # If RT JHU dataframe is missing as input, then call the script to generate it
+  if (missing(df_rt_jhu)) {
+    # Function to get RT JHU data
+    fun_rt_jhu <- dget(paste0(rfunctions.dir, "Rt_jhu.R"))
+    df_rt_jhu <- fun_rt_jhu(rfunctions.dir)
+  }
+  
+  # If RT WHO dataframe is missing as input, then call the script to generate it
+  if (missing(df_rt_who)) {
+    # Function to get WHO data
+    fun_rt_who <- dget(paste0(rfunctions.dir, "Rt_who.R"))
+    df_rt_who <- fun_rt_who(rfunctions.dir)
+  }
 
   
   # loading packages
   ldpkg(c("tidyverse"))
   
   
-  jdf <- jhu(rfunctions.dir) 
+  jdf <- df_rt_jhu
   jdf$data_source = "JHU"
   
-  wdf <- who(rfunctions.dir) 
+  wdf <- df_rt_who
   wdf$data_source = "WHO"
   
   df <- rbind(jdf, wdf) %>% 
     mutate(ou_date_src_match = paste(ou_date_match, data_source, sep="_")) 
   
   return(df)
-  }
+}

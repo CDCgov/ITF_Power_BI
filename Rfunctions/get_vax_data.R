@@ -1,11 +1,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function() {
-  
-  # Creating basic functions to show top few rows of data
-  View50 <- function(x){View(x[1:50,])}
-  View100 <- function(x){View(x[1:100,])}
+function(rfunctions.dir) {
   
   # Creating the 'not in' function
   `%ni%` <- Negate(`%in%`) 
@@ -13,17 +9,7 @@ function() {
   
   # Pulling in the load package function R file
   # Load function to install list of packages
-  ldpkg <- function(x){
-    for( i in x ){
-      #  require returns TRUE invisibly if it was able to load package
-      if( ! require( i , character.only = TRUE ) ){
-        #  If package was not able to be loaded then re-install
-        install.packages( i , dependencies = TRUE )
-        #  Load package after installing
-        require( i , character.only = TRUE )
-      }
-    }
-  }
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
   
   # Loading the packages
   ldpkg(c("Hmisc", 
@@ -147,9 +133,6 @@ function() {
   cats$tick_value[rate_doses_filter(cats)] <- rate_doses_ticks[cats$cat_num[rate_doses_filter(cats)]]
   cats$tick_value[count_daily_filter(cats)] <- count_daily_ticks[cats$cat_num[count_daily_filter(cats)]]
   cats$tick_value[rate_daily_filter(cats)] <- rate_daily_ticks[cats$cat_num[rate_daily_filter(cats)]]
-  
-  
-  
   
   vax_list <- list("all" = vax_all.long, "manufacturers" = loc, "rollout" = man, "categories" = cats)
   

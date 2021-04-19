@@ -1,69 +1,57 @@
 # Code for CDC Tracker Power BI file
 # this code is called by R scripts that are run in a Power Query that feeds into a Power BI Report
 # all packages must already be installed on the version of R that is called by Power BI
-# it reads in the Johns Hopkins public Coronavirus data set, and another function called "get_country_date.R" 
+# it  
 # it returns a cleaned file for analysis in Power BI alongside the same data from the WHO
 # it requires an object called "rfunctions.dir" which is the directory where the other code, "get_country_date.R", is stored
 
+#' Code for CDC Tracker Power BI file
+#' This function reads in the Johns Hopkins public Coronavirus data set, and another function called "get_country_date.R"
+#' @param functions.dir The directory where the other code resides
+#' @param df_country_date The data frame produced by "get_country_date.R" script (optional)
+#' @return The data frame for analysis in Power BI alongside the same data from the JHU
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function(rfunctions.dir){
-# Creating the 'not in' function
-`%ni%` <- Negate(`%in%`) 
+function(rfunctions.dir, df_country_date){
+  # Creating the 'not in' function
+  `%ni%` <- Negate(`%in%`) 
 
 
-# Pulling in the load package function R file
-# Load function to install list of packages
-ldpkg <- function(x){
-  for( i in x ){
-    #  require returns TRUE invisibly if it was able to load package
-    if( ! require( i , character.only = TRUE ) ){
-      #  If package was not able to be loaded then re-install
-      install.packages( i , dependencies = TRUE )
-      #  Load package after installing
-      require( i , character.only = TRUE )
-    }
-  }
-}
-
-
-# Loading the packages
-ldpkg(c("tidyverse", "passport"))
-
-library(tidyverse)
-library(passport)
+  # Pulling in the load package function R file
+  # Load function to install list of packages
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
+  
+  # Loading the packages
+  ldpkg(c("tidyverse", "passport"))
+  
+  library(tidyverse)
+  library(passport)
   
  
-# Take out all NAs in the dataset and replace with zero
-remove_nas <- function(df) { 
-  df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
-
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~ Setting up folders for data  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 
-# dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-#                   paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-#                   ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-#                          paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-#                          "Directory does not exist"))
-# 
-# rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
-
-
-fun_frame <- dget(paste0(rfunctions.dir, "get_country_date.R"))
+  # Take out all NAs in the dataset and replace with zero
+  remove_nas <- function(df) { 
+    df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
+  
+  fun_frame <- dget(paste0(rfunctions.dir, "get_country_date.R"))
 
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~ Function to generate datasets ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # ~~~~~~~~~~~~~~~~ Function to generate datasets ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   cases <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv", as.is=TRUE, stringsAsFactors=FALSE, check.names=FALSE)
   deaths <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv", as.is=TRUE, stringsAsFactors = FALSE, check.names=FALSE)
+  
+  
+  # If country & date dataframe not present as input, then call the script to generate it
+  if (missing(df_country_date)) {
+    # Function to get the country metadata 
+    fun_country_date <- dget(paste0(rfunctions.dir, "get_country_date.R"))
+    df_country_date <- fun_country_date(rfunctions.dir)
+  }
   
   #Convert to Long Data
   cases.long <- cases %>% 
@@ -137,27 +125,27 @@ df <- data.countries %>%
   ungroup()
 
 
-# Adding population from the World Bank and JHU
-dfframe <- fun_frame(rfunctions.dir) %>% 
-  filter(date<=max(df$date)) %>% 
-  filter(date>=min(df$date)) %>%
-  filter(iso3code %in% unique(df$iso3code))
+  # Adding population from the World Bank and JHU
+  df_country_date <- df_country_date %>% 
+    filter(date<=max(df$date)) %>% 
+    filter(date>=min(df$date)) %>%
+    filter(iso3code %in% unique(df$iso3code))
 
 
-# Getting the basic final dataset
-base_data <- left_join(dfframe, df) %>% 
-  select(country, 
-         date, 
-         cases_new, 
-         cases_cum,
-         deaths_new,
-         deaths_cum,
-         who_region,
-         pop_2020yr,
-         iso3code,
-         ou_date_match,
-         iso2code) %>%
-  mutate_if(is.numeric, ~replace(., is.na(.), 0))  
+  # Getting the basic final dataset
+  base_data <- left_join(df_country_date, df) %>% 
+    select(country, 
+           date, 
+           cases_new, 
+           cases_cum,
+           deaths_new,
+           deaths_cum,
+           who_region,
+           pop_2020yr,
+           iso3code,
+           ou_date_match,
+           iso2code) %>%
+    mutate_if(is.numeric, ~replace(., is.na(.), 0))  
     
-  
-base_data}
+  return(base_data)
+}

@@ -7,24 +7,13 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function(z,rfunctions.dir){
+function(z,rfunctions.dir, df_country){
    # Creating the 'not in' function
   `%ni%` <- Negate(`%in%`) 
   
   # Pulling in the load package function R file
   # Load function to install list of packages
-  ldpkg <- function(x){
-    for( i in x ){
-      #  require returns TRUE invisibly if it was able to load package
-      if( ! require( i , character.only = TRUE ) ){
-        #  If package was not able to be loaded then re-install
-        install.packages( i , dependencies = TRUE )
-        #  Load package after installing
-        require( i , character.only = TRUE )
-      }
-    }
-  }
-  
+  ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
   
   # Loading the packages
   ldpkg(c("tidyverse","zoo"))
@@ -32,6 +21,13 @@ function(z,rfunctions.dir){
   # Take out all NAs in the dataset and replace with zero
   remove_nas <- function(df) { 
     df %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))}
+  
+  # If country metadata dataframe not present as input, then call the script to generate it
+  if (missing(df_country)) {
+    # Function to get the country metadata 
+    fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
+    df_country <- fun_country(rfunctions.dir)
+  }
 
 
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -177,9 +173,7 @@ function(z,rfunctions.dir){
    
    
   #get standardized country and continent names
-  #function to get the country metadata 
-  fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
-  geodf <- fun_country(rfunctions.dir) %>%
+  geodf <- df_country %>%
     select(iso3code,country,Continent_Name, who_region) %>%
     rename(location=country,
            continent=Continent_Name)

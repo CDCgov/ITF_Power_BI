@@ -1,38 +1,35 @@
-function(rfunctions.dir){
+function(rfunctions.dir, df_jhu){
 
-  # dir.root<- ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/")),
-  #                   paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/International Task Force-COVID19 - DataViz/Data and Analysis/"),
-  #                   ifelse(dir.exists(paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/")),
-  #                          paste0("C:/Users/",Sys.getenv("USERNAME"),"/CDC/ITF-COVID19 International Task Force - DataViz/Data and Analysis/"),
-  #                          "Directory does not exist"))
-  # 
-  # rfunctions.dir <- paste0(dir.root, "PowerBI/R_scripts_testing/r_functions/")
-  #rfunctions.dir <- "https://raw.githubusercontent.com/CDCgov/ITF_Power_BI/master/Rfunctions/"
-  
+  # Pulling in the load package function R file
+  # Load function to install list of packages
   ldpkg <- dget(paste0(rfunctions.dir, "ldpkg.R"))
 
-# Load/install packages 
-ldpkg(c("EpiEstim", 
-        "ggplot2",
-        "readxl",
-        "zoo"))
+  # Load/install packages 
+  ldpkg(c("EpiEstim", 
+          "ggplot2",
+          "readxl",
+          "zoo"))
 
-# function to get the base JHU data with cases and deaths daily/cumulative 
-jhu <- dget(paste0(rfunctions.dir, "get_jhu_data_vDASH.R"))
-
-# Getting the MTF serial interval estimates
-# mtfest <- paste0(dir.root, "PowerBI/Metadata/serial_interval_mtf.csv")
-# 
-# mtfx <- read.csv(mtfest)
-
-mtf_mean <- 5.12
-mtf_stdv <- 4.28
-
-ni_mean <- 4.7
-ni_stdv <- 2.9
-
-li_mean <- 7.5
-li_stdv <- 3.4
+  # If JHU dataframe is missing as input, then call the script to generate it
+  if (missing(df_jhu)) {
+    # Function to get JHU data
+    fun_jhu <- dget(paste0(rfunctions.dir, "get_jhu_data.R"))
+    df_jhu <- fun_jhu(rfunctions.dir)
+  }
+  
+  # Getting the MTF serial interval estimates
+  # mtfest <- paste0(dir.root, "PowerBI/Metadata/serial_interval_mtf.csv")
+  # 
+  # mtfx <- read.csv(mtfest)
+  
+  mtf_mean <- 5.12
+  mtf_stdv <- 4.28
+  
+  ni_mean <- 4.7
+  ni_stdv <- 2.9
+  
+  li_mean <- 7.5
+  li_stdv <- 3.4
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -137,7 +134,7 @@ epi_curve_14<-function(country,ctyname)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Overall function to generate Rt dataset ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-base_data <- jhu(rfunctions.dir)
+base_data <- df_jhu
 row.names(base_data)<-NULL
 
 dx <- base_data
