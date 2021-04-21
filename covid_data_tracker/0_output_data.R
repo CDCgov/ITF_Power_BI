@@ -21,8 +21,8 @@ country_data <- fun_country(rfunctions.dir)
 #country date metadata
 fun_country_date <- dget(paste0(rfunctions.dir,"get_country_date.R"))
 print("running country date code")
-country_date_long <- fun_country_date(rfunctions.dir, country_data)
-write_csv(country_date_long,paste0(out.dir,"lookup_country_date.csv"),na="")
+df_country_date <- fun_country_date(rfunctions.dir, country_data)
+write_csv(df_country_date,paste0(out.dir,"lookup_country_date.csv"),na="")
 
 # get the base jhu and who dataframes
 fun_jhu <- dget(paste0(rfunctions.dir, "get_jhu_data.R"))
