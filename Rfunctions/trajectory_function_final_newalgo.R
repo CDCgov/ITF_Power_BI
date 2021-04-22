@@ -38,7 +38,7 @@ remove_nas <- function(df) {
 # ~~~~~~~~~~~~~~~~ NEW hotspot algorithm (from CBS github 9/24) ~~~~~~~~~~~~~~~~~
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-source(paste0(rfunctions.dir,"traj_sub_functions_vDASH.R"))
+source(paste0(rfunctions.dir,"traj_sub_functions.R"))
 
 df.Countriesx <- df_ncov # Pulling in case and death data
 df.Countries.Daily <- df.Countriesx %>% filter(data_source %in% dfsource) 

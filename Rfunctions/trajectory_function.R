@@ -49,7 +49,7 @@ ldpkg(c("tidyverse",
 
 
 # function to get the base JHU data with cases and deaths daily/cumulative 
-fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data_vDASH.R"))
+fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
