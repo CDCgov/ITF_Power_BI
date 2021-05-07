@@ -80,6 +80,13 @@ xriskmatrix_v2 <- fun_risk("cross", rfunctions.dir, df_ncov)
 write_csv(riskmatrix_v2,paste0(output.dir,"riskmatrix_v2.csv"),na="")
 write_csv(xriskmatrix_v2,paste0(output.dir,"xriskmatrix_v2.csv"),na="")
 
+#risk get_riskmatrix_v3_KM
+fun_risk <- dget(paste0(rfunctions.dir, "get_riskmatrix_v3_KM.R"))
+riskmatrix_v3 <- fun_risk("date", rfunctions.dir, df_ncov)
+xriskmatrix_v3 <- fun_risk("cross", rfunctions.dir, df_ncov)
+write_csv(riskmatrix_v3,paste0(output.dir,"riskmatrix_v3.csv"),na="")
+write_csv(xriskmatrix_v3,paste0(output.dir,"xriskmatrix_v3.csv"),na="")
+
 #who criteria data
 fun_criteria <- dget(paste0(rfunctions.dir, "get_who_criteria.R"))
 who_criteria <- fun_criteria(rfunctions.dir, df_ncov, testing_data, df_rt_ncov)
