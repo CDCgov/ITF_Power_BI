@@ -8889,10 +8889,10 @@ Cases,Rate,24 hours,JHU,USA,2021-06-20,334998398,1.2,cross,3,cat3,"Global cases 
 Cases,Rate,30 days,JHU,USA,2021-06-20,334998398,135.3,cross,197.2,cat4,"Global cases of COVID-19 reported per 100,000 population in the past 30 days","Cases reported per 100,000 population in the past 30 days",x4
 Cases,Rate,7 days,JHU,USA,2021-06-20,334998398,23.8,cross,32,cat4,"Global cases of COVID-19 reported per 100,000 population in the past 7 days","Cases reported per 100,000 population in the past 7 days",x2
 Cases,Rate,Cumulative,JHU,USA,2021-06-20,334998398,10012.6,cross,7834.6+,cat6,"Global cumulative cases of COVID-19 reported per 100,000 population ","Cumulative Cases reported per 100,000 population ",x5
-Deaths,Counts,14 days,JHU,USA,2021-06-20,334998398,4592,cross,747+,cat6,Global deaths from COVID-19 reported in the past 14 days,Deaths reported in the past 14 days,x3
+Deaths,Counts,14 days,JHU,USA,2021-06-20,334998398,4527,cross,747+,cat6,Global deaths from COVID-19 reported in the past 14 days,Deaths reported in the past 14 days,x3
 Deaths,Counts,24 hours,JHU,USA,2021-06-20,334998398,83,cross,78+,cat6,Global deaths from COVID-19 reported in the past 24 hours,Deaths reported in the past 24 hours,x1
-Deaths,Counts,30 days,JHU,USA,2021-06-20,334998398,12690,cross,1511+,cat6,Global deaths from COVID-19 reported in the past 30 days,Deaths reported in the past 30 days,x4
-Deaths,Counts,7 days,JHU,USA,2021-06-20,334998398,2048,cross,350+,cat6,Global deaths from COVID-19 reported in the past 7 days,Deaths reported in the past 7 days,x2
+Deaths,Counts,30 days,JHU,USA,2021-06-20,334998398,12659,cross,1511+,cat6,Global deaths from COVID-19 reported in the past 30 days,Deaths reported in the past 30 days,x4
+Deaths,Counts,7 days,JHU,USA,2021-06-20,334998398,1973,cross,350+,cat6,Global deaths from COVID-19 reported in the past 7 days,Deaths reported in the past 7 days,x2
 Deaths,Counts,Cumulative,JHU,USA,2021-06-20,334998398,601824,cross,17065+,cat6,Global cumulative deaths from COVID-19 reported ,Cumulative Deaths reported ,x5
 Deaths,Rate,14 days,JHU,USA,2021-06-20,334998398,1.4,cross,1.8,cat4,"Global deaths from COVID-19 reported per 100,000 population in the past 14 days","Deaths reported per 100,000 population in the past 14 days",x3
 Deaths,Rate,24 hours,JHU,USA,2021-06-20,334998398,0,cross,Inf,cat1,"Global deaths from COVID-19 reported per 100,000 population in the past 24 hours","Deaths reported per 100,000 population in the past 24 hours",x1
