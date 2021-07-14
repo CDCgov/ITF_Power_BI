@@ -73,7 +73,7 @@ function(z,rfunctions.dir, df_country){
     filter(!(date==max(date) & !is.na(all_cum_tests) & is.na(all_cum_cases))) %>%
     mutate(adj_total_cases=if_else(!is.na(all_cum_tests),all_cum_cases,NA_real_),
            new_tests_smoothed = pop_100k*cap_new_tests,
-           new_tests_smoothed_per_thousand=1000*cap_new_tests,
+           new_tests_smoothed_per_thousand=1000*new_tests_smoothed/(100000*pop_100k),
            total_tests_per_thousand=1000*all_cum_tests/(100000*pop_100k),
            new_tests_per_thousand=1000*new_tests_orig/(100000*pop_100k),
            total_cases_per_million=1000000*all_cum_cases/(100000*pop_100k),
