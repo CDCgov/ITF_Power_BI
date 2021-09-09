@@ -251,11 +251,11 @@ Cases,14 days,WHO,ATG,2021-09-08,99175,cross,420,423.5,Cases reported in the pas
 Cases,14 days,WHO,AUS,2021-09-08,25809973,cross,18895,73.2,Cases reported in the past 14 days
 Cases,14 days,WHO,AUT,2021-09-08,8884864,cross,21188,238.5,Cases reported in the past 14 days
 Cases,14 days,WHO,AZE,2021-09-08,10282283,cross,49691,483.3,Cases reported in the past 14 days
-Cases,14 days,WHO,BDI,2021-09-08,12241065,cross,1471,12,Cases reported in the past 14 days
-Cases,14 days,WHO,BEL,2021-09-08,11778842,cross,24108,204.7,Cases reported in the past 14 days
+Cases,14 days,WHO,BDI,2021-09-08,12241065,cross,2448,20,Cases reported in the past 14 days
+Cases,14 days,WHO,BEL,2021-09-08,11778842,cross,26651,226.3,Cases reported in the past 14 days
 Cases,14 days,WHO,BEN,2021-09-08,13301694,cross,3440,25.9,Cases reported in the past 14 days
 Cases,14 days,WHO,BES,2021-09-08,0,cross,74,,Cases reported in the past 14 days
-Cases,14 days,WHO,BFA,2021-09-08,21382659,cross,114,0.5,Cases reported in the past 14 days
+Cases,14 days,WHO,BFA,2021-09-08,21382659,cross,135,0.6,Cases reported in the past 14 days
 Cases,14 days,WHO,BGD,2021-09-08,164098818,cross,44372,27,Cases reported in the past 14 days
 Cases,14 days,WHO,BGR,2021-09-08,6919180,cross,19618,283.5,Cases reported in the past 14 days
 Cases,14 days,WHO,BHR,2021-09-08,1526929,cross,1449,94.9,Cases reported in the past 14 days
@@ -273,7 +273,7 @@ Cases,14 days,WHO,BTN,2021-09-08,857423,cross,5,0.6,Cases reported in the past 1
 Cases,14 days,WHO,BWA,2021-09-08,2350667,cross,11344,482.6,Cases reported in the past 14 days
 Cases,14 days,WHO,CAF,2021-09-08,5357984,cross,26,0.5,Cases reported in the past 14 days
 Cases,14 days,WHO,CAN,2021-09-08,37943231,cross,37588,99.1,Cases reported in the past 14 days
-Cases,14 days,WHO,CHE,2021-09-08,8453550,cross,31788,376,Cases reported in the past 14 days
+Cases,14 days,WHO,CHE,2021-09-08,8453550,cross,35324,417.9,Cases reported in the past 14 days
 Cases,14 days,WHO,CHL,2021-09-08,18307925,cross,7017,38.3,Cases reported in the past 14 days
 Cases,14 days,WHO,CHN,2021-09-08,1397897720,cross,545,0,Cases reported in the past 14 days
 Cases,14 days,WHO,CIV,2021-09-08,28088455,cross,3269,11.6,Cases reported in the past 14 days
@@ -289,7 +289,7 @@ Cases,14 days,WHO,CUB,2021-09-08,11032343,cross,102149,925.9,Cases reported in t
 Cases,14 days,WHO,CUW,2021-09-08,151885,cross,484,318.7,Cases reported in the past 14 days
 Cases,14 days,WHO,CYM,2021-09-08,63131,cross,47,74.4,Cases reported in the past 14 days
 Cases,14 days,WHO,CYP,2021-09-08,1281506,cross,3454,269.5,Cases reported in the past 14 days
-Cases,14 days,WHO,CZE,2021-09-08,10702596,cross,3598,33.6,Cases reported in the past 14 days
+Cases,14 days,WHO,CZE,2021-09-08,10702596,cross,3569,33.3,Cases reported in the past 14 days
 Cases,14 days,WHO,DEU,2021-09-08,79903481,cross,141508,177.1,Cases reported in the past 14 days
 Cases,14 days,WHO,DJI,2021-09-08,938413,cross,91,9.7,Cases reported in the past 14 days
 Cases,14 days,WHO,DMA,2021-09-08,74584,cross,659,883.6,Cases reported in the past 14 days
@@ -298,8 +298,8 @@ Cases,14 days,WHO,DOM,2021-09-08,10597348,cross,3760,35.5,Cases reported in the 
 Cases,14 days,WHO,DZA,2021-09-08,43576691,cross,5687,13.1,Cases reported in the past 14 days
 Cases,14 days,WHO,ECU,2021-09-08,17093159,cross,4687,27.4,Cases reported in the past 14 days
 Cases,14 days,WHO,EGY,2021-09-08,106437241,cross,4038,3.8,Cases reported in the past 14 days
-Cases,14 days,WHO,ERI,2021-09-08,6147398,cross,16,0.3,Cases reported in the past 14 days
-Cases,14 days,WHO,ESP,2021-09-08,47260584,cross,76267,161.4,Cases reported in the past 14 days
+Cases,14 days,WHO,ERI,2021-09-08,6147398,cross,19,0.3,Cases reported in the past 14 days
+Cases,14 days,WHO,ESP,2021-09-08,47260584,cross,78206,165.5,Cases reported in the past 14 days
 Cases,14 days,WHO,EST,2021-09-08,1220042,cross,4941,405,Cases reported in the past 14 days
 Cases,14 days,WHO,ETH,2021-09-08,110871031,cross,18177,16.4,Cases reported in the past 14 days
 Cases,14 days,WHO,FIN,2021-09-08,5587442,cross,7476,133.8,Cases reported in the past 14 days
@@ -317,7 +317,7 @@ Cases,14 days,WHO,GIB,2021-09-08,29516,cross,100,338.8,Cases reported in the pas
 Cases,14 days,WHO,GIN,2021-09-08,12877894,cross,680,5.3,Cases reported in the past 14 days
 Cases,14 days,WHO,GLP,2021-09-08,0,cross,11560,,Cases reported in the past 14 days
 Cases,14 days,WHO,GMB,2021-09-08,2221301,cross,319,14.4,Cases reported in the past 14 days
-Cases,14 days,WHO,GNB,2021-09-08,1976187,cross,312,15.8,Cases reported in the past 14 days
+Cases,14 days,WHO,GNB,2021-09-08,1976187,cross,353,17.9,Cases reported in the past 14 days
 Cases,14 days,WHO,GNQ,2021-09-08,857008,cross,381,44.5,Cases reported in the past 14 days
 Cases,14 days,WHO,GRC,2021-09-08,10569703,cross,37093,350.9,Cases reported in the past 14 days
 Cases,14 days,WHO,GRD,2021-09-08,113570,cross,1243,1094.5,Cases reported in the past 14 days
@@ -334,14 +334,14 @@ Cases,14 days,WHO,HUN,2021-09-08,9728337,cross,2727,28,Cases reported in the pas
 Cases,14 days,WHO,IDN,2021-09-08,275122131,cross,120528,43.8,Cases reported in the past 14 days
 Cases,14 days,WHO,IMN,2021-09-08,90895,cross,483,531.4,Cases reported in the past 14 days
 Cases,14 days,WHO,IND,2021-09-08,1339330514,cross,584352,43.6,Cases reported in the past 14 days
-Cases,14 days,WHO,IRL,2021-09-08,5224884,cross,21466,410.8,Cases reported in the past 14 days
+Cases,14 days,WHO,IRL,2021-09-08,5224884,cross,21470,410.9,Cases reported in the past 14 days
 Cases,14 days,WHO,IRN,2021-09-08,85888910,cross,427730,498,Cases reported in the past 14 days
 Cases,14 days,WHO,IRQ,2021-09-08,39650145,cross,89020,224.5,Cases reported in the past 14 days
 Cases,14 days,WHO,ISL,2021-09-08,354234,cross,836,236,Cases reported in the past 14 days
-Cases,14 days,WHO,ISR,2021-09-08,8787045,cross,103962,1183.1,Cases reported in the past 14 days
+Cases,14 days,WHO,ISR,2021-09-08,8787045,cross,123666,1407.4,Cases reported in the past 14 days
 Cases,14 days,WHO,ITA,2021-09-08,62390364,cross,84645,135.7,Cases reported in the past 14 days
 Cases,14 days,WHO,JAM,2021-09-08,2816602,cross,9360,332.3,Cases reported in the past 14 days
-Cases,14 days,WHO,JEY,2021-09-08,101476,cross,393,387.3,Cases reported in the past 14 days
+Cases,14 days,WHO,JEY,2021-09-08,101476,cross,353,347.9,Cases reported in the past 14 days
 Cases,14 days,WHO,JOR,2021-09-08,10909567,cross,11885,108.9,Cases reported in the past 14 days
 Cases,14 days,WHO,JPN,2021-09-08,124687293,cross,251879,202,Cases reported in the past 14 days
 Cases,14 days,WHO,KAZ,2021-09-08,19245793,cross,72575,377.1,Cases reported in the past 14 days
@@ -357,8 +357,8 @@ Cases,14 days,WHO,LBN,2021-09-08,5261372,cross,15260,290,Cases reported in the p
 Cases,14 days,WHO,LBR,2021-09-08,5214030,cross,200,3.8,Cases reported in the past 14 days
 Cases,14 days,WHO,LBY,2021-09-08,7017224,cross,19296,275,Cases reported in the past 14 days
 Cases,14 days,WHO,LCA,2021-09-08,166637,cross,1917,1150.4,Cases reported in the past 14 days
-Cases,14 days,WHO,LIE,2021-09-08,39425,cross,93,235.9,Cases reported in the past 14 days
-Cases,14 days,WHO,LKA,2021-09-08,23044123,cross,64095,278.1,Cases reported in the past 14 days
+Cases,14 days,WHO,LIE,2021-09-08,39425,cross,100,253.6,Cases reported in the past 14 days
+Cases,14 days,WHO,LKA,2021-09-08,23044123,cross,67012,290.8,Cases reported in the past 14 days
 Cases,14 days,WHO,LSO,2021-09-08,2177740,cross,13,0.6,Cases reported in the past 14 days
 Cases,14 days,WHO,LTU,2021-09-08,2711566,cross,9227,340.3,Cases reported in the past 14 days
 Cases,14 days,WHO,LUX,2021-09-08,639589,cross,1142,178.6,Cases reported in the past 14 days
@@ -369,21 +369,21 @@ Cases,14 days,WHO,MAR,2021-09-08,36561813,cross,68403,187.1,Cases reported in th
 Cases,14 days,WHO,MCO,2021-09-08,31223,cross,97,310.7,Cases reported in the past 14 days
 Cases,14 days,WHO,MDA,2021-09-08,3323875,cross,6277,188.8,Cases reported in the past 14 days
 Cases,14 days,WHO,MDG,2021-09-08,27534354,cross,26,0.1,Cases reported in the past 14 days
-Cases,14 days,WHO,MDV,2021-09-08,390669,cross,1936,495.6,Cases reported in the past 14 days
+Cases,14 days,WHO,MDV,2021-09-08,390669,cross,2036,521.2,Cases reported in the past 14 days
 Cases,14 days,WHO,MEX,2021-09-08,130207371,cross,201895,155.1,Cases reported in the past 14 days
 Cases,14 days,WHO,MHL,2021-09-08,78831,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,MKD,2021-09-08,2128262,cross,10507,493.7,Cases reported in the past 14 days
 Cases,14 days,WHO,MLI,2021-09-08,20137527,cross,131,0.7,Cases reported in the past 14 days
 Cases,14 days,WHO,MLT,2021-09-08,460891,cross,687,149.1,Cases reported in the past 14 days
-Cases,14 days,WHO,MMR,2021-09-08,57069099,cross,39523,69.3,Cases reported in the past 14 days
-Cases,14 days,WHO,MNE,2021-09-08,607414,cross,8030,1322,Cases reported in the past 14 days
+Cases,14 days,WHO,MMR,2021-09-08,57069099,cross,42225,74,Cases reported in the past 14 days
+Cases,14 days,WHO,MNE,2021-09-08,607414,cross,8029,1321.8,Cases reported in the past 14 days
 Cases,14 days,WHO,MNG,2021-09-08,3198913,cross,44097,1378.5,Cases reported in the past 14 days
 Cases,14 days,WHO,MNP,2021-09-08,51659,cross,19,36.8,Cases reported in the past 14 days
 Cases,14 days,WHO,MOZ,2021-09-08,30888034,cross,4399,14.2,Cases reported in the past 14 days
 Cases,14 days,WHO,MRT,2021-09-08,4079284,cross,2077,50.9,Cases reported in the past 14 days
 Cases,14 days,WHO,MSR,2021-09-08,5387,cross,6,111.4,Cases reported in the past 14 days
 Cases,14 days,WHO,MTQ,2021-09-08,0,cross,4064,,Cases reported in the past 14 days
-Cases,14 days,WHO,MUS,2021-09-08,1386129,cross,3949,284.9,Cases reported in the past 14 days
+Cases,14 days,WHO,MUS,2021-09-08,1386129,cross,4116,296.9,Cases reported in the past 14 days
 Cases,14 days,WHO,MWI,2021-09-08,20308502,cross,1065,5.2,Cases reported in the past 14 days
 Cases,14 days,WHO,MYS,2021-09-08,33519406,cross,287132,856.6,Cases reported in the past 14 days
 Cases,14 days,WHO,MYT,2021-09-08,0,cross,230,,Cases reported in the past 14 days
@@ -393,8 +393,8 @@ Cases,14 days,WHO,NER,2021-09-08,23605767,cross,118,0.5,Cases reported in the pa
 Cases,14 days,WHO,NGA,2021-09-08,219463862,cross,5401,2.5,Cases reported in the past 14 days
 Cases,14 days,WHO,NIC,2021-09-08,6243931,cross,865,13.9,Cases reported in the past 14 days
 Cases,14 days,WHO,NIU,2021-09-08,2000,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,NLD,2021-09-08,17337403,cross,35342,203.8,Cases reported in the past 14 days
-Cases,14 days,WHO,NOR,2021-09-08,5509591,cross,16434,298.3,Cases reported in the past 14 days
+Cases,14 days,WHO,NLD,2021-09-08,17337403,cross,35304,203.6,Cases reported in the past 14 days
+Cases,14 days,WHO,NOR,2021-09-08,5509591,cross,18134,329.1,Cases reported in the past 14 days
 Cases,14 days,WHO,NPL,2021-09-08,30424878,cross,20666,67.9,Cases reported in the past 14 days
 Cases,14 days,WHO,NRU,2021-09-08,9770,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,NZL,2021-09-08,4991442,cross,670,13.4,Cases reported in the past 14 days
@@ -420,12 +420,12 @@ Cases,14 days,WHO,ROU,2021-09-08,21230362,cross,18184,85.7,Cases reported in the
 Cases,14 days,WHO,RUS,2021-09-08,142320790,cross,260994,183.4,Cases reported in the past 14 days
 Cases,14 days,WHO,RWA,2021-09-08,12943132,cross,4555,35.2,Cases reported in the past 14 days
 Cases,14 days,WHO,SAU,2021-09-08,34783757,cross,2798,8,Cases reported in the past 14 days
-Cases,14 days,WHO,SDN,2021-09-08,46751152,cross,215,0.5,Cases reported in the past 14 days
+Cases,14 days,WHO,SDN,2021-09-08,46751152,cross,269,0.6,Cases reported in the past 14 days
 Cases,14 days,WHO,SEN,2021-09-08,16082442,cross,1141,7.1,Cases reported in the past 14 days
 Cases,14 days,WHO,SGP,2021-09-08,5866139,cross,2541,43.3,Cases reported in the past 14 days
 Cases,14 days,WHO,SHN,2021-09-08,7915,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,SLB,2021-09-08,690598,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,SLE,2021-09-08,6807277,cross,17,0.2,Cases reported in the past 14 days
+Cases,14 days,WHO,SLE,2021-09-08,6807277,cross,19,0.3,Cases reported in the past 14 days
 Cases,14 days,WHO,SLV,2021-09-08,6528135,cross,3381,51.8,Cases reported in the past 14 days
 Cases,14 days,WHO,SMR,2021-09-08,34467,cross,66,191.5,Cases reported in the past 14 days
 Cases,14 days,WHO,SOM,2021-09-08,12094640,cross,1055,8.7,Cases reported in the past 14 days
@@ -435,8 +435,8 @@ Cases,14 days,WHO,SSD,2021-09-08,10984074,cross,197,1.8,Cases reported in the pa
 Cases,14 days,WHO,STP,2021-09-08,213948,cross,88,41.1,Cases reported in the past 14 days
 Cases,14 days,WHO,SUR,2021-09-08,614749,cross,3438,559.3,Cases reported in the past 14 days
 Cases,14 days,WHO,SVK,2021-09-08,5436066,cross,2619,48.2,Cases reported in the past 14 days
-Cases,14 days,WHO,SVN,2021-09-08,2102106,cross,7861,374,Cases reported in the past 14 days
-Cases,14 days,WHO,SWE,2021-09-08,10261767,cross,14133,137.7,Cases reported in the past 14 days
+Cases,14 days,WHO,SVN,2021-09-08,2102106,cross,7277,346.2,Cases reported in the past 14 days
+Cases,14 days,WHO,SWE,2021-09-08,10261767,cross,14471,141,Cases reported in the past 14 days
 Cases,14 days,WHO,SWZ,2021-09-08,1113276,cross,3005,269.9,Cases reported in the past 14 days
 Cases,14 days,WHO,SXM,2021-09-08,44564,cross,377,846,Cases reported in the past 14 days
 Cases,14 days,WHO,SYC,2021-09-08,96387,cross,511,530.2,Cases reported in the past 14 days
@@ -451,7 +451,7 @@ Cases,14 days,WHO,TKM,2021-09-08,5579889,cross,0,0,Cases reported in the past 14
 Cases,14 days,WHO,TLS,2021-09-08,1413958,cross,2750,194.5,Cases reported in the past 14 days
 Cases,14 days,WHO,TON,2021-09-08,105780,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,TTO,2021-09-08,1221047,cross,2679,219.4,Cases reported in the past 14 days
-Cases,14 days,WHO,TUN,2021-09-08,11811335,cross,28288,239.5,Cases reported in the past 14 days
+Cases,14 days,WHO,TUN,2021-09-08,11811335,cross,30880,261.4,Cases reported in the past 14 days
 Cases,14 days,WHO,TUR,2021-09-08,82482383,cross,288943,350.3,Cases reported in the past 14 days
 Cases,14 days,WHO,TUV,2021-09-08,11448,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,TWN,2021-09-08,23572052,cross,0,0,Cases reported in the past 14 days
@@ -459,7 +459,7 @@ Cases,14 days,WHO,TZA,2021-09-08,62092761,cross,0,0,Cases reported in the past 1
 Cases,14 days,WHO,UGA,2021-09-08,44712143,cross,1308,2.9,Cases reported in the past 14 days
 Cases,14 days,WHO,UKR,2021-09-08,43745640,cross,26686,61,Cases reported in the past 14 days
 Cases,14 days,WHO,URY,2021-09-08,3398239,cross,1599,47.1,Cases reported in the past 14 days
-Cases,14 days,WHO,USA,2021-09-08,334998398,cross,2077341,620.1,Cases reported in the past 14 days
+Cases,14 days,WHO,USA,2021-09-08,334998398,cross,2226782,664.7,Cases reported in the past 14 days
 Cases,14 days,WHO,UZB,2021-09-08,30842796,cross,10251,33.2,Cases reported in the past 14 days
 Cases,14 days,WHO,VAT,2021-09-08,1000,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,VCT,2021-09-08,101145,cross,65,64.3,Cases reported in the past 14 days
@@ -727,11 +727,11 @@ Cases,24 hours,WHO,ATG,2021-09-08,99175,cross,90,90.7,Cases reported in the past
 Cases,24 hours,WHO,AUS,2021-09-08,25809973,cross,1494,5.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AUT,2021-09-08,8884864,cross,1496,16.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AZE,2021-09-08,10282283,cross,2447,23.8,Cases reported in the past 24 hours
-Cases,24 hours,WHO,BDI,2021-09-08,12241065,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,BEL,2021-09-08,11778842,cross,2,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,BDI,2021-09-08,12241065,cross,977,8,Cases reported in the past 24 hours
+Cases,24 hours,WHO,BEL,2021-09-08,11778842,cross,1215,10.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BEN,2021-09-08,13301694,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BES,2021-09-08,0,cross,13,,Cases reported in the past 24 hours
-Cases,24 hours,WHO,BFA,2021-09-08,21382659,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,BFA,2021-09-08,21382659,cross,21,0.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BGD,2021-09-08,164098818,cross,2497,1.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BGR,2021-09-08,6919180,cross,2005,29,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BHR,2021-09-08,1526929,cross,139,9.1,Cases reported in the past 24 hours
@@ -749,7 +749,7 @@ Cases,24 hours,WHO,BTN,2021-09-08,857423,cross,0,0,Cases reported in the past 24
 Cases,24 hours,WHO,BWA,2021-09-08,2350667,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CAF,2021-09-08,5357984,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CAN,2021-09-08,37943231,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,CHE,2021-09-08,8453550,cross,6,0.1,Cases reported in the past 24 hours
+Cases,24 hours,WHO,CHE,2021-09-08,8453550,cross,1665,19.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CHL,2021-09-08,18307925,cross,265,1.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CHN,2021-09-08,1397897720,cross,37,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CIV,2021-09-08,28088455,cross,0,0,Cases reported in the past 24 hours
@@ -765,7 +765,7 @@ Cases,24 hours,WHO,CUB,2021-09-08,11032343,cross,7771,70.4,Cases reported in the
 Cases,24 hours,WHO,CUW,2021-09-08,151885,cross,13,8.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CYM,2021-09-08,63131,cross,24,38,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CYP,2021-09-08,1281506,cross,206,16.1,Cases reported in the past 24 hours
-Cases,24 hours,WHO,CZE,2021-09-08,10702596,cross,590,5.5,Cases reported in the past 24 hours
+Cases,24 hours,WHO,CZE,2021-09-08,10702596,cross,583,5.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DEU,2021-09-08,79903481,cross,13565,17,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DJI,2021-09-08,938413,cross,7,0.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DMA,2021-09-08,74584,cross,0,0,Cases reported in the past 24 hours
@@ -774,8 +774,8 @@ Cases,24 hours,WHO,DOM,2021-09-08,10597348,cross,115,1.1,Cases reported in the p
 Cases,24 hours,WHO,DZA,2021-09-08,43576691,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ECU,2021-09-08,17093159,cross,51,0.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,EGY,2021-09-08,106437241,cross,378,0.4,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ERI,2021-09-08,6147398,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ESP,2021-09-08,47260584,cross,2311,4.9,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ERI,2021-09-08,6147398,cross,3,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ESP,2021-09-08,47260584,cross,3846,8.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,EST,2021-09-08,1220042,cross,488,40,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ETH,2021-09-08,110871031,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FIN,2021-09-08,5587442,cross,632,11.3,Cases reported in the past 24 hours
@@ -793,7 +793,7 @@ Cases,24 hours,WHO,GIB,2021-09-08,29516,cross,7,23.7,Cases reported in the past 
 Cases,24 hours,WHO,GIN,2021-09-08,12877894,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GLP,2021-09-08,0,cross,0,,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GMB,2021-09-08,2221301,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,GNB,2021-09-08,1976187,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,GNB,2021-09-08,1976187,cross,41,2.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GNQ,2021-09-08,857008,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GRC,2021-09-08,10569703,cross,2807,26.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GRD,2021-09-08,113570,cross,235,206.9,Cases reported in the past 24 hours
@@ -810,14 +810,14 @@ Cases,24 hours,WHO,HUN,2021-09-08,9728337,cross,246,2.5,Cases reported in the pa
 Cases,24 hours,WHO,IDN,2021-09-08,275122131,cross,6731,2.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IMN,2021-09-08,90895,cross,17,18.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IND,2021-09-08,1339330514,cross,37875,2.8,Cases reported in the past 24 hours
-Cases,24 hours,WHO,IRL,2021-09-08,5224884,cross,1465,28,Cases reported in the past 24 hours
+Cases,24 hours,WHO,IRL,2021-09-08,5224884,cross,1468,28.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IRN,2021-09-08,85888910,cross,27138,31.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IRQ,2021-09-08,39650145,cross,5988,15.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ISL,2021-09-08,354234,cross,27,7.6,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ISR,2021-09-08,8787045,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ISR,2021-09-08,8787045,cross,6822,77.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ITA,2021-09-08,62390364,cross,4715,7.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JAM,2021-09-08,2816602,cross,837,29.7,Cases reported in the past 24 hours
-Cases,24 hours,WHO,JEY,2021-09-08,101476,cross,132,130.1,Cases reported in the past 24 hours
+Cases,24 hours,WHO,JEY,2021-09-08,101476,cross,92,90.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JOR,2021-09-08,10909567,cross,1002,9.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JPN,2021-09-08,124687293,cross,10477,8.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,KAZ,2021-09-08,19245793,cross,3981,20.7,Cases reported in the past 24 hours
@@ -834,7 +834,7 @@ Cases,24 hours,WHO,LBR,2021-09-08,5214030,cross,0,0,Cases reported in the past 2
 Cases,24 hours,WHO,LBY,2021-09-08,7017224,cross,1272,18.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LCA,2021-09-08,166637,cross,42,25.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LIE,2021-09-08,39425,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,LKA,2021-09-08,23044123,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,LKA,2021-09-08,23044123,cross,2917,12.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LSO,2021-09-08,2177740,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LTU,2021-09-08,2711566,cross,908,33.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LUX,2021-09-08,639589,cross,113,17.7,Cases reported in the past 24 hours
@@ -845,21 +845,21 @@ Cases,24 hours,WHO,MAR,2021-09-08,36561813,cross,3524,9.6,Cases reported in the 
 Cases,24 hours,WHO,MCO,2021-09-08,31223,cross,13,41.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MDA,2021-09-08,3323875,cross,850,25.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MDG,2021-09-08,27534354,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,MDV,2021-09-08,390669,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,MDV,2021-09-08,390669,cross,100,25.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MEX,2021-09-08,130207371,cross,5127,3.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MHL,2021-09-08,78831,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MKD,2021-09-08,2128262,cross,676,31.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MLI,2021-09-08,20137527,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MLT,2021-09-08,460891,cross,41,8.9,Cases reported in the past 24 hours
-Cases,24 hours,WHO,MMR,2021-09-08,57069099,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,MNE,2021-09-08,607414,cross,606,99.8,Cases reported in the past 24 hours
+Cases,24 hours,WHO,MMR,2021-09-08,57069099,cross,2702,4.7,Cases reported in the past 24 hours
+Cases,24 hours,WHO,MNE,2021-09-08,607414,cross,605,99.6,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MNG,2021-09-08,3198913,cross,4163,130.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MNP,2021-09-08,51659,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MOZ,2021-09-08,30888034,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MRT,2021-09-08,4079284,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MSR,2021-09-08,5387,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MTQ,2021-09-08,0,cross,170,,Cases reported in the past 24 hours
-Cases,24 hours,WHO,MUS,2021-09-08,1386129,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,MUS,2021-09-08,1386129,cross,167,12,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MWI,2021-09-08,20308502,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MYS,2021-09-08,33519406,cross,18547,55.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MYT,2021-09-08,0,cross,22,,Cases reported in the past 24 hours
@@ -869,8 +869,8 @@ Cases,24 hours,WHO,NER,2021-09-08,23605767,cross,0,0,Cases reported in the past 
 Cases,24 hours,WHO,NGA,2021-09-08,219463862,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NIC,2021-09-08,6243931,cross,449,7.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NIU,2021-09-08,2000,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,NLD,2021-09-08,17337403,cross,2501,14.4,Cases reported in the past 24 hours
-Cases,24 hours,WHO,NOR,2021-09-08,5509591,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,NLD,2021-09-08,17337403,cross,2487,14.3,Cases reported in the past 24 hours
+Cases,24 hours,WHO,NOR,2021-09-08,5509591,cross,373,6.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NPL,2021-09-08,30424878,cross,1347,4.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NRU,2021-09-08,9770,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NZL,2021-09-08,4991442,cross,16,0.3,Cases reported in the past 24 hours
@@ -896,12 +896,12 @@ Cases,24 hours,WHO,ROU,2021-09-08,21230362,cross,2079,9.8,Cases reported in the 
 Cases,24 hours,WHO,RUS,2021-09-08,142320790,cross,18024,12.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,RWA,2021-09-08,12943132,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SAU,2021-09-08,34783757,cross,138,0.4,Cases reported in the past 24 hours
-Cases,24 hours,WHO,SDN,2021-09-08,46751152,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,SDN,2021-09-08,46751152,cross,54,0.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SEN,2021-09-08,16082442,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SGP,2021-09-08,5866139,cross,332,5.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SHN,2021-09-08,7915,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SLB,2021-09-08,690598,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,SLE,2021-09-08,6807277,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,SLE,2021-09-08,6807277,cross,2,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SLV,2021-09-08,6528135,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SMR,2021-09-08,34467,cross,7,20.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SOM,2021-09-08,12094640,cross,0,0,Cases reported in the past 24 hours
@@ -911,8 +911,8 @@ Cases,24 hours,WHO,SSD,2021-09-08,10984074,cross,0,0,Cases reported in the past 
 Cases,24 hours,WHO,STP,2021-09-08,213948,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SUR,2021-09-08,614749,cross,157,25.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SVK,2021-09-08,5436066,cross,417,7.7,Cases reported in the past 24 hours
-Cases,24 hours,WHO,SVN,2021-09-08,2102106,cross,1093,52,Cases reported in the past 24 hours
-Cases,24 hours,WHO,SWE,2021-09-08,10261767,cross,2036,19.8,Cases reported in the past 24 hours
+Cases,24 hours,WHO,SVN,2021-09-08,2102106,cross,877,41.7,Cases reported in the past 24 hours
+Cases,24 hours,WHO,SWE,2021-09-08,10261767,cross,2177,21.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SWZ,2021-09-08,1113276,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SXM,2021-09-08,44564,cross,25,56.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SYC,2021-09-08,96387,cross,0,0,Cases reported in the past 24 hours
@@ -927,7 +927,7 @@ Cases,24 hours,WHO,TKM,2021-09-08,5579889,cross,0,0,Cases reported in the past 2
 Cases,24 hours,WHO,TLS,2021-09-08,1413958,cross,158,11.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,TON,2021-09-08,105780,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,TTO,2021-09-08,1221047,cross,110,9,Cases reported in the past 24 hours
-Cases,24 hours,WHO,TUN,2021-09-08,11811335,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,TUN,2021-09-08,11811335,cross,2592,21.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,TUR,2021-09-08,82482383,cross,23638,28.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,TUV,2021-09-08,11448,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,TWN,2021-09-08,23572052,cross,0,0,Cases reported in the past 24 hours
@@ -935,7 +935,7 @@ Cases,24 hours,WHO,TZA,2021-09-08,62092761,cross,0,0,Cases reported in the past 
 Cases,24 hours,WHO,UGA,2021-09-08,44712143,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,UKR,2021-09-08,43745640,cross,2772,6.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,URY,2021-09-08,3398239,cross,120,3.5,Cases reported in the past 24 hours
-Cases,24 hours,WHO,USA,2021-09-08,334998398,cross,98379,29.4,Cases reported in the past 24 hours
+Cases,24 hours,WHO,USA,2021-09-08,334998398,cross,247820,74,Cases reported in the past 24 hours
 Cases,24 hours,WHO,UZB,2021-09-08,30842796,cross,660,2.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,VAT,2021-09-08,1000,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,VCT,2021-09-08,101145,cross,6,5.9,Cases reported in the past 24 hours
@@ -1203,11 +1203,11 @@ Cases,30 days,WHO,ATG,2021-09-08,99175,cross,622,627.2,Cases reported in the pas
 Cases,30 days,WHO,AUS,2021-09-08,25809973,cross,28299,109.6,Cases reported in the past 30 days
 Cases,30 days,WHO,AUT,2021-09-08,8884864,cross,36713,413.2,Cases reported in the past 30 days
 Cases,30 days,WHO,AZE,2021-09-08,10282283,cross,95900,932.7,Cases reported in the past 30 days
-Cases,30 days,WHO,BDI,2021-09-08,12241065,cross,4270,34.9,Cases reported in the past 30 days
-Cases,30 days,WHO,BEL,2021-09-08,11778842,cross,56310,478.1,Cases reported in the past 30 days
+Cases,30 days,WHO,BDI,2021-09-08,12241065,cross,5247,42.9,Cases reported in the past 30 days
+Cases,30 days,WHO,BEL,2021-09-08,11778842,cross,58858,499.7,Cases reported in the past 30 days
 Cases,30 days,WHO,BEN,2021-09-08,13301694,cross,7324,55.1,Cases reported in the past 30 days
 Cases,30 days,WHO,BES,2021-09-08,0,cross,135,,Cases reported in the past 30 days
-Cases,30 days,WHO,BFA,2021-09-08,21382659,cross,226,1.1,Cases reported in the past 30 days
+Cases,30 days,WHO,BFA,2021-09-08,21382659,cross,247,1.2,Cases reported in the past 30 days
 Cases,30 days,WHO,BGD,2021-09-08,164098818,cross,157144,95.8,Cases reported in the past 30 days
 Cases,30 days,WHO,BGR,2021-09-08,6919180,cross,36666,529.9,Cases reported in the past 30 days
 Cases,30 days,WHO,BHR,2021-09-08,1526929,cross,3192,209,Cases reported in the past 30 days
@@ -1225,7 +1225,7 @@ Cases,30 days,WHO,BTN,2021-09-08,857423,cross,50,5.8,Cases reported in the past 
 Cases,30 days,WHO,BWA,2021-09-08,2350667,cross,39612,1685.1,Cases reported in the past 30 days
 Cases,30 days,WHO,CAF,2021-09-08,5357984,cross,122,2.3,Cases reported in the past 30 days
 Cases,30 days,WHO,CAN,2021-09-08,37943231,cross,72993,192.4,Cases reported in the past 30 days
-Cases,30 days,WHO,CHE,2021-09-08,8453550,cross,70624,835.4,Cases reported in the past 30 days
+Cases,30 days,WHO,CHE,2021-09-08,8453550,cross,74164,877.3,Cases reported in the past 30 days
 Cases,30 days,WHO,CHL,2021-09-08,18307925,cross,18428,100.7,Cases reported in the past 30 days
 Cases,30 days,WHO,CHN,2021-09-08,1397897720,cross,1638,0.1,Cases reported in the past 30 days
 Cases,30 days,WHO,CIV,2021-09-08,28088455,cross,5676,20.2,Cases reported in the past 30 days
@@ -1241,7 +1241,7 @@ Cases,30 days,WHO,CUB,2021-09-08,11032343,cross,246456,2233.9,Cases reported in 
 Cases,30 days,WHO,CUW,2021-09-08,151885,cross,1576,1037.6,Cases reported in the past 30 days
 Cases,30 days,WHO,CYM,2021-09-08,63131,cross,69,109.3,Cases reported in the past 30 days
 Cases,30 days,WHO,CYP,2021-09-08,1281506,cross,9493,740.8,Cases reported in the past 30 days
-Cases,30 days,WHO,CZE,2021-09-08,10702596,cross,6670,62.3,Cases reported in the past 30 days
+Cases,30 days,WHO,CZE,2021-09-08,10702596,cross,6593,61.6,Cases reported in the past 30 days
 Cases,30 days,WHO,DEU,2021-09-08,79903481,cross,238732,298.8,Cases reported in the past 30 days
 Cases,30 days,WHO,DJI,2021-09-08,938413,cross,130,13.9,Cases reported in the past 30 days
 Cases,30 days,WHO,DMA,2021-09-08,74584,cross,1631,2186.8,Cases reported in the past 30 days
@@ -1250,8 +1250,8 @@ Cases,30 days,WHO,DOM,2021-09-08,10597348,cross,7514,70.9,Cases reported in the 
 Cases,30 days,WHO,DZA,2021-09-08,43576691,cross,16937,38.9,Cases reported in the past 30 days
 Cases,30 days,WHO,ECU,2021-09-08,17093159,cross,11699,68.4,Cases reported in the past 30 days
 Cases,30 days,WHO,EGY,2021-09-08,106437241,cross,6067,5.7,Cases reported in the past 30 days
-Cases,30 days,WHO,ERI,2021-09-08,6147398,cross,72,1.2,Cases reported in the past 30 days
-Cases,30 days,WHO,ESP,2021-09-08,47260584,cross,250436,529.9,Cases reported in the past 30 days
+Cases,30 days,WHO,ERI,2021-09-08,6147398,cross,75,1.2,Cases reported in the past 30 days
+Cases,30 days,WHO,ESP,2021-09-08,47260584,cross,252470,534.2,Cases reported in the past 30 days
 Cases,30 days,WHO,EST,2021-09-08,1220042,cross,9655,791.4,Cases reported in the past 30 days
 Cases,30 days,WHO,ETH,2021-09-08,110871031,cross,32083,28.9,Cases reported in the past 30 days
 Cases,30 days,WHO,FIN,2021-09-08,5587442,cross,18294,327.4,Cases reported in the past 30 days
@@ -1269,7 +1269,7 @@ Cases,30 days,WHO,GIB,2021-09-08,29516,cross,272,921.5,Cases reported in the pas
 Cases,30 days,WHO,GIN,2021-09-08,12877894,cross,2636,20.5,Cases reported in the past 30 days
 Cases,30 days,WHO,GLP,2021-09-08,0,cross,26889,,Cases reported in the past 30 days
 Cases,30 days,WHO,GMB,2021-09-08,2221301,cross,1026,46.2,Cases reported in the past 30 days
-Cases,30 days,WHO,GNB,2021-09-08,1976187,cross,1114,56.4,Cases reported in the past 30 days
+Cases,30 days,WHO,GNB,2021-09-08,1976187,cross,1155,58.4,Cases reported in the past 30 days
 Cases,30 days,WHO,GNQ,2021-09-08,857008,cross,526,61.4,Cases reported in the past 30 days
 Cases,30 days,WHO,GRC,2021-09-08,10569703,cross,88739,839.6,Cases reported in the past 30 days
 Cases,30 days,WHO,GRD,2021-09-08,113570,cross,1295,1140.3,Cases reported in the past 30 days
@@ -1286,14 +1286,14 @@ Cases,30 days,WHO,HUN,2021-09-08,9728337,cross,4053,41.7,Cases reported in the p
 Cases,30 days,WHO,IDN,2021-09-08,275122131,cross,460625,167.4,Cases reported in the past 30 days
 Cases,30 days,WHO,IMN,2021-09-08,90895,cross,1422,1564.4,Cases reported in the past 30 days
 Cases,30 days,WHO,IND,2021-09-08,1339330514,cross,1126764,84.1,Cases reported in the past 30 days
-Cases,30 days,WHO,IRL,2021-09-08,5224884,cross,48299,924.4,Cases reported in the past 30 days
+Cases,30 days,WHO,IRL,2021-09-08,5224884,cross,48301,924.4,Cases reported in the past 30 days
 Cases,30 days,WHO,IRN,2021-09-08,85888910,cross,1025395,1193.9,Cases reported in the past 30 days
 Cases,30 days,WHO,IRQ,2021-09-08,39650145,cross,216221,545.3,Cases reported in the past 30 days
 Cases,30 days,WHO,ISL,2021-09-08,354234,cross,2190,618.2,Cases reported in the past 30 days
-Cases,30 days,WHO,ISR,2021-09-08,8787045,cross,216235,2460.8,Cases reported in the past 30 days
+Cases,30 days,WHO,ISR,2021-09-08,8787045,cross,235942,2685.1,Cases reported in the past 30 days
 Cases,30 days,WHO,ITA,2021-09-08,62390364,cross,183085,293.5,Cases reported in the past 30 days
 Cases,30 days,WHO,JAM,2021-09-08,2816602,cross,17965,637.8,Cases reported in the past 30 days
-Cases,30 days,WHO,JEY,2021-09-08,101476,cross,941,927.3,Cases reported in the past 30 days
+Cases,30 days,WHO,JEY,2021-09-08,101476,cross,901,887.9,Cases reported in the past 30 days
 Cases,30 days,WHO,JOR,2021-09-08,10909567,cross,26187,240,Cases reported in the past 30 days
 Cases,30 days,WHO,JPN,2021-09-08,124687293,cross,559698,448.9,Cases reported in the past 30 days
 Cases,30 days,WHO,KAZ,2021-09-08,19245793,cross,190437,989.5,Cases reported in the past 30 days
@@ -1309,8 +1309,8 @@ Cases,30 days,WHO,LBN,2021-09-08,5261372,cross,37539,713.5,Cases reported in the
 Cases,30 days,WHO,LBR,2021-09-08,5214030,cross,266,5.1,Cases reported in the past 30 days
 Cases,30 days,WHO,LBY,2021-09-08,7017224,cross,50223,715.7,Cases reported in the past 30 days
 Cases,30 days,WHO,LCA,2021-09-08,166637,cross,3412,2047.6,Cases reported in the past 30 days
-Cases,30 days,WHO,LIE,2021-09-08,39425,cross,247,626.5,Cases reported in the past 30 days
-Cases,30 days,WHO,LKA,2021-09-08,23044123,cross,138916,602.8,Cases reported in the past 30 days
+Cases,30 days,WHO,LIE,2021-09-08,39425,cross,254,644.3,Cases reported in the past 30 days
+Cases,30 days,WHO,LKA,2021-09-08,23044123,cross,141833,615.5,Cases reported in the past 30 days
 Cases,30 days,WHO,LSO,2021-09-08,2177740,cross,792,36.4,Cases reported in the past 30 days
 Cases,30 days,WHO,LTU,2021-09-08,2711566,cross,18192,670.9,Cases reported in the past 30 days
 Cases,30 days,WHO,LUX,2021-09-08,639589,cross,1965,307.2,Cases reported in the past 30 days
@@ -1321,21 +1321,21 @@ Cases,30 days,WHO,MAR,2021-09-08,36561813,cross,193250,528.6,Cases reported in t
 Cases,30 days,WHO,MCO,2021-09-08,31223,cross,267,855.1,Cases reported in the past 30 days
 Cases,30 days,WHO,MDA,2021-09-08,3323875,cross,10905,328.1,Cases reported in the past 30 days
 Cases,30 days,WHO,MDG,2021-09-08,27534354,cross,97,0.4,Cases reported in the past 30 days
-Cases,30 days,WHO,MDV,2021-09-08,390669,cross,3800,972.7,Cases reported in the past 30 days
+Cases,30 days,WHO,MDV,2021-09-08,390669,cross,3900,998.3,Cases reported in the past 30 days
 Cases,30 days,WHO,MEX,2021-09-08,130207371,cross,469267,360.4,Cases reported in the past 30 days
 Cases,30 days,WHO,MHL,2021-09-08,78831,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,MKD,2021-09-08,2128262,cross,22894,1075.7,Cases reported in the past 30 days
 Cases,30 days,WHO,MLI,2021-09-08,20137527,cross,267,1.3,Cases reported in the past 30 days
 Cases,30 days,WHO,MLT,2021-09-08,460891,cross,1651,358.2,Cases reported in the past 30 days
-Cases,30 days,WHO,MMR,2021-09-08,57069099,cross,87275,152.9,Cases reported in the past 30 days
-Cases,30 days,WHO,MNE,2021-09-08,607414,cross,15342,2525.8,Cases reported in the past 30 days
+Cases,30 days,WHO,MMR,2021-09-08,57069099,cross,89977,157.7,Cases reported in the past 30 days
+Cases,30 days,WHO,MNE,2021-09-08,607414,cross,15341,2525.6,Cases reported in the past 30 days
 Cases,30 days,WHO,MNG,2021-09-08,3198913,cross,66335,2073.7,Cases reported in the past 30 days
 Cases,30 days,WHO,MNP,2021-09-08,51659,cross,42,81.3,Cases reported in the past 30 days
 Cases,30 days,WHO,MOZ,2021-09-08,30888034,cross,15602,50.5,Cases reported in the past 30 days
 Cases,30 days,WHO,MRT,2021-09-08,4079284,cross,6100,149.5,Cases reported in the past 30 days
 Cases,30 days,WHO,MSR,2021-09-08,5387,cross,9,167.1,Cases reported in the past 30 days
 Cases,30 days,WHO,MTQ,2021-09-08,0,cross,12039,,Cases reported in the past 30 days
-Cases,30 days,WHO,MUS,2021-09-08,1386129,cross,7496,540.8,Cases reported in the past 30 days
+Cases,30 days,WHO,MUS,2021-09-08,1386129,cross,7663,552.8,Cases reported in the past 30 days
 Cases,30 days,WHO,MWI,2021-09-08,20308502,cross,4932,24.3,Cases reported in the past 30 days
 Cases,30 days,WHO,MYS,2021-09-08,33519406,cross,618194,1844.3,Cases reported in the past 30 days
 Cases,30 days,WHO,MYT,2021-09-08,0,cross,401,,Cases reported in the past 30 days
@@ -1345,8 +1345,8 @@ Cases,30 days,WHO,NER,2021-09-08,23605767,cross,206,0.9,Cases reported in the pa
 Cases,30 days,WHO,NGA,2021-09-08,219463862,cross,15558,7.1,Cases reported in the past 30 days
 Cases,30 days,WHO,NIC,2021-09-08,6243931,cross,1842,29.5,Cases reported in the past 30 days
 Cases,30 days,WHO,NIU,2021-09-08,2000,cross,0,0,Cases reported in the past 30 days
-Cases,30 days,WHO,NLD,2021-09-08,17337403,cross,73238,422.4,Cases reported in the past 30 days
-Cases,30 days,WHO,NOR,2021-09-08,5509591,cross,27165,493,Cases reported in the past 30 days
+Cases,30 days,WHO,NLD,2021-09-08,17337403,cross,73197,422.2,Cases reported in the past 30 days
+Cases,30 days,WHO,NOR,2021-09-08,5509591,cross,28866,523.9,Cases reported in the past 30 days
 Cases,30 days,WHO,NPL,2021-09-08,30424878,cross,56043,184.2,Cases reported in the past 30 days
 Cases,30 days,WHO,NRU,2021-09-08,9770,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,NZL,2021-09-08,4991442,cross,941,18.9,Cases reported in the past 30 days
@@ -1372,12 +1372,12 @@ Cases,30 days,WHO,ROU,2021-09-08,21230362,cross,26055,122.7,Cases reported in th
 Cases,30 days,WHO,RUS,2021-09-08,142320790,cross,595994,418.8,Cases reported in the past 30 days
 Cases,30 days,WHO,RWA,2021-09-08,12943132,cross,12591,97.3,Cases reported in the past 30 days
 Cases,30 days,WHO,SAU,2021-09-08,34783757,cross,11989,34.5,Cases reported in the past 30 days
-Cases,30 days,WHO,SDN,2021-09-08,46751152,cross,349,0.7,Cases reported in the past 30 days
+Cases,30 days,WHO,SDN,2021-09-08,46751152,cross,403,0.9,Cases reported in the past 30 days
 Cases,30 days,WHO,SEN,2021-09-08,16082442,cross,5648,35.1,Cases reported in the past 30 days
 Cases,30 days,WHO,SGP,2021-09-08,5866139,cross,3469,59.1,Cases reported in the past 30 days
 Cases,30 days,WHO,SHN,2021-09-08,7915,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,SLB,2021-09-08,690598,cross,0,0,Cases reported in the past 30 days
-Cases,30 days,WHO,SLE,2021-09-08,6807277,cross,59,0.9,Cases reported in the past 30 days
+Cases,30 days,WHO,SLE,2021-09-08,6807277,cross,61,0.9,Cases reported in the past 30 days
 Cases,30 days,WHO,SLV,2021-09-08,6528135,cross,7696,117.9,Cases reported in the past 30 days
 Cases,30 days,WHO,SMR,2021-09-08,34467,cross,164,475.8,Cases reported in the past 30 days
 Cases,30 days,WHO,SOM,2021-09-08,12094640,cross,2072,17.1,Cases reported in the past 30 days
@@ -1387,8 +1387,8 @@ Cases,30 days,WHO,SSD,2021-09-08,10984074,cross,413,3.8,Cases reported in the pa
 Cases,30 days,WHO,STP,2021-09-08,213948,cross,164,76.7,Cases reported in the past 30 days
 Cases,30 days,WHO,SUR,2021-09-08,614749,cross,5095,828.8,Cases reported in the past 30 days
 Cases,30 days,WHO,SVK,2021-09-08,5436066,cross,3845,70.7,Cases reported in the past 30 days
-Cases,30 days,WHO,SVN,2021-09-08,2102106,cross,12345,587.3,Cases reported in the past 30 days
-Cases,30 days,WHO,SWE,2021-09-08,10261767,cross,28133,274.2,Cases reported in the past 30 days
+Cases,30 days,WHO,SVN,2021-09-08,2102106,cross,11298,537.5,Cases reported in the past 30 days
+Cases,30 days,WHO,SWE,2021-09-08,10261767,cross,28475,277.5,Cases reported in the past 30 days
 Cases,30 days,WHO,SWZ,2021-09-08,1113276,cross,13174,1183.4,Cases reported in the past 30 days
 Cases,30 days,WHO,SXM,2021-09-08,44564,cross,958,2149.7,Cases reported in the past 30 days
 Cases,30 days,WHO,SYC,2021-09-08,96387,cross,1664,1726.4,Cases reported in the past 30 days
@@ -1403,7 +1403,7 @@ Cases,30 days,WHO,TKM,2021-09-08,5579889,cross,0,0,Cases reported in the past 30
 Cases,30 days,WHO,TLS,2021-09-08,1413958,cross,6467,457.4,Cases reported in the past 30 days
 Cases,30 days,WHO,TON,2021-09-08,105780,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,TTO,2021-09-08,1221047,cross,5720,468.5,Cases reported in the past 30 days
-Cases,30 days,WHO,TUN,2021-09-08,11811335,cross,62904,532.6,Cases reported in the past 30 days
+Cases,30 days,WHO,TUN,2021-09-08,11811335,cross,65496,554.5,Cases reported in the past 30 days
 Cases,30 days,WHO,TUR,2021-09-08,82482383,cross,624114,756.7,Cases reported in the past 30 days
 Cases,30 days,WHO,TUV,2021-09-08,11448,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,TWN,2021-09-08,23572052,cross,0,0,Cases reported in the past 30 days
@@ -1411,7 +1411,7 @@ Cases,30 days,WHO,TZA,2021-09-08,62092761,cross,350,0.6,Cases reported in the pa
 Cases,30 days,WHO,UGA,2021-09-08,44712143,cross,3978,8.9,Cases reported in the past 30 days
 Cases,30 days,WHO,UKR,2021-09-08,43745640,cross,43825,100.2,Cases reported in the past 30 days
 Cases,30 days,WHO,URY,2021-09-08,3398239,cross,3420,100.6,Cases reported in the past 30 days
-Cases,30 days,WHO,USA,2021-09-08,334998398,cross,4286595,1279.6,Cases reported in the past 30 days
+Cases,30 days,WHO,USA,2021-09-08,334998398,cross,4436036,1324.2,Cases reported in the past 30 days
 Cases,30 days,WHO,UZB,2021-09-08,30842796,cross,24277,78.7,Cases reported in the past 30 days
 Cases,30 days,WHO,VAT,2021-09-08,1000,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,VCT,2021-09-08,101145,cross,86,85,Cases reported in the past 30 days
@@ -1679,11 +1679,11 @@ Cases,7 days,WHO,ATG,2021-09-08,99175,cross,245,247,Cases reported in the past 7
 Cases,7 days,WHO,AUS,2021-09-08,25809973,cross,10797,41.8,Cases reported in the past 7 days
 Cases,7 days,WHO,AUT,2021-09-08,8884864,cross,11616,130.7,Cases reported in the past 7 days
 Cases,7 days,WHO,AZE,2021-09-08,10282283,cross,22834,222.1,Cases reported in the past 7 days
-Cases,7 days,WHO,BDI,2021-09-08,12241065,cross,485,4,Cases reported in the past 7 days
-Cases,7 days,WHO,BEL,2021-09-08,11778842,cross,9864,83.7,Cases reported in the past 7 days
+Cases,7 days,WHO,BDI,2021-09-08,12241065,cross,1462,11.9,Cases reported in the past 7 days
+Cases,7 days,WHO,BEL,2021-09-08,11778842,cross,12402,105.3,Cases reported in the past 7 days
 Cases,7 days,WHO,BEN,2021-09-08,13301694,cross,2566,19.3,Cases reported in the past 7 days
 Cases,7 days,WHO,BES,2021-09-08,0,cross,58,,Cases reported in the past 7 days
-Cases,7 days,WHO,BFA,2021-09-08,21382659,cross,74,0.3,Cases reported in the past 7 days
+Cases,7 days,WHO,BFA,2021-09-08,21382659,cross,95,0.4,Cases reported in the past 7 days
 Cases,7 days,WHO,BGD,2021-09-08,164098818,cross,18622,11.3,Cases reported in the past 7 days
 Cases,7 days,WHO,BGR,2021-09-08,6919180,cross,8973,129.7,Cases reported in the past 7 days
 Cases,7 days,WHO,BHR,2021-09-08,1526929,cross,712,46.6,Cases reported in the past 7 days
@@ -1701,7 +1701,7 @@ Cases,7 days,WHO,BTN,2021-09-08,857423,cross,0,0,Cases reported in the past 7 da
 Cases,7 days,WHO,BWA,2021-09-08,2350667,cross,5259,223.7,Cases reported in the past 7 days
 Cases,7 days,WHO,CAF,2021-09-08,5357984,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,CAN,2021-09-08,37943231,cross,14956,39.4,Cases reported in the past 7 days
-Cases,7 days,WHO,CHE,2021-09-08,8453550,cross,14151,167.4,Cases reported in the past 7 days
+Cases,7 days,WHO,CHE,2021-09-08,8453550,cross,17681,209.2,Cases reported in the past 7 days
 Cases,7 days,WHO,CHL,2021-09-08,18307925,cross,3116,17,Cases reported in the past 7 days
 Cases,7 days,WHO,CHN,2021-09-08,1397897720,cross,254,0,Cases reported in the past 7 days
 Cases,7 days,WHO,CIV,2021-09-08,28088455,cross,1387,4.9,Cases reported in the past 7 days
@@ -1717,7 +1717,7 @@ Cases,7 days,WHO,CUB,2021-09-08,11032343,cross,51820,469.7,Cases reported in the
 Cases,7 days,WHO,CUW,2021-09-08,151885,cross,220,144.8,Cases reported in the past 7 days
 Cases,7 days,WHO,CYM,2021-09-08,63131,cross,35,55.4,Cases reported in the past 7 days
 Cases,7 days,WHO,CYP,2021-09-08,1281506,cross,1600,124.9,Cases reported in the past 7 days
-Cases,7 days,WHO,CZE,2021-09-08,10702596,cross,2205,20.6,Cases reported in the past 7 days
+Cases,7 days,WHO,CZE,2021-09-08,10702596,cross,2191,20.5,Cases reported in the past 7 days
 Cases,7 days,WHO,DEU,2021-09-08,79903481,cross,74294,93,Cases reported in the past 7 days
 Cases,7 days,WHO,DJI,2021-09-08,938413,cross,42,4.5,Cases reported in the past 7 days
 Cases,7 days,WHO,DMA,2021-09-08,74584,cross,360,482.7,Cases reported in the past 7 days
@@ -1726,8 +1726,8 @@ Cases,7 days,WHO,DOM,2021-09-08,10597348,cross,1836,17.3,Cases reported in the p
 Cases,7 days,WHO,DZA,2021-09-08,43576691,cross,2233,5.1,Cases reported in the past 7 days
 Cases,7 days,WHO,ECU,2021-09-08,17093159,cross,2682,15.7,Cases reported in the past 7 days
 Cases,7 days,WHO,EGY,2021-09-08,106437241,cross,2332,2.2,Cases reported in the past 7 days
-Cases,7 days,WHO,ERI,2021-09-08,6147398,cross,6,0.1,Cases reported in the past 7 days
-Cases,7 days,WHO,ESP,2021-09-08,47260584,cross,29153,61.7,Cases reported in the past 7 days
+Cases,7 days,WHO,ERI,2021-09-08,6147398,cross,9,0.1,Cases reported in the past 7 days
+Cases,7 days,WHO,ESP,2021-09-08,47260584,cross,30996,65.6,Cases reported in the past 7 days
 Cases,7 days,WHO,EST,2021-09-08,1220042,cross,2515,206.1,Cases reported in the past 7 days
 Cases,7 days,WHO,ETH,2021-09-08,110871031,cross,8040,7.3,Cases reported in the past 7 days
 Cases,7 days,WHO,FIN,2021-09-08,5587442,cross,3825,68.5,Cases reported in the past 7 days
@@ -1745,7 +1745,7 @@ Cases,7 days,WHO,GIB,2021-09-08,29516,cross,57,193.1,Cases reported in the past 
 Cases,7 days,WHO,GIN,2021-09-08,12877894,cross,205,1.6,Cases reported in the past 7 days
 Cases,7 days,WHO,GLP,2021-09-08,0,cross,4122,,Cases reported in the past 7 days
 Cases,7 days,WHO,GMB,2021-09-08,2221301,cross,91,4.1,Cases reported in the past 7 days
-Cases,7 days,WHO,GNB,2021-09-08,1976187,cross,103,5.2,Cases reported in the past 7 days
+Cases,7 days,WHO,GNB,2021-09-08,1976187,cross,144,7.3,Cases reported in the past 7 days
 Cases,7 days,WHO,GNQ,2021-09-08,857008,cross,151,17.6,Cases reported in the past 7 days
 Cases,7 days,WHO,GRC,2021-09-08,10569703,cross,16589,156.9,Cases reported in the past 7 days
 Cases,7 days,WHO,GRD,2021-09-08,113570,cross,1012,891.1,Cases reported in the past 7 days
@@ -1762,14 +1762,14 @@ Cases,7 days,WHO,HUN,2021-09-08,9728337,cross,1533,15.8,Cases reported in the pa
 Cases,7 days,WHO,IDN,2021-09-08,275122131,cross,47227,17.2,Cases reported in the past 7 days
 Cases,7 days,WHO,IMN,2021-09-08,90895,cross,197,216.7,Cases reported in the past 7 days
 Cases,7 days,WHO,IND,2021-09-08,1339330514,cross,285873,21.3,Cases reported in the past 7 days
-Cases,7 days,WHO,IRL,2021-09-08,5224884,cross,10348,198.1,Cases reported in the past 7 days
+Cases,7 days,WHO,IRL,2021-09-08,5224884,cross,10353,198.1,Cases reported in the past 7 days
 Cases,7 days,WHO,IRN,2021-09-08,85888910,cross,192061,223.6,Cases reported in the past 7 days
 Cases,7 days,WHO,IRQ,2021-09-08,39650145,cross,40780,102.8,Cases reported in the past 7 days
 Cases,7 days,WHO,ISL,2021-09-08,354234,cross,301,85,Cases reported in the past 7 days
-Cases,7 days,WHO,ISR,2021-09-08,8787045,cross,41323,470.3,Cases reported in the past 7 days
+Cases,7 days,WHO,ISR,2021-09-08,8787045,cross,61022,694.5,Cases reported in the past 7 days
 Cases,7 days,WHO,ITA,2021-09-08,62390364,cross,39511,63.3,Cases reported in the past 7 days
 Cases,7 days,WHO,JAM,2021-09-08,2816602,cross,4693,166.6,Cases reported in the past 7 days
-Cases,7 days,WHO,JEY,2021-09-08,101476,cross,291,286.8,Cases reported in the past 7 days
+Cases,7 days,WHO,JEY,2021-09-08,101476,cross,251,247.3,Cases reported in the past 7 days
 Cases,7 days,WHO,JOR,2021-09-08,10909567,cross,6225,57.1,Cases reported in the past 7 days
 Cases,7 days,WHO,JPN,2021-09-08,124687293,cross,104841,84.1,Cases reported in the past 7 days
 Cases,7 days,WHO,KAZ,2021-09-08,19245793,cross,32183,167.2,Cases reported in the past 7 days
@@ -1785,8 +1785,8 @@ Cases,7 days,WHO,LBN,2021-09-08,5261372,cross,6923,131.6,Cases reported in the p
 Cases,7 days,WHO,LBR,2021-09-08,5214030,cross,133,2.6,Cases reported in the past 7 days
 Cases,7 days,WHO,LBY,2021-09-08,7017224,cross,9097,129.6,Cases reported in the past 7 days
 Cases,7 days,WHO,LCA,2021-09-08,166637,cross,1036,621.7,Cases reported in the past 7 days
-Cases,7 days,WHO,LIE,2021-09-08,39425,cross,54,137,Cases reported in the past 7 days
-Cases,7 days,WHO,LKA,2021-09-08,23044123,cross,27733,120.3,Cases reported in the past 7 days
+Cases,7 days,WHO,LIE,2021-09-08,39425,cross,61,154.7,Cases reported in the past 7 days
+Cases,7 days,WHO,LKA,2021-09-08,23044123,cross,30650,133,Cases reported in the past 7 days
 Cases,7 days,WHO,LSO,2021-09-08,2177740,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,LTU,2021-09-08,2711566,cross,5068,186.9,Cases reported in the past 7 days
 Cases,7 days,WHO,LUX,2021-09-08,639589,cross,598,93.5,Cases reported in the past 7 days
@@ -1797,21 +1797,21 @@ Cases,7 days,WHO,MAR,2021-09-08,36561813,cross,28584,78.2,Cases reported in the 
 Cases,7 days,WHO,MCO,2021-09-08,31223,cross,52,166.5,Cases reported in the past 7 days
 Cases,7 days,WHO,MDA,2021-09-08,3323875,cross,4009,120.6,Cases reported in the past 7 days
 Cases,7 days,WHO,MDG,2021-09-08,27534354,cross,4,0,Cases reported in the past 7 days
-Cases,7 days,WHO,MDV,2021-09-08,390669,cross,963,246.5,Cases reported in the past 7 days
+Cases,7 days,WHO,MDV,2021-09-08,390669,cross,1063,272.1,Cases reported in the past 7 days
 Cases,7 days,WHO,MEX,2021-09-08,130207371,cross,92247,70.8,Cases reported in the past 7 days
 Cases,7 days,WHO,MHL,2021-09-08,78831,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,MKD,2021-09-08,2128262,cross,4425,207.9,Cases reported in the past 7 days
 Cases,7 days,WHO,MLI,2021-09-08,20137527,cross,36,0.2,Cases reported in the past 7 days
 Cases,7 days,WHO,MLT,2021-09-08,460891,cross,382,82.9,Cases reported in the past 7 days
-Cases,7 days,WHO,MMR,2021-09-08,57069099,cross,17762,31.1,Cases reported in the past 7 days
-Cases,7 days,WHO,MNE,2021-09-08,607414,cross,3681,606,Cases reported in the past 7 days
+Cases,7 days,WHO,MMR,2021-09-08,57069099,cross,20464,35.9,Cases reported in the past 7 days
+Cases,7 days,WHO,MNE,2021-09-08,607414,cross,3680,605.8,Cases reported in the past 7 days
 Cases,7 days,WHO,MNG,2021-09-08,3198913,cross,26923,841.6,Cases reported in the past 7 days
 Cases,7 days,WHO,MNP,2021-09-08,51659,cross,5,9.7,Cases reported in the past 7 days
 Cases,7 days,WHO,MOZ,2021-09-08,30888034,cross,1738,5.6,Cases reported in the past 7 days
 Cases,7 days,WHO,MRT,2021-09-08,4079284,cross,717,17.6,Cases reported in the past 7 days
 Cases,7 days,WHO,MSR,2021-09-08,5387,cross,2,37.1,Cases reported in the past 7 days
 Cases,7 days,WHO,MTQ,2021-09-08,0,cross,1594,,Cases reported in the past 7 days
-Cases,7 days,WHO,MUS,2021-09-08,1386129,cross,1940,140,Cases reported in the past 7 days
+Cases,7 days,WHO,MUS,2021-09-08,1386129,cross,2107,152,Cases reported in the past 7 days
 Cases,7 days,WHO,MWI,2021-09-08,20308502,cross,358,1.8,Cases reported in the past 7 days
 Cases,7 days,WHO,MYS,2021-09-08,33519406,cross,134480,401.2,Cases reported in the past 7 days
 Cases,7 days,WHO,MYT,2021-09-08,0,cross,120,,Cases reported in the past 7 days
@@ -1821,8 +1821,8 @@ Cases,7 days,WHO,NER,2021-09-08,23605767,cross,31,0.1,Cases reported in the past
 Cases,7 days,WHO,NGA,2021-09-08,219463862,cross,1839,0.8,Cases reported in the past 7 days
 Cases,7 days,WHO,NIC,2021-09-08,6243931,cross,449,7.2,Cases reported in the past 7 days
 Cases,7 days,WHO,NIU,2021-09-08,2000,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,NLD,2021-09-08,17337403,cross,17890,103.2,Cases reported in the past 7 days
-Cases,7 days,WHO,NOR,2021-09-08,5509591,cross,6802,123.5,Cases reported in the past 7 days
+Cases,7 days,WHO,NLD,2021-09-08,17337403,cross,17856,103,Cases reported in the past 7 days
+Cases,7 days,WHO,NOR,2021-09-08,5509591,cross,8499,154.3,Cases reported in the past 7 days
 Cases,7 days,WHO,NPL,2021-09-08,30424878,cross,9234,30.4,Cases reported in the past 7 days
 Cases,7 days,WHO,NRU,2021-09-08,9770,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,NZL,2021-09-08,4991442,cross,186,3.7,Cases reported in the past 7 days
@@ -1848,12 +1848,12 @@ Cases,7 days,WHO,ROU,2021-09-08,21230362,cross,10947,51.6,Cases reported in the 
 Cases,7 days,WHO,RUS,2021-09-08,142320790,cross,128571,90.3,Cases reported in the past 7 days
 Cases,7 days,WHO,RWA,2021-09-08,12943132,cross,1551,12,Cases reported in the past 7 days
 Cases,7 days,WHO,SAU,2021-09-08,34783757,cross,1056,3,Cases reported in the past 7 days
-Cases,7 days,WHO,SDN,2021-09-08,46751152,cross,168,0.4,Cases reported in the past 7 days
+Cases,7 days,WHO,SDN,2021-09-08,46751152,cross,222,0.5,Cases reported in the past 7 days
 Cases,7 days,WHO,SEN,2021-09-08,16082442,cross,422,2.6,Cases reported in the past 7 days
 Cases,7 days,WHO,SGP,2021-09-08,5866139,cross,1613,27.5,Cases reported in the past 7 days
 Cases,7 days,WHO,SHN,2021-09-08,7915,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,SLB,2021-09-08,690598,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,SLE,2021-09-08,6807277,cross,7,0.1,Cases reported in the past 7 days
+Cases,7 days,WHO,SLE,2021-09-08,6807277,cross,9,0.1,Cases reported in the past 7 days
 Cases,7 days,WHO,SLV,2021-09-08,6528135,cross,2007,30.7,Cases reported in the past 7 days
 Cases,7 days,WHO,SMR,2021-09-08,34467,cross,27,78.3,Cases reported in the past 7 days
 Cases,7 days,WHO,SOM,2021-09-08,12094640,cross,481,4,Cases reported in the past 7 days
@@ -1863,8 +1863,8 @@ Cases,7 days,WHO,SSD,2021-09-08,10984074,cross,88,0.8,Cases reported in the past
 Cases,7 days,WHO,STP,2021-09-08,213948,cross,41,19.2,Cases reported in the past 7 days
 Cases,7 days,WHO,SUR,2021-09-08,614749,cross,2045,332.7,Cases reported in the past 7 days
 Cases,7 days,WHO,SVK,2021-09-08,5436066,cross,1782,32.8,Cases reported in the past 7 days
-Cases,7 days,WHO,SVN,2021-09-08,2102106,cross,4541,216,Cases reported in the past 7 days
-Cases,7 days,WHO,SWE,2021-09-08,10261767,cross,6850,66.8,Cases reported in the past 7 days
+Cases,7 days,WHO,SVN,2021-09-08,2102106,cross,4217,200.6,Cases reported in the past 7 days
+Cases,7 days,WHO,SWE,2021-09-08,10261767,cross,7137,69.5,Cases reported in the past 7 days
 Cases,7 days,WHO,SWZ,2021-09-08,1113276,cross,863,77.5,Cases reported in the past 7 days
 Cases,7 days,WHO,SXM,2021-09-08,44564,cross,170,381.5,Cases reported in the past 7 days
 Cases,7 days,WHO,SYC,2021-09-08,96387,cross,153,158.7,Cases reported in the past 7 days
@@ -1879,7 +1879,7 @@ Cases,7 days,WHO,TKM,2021-09-08,5579889,cross,0,0,Cases reported in the past 7 d
 Cases,7 days,WHO,TLS,2021-09-08,1413958,cross,1105,78.1,Cases reported in the past 7 days
 Cases,7 days,WHO,TON,2021-09-08,105780,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,TTO,2021-09-08,1221047,cross,1218,99.8,Cases reported in the past 7 days
-Cases,7 days,WHO,TUN,2021-09-08,11811335,cross,9603,81.3,Cases reported in the past 7 days
+Cases,7 days,WHO,TUN,2021-09-08,11811335,cross,12195,103.2,Cases reported in the past 7 days
 Cases,7 days,WHO,TUR,2021-09-08,82482383,cross,154323,187.1,Cases reported in the past 7 days
 Cases,7 days,WHO,TUV,2021-09-08,11448,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,TWN,2021-09-08,23572052,cross,0,0,Cases reported in the past 7 days
@@ -1887,7 +1887,7 @@ Cases,7 days,WHO,TZA,2021-09-08,62092761,cross,0,0,Cases reported in the past 7 
 Cases,7 days,WHO,UGA,2021-09-08,44712143,cross,293,0.7,Cases reported in the past 7 days
 Cases,7 days,WHO,UKR,2021-09-08,43745640,cross,14905,34.1,Cases reported in the past 7 days
 Cases,7 days,WHO,URY,2021-09-08,3398239,cross,1002,29.5,Cases reported in the past 7 days
-Cases,7 days,WHO,USA,2021-09-08,334998398,cross,956426,285.5,Cases reported in the past 7 days
+Cases,7 days,WHO,USA,2021-09-08,334998398,cross,1105867,330.1,Cases reported in the past 7 days
 Cases,7 days,WHO,UZB,2021-09-08,30842796,cross,4632,15,Cases reported in the past 7 days
 Cases,7 days,WHO,VAT,2021-09-08,1000,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,VCT,2021-09-08,101145,cross,49,48.4,Cases reported in the past 7 days
@@ -2155,11 +2155,11 @@ Cases,Cumulative,WHO,ATG,2021-09-08,99175,cross,1960,1976.3,Cumulative Cases rep
 Cases,Cumulative,WHO,AUS,2021-09-08,25809973,cross,64628,250.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,AUT,2021-09-08,8884864,cross,695405,7826.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,AZE,2021-09-08,10282283,cross,447725,4354.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,BDI,2021-09-08,12241065,cross,13070,106.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,BEL,2021-09-08,11778842,cross,1198503,10175,Cumulative Cases reported 
+Cases,Cumulative,WHO,BDI,2021-09-08,12241065,cross,14047,114.8,Cumulative Cases reported 
+Cases,Cumulative,WHO,BEL,2021-09-08,11778842,cross,1201056,10196.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,BEN,2021-09-08,13301694,cross,15932,119.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,BES,2021-09-08,0,cross,1850,,Cumulative Cases reported 
-Cases,Cumulative,WHO,BFA,2021-09-08,21382659,cross,13851,64.8,Cumulative Cases reported 
+Cases,Cumulative,WHO,BFA,2021-09-08,21382659,cross,13872,64.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,BGD,2021-09-08,164098818,cross,1522302,927.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,BGR,2021-09-08,6919180,cross,464715,6716.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,BHR,2021-09-08,1526929,cross,273252,17895.5,Cumulative Cases reported 
@@ -2177,7 +2177,7 @@ Cases,Cumulative,WHO,BTN,2021-09-08,857423,cross,2596,302.8,Cumulative Cases rep
 Cases,Cumulative,WHO,BWA,2021-09-08,2350667,cross,162186,6899.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,CAF,2021-09-08,5357984,cross,11296,210.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,CAN,2021-09-08,37943231,cross,1511212,3982.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,CHE,2021-09-08,8453550,cross,795040,9404.8,Cumulative Cases reported 
+Cases,Cumulative,WHO,CHE,2021-09-08,8453550,cross,798581,9446.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,CHL,2021-09-08,18307925,cross,1641791,8967.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,CHN,2021-09-08,1397897720,cross,123322,8.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,CIV,2021-09-08,28088455,cross,57056,203.1,Cumulative Cases reported 
@@ -2193,7 +2193,7 @@ Cases,Cumulative,WHO,CUB,2021-09-08,11032343,cross,704675,6387.4,Cumulative Case
 Cases,Cumulative,WHO,CUW,2021-09-08,151885,cross,15483,10193.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,CYM,2021-09-08,63131,cross,715,1132.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,CYP,2021-09-08,1281506,cross,115475,9010.9,Cumulative Cases reported 
-Cases,Cumulative,WHO,CZE,2021-09-08,10702596,cross,1681681,15712.8,Cumulative Cases reported 
+Cases,Cumulative,WHO,CZE,2021-09-08,10702596,cross,1681678,15712.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,DEU,2021-09-08,79903481,cross,4030681,5044.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,DJI,2021-09-08,938413,cross,11792,1256.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,DMA,2021-09-08,74584,cross,1998,2678.9,Cumulative Cases reported 
@@ -2202,8 +2202,8 @@ Cases,Cumulative,WHO,DOM,2021-09-08,10597348,cross,352009,3321.7,Cumulative Case
 Cases,Cumulative,WHO,DZA,2021-09-08,43576691,cross,198313,455.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,ECU,2021-09-08,17093159,cross,503883,2947.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,EGY,2021-09-08,106437241,cross,290773,273.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,ERI,2021-09-08,6147398,cross,6648,108.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,ESP,2021-09-08,47260584,cross,4892640,10352.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,ERI,2021-09-08,6147398,cross,6651,108.2,Cumulative Cases reported 
+Cases,Cumulative,WHO,ESP,2021-09-08,47260584,cross,4895599,10358.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,EST,2021-09-08,1220042,cross,144878,11874.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,ETH,2021-09-08,110871031,cross,316174,285.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,FIN,2021-09-08,5587442,cross,131686,2356.8,Cumulative Cases reported 
@@ -2221,7 +2221,7 @@ Cases,Cumulative,WHO,GIB,2021-09-08,29516,cross,5399,18291.8,Cumulative Cases re
 Cases,Cumulative,WHO,GIN,2021-09-08,12877894,cross,29605,229.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,GLP,2021-09-08,0,cross,49515,,Cumulative Cases reported 
 Cases,Cumulative,WHO,GMB,2021-09-08,2221301,cross,9789,440.7,Cumulative Cases reported 
-Cases,Cumulative,WHO,GNB,2021-09-08,1976187,cross,5902,298.7,Cumulative Cases reported 
+Cases,Cumulative,WHO,GNB,2021-09-08,1976187,cross,5943,300.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,GNQ,2021-09-08,857008,cross,9477,1105.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,GRC,2021-09-08,10569703,cross,605158,5725.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,GRD,2021-09-08,113570,cross,1473,1297,Cumulative Cases reported 
@@ -2238,14 +2238,14 @@ Cases,Cumulative,WHO,HUN,2021-09-08,9728337,cross,814064,8368,Cumulative Cases r
 Cases,Cumulative,WHO,IDN,2021-09-08,275122131,cross,4147365,1507.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,IMN,2021-09-08,90895,cross,6849,7535.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,IND,2021-09-08,1339330514,cross,33096718,2471.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,IRL,2021-09-08,5224884,cross,359420,6879,Cumulative Cases reported 
+Cases,Cumulative,WHO,IRL,2021-09-08,5224884,cross,359412,6878.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,IRN,2021-09-08,85888910,cross,5184124,6035.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,IRQ,2021-09-08,39650145,cross,1928930,4864.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,ISL,2021-09-08,354234,cross,11090,3130.7,Cumulative Cases reported 
-Cases,Cumulative,WHO,ISR,2021-09-08,8787045,cross,1117596,12718.7,Cumulative Cases reported 
+Cases,Cumulative,WHO,ISR,2021-09-08,8787045,cross,1137306,12943,Cumulative Cases reported 
 Cases,Cumulative,WHO,ITA,2021-09-08,62390364,cross,4579502,7340.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,JAM,2021-09-08,2816602,cross,72824,2585.5,Cumulative Cases reported 
-Cases,Cumulative,WHO,JEY,2021-09-08,101476,cross,9540,9401.2,Cumulative Cases reported 
+Cases,Cumulative,WHO,JEY,2021-09-08,101476,cross,9500,9361.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,JOR,2021-09-08,10909567,cross,803351,7363.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,JPN,2021-09-08,124687293,cross,1590994,1276,Cumulative Cases reported 
 Cases,Cumulative,WHO,KAZ,2021-09-08,19245793,cross,895764,4654.3,Cumulative Cases reported 
@@ -2261,8 +2261,8 @@ Cases,Cumulative,WHO,LBN,2021-09-08,5261372,cross,609189,11578.5,Cumulative Case
 Cases,Cumulative,WHO,LBR,2021-09-08,5214030,cross,5727,109.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,LBY,2021-09-08,7017224,cross,318069,4532.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,LCA,2021-09-08,166637,cross,9191,5515.6,Cumulative Cases reported 
-Cases,Cumulative,WHO,LIE,2021-09-08,39425,cross,3457,8768.5,Cumulative Cases reported 
-Cases,Cumulative,WHO,LKA,2021-09-08,23044123,cross,471863,2047.7,Cumulative Cases reported 
+Cases,Cumulative,WHO,LIE,2021-09-08,39425,cross,3464,8786.3,Cumulative Cases reported 
+Cases,Cumulative,WHO,LKA,2021-09-08,23044123,cross,474780,2060.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,LSO,2021-09-08,2177740,cross,14395,661,Cumulative Cases reported 
 Cases,Cumulative,WHO,LTU,2021-09-08,2711566,cross,304600,11233.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,LUX,2021-09-08,639589,cross,76358,11938.6,Cumulative Cases reported 
@@ -2273,21 +2273,21 @@ Cases,Cumulative,WHO,MAR,2021-09-08,36561813,cross,889532,2433,Cumulative Cases 
 Cases,Cumulative,WHO,MCO,2021-09-08,31223,cross,3253,10418.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,MDA,2021-09-08,3323875,cross,271535,8169.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,MDG,2021-09-08,27534354,cross,42873,155.7,Cumulative Cases reported 
-Cases,Cumulative,WHO,MDV,2021-09-08,390669,cross,82264,21057.2,Cumulative Cases reported 
+Cases,Cumulative,WHO,MDV,2021-09-08,390669,cross,82364,21082.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,MEX,2021-09-08,130207371,cross,3433511,2637,Cumulative Cases reported 
 Cases,Cumulative,WHO,MHL,2021-09-08,78831,cross,4,5.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,MKD,2021-09-08,2128262,cross,180919,8500.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,MLI,2021-09-08,20137527,cross,14910,74,Cumulative Cases reported 
 Cases,Cumulative,WHO,MLT,2021-09-08,460891,cross,36553,7930.9,Cumulative Cases reported 
-Cases,Cumulative,WHO,MMR,2021-09-08,57069099,cross,420402,736.7,Cumulative Cases reported 
-Cases,Cumulative,WHO,MNE,2021-09-08,607414,cross,119069,19602.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,MMR,2021-09-08,57069099,cross,423104,741.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,MNE,2021-09-08,607414,cross,119068,19602.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,MNG,2021-09-08,3198913,cross,240938,7531.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,MNP,2021-09-08,51659,cross,248,480.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,MOZ,2021-09-08,30888034,cross,148054,479.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,MRT,2021-09-08,4079284,cross,34297,840.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,MSR,2021-09-08,5387,cross,31,575.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,MTQ,2021-09-08,0,cross,38786,,Cumulative Cases reported 
-Cases,Cumulative,WHO,MUS,2021-09-08,1386129,cross,12616,910.2,Cumulative Cases reported 
+Cases,Cumulative,WHO,MUS,2021-09-08,1386129,cross,12783,922.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,MWI,2021-09-08,20308502,cross,60852,299.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,MYS,2021-09-08,33519406,cross,1880734,5610.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,MYT,2021-09-08,0,cross,19947,,Cumulative Cases reported 
@@ -2297,8 +2297,8 @@ Cases,Cumulative,WHO,NER,2021-09-08,23605767,cross,5888,24.9,Cumulative Cases re
 Cases,Cumulative,WHO,NGA,2021-09-08,219463862,cross,193644,88.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,NIC,2021-09-08,6243931,cross,9732,155.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,NIU,2021-09-08,2000,cross,0,0,Cumulative Cases reported 
-Cases,Cumulative,WHO,NLD,2021-09-08,17337403,cross,1958804,11298.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,NOR,2021-09-08,5509591,cross,168464,3057.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,NLD,2021-09-08,17337403,cross,1958742,11297.8,Cumulative Cases reported 
+Cases,Cumulative,WHO,NOR,2021-09-08,5509591,cross,170165,3088.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,NPL,2021-09-08,30424878,cross,773529,2542.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,NRU,2021-09-08,9770,cross,0,0,Cumulative Cases reported 
 Cases,Cumulative,WHO,NZL,2021-09-08,4991442,cross,3473,69.6,Cumulative Cases reported 
@@ -2324,12 +2324,12 @@ Cases,Cumulative,WHO,ROU,2021-09-08,21230362,cross,1111155,5233.8,Cumulative Cas
 Cases,Cumulative,WHO,RUS,2021-09-08,142320790,cross,7065904,4964.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,RWA,2021-09-08,12943132,cross,88682,685.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,SAU,2021-09-08,34783757,cross,545505,1568.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,SDN,2021-09-08,46751152,cross,37877,81,Cumulative Cases reported 
+Cases,Cumulative,WHO,SDN,2021-09-08,46751152,cross,37931,81.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,SEN,2021-09-08,16082442,cross,73227,455.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,SGP,2021-09-08,5866139,cross,69233,1180.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,SHN,2021-09-08,7915,cross,0,0,Cumulative Cases reported 
 Cases,Cumulative,WHO,SLB,2021-09-08,690598,cross,20,2.9,Cumulative Cases reported 
-Cases,Cumulative,WHO,SLE,2021-09-08,6807277,cross,6374,93.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,SLE,2021-09-08,6807277,cross,6376,93.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,SLV,2021-09-08,6528135,cross,96067,1471.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,SMR,2021-09-08,34467,cross,5358,15545.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,SOM,2021-09-08,12094640,cross,17947,148.4,Cumulative Cases reported 
@@ -2339,8 +2339,8 @@ Cases,Cumulative,WHO,SSD,2021-09-08,10984074,cross,11534,105,Cumulative Cases re
 Cases,Cumulative,WHO,STP,2021-09-08,213948,cross,2634,1231.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,SUR,2021-09-08,614749,cross,31012,5044.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,SVK,2021-09-08,5436066,cross,396904,7301.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,SVN,2021-09-08,2102106,cross,272512,12963.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,SWE,2021-09-08,10261767,cross,1133449,11045.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,SVN,2021-09-08,2102106,cross,271419,12911.8,Cumulative Cases reported 
+Cases,Cumulative,WHO,SWE,2021-09-08,10261767,cross,1133808,11048.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,SWZ,2021-09-08,1113276,cross,44234,3973.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,SXM,2021-09-08,44564,cross,3849,8637,Cumulative Cases reported 
 Cases,Cumulative,WHO,SYC,2021-09-08,96387,cross,20281,21041.2,Cumulative Cases reported 
@@ -2355,7 +2355,7 @@ Cases,Cumulative,WHO,TKM,2021-09-08,5579889,cross,0,0,Cumulative Cases reported
 Cases,Cumulative,WHO,TLS,2021-09-08,1413958,cross,18046,1276.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,TON,2021-09-08,105780,cross,0,0,Cumulative Cases reported 
 Cases,Cumulative,WHO,TTO,2021-09-08,1221047,cross,45824,3752.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,TUN,2021-09-08,11811335,cross,675771,5721.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,TUN,2021-09-08,11811335,cross,678363,5743.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,TUR,2021-09-08,82482383,cross,6542654,7932.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,TUV,2021-09-08,11448,cross,0,0,Cumulative Cases reported 
 Cases,Cumulative,WHO,TWN,2021-09-08,23572052,cross,0,0,Cumulative Cases reported 
@@ -2363,7 +2363,7 @@ Cases,Cumulative,WHO,TZA,2021-09-08,62092761,cross,1367,2.2,Cumulative Cases rep
 Cases,Cumulative,WHO,UGA,2021-09-08,44712143,cross,99701,223,Cumulative Cases reported 
 Cases,Cumulative,WHO,UKR,2021-09-08,43745640,cross,2303276,5265.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,URY,2021-09-08,3398239,cross,385780,11352.4,Cumulative Cases reported 
-Cases,Cumulative,WHO,USA,2021-09-08,334998398,cross,39893580,11908.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,USA,2021-09-08,334998398,cross,40043021,11953.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,UZB,2021-09-08,30842796,cross,161768,524.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,VAT,2021-09-08,1000,cross,26,2600,Cumulative Cases reported 
 Cases,Cumulative,WHO,VCT,2021-09-08,101145,cross,2385,2358,Cumulative Cases reported 
@@ -2631,8 +2631,8 @@ Deaths,14 days,WHO,ATG,2021-09-08,99175,cross,4,4,Deaths reported in the past 14
 Deaths,14 days,WHO,AUS,2021-09-08,25809973,cross,69,0.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,AUT,2021-09-08,8884864,cross,57,0.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,AZE,2021-09-08,10282283,cross,550,5.3,Deaths reported in the past 14 days
-Deaths,14 days,WHO,BDI,2021-09-08,12241065,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,BEL,2021-09-08,11778842,cross,78,0.7,Deaths reported in the past 14 days
+Deaths,14 days,WHO,BDI,2021-09-08,12241065,cross,2,0,Deaths reported in the past 14 days
+Deaths,14 days,WHO,BEL,2021-09-08,11778842,cross,88,0.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,BEN,2021-09-08,13301694,cross,4,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,BES,2021-09-08,0,cross,0,,Deaths reported in the past 14 days
 Deaths,14 days,WHO,BFA,2021-09-08,21382659,cross,0,0,Deaths reported in the past 14 days
@@ -2653,7 +2653,7 @@ Deaths,14 days,WHO,BTN,2021-09-08,857423,cross,0,0,Deaths reported in the past 1
 Deaths,14 days,WHO,BWA,2021-09-08,2350667,cross,138,5.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CAF,2021-09-08,5357984,cross,1,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CAN,2021-09-08,37943231,cross,192,0.5,Deaths reported in the past 14 days
-Deaths,14 days,WHO,CHE,2021-09-08,8453550,cross,71,0.8,Deaths reported in the past 14 days
+Deaths,14 days,WHO,CHE,2021-09-08,8453550,cross,77,0.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CHL,2021-09-08,18307925,cross,414,2.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CHN,2021-09-08,1397897720,cross,8,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CIV,2021-09-08,28088455,cross,75,0.3,Deaths reported in the past 14 days
@@ -2669,7 +2669,7 @@ Deaths,14 days,WHO,CUB,2021-09-08,11032343,cross,1171,10.6,Deaths reported in th
 Deaths,14 days,WHO,CUW,2021-09-08,151885,cross,10,6.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CYM,2021-09-08,63131,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CYP,2021-09-08,1281506,cross,32,2.5,Deaths reported in the past 14 days
-Deaths,14 days,WHO,CZE,2021-09-08,10702596,cross,21,0.2,Deaths reported in the past 14 days
+Deaths,14 days,WHO,CZE,2021-09-08,10702596,cross,11,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DEU,2021-09-08,79903481,cross,387,0.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DJI,2021-09-08,938413,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DMA,2021-09-08,74584,cross,4,5.4,Deaths reported in the past 14 days
@@ -2678,8 +2678,8 @@ Deaths,14 days,WHO,DOM,2021-09-08,10597348,cross,11,0.1,Deaths reported in the p
 Deaths,14 days,WHO,DZA,2021-09-08,43576691,cross,382,0.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ECU,2021-09-08,17093159,cross,249,1.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,EGY,2021-09-08,106437241,cross,128,0.1,Deaths reported in the past 14 days
-Deaths,14 days,WHO,ERI,2021-09-08,6147398,cross,1,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,ESP,2021-09-08,47260584,cross,792,1.7,Deaths reported in the past 14 days
+Deaths,14 days,WHO,ERI,2021-09-08,6147398,cross,3,0,Deaths reported in the past 14 days
+Deaths,14 days,WHO,ESP,2021-09-08,47260584,cross,848,1.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,EST,2021-09-08,1220042,cross,20,1.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ETH,2021-09-08,110871031,cross,205,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,FIN,2021-09-08,5587442,cross,7,0.1,Deaths reported in the past 14 days
@@ -2697,7 +2697,7 @@ Deaths,14 days,WHO,GIB,2021-09-08,29516,cross,1,3.4,Deaths reported in the past 
 Deaths,14 days,WHO,GIN,2021-09-08,12877894,cross,25,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GLP,2021-09-08,0,cross,179,,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GMB,2021-09-08,2221301,cross,27,1.2,Deaths reported in the past 14 days
-Deaths,14 days,WHO,GNB,2021-09-08,1976187,cross,13,0.7,Deaths reported in the past 14 days
+Deaths,14 days,WHO,GNB,2021-09-08,1976187,cross,14,0.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GNQ,2021-09-08,857008,cross,3,0.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GRC,2021-09-08,10569703,cross,478,4.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GRD,2021-09-08,113570,cross,11,9.7,Deaths reported in the past 14 days
@@ -2718,7 +2718,7 @@ Deaths,14 days,WHO,IRL,2021-09-08,5224884,cross,38,0.7,Deaths reported in the pa
 Deaths,14 days,WHO,IRN,2021-09-08,85888910,cross,8535,9.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,IRQ,2021-09-08,39650145,cross,883,2.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ISL,2021-09-08,354234,cross,3,0.8,Deaths reported in the past 14 days
-Deaths,14 days,WHO,ISR,2021-09-08,8787045,cross,310,3.5,Deaths reported in the past 14 days
+Deaths,14 days,WHO,ISR,2021-09-08,8787045,cross,367,4.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,ITA,2021-09-08,62390364,cross,783,1.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,JAM,2021-09-08,2816602,cross,229,8.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,JEY,2021-09-08,101476,cross,2,2,Deaths reported in the past 14 days
@@ -2738,7 +2738,7 @@ Deaths,14 days,WHO,LBR,2021-09-08,5214030,cross,0,0,Deaths reported in the past 
 Deaths,14 days,WHO,LBY,2021-09-08,7017224,cross,264,3.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LCA,2021-09-08,166637,cross,21,12.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LIE,2021-09-08,39425,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,LKA,2021-09-08,23044123,cross,2556,11.1,Deaths reported in the past 14 days
+Deaths,14 days,WHO,LKA,2021-09-08,23044123,cross,2741,11.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LSO,2021-09-08,2177740,cross,3,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LTU,2021-09-08,2711566,cross,125,4.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LUX,2021-09-08,639589,cross,2,0.3,Deaths reported in the past 14 days
@@ -2747,7 +2747,7 @@ Deaths,14 days,WHO,MAC,2021-09-08,630396,cross,0,0,Deaths reported in the past 1
 Deaths,14 days,WHO,MAF,2021-09-08,0,cross,14,,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MAR,2021-09-08,36561813,cross,1230,3.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MCO,2021-09-08,31223,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,MDA,2021-09-08,3323875,cross,72,2.2,Deaths reported in the past 14 days
+Deaths,14 days,WHO,MDA,2021-09-08,3323875,cross,81,2.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MDG,2021-09-08,27534354,cross,1,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MDV,2021-09-08,390669,cross,2,0.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MEX,2021-09-08,130207371,cross,9944,7.6,Deaths reported in the past 14 days
@@ -2755,15 +2755,15 @@ Deaths,14 days,WHO,MHL,2021-09-08,78831,cross,0,0,Deaths reported in the past 14
 Deaths,14 days,WHO,MKD,2021-09-08,2128262,cross,402,18.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MLI,2021-09-08,20137527,cross,3,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MLT,2021-09-08,460891,cross,8,1.7,Deaths reported in the past 14 days
-Deaths,14 days,WHO,MMR,2021-09-08,57069099,cross,1345,2.4,Deaths reported in the past 14 days
-Deaths,14 days,WHO,MNE,2021-09-08,607414,cross,94,15.5,Deaths reported in the past 14 days
+Deaths,14 days,WHO,MMR,2021-09-08,57069099,cross,1436,2.5,Deaths reported in the past 14 days
+Deaths,14 days,WHO,MNE,2021-09-08,607414,cross,90,14.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MNG,2021-09-08,3198913,cross,69,2.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MNP,2021-09-08,51659,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MOZ,2021-09-08,30888034,cross,68,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MRT,2021-09-08,4079284,cross,56,1.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MSR,2021-09-08,5387,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MTQ,2021-09-08,0,cross,236,,Deaths reported in the past 14 days
-Deaths,14 days,WHO,MUS,2021-09-08,1386129,cross,7,0.5,Deaths reported in the past 14 days
+Deaths,14 days,WHO,MUS,2021-09-08,1386129,cross,10,0.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MWI,2021-09-08,20308502,cross,119,0.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MYS,2021-09-08,33519406,cross,4249,12.7,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MYT,2021-09-08,0,cross,0,,Deaths reported in the past 14 days
@@ -2816,7 +2816,7 @@ Deaths,14 days,WHO,STP,2021-09-08,213948,cross,0,0,Deaths reported in the past 1
 Deaths,14 days,WHO,SUR,2021-09-08,614749,cross,40,6.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SVK,2021-09-08,5436066,cross,6,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SVN,2021-09-08,2102106,cross,9,0.4,Deaths reported in the past 14 days
-Deaths,14 days,WHO,SWE,2021-09-08,10261767,cross,8,0.1,Deaths reported in the past 14 days
+Deaths,14 days,WHO,SWE,2021-09-08,10261767,cross,10,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SWZ,2021-09-08,1113276,cross,123,11,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SXM,2021-09-08,44564,cross,14,31.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SYC,2021-09-08,96387,cross,5,5.2,Deaths reported in the past 14 days
@@ -2831,7 +2831,7 @@ Deaths,14 days,WHO,TKM,2021-09-08,5579889,cross,0,0,Deaths reported in the past 
 Deaths,14 days,WHO,TLS,2021-09-08,1413958,cross,34,2.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,TON,2021-09-08,105780,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,TTO,2021-09-08,1221047,cross,99,8.1,Deaths reported in the past 14 days
-Deaths,14 days,WHO,TUN,2021-09-08,11811335,cross,1041,8.8,Deaths reported in the past 14 days
+Deaths,14 days,WHO,TUN,2021-09-08,11811335,cross,1133,9.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,TUR,2021-09-08,82482383,cross,3656,4.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,TUV,2021-09-08,11448,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,TWN,2021-09-08,23572052,cross,0,0,Deaths reported in the past 14 days
@@ -2839,7 +2839,7 @@ Deaths,14 days,WHO,TZA,2021-09-08,62092761,cross,0,0,Deaths reported in the past
 Deaths,14 days,WHO,UGA,2021-09-08,44712143,cross,69,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,UKR,2021-09-08,43745640,cross,593,1.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,URY,2021-09-08,3398239,cross,18,0.5,Deaths reported in the past 14 days
-Deaths,14 days,WHO,USA,2021-09-08,334998398,cross,19272,5.8,Deaths reported in the past 14 days
+Deaths,14 days,WHO,USA,2021-09-08,334998398,cross,20080,6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,UZB,2021-09-08,30842796,cross,89,0.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,VAT,2021-09-08,1000,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,VCT,2021-09-08,101145,cross,0,0,Deaths reported in the past 14 days
@@ -3107,8 +3107,8 @@ Deaths,24 hours,WHO,ATG,2021-09-08,99175,cross,1,1,Deaths reported in the past 2
 Deaths,24 hours,WHO,AUS,2021-09-08,25809973,cross,9,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,AUT,2021-09-08,8884864,cross,8,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,AZE,2021-09-08,10282283,cross,41,0.4,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,BDI,2021-09-08,12241065,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,BEL,2021-09-08,11778842,cross,2,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,BDI,2021-09-08,12241065,cross,2,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,BEL,2021-09-08,11778842,cross,9,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,BEN,2021-09-08,13301694,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,BES,2021-09-08,0,cross,0,,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,BFA,2021-09-08,21382659,cross,0,0,Deaths reported in the past 24 hours
@@ -3129,7 +3129,7 @@ Deaths,24 hours,WHO,BTN,2021-09-08,857423,cross,0,0,Deaths reported in the past 
 Deaths,24 hours,WHO,BWA,2021-09-08,2350667,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CAF,2021-09-08,5357984,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CAN,2021-09-08,37943231,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,CHE,2021-09-08,8453550,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,CHE,2021-09-08,8453550,cross,4,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CHL,2021-09-08,18307925,cross,7,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CHN,2021-09-08,1397897720,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CIV,2021-09-08,28088455,cross,0,0,Deaths reported in the past 24 hours
@@ -3145,7 +3145,7 @@ Deaths,24 hours,WHO,CUB,2021-09-08,11032343,cross,93,0.8,Deaths reported in the 
 Deaths,24 hours,WHO,CUW,2021-09-08,151885,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CYM,2021-09-08,63131,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CYP,2021-09-08,1281506,cross,2,0.2,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,CZE,2021-09-08,10702596,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,CZE,2021-09-08,10702596,cross,2,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,DEU,2021-09-08,79903481,cross,35,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,DJI,2021-09-08,938413,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,DMA,2021-09-08,74584,cross,0,0,Deaths reported in the past 24 hours
@@ -3154,8 +3154,8 @@ Deaths,24 hours,WHO,DOM,2021-09-08,10597348,cross,1,0,Deaths reported in the pas
 Deaths,24 hours,WHO,DZA,2021-09-08,43576691,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ECU,2021-09-08,17093159,cross,1,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,EGY,2021-09-08,106437241,cross,10,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,ERI,2021-09-08,6147398,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,ESP,2021-09-08,47260584,cross,8,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,ERI,2021-09-08,6147398,cross,2,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,ESP,2021-09-08,47260584,cross,31,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,EST,2021-09-08,1220042,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ETH,2021-09-08,110871031,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,FIN,2021-09-08,5587442,cross,0,0,Deaths reported in the past 24 hours
@@ -3173,7 +3173,7 @@ Deaths,24 hours,WHO,GIB,2021-09-08,29516,cross,0,0,Deaths reported in the past 2
 Deaths,24 hours,WHO,GIN,2021-09-08,12877894,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GLP,2021-09-08,0,cross,0,,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GMB,2021-09-08,2221301,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,GNB,2021-09-08,1976187,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,GNB,2021-09-08,1976187,cross,1,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GNQ,2021-09-08,857008,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GRC,2021-09-08,10569703,cross,38,0.4,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GRD,2021-09-08,113570,cross,0,0,Deaths reported in the past 24 hours
@@ -3194,7 +3194,7 @@ Deaths,24 hours,WHO,IRL,2021-09-08,5224884,cross,0,0,Deaths reported in the past
 Deaths,24 hours,WHO,IRN,2021-09-08,85888910,cross,635,0.7,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,IRQ,2021-09-08,39650145,cross,58,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ISL,2021-09-08,354234,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,ISR,2021-09-08,8787045,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,ISR,2021-09-08,8787045,cross,29,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,ITA,2021-09-08,62390364,cross,71,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,JAM,2021-09-08,2816602,cross,9,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,JEY,2021-09-08,101476,cross,1,1,Deaths reported in the past 24 hours
@@ -3214,7 +3214,7 @@ Deaths,24 hours,WHO,LBR,2021-09-08,5214030,cross,0,0,Deaths reported in the past
 Deaths,24 hours,WHO,LBY,2021-09-08,7017224,cross,20,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LCA,2021-09-08,166637,cross,2,1.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LIE,2021-09-08,39425,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,LKA,2021-09-08,23044123,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,LKA,2021-09-08,23044123,cross,185,0.8,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LSO,2021-09-08,2177740,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LTU,2021-09-08,2711566,cross,7,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LUX,2021-09-08,639589,cross,0,0,Deaths reported in the past 24 hours
@@ -3223,7 +3223,7 @@ Deaths,24 hours,WHO,MAC,2021-09-08,630396,cross,0,0,Deaths reported in the past 
 Deaths,24 hours,WHO,MAF,2021-09-08,0,cross,0,,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MAR,2021-09-08,36561813,cross,79,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MCO,2021-09-08,31223,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,MDA,2021-09-08,3323875,cross,1,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,MDA,2021-09-08,3323875,cross,10,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MDG,2021-09-08,27534354,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MDV,2021-09-08,390669,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MEX,2021-09-08,130207371,cross,330,0.3,Deaths reported in the past 24 hours
@@ -3231,15 +3231,15 @@ Deaths,24 hours,WHO,MHL,2021-09-08,78831,cross,0,0,Deaths reported in the past 2
 Deaths,24 hours,WHO,MKD,2021-09-08,2128262,cross,32,1.5,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MLI,2021-09-08,20137527,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MLT,2021-09-08,460891,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,MMR,2021-09-08,57069099,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,MNE,2021-09-08,607414,cross,17,2.8,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,MMR,2021-09-08,57069099,cross,91,0.2,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,MNE,2021-09-08,607414,cross,13,2.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MNG,2021-09-08,3198913,cross,8,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MNP,2021-09-08,51659,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MOZ,2021-09-08,30888034,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MRT,2021-09-08,4079284,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MSR,2021-09-08,5387,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MTQ,2021-09-08,0,cross,28,,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,MUS,2021-09-08,1386129,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,MUS,2021-09-08,1386129,cross,3,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MWI,2021-09-08,20308502,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MYS,2021-09-08,33519406,cross,311,0.9,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MYT,2021-09-08,0,cross,0,,Deaths reported in the past 24 hours
@@ -3250,7 +3250,7 @@ Deaths,24 hours,WHO,NGA,2021-09-08,219463862,cross,0,0,Deaths reported in the pa
 Deaths,24 hours,WHO,NIC,2021-09-08,6243931,cross,1,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NIU,2021-09-08,2000,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NLD,2021-09-08,17337403,cross,8,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,NOR,2021-09-08,5509591,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,NOR,2021-09-08,5509591,cross,1,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NPL,2021-09-08,30424878,cross,10,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NRU,2021-09-08,9770,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NZL,2021-09-08,4991442,cross,0,0,Deaths reported in the past 24 hours
@@ -3291,7 +3291,7 @@ Deaths,24 hours,WHO,SSD,2021-09-08,10984074,cross,0,0,Deaths reported in the pas
 Deaths,24 hours,WHO,STP,2021-09-08,213948,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SUR,2021-09-08,614749,cross,2,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SVK,2021-09-08,5436066,cross,1,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,SVN,2021-09-08,2102106,cross,1,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,SVN,2021-09-08,2102106,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SWE,2021-09-08,10261767,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SWZ,2021-09-08,1113276,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,SXM,2021-09-08,44564,cross,0,0,Deaths reported in the past 24 hours
@@ -3307,7 +3307,7 @@ Deaths,24 hours,WHO,TKM,2021-09-08,5579889,cross,0,0,Deaths reported in the past
 Deaths,24 hours,WHO,TLS,2021-09-08,1413958,cross,1,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,TON,2021-09-08,105780,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,TTO,2021-09-08,1221047,cross,6,0.5,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,TUN,2021-09-08,11811335,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,TUN,2021-09-08,11811335,cross,92,0.8,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,TUR,2021-09-08,82482383,cross,274,0.3,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,TUV,2021-09-08,11448,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,TWN,2021-09-08,23572052,cross,0,0,Deaths reported in the past 24 hours
@@ -3315,7 +3315,7 @@ Deaths,24 hours,WHO,TZA,2021-09-08,62092761,cross,0,0,Deaths reported in the pas
 Deaths,24 hours,WHO,UGA,2021-09-08,44712143,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,UKR,2021-09-08,43745640,cross,60,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,URY,2021-09-08,3398239,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,USA,2021-09-08,334998398,cross,561,0.2,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,USA,2021-09-08,334998398,cross,1369,0.4,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,UZB,2021-09-08,30842796,cross,7,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,VAT,2021-09-08,1000,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,VCT,2021-09-08,101145,cross,0,0,Deaths reported in the past 24 hours
@@ -3583,8 +3583,8 @@ Deaths,30 days,WHO,ATG,2021-09-08,99175,cross,4,4,Deaths reported in the past 30
 Deaths,30 days,WHO,AUS,2021-09-08,25809973,cross,117,0.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,AUT,2021-09-08,8884864,cross,76,0.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,AZE,2021-09-08,10282283,cross,857,8.3,Deaths reported in the past 30 days
-Deaths,30 days,WHO,BDI,2021-09-08,12241065,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,BEL,2021-09-08,11778842,cross,152,1.3,Deaths reported in the past 30 days
+Deaths,30 days,WHO,BDI,2021-09-08,12241065,cross,2,0,Deaths reported in the past 30 days
+Deaths,30 days,WHO,BEL,2021-09-08,11778842,cross,163,1.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,BEN,2021-09-08,13301694,cross,21,0.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,BES,2021-09-08,0,cross,0,,Deaths reported in the past 30 days
 Deaths,30 days,WHO,BFA,2021-09-08,21382659,cross,2,0,Deaths reported in the past 30 days
@@ -3605,7 +3605,7 @@ Deaths,30 days,WHO,BTN,2021-09-08,857423,cross,1,0.1,Deaths reported in the past
 Deaths,30 days,WHO,BWA,2021-09-08,2350667,cross,605,25.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CAF,2021-09-08,5357984,cross,2,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CAN,2021-09-08,37943231,cross,343,0.9,Deaths reported in the past 30 days
-Deaths,30 days,WHO,CHE,2021-09-08,8453550,cross,123,1.5,Deaths reported in the past 30 days
+Deaths,30 days,WHO,CHE,2021-09-08,8453550,cross,130,1.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CHL,2021-09-08,18307925,cross,1099,6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CHN,2021-09-08,1397897720,cross,28,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CIV,2021-09-08,28088455,cross,136,0.5,Deaths reported in the past 30 days
@@ -3621,7 +3621,7 @@ Deaths,30 days,WHO,CUB,2021-09-08,11032343,cross,2443,22.1,Deaths reported in th
 Deaths,30 days,WHO,CUW,2021-09-08,151885,cross,19,12.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CYM,2021-09-08,63131,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CYP,2021-09-08,1281506,cross,77,6,Deaths reported in the past 30 days
-Deaths,30 days,WHO,CZE,2021-09-08,10702596,cross,40,0.4,Deaths reported in the past 30 days
+Deaths,30 days,WHO,CZE,2021-09-08,10702596,cross,26,0.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DEU,2021-09-08,79903481,cross,664,0.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DJI,2021-09-08,938413,cross,1,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DMA,2021-09-08,74584,cross,5,6.7,Deaths reported in the past 30 days
@@ -3630,8 +3630,8 @@ Deaths,30 days,WHO,DOM,2021-09-08,10597348,cross,39,0.4,Deaths reported in the p
 Deaths,30 days,WHO,DZA,2021-09-08,43576691,cross,895,2.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ECU,2021-09-08,17093159,cross,558,3.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,EGY,2021-09-08,106437241,cross,236,0.2,Deaths reported in the past 30 days
-Deaths,30 days,WHO,ERI,2021-09-08,6147398,cross,3,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,ESP,2021-09-08,47260584,cross,2158,4.6,Deaths reported in the past 30 days
+Deaths,30 days,WHO,ERI,2021-09-08,6147398,cross,5,0.1,Deaths reported in the past 30 days
+Deaths,30 days,WHO,ESP,2021-09-08,47260584,cross,2220,4.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,EST,2021-09-08,1220042,cross,28,2.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ETH,2021-09-08,110871031,cross,359,0.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,FIN,2021-09-08,5587442,cross,24,0.4,Deaths reported in the past 30 days
@@ -3649,7 +3649,7 @@ Deaths,30 days,WHO,GIB,2021-09-08,29516,cross,2,6.8,Deaths reported in the past 
 Deaths,30 days,WHO,GIN,2021-09-08,12877894,cross,81,0.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GLP,2021-09-08,0,cross,315,,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GMB,2021-09-08,2221301,cross,83,3.7,Deaths reported in the past 30 days
-Deaths,30 days,WHO,GNB,2021-09-08,1976187,cross,42,2.1,Deaths reported in the past 30 days
+Deaths,30 days,WHO,GNB,2021-09-08,1976187,cross,43,2.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GNQ,2021-09-08,857008,cross,3,0.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GRC,2021-09-08,10569703,cross,847,8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GRD,2021-09-08,113570,cross,11,9.7,Deaths reported in the past 30 days
@@ -3670,7 +3670,7 @@ Deaths,30 days,WHO,IRL,2021-09-08,5224884,cross,68,1.3,Deaths reported in the pa
 Deaths,30 days,WHO,IRN,2021-09-08,85888910,cross,17877,20.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,IRQ,2021-09-08,39650145,cross,2017,5.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ISL,2021-09-08,354234,cross,3,0.8,Deaths reported in the past 30 days
-Deaths,30 days,WHO,ISR,2021-09-08,8787045,cross,641,7.3,Deaths reported in the past 30 days
+Deaths,30 days,WHO,ISR,2021-09-08,8787045,cross,695,7.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,ITA,2021-09-08,62390364,cross,1418,2.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,JAM,2021-09-08,2816602,cross,424,15.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,JEY,2021-09-08,101476,cross,5,4.9,Deaths reported in the past 30 days
@@ -3690,7 +3690,7 @@ Deaths,30 days,WHO,LBR,2021-09-08,5214030,cross,25,0.5,Deaths reported in the pa
 Deaths,30 days,WHO,LBY,2021-09-08,7017224,cross,644,9.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LCA,2021-09-08,166637,cross,28,16.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LIE,2021-09-08,39425,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,LKA,2021-09-08,23044123,cross,5339,23.2,Deaths reported in the past 30 days
+Deaths,30 days,WHO,LKA,2021-09-08,23044123,cross,5524,24,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LSO,2021-09-08,2177740,cross,26,1.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LTU,2021-09-08,2711566,cross,200,7.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LUX,2021-09-08,639589,cross,8,1.3,Deaths reported in the past 30 days
@@ -3699,7 +3699,7 @@ Deaths,30 days,WHO,MAC,2021-09-08,630396,cross,0,0,Deaths reported in the past 3
 Deaths,30 days,WHO,MAF,2021-09-08,0,cross,0,,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MAR,2021-09-08,36561813,cross,2889,7.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MCO,2021-09-08,31223,cross,2,6.4,Deaths reported in the past 30 days
-Deaths,30 days,WHO,MDA,2021-09-08,3323875,cross,164,4.9,Deaths reported in the past 30 days
+Deaths,30 days,WHO,MDA,2021-09-08,3323875,cross,173,5.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MDG,2021-09-08,27534354,cross,8,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MDV,2021-09-08,390669,cross,5,1.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MEX,2021-09-08,130207371,cross,19222,14.8,Deaths reported in the past 30 days
@@ -3707,15 +3707,15 @@ Deaths,30 days,WHO,MHL,2021-09-08,78831,cross,0,0,Deaths reported in the past 30
 Deaths,30 days,WHO,MKD,2021-09-08,2128262,cross,622,29.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MLI,2021-09-08,20137527,cross,5,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MLT,2021-09-08,460891,cross,17,3.7,Deaths reported in the past 30 days
-Deaths,30 days,WHO,MMR,2021-09-08,57069099,cross,4068,7.1,Deaths reported in the past 30 days
-Deaths,30 days,WHO,MNE,2021-09-08,607414,cross,139,22.9,Deaths reported in the past 30 days
+Deaths,30 days,WHO,MMR,2021-09-08,57069099,cross,4159,7.3,Deaths reported in the past 30 days
+Deaths,30 days,WHO,MNE,2021-09-08,607414,cross,135,22.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MNG,2021-09-08,3198913,cross,119,3.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MNP,2021-09-08,51659,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MOZ,2021-09-08,30888034,cross,268,0.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MRT,2021-09-08,4079284,cross,132,3.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MSR,2021-09-08,5387,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MTQ,2021-09-08,0,cross,360,,Deaths reported in the past 30 days
-Deaths,30 days,WHO,MUS,2021-09-08,1386129,cross,13,0.9,Deaths reported in the past 30 days
+Deaths,30 days,WHO,MUS,2021-09-08,1386129,cross,16,1.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MWI,2021-09-08,20308502,cross,389,1.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MYS,2021-09-08,33519406,cross,8053,24,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MYT,2021-09-08,0,cross,0,,Deaths reported in the past 30 days
@@ -3767,8 +3767,8 @@ Deaths,30 days,WHO,SSD,2021-09-08,10984074,cross,0,0,Deaths reported in the past
 Deaths,30 days,WHO,STP,2021-09-08,213948,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SUR,2021-09-08,614749,cross,78,12.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SVK,2021-09-08,5436066,cross,12,0.2,Deaths reported in the past 30 days
-Deaths,30 days,WHO,SVN,2021-09-08,2102106,cross,22,1,Deaths reported in the past 30 days
-Deaths,30 days,WHO,SWE,2021-09-08,10261767,cross,23,0.2,Deaths reported in the past 30 days
+Deaths,30 days,WHO,SVN,2021-09-08,2102106,cross,21,1,Deaths reported in the past 30 days
+Deaths,30 days,WHO,SWE,2021-09-08,10261767,cross,25,0.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SWZ,2021-09-08,1113276,cross,295,26.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SXM,2021-09-08,44564,cross,23,51.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SYC,2021-09-08,96387,cross,12,12.4,Deaths reported in the past 30 days
@@ -3783,7 +3783,7 @@ Deaths,30 days,WHO,TKM,2021-09-08,5579889,cross,0,0,Deaths reported in the past 
 Deaths,30 days,WHO,TLS,2021-09-08,1413958,cross,58,4.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,TON,2021-09-08,105780,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,TTO,2021-09-08,1221047,cross,207,17,Deaths reported in the past 30 days
-Deaths,30 days,WHO,TUN,2021-09-08,11811335,cross,2876,24.3,Deaths reported in the past 30 days
+Deaths,30 days,WHO,TUN,2021-09-08,11811335,cross,2968,25.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,TUR,2021-09-08,82482383,cross,6455,7.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,TUV,2021-09-08,11448,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,TWN,2021-09-08,23572052,cross,0,0,Deaths reported in the past 30 days
@@ -3791,7 +3791,7 @@ Deaths,30 days,WHO,TZA,2021-09-08,62092761,cross,29,0,Deaths reported in the pas
 Deaths,30 days,WHO,UGA,2021-09-08,44712143,cross,238,0.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,UKR,2021-09-08,43745640,cross,1014,2.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,URY,2021-09-08,3398239,cross,48,1.4,Deaths reported in the past 30 days
-Deaths,30 days,WHO,USA,2021-09-08,334998398,cross,32460,9.7,Deaths reported in the past 30 days
+Deaths,30 days,WHO,USA,2021-09-08,334998398,cross,33268,9.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,UZB,2021-09-08,30842796,cross,198,0.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,VAT,2021-09-08,1000,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,VCT,2021-09-08,101145,cross,0,0,Deaths reported in the past 30 days
@@ -4059,8 +4059,8 @@ Deaths,7 days,WHO,ATG,2021-09-08,99175,cross,3,3,Deaths reported in the past 7 d
 Deaths,7 days,WHO,AUS,2021-09-08,25809973,cross,47,0.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,AUT,2021-09-08,8884864,cross,34,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,AZE,2021-09-08,10282283,cross,284,2.8,Deaths reported in the past 7 days
-Deaths,7 days,WHO,BDI,2021-09-08,12241065,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,BEL,2021-09-08,11778842,cross,44,0.4,Deaths reported in the past 7 days
+Deaths,7 days,WHO,BDI,2021-09-08,12241065,cross,2,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,BEL,2021-09-08,11778842,cross,53,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,BEN,2021-09-08,13301694,cross,3,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,BES,2021-09-08,0,cross,0,,Deaths reported in the past 7 days
 Deaths,7 days,WHO,BFA,2021-09-08,21382659,cross,0,0,Deaths reported in the past 7 days
@@ -4081,7 +4081,7 @@ Deaths,7 days,WHO,BTN,2021-09-08,857423,cross,0,0,Deaths reported in the past 7 
 Deaths,7 days,WHO,BWA,2021-09-08,2350667,cross,48,2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CAF,2021-09-08,5357984,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CAN,2021-09-08,37943231,cross,88,0.2,Deaths reported in the past 7 days
-Deaths,7 days,WHO,CHE,2021-09-08,8453550,cross,32,0.4,Deaths reported in the past 7 days
+Deaths,7 days,WHO,CHE,2021-09-08,8453550,cross,37,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CHL,2021-09-08,18307925,cross,178,1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CHN,2021-09-08,1397897720,cross,2,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CIV,2021-09-08,28088455,cross,36,0.1,Deaths reported in the past 7 days
@@ -4097,7 +4097,7 @@ Deaths,7 days,WHO,CUB,2021-09-08,11032343,cross,578,5.2,Deaths reported in the p
 Deaths,7 days,WHO,CUW,2021-09-08,151885,cross,6,4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CYM,2021-09-08,63131,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CYP,2021-09-08,1281506,cross,15,1.2,Deaths reported in the past 7 days
-Deaths,7 days,WHO,CZE,2021-09-08,10702596,cross,4,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,CZE,2021-09-08,10702596,cross,5,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DEU,2021-09-08,79903481,cross,225,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DJI,2021-09-08,938413,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DMA,2021-09-08,74584,cross,1,1.3,Deaths reported in the past 7 days
@@ -4106,8 +4106,8 @@ Deaths,7 days,WHO,DOM,2021-09-08,10597348,cross,5,0,Deaths reported in the past 
 Deaths,7 days,WHO,DZA,2021-09-08,43576691,cross,176,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ECU,2021-09-08,17093159,cross,109,0.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,EGY,2021-09-08,106437241,cross,75,0.1,Deaths reported in the past 7 days
-Deaths,7 days,WHO,ERI,2021-09-08,6147398,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,ESP,2021-09-08,47260584,cross,301,0.6,Deaths reported in the past 7 days
+Deaths,7 days,WHO,ERI,2021-09-08,6147398,cross,2,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,ESP,2021-09-08,47260584,cross,355,0.8,Deaths reported in the past 7 days
 Deaths,7 days,WHO,EST,2021-09-08,1220042,cross,12,1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ETH,2021-09-08,110871031,cross,110,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,FIN,2021-09-08,5587442,cross,1,0,Deaths reported in the past 7 days
@@ -4125,7 +4125,7 @@ Deaths,7 days,WHO,GIB,2021-09-08,29516,cross,0,0,Deaths reported in the past 7 d
 Deaths,7 days,WHO,GIN,2021-09-08,12877894,cross,6,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GLP,2021-09-08,0,cross,98,,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GMB,2021-09-08,2221301,cross,9,0.4,Deaths reported in the past 7 days
-Deaths,7 days,WHO,GNB,2021-09-08,1976187,cross,2,0.1,Deaths reported in the past 7 days
+Deaths,7 days,WHO,GNB,2021-09-08,1976187,cross,3,0.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GNQ,2021-09-08,857008,cross,2,0.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GRC,2021-09-08,10569703,cross,273,2.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GRD,2021-09-08,113570,cross,11,9.7,Deaths reported in the past 7 days
@@ -4146,7 +4146,7 @@ Deaths,7 days,WHO,IRL,2021-09-08,5224884,cross,20,0.4,Deaths reported in the pas
 Deaths,7 days,WHO,IRN,2021-09-08,85888910,cross,4098,4.8,Deaths reported in the past 7 days
 Deaths,7 days,WHO,IRQ,2021-09-08,39650145,cross,390,1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ISL,2021-09-08,354234,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,ISR,2021-09-08,8787045,cross,127,1.4,Deaths reported in the past 7 days
+Deaths,7 days,WHO,ISR,2021-09-08,8787045,cross,183,2.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,ITA,2021-09-08,62390364,cross,417,0.7,Deaths reported in the past 7 days
 Deaths,7 days,WHO,JAM,2021-09-08,2816602,cross,128,4.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,JEY,2021-09-08,101476,cross,1,1,Deaths reported in the past 7 days
@@ -4166,7 +4166,7 @@ Deaths,7 days,WHO,LBR,2021-09-08,5214030,cross,0,0,Deaths reported in the past 7
 Deaths,7 days,WHO,LBY,2021-09-08,7017224,cross,116,1.7,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LCA,2021-09-08,166637,cross,15,9,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LIE,2021-09-08,39425,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,LKA,2021-09-08,23044123,cross,1104,4.8,Deaths reported in the past 7 days
+Deaths,7 days,WHO,LKA,2021-09-08,23044123,cross,1289,5.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LSO,2021-09-08,2177740,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LTU,2021-09-08,2711566,cross,61,2.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LUX,2021-09-08,639589,cross,2,0.3,Deaths reported in the past 7 days
@@ -4175,7 +4175,7 @@ Deaths,7 days,WHO,MAC,2021-09-08,630396,cross,0,0,Deaths reported in the past 7 
 Deaths,7 days,WHO,MAF,2021-09-08,0,cross,14,,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MAR,2021-09-08,36561813,cross,575,1.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MCO,2021-09-08,31223,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,MDA,2021-09-08,3323875,cross,45,1.4,Deaths reported in the past 7 days
+Deaths,7 days,WHO,MDA,2021-09-08,3323875,cross,54,1.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MDG,2021-09-08,27534354,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MDV,2021-09-08,390669,cross,1,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MEX,2021-09-08,130207371,cross,4979,3.8,Deaths reported in the past 7 days
@@ -4183,15 +4183,15 @@ Deaths,7 days,WHO,MHL,2021-09-08,78831,cross,0,0,Deaths reported in the past 7 d
 Deaths,7 days,WHO,MKD,2021-09-08,2128262,cross,191,9,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MLI,2021-09-08,20137527,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MLT,2021-09-08,460891,cross,4,0.9,Deaths reported in the past 7 days
-Deaths,7 days,WHO,MMR,2021-09-08,57069099,cross,592,1,Deaths reported in the past 7 days
-Deaths,7 days,WHO,MNE,2021-09-08,607414,cross,54,8.9,Deaths reported in the past 7 days
+Deaths,7 days,WHO,MMR,2021-09-08,57069099,cross,683,1.2,Deaths reported in the past 7 days
+Deaths,7 days,WHO,MNE,2021-09-08,607414,cross,50,8.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MNG,2021-09-08,3198913,cross,45,1.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MNP,2021-09-08,51659,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MOZ,2021-09-08,30888034,cross,17,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MRT,2021-09-08,4079284,cross,22,0.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MSR,2021-09-08,5387,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MTQ,2021-09-08,0,cross,67,,Deaths reported in the past 7 days
-Deaths,7 days,WHO,MUS,2021-09-08,1386129,cross,3,0.2,Deaths reported in the past 7 days
+Deaths,7 days,WHO,MUS,2021-09-08,1386129,cross,6,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MWI,2021-09-08,20308502,cross,40,0.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MYS,2021-09-08,33519406,cross,2138,6.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MYT,2021-09-08,0,cross,0,,Deaths reported in the past 7 days
@@ -4202,7 +4202,7 @@ Deaths,7 days,WHO,NGA,2021-09-08,219463862,cross,33,0,Deaths reported in the pas
 Deaths,7 days,WHO,NIC,2021-09-08,6243931,cross,1,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NIU,2021-09-08,2000,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NLD,2021-09-08,17337403,cross,38,0.2,Deaths reported in the past 7 days
-Deaths,7 days,WHO,NOR,2021-09-08,5509591,cross,1,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,NOR,2021-09-08,5509591,cross,9,0.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NPL,2021-09-08,30424878,cross,119,0.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NRU,2021-09-08,9770,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NZL,2021-09-08,4991442,cross,1,0,Deaths reported in the past 7 days
@@ -4259,7 +4259,7 @@ Deaths,7 days,WHO,TKM,2021-09-08,5579889,cross,0,0,Deaths reported in the past 7
 Deaths,7 days,WHO,TLS,2021-09-08,1413958,cross,14,1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,TON,2021-09-08,105780,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,TTO,2021-09-08,1221047,cross,51,4.2,Deaths reported in the past 7 days
-Deaths,7 days,WHO,TUN,2021-09-08,11811335,cross,363,3.1,Deaths reported in the past 7 days
+Deaths,7 days,WHO,TUN,2021-09-08,11811335,cross,455,3.9,Deaths reported in the past 7 days
 Deaths,7 days,WHO,TUR,2021-09-08,82482383,cross,1941,2.4,Deaths reported in the past 7 days
 Deaths,7 days,WHO,TUV,2021-09-08,11448,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,TWN,2021-09-08,23572052,cross,0,0,Deaths reported in the past 7 days
@@ -4267,7 +4267,7 @@ Deaths,7 days,WHO,TZA,2021-09-08,62092761,cross,0,0,Deaths reported in the past 
 Deaths,7 days,WHO,UGA,2021-09-08,44712143,cross,19,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,UKR,2021-09-08,43745640,cross,281,0.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,URY,2021-09-08,3398239,cross,5,0.1,Deaths reported in the past 7 days
-Deaths,7 days,WHO,USA,2021-09-08,334998398,cross,9903,3,Deaths reported in the past 7 days
+Deaths,7 days,WHO,USA,2021-09-08,334998398,cross,10711,3.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,UZB,2021-09-08,30842796,cross,44,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,VAT,2021-09-08,1000,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,VCT,2021-09-08,101145,cross,0,0,Deaths reported in the past 7 days
@@ -4535,8 +4535,8 @@ Deaths,Cumulative,WHO,ATG,2021-09-08,99175,cross,47,47.4,Cumulative Deaths repor
 Deaths,Cumulative,WHO,AUS,2021-09-08,25809973,cross,1053,4.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,AUT,2021-09-08,8884864,cross,10604,119.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,AZE,2021-09-08,10282283,cross,5920,57.6,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,BDI,2021-09-08,12241065,cross,10,0.1,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,BEL,2021-09-08,11778842,cross,25428,215.9,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,BDI,2021-09-08,12241065,cross,12,0.1,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,BEL,2021-09-08,11778842,cross,25442,216,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,BEN,2021-09-08,13301694,cross,131,1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,BES,2021-09-08,0,cross,17,,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,BFA,2021-09-08,21382659,cross,171,0.8,Cumulative Deaths reported 
@@ -4557,7 +4557,7 @@ Deaths,Cumulative,WHO,BTN,2021-09-08,857423,cross,3,0.3,Cumulative Deaths report
 Deaths,Cumulative,WHO,BWA,2021-09-08,2350667,cross,2309,98.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CAF,2021-09-08,5357984,cross,100,1.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CAN,2021-09-08,37943231,cross,27006,71.2,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,CHE,2021-09-08,8453550,cross,10492,124.1,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,CHE,2021-09-08,8453550,cross,10500,124.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CHL,2021-09-08,18307925,cross,37115,202.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CHN,2021-09-08,1397897720,cross,5685,0.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CIV,2021-09-08,28088455,cross,477,1.7,Cumulative Deaths reported 
@@ -4573,7 +4573,7 @@ Deaths,Cumulative,WHO,CUB,2021-09-08,11032343,cross,5881,53.3,Cumulative Deaths 
 Deaths,Cumulative,WHO,CUW,2021-09-08,151885,cross,149,98.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CYM,2021-09-08,63131,cross,2,3.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CYP,2021-09-08,1281506,cross,518,40.4,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,CZE,2021-09-08,10702596,cross,30408,284.1,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,CZE,2021-09-08,10702596,cross,30412,284.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DEU,2021-09-08,79903481,cross,92448,115.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DJI,2021-09-08,938413,cross,157,16.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DMA,2021-09-08,74584,cross,5,6.7,Cumulative Deaths reported 
@@ -4582,8 +4582,8 @@ Deaths,Cumulative,WHO,DOM,2021-09-08,10597348,cross,4013,37.9,Cumulative Deaths 
 Deaths,Cumulative,WHO,DZA,2021-09-08,43576691,cross,5445,12.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ECU,2021-09-08,17093159,cross,32353,189.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,EGY,2021-09-08,106437241,cross,16811,15.8,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,ERI,2021-09-08,6147398,cross,38,0.6,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,ESP,2021-09-08,47260584,cross,85066,180,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,ERI,2021-09-08,6147398,cross,40,0.7,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,ESP,2021-09-08,47260584,cross,85139,180.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,EST,2021-09-08,1220042,cross,1305,107,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ETH,2021-09-08,110871031,cross,4785,4.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,FIN,2021-09-08,5587442,cross,1039,18.6,Cumulative Deaths reported 
@@ -4601,7 +4601,7 @@ Deaths,Cumulative,WHO,GIB,2021-09-08,29516,cross,97,328.6,Cumulative Deaths repo
 Deaths,Cumulative,WHO,GIN,2021-09-08,12877894,cross,341,2.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GLP,2021-09-08,0,cross,606,,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GMB,2021-09-08,2221301,cross,328,14.8,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,GNB,2021-09-08,1976187,cross,121,6.1,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,GNB,2021-09-08,1976187,cross,122,6.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GNQ,2021-09-08,857008,cross,126,14.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GRC,2021-09-08,10569703,cross,13971,132.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GRD,2021-09-08,113570,cross,12,10.6,Cumulative Deaths reported 
@@ -4622,7 +4622,7 @@ Deaths,Cumulative,WHO,IRL,2021-09-08,5224884,cross,5112,97.8,Cumulative Deaths r
 Deaths,Cumulative,WHO,IRN,2021-09-08,85888910,cross,111892,130.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,IRQ,2021-09-08,39650145,cross,21220,53.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ISL,2021-09-08,354234,cross,33,9.3,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,ISR,2021-09-08,8787045,cross,7205,82,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,ISR,2021-09-08,8787045,cross,7261,82.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,ITA,2021-09-08,62390364,cross,129638,207.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,JAM,2021-09-08,2816602,cross,1646,58.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,JEY,2021-09-08,101476,cross,78,76.9,Cumulative Deaths reported 
@@ -4642,7 +4642,7 @@ Deaths,Cumulative,WHO,LBR,2021-09-08,5214030,cross,245,4.7,Cumulative Deaths rep
 Deaths,Cumulative,WHO,LBY,2021-09-08,7017224,cross,4363,62.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LCA,2021-09-08,166637,cross,118,70.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LIE,2021-09-08,39425,cross,58,147.1,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,LKA,2021-09-08,23044123,cross,10504,45.6,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,LKA,2021-09-08,23044123,cross,10689,46.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LSO,2021-09-08,2177740,cross,403,18.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LTU,2021-09-08,2711566,cross,4630,170.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LUX,2021-09-08,639589,cross,832,130.1,Cumulative Deaths reported 
@@ -4651,7 +4651,7 @@ Deaths,Cumulative,WHO,MAC,2021-09-08,630396,cross,0,0,Cumulative Deaths reported
 Deaths,Cumulative,WHO,MAF,2021-09-08,0,cross,31,,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MAR,2021-09-08,36561813,cross,13224,36.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MCO,2021-09-08,31223,cross,35,112.1,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,MDA,2021-09-08,3323875,cross,6446,193.9,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,MDA,2021-09-08,3323875,cross,6455,194.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MDG,2021-09-08,27534354,cross,956,3.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MDV,2021-09-08,390669,cross,227,58.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MEX,2021-09-08,130207371,cross,263470,202.3,Cumulative Deaths reported 
@@ -4659,15 +4659,15 @@ Deaths,Cumulative,WHO,MHL,2021-09-08,78831,cross,0,0,Cumulative Deaths reported
 Deaths,Cumulative,WHO,MKD,2021-09-08,2128262,cross,6129,288,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MLI,2021-09-08,20137527,cross,539,2.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MLT,2021-09-08,460891,cross,445,96.6,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,MMR,2021-09-08,57069099,cross,16082,28.2,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,MNE,2021-09-08,607414,cross,1774,292.1,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,MMR,2021-09-08,57069099,cross,16173,28.3,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,MNE,2021-09-08,607414,cross,1770,291.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MNG,2021-09-08,3198913,cross,976,30.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MNP,2021-09-08,51659,cross,2,3.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MOZ,2021-09-08,30888034,cross,1881,6.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MRT,2021-09-08,4079284,cross,737,18.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MSR,2021-09-08,5387,cross,1,18.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MTQ,2021-09-08,0,cross,527,,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,MUS,2021-09-08,1386129,cross,34,2.5,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,MUS,2021-09-08,1386129,cross,37,2.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MWI,2021-09-08,20308502,cross,2217,10.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MYS,2021-09-08,33519406,cross,18802,56.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MYT,2021-09-08,0,cross,175,,Cumulative Deaths reported 
@@ -4700,7 +4700,7 @@ Deaths,Cumulative,WHO,PSE,2021-09-08,4906308,cross,4023,82,Cumulative Deaths rep
 Deaths,Cumulative,WHO,PYF,2021-09-08,297154,cross,522,175.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,QAT,2021-09-08,2479995,cross,604,24.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,REU,2021-09-08,0,cross,354,,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,ROU,2021-09-08,21230362,cross,34792,163.9,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,ROU,2021-09-08,21230362,cross,34832,164.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,RUS,2021-09-08,142320790,cross,189582,133.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,RWA,2021-09-08,12943132,cross,1105,8.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SAU,2021-09-08,34783757,cross,8591,24.7,Cumulative Deaths reported 
@@ -4719,7 +4719,7 @@ Deaths,Cumulative,WHO,SSD,2021-09-08,10984074,cross,120,1.1,Cumulative Deaths re
 Deaths,Cumulative,WHO,STP,2021-09-08,213948,cross,37,17.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SUR,2021-09-08,614749,cross,740,120.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SVK,2021-09-08,5436066,cross,12553,230.9,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,SVN,2021-09-08,2102106,cross,4786,227.7,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,SVN,2021-09-08,2102106,cross,4785,227.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SWE,2021-09-08,10261767,cross,14699,143.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SWZ,2021-09-08,1113276,cross,1156,103.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SXM,2021-09-08,44564,cross,57,127.9,Cumulative Deaths reported 
@@ -4735,7 +4735,7 @@ Deaths,Cumulative,WHO,TKM,2021-09-08,5579889,cross,0,0,Cumulative Deaths reporte
 Deaths,Cumulative,WHO,TLS,2021-09-08,1413958,cross,86,6.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,TON,2021-09-08,105780,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,TTO,2021-09-08,1221047,cross,1336,109.4,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,TUN,2021-09-08,11811335,cross,23901,202.4,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,TUN,2021-09-08,11811335,cross,23993,203.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,TUR,2021-09-08,82482383,cross,58651,71.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,TUV,2021-09-08,11448,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,TWN,2021-09-08,23572052,cross,0,0,Cumulative Deaths reported 
@@ -4743,7 +4743,7 @@ Deaths,Cumulative,WHO,TZA,2021-09-08,62092761,cross,50,0.1,Cumulative Deaths rep
 Deaths,Cumulative,WHO,UGA,2021-09-08,44712143,cross,3031,6.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,UKR,2021-09-08,43745640,cross,54114,123.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,URY,2021-09-08,3398239,cross,6034,177.6,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,USA,2021-09-08,334998398,cross,644318,192.3,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,USA,2021-09-08,334998398,cross,645126,192.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,UZB,2021-09-08,30842796,cross,1132,3.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,VAT,2021-09-08,1000,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,VCT,2021-09-08,101145,cross,12,11.9,Cumulative Deaths reported 
