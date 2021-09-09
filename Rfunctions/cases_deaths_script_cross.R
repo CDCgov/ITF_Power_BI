@@ -73,12 +73,12 @@ track_ncov_cross <- function(indicat ,
 q6  <- quantile(xdfx$valuex[xdfx$valuex>0], probs = seq(0, 1, 1/6), na.rm=T)     # Quintiles
 
 # create category upper and lower ranges
-cat1_range <- xdfx$valuex[ xdfx$valuex <  q6[2]]
-cat2_range <- xdfx$valuex[ xdfx$valuex >= q6[2] &  xdfx$valuex < q6[3]]
-cat3_range <- xdfx$valuex[ xdfx$valuex >= q6[3] &  xdfx$valuex < q6[4]]
-cat4_range <- xdfx$valuex[ xdfx$valuex >= q6[4] &  xdfx$valuex < q6[5]]
-cat5_range <- xdfx$valuex[ xdfx$valuex >= q6[5] &  xdfx$valuex < q6[6]]
-cat6_range <- xdfx$valuex[ xdfx$valuex >= q6[6]] 
+cat1_range <- xdfx$valuex[ xdfx$valuex <  q6[2] & !is.na(xdfx$valuex)] 
+cat2_range <- xdfx$valuex[ xdfx$valuex==q6[2] | (xdfx$valuex >= q6[2] &  xdfx$valuex < q6[3] & !is.na(xdfx$valuex))]
+cat3_range <- xdfx$valuex[ xdfx$valuex==q6[3] | (xdfx$valuex >= q6[3] &  xdfx$valuex < q6[4] & !is.na(xdfx$valuex))]
+cat4_range <- xdfx$valuex[ xdfx$valuex==q6[4] | (xdfx$valuex >= q6[4] &  xdfx$valuex < q6[5] & !is.na(xdfx$valuex))]
+cat5_range <- xdfx$valuex[ xdfx$valuex==q6[5] | (xdfx$valuex >= q6[5] &  xdfx$valuex < q6[6] & !is.na(xdfx$valuex))]
+cat6_range <- xdfx$valuex[ xdfx$valuex >= q6[6] & !is.na(xdfx$valuex)] 
 
 # Creating legend upper and lower ranges
 # cat1_up <- max(cat1_range, na.rm = T)
@@ -94,11 +94,12 @@ cat6_range <- xdfx$valuex[ xdfx$valuex >= q6[6]]
 #   cat4_5diff <- min(cat5_range, na.rm = T)-cat4_up
 # cat5_lw <- cat4_up + (1/(10^decimalplaces(cat4_5diff)))
 
-cat2_lw <- min(cat2_range, na.rm = T)
-cat3_lw <- min(cat3_range, na.rm = T)
-cat4_lw <- min(cat4_range, na.rm = T)
-cat5_lw <- min(cat5_range, na.rm = T)
-cat6_lw <- min(cat6_range, na.rm = T)
+cat2_lw <- ifelse(is.finite(min(cat2_range, na.rm = T)), min(cat2_range, na.rm = T), 0)
+cat3_lw <- ifelse(is.finite(min(cat3_range, na.rm = T)), min(cat3_range, na.rm = T), cat2_lw)
+cat4_lw <- ifelse(is.finite(min(cat4_range, na.rm = T)), min(cat4_range, na.rm = T), cat3_lw)
+cat5_lw <- ifelse(is.finite(min(cat5_range, na.rm = T)), min(cat5_range, na.rm = T), cat4_lw)
+cat6_lw <- ifelse(is.finite(min(cat6_range, na.rm = T)), min(cat6_range, na.rm = T), cat6_lw)
+
 
 
 legend_labs <- c(
