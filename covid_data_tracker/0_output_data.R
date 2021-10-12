@@ -71,7 +71,8 @@ cross_cases_deaths <- cross_dfx_complete %>%
     periodval %in% c("30 days") ~ "x4",
     periodval %in% c("Cumulative") ~ "x5"
   ))
-write_csv(cross_cases_deaths,paste0(out.dir,"cross_cases_deaths.csv"),na="")
+write_csv(cross_cases_deaths %>%
+            filter(data_source=="WHO"),paste0(out.dir,"cross_cases_deaths.csv"),na="")
 
 cross_cases_deaths_table <- cross_dfx_complete %>%
   select(Indicator:dftype) %>%
@@ -86,7 +87,8 @@ cross_cases_deaths_table <- cross_dfx_complete %>%
            if_else(Indicator=="Cases", "Cases reported ", "Deaths reported "),
            if_else(periodval %in% c("Cumulative"), "", paste0("in the past ", periodval)
                    )))
-write_csv(cross_cases_deaths_table,paste0(out.dir,"cross_cases_deaths_table.csv"),na="")
+write_csv(cross_cases_deaths_table %>%
+            filter(data_source=="WHO"),paste0(out.dir,"cross_cases_deaths_table.csv"),na="")
 
 # #trajectory data -formatted
 # trajectory_output<-dget(paste0(rfunctions.dir, "trajectory_output.R"))
@@ -188,7 +190,8 @@ crossdelta_complete<-cross_delta_case_deaths %>%
   select(names(cross_delta_case_deaths), perc_change_clean, incidence_7days, inc_cat, perc_change_cat, inc_cat_simple, perc_change_cat_simple, traj_cat_simple, country_code_and_data_source) 
 
 
-write_csv(crossdelta_complete,paste0(out.dir,"cross_delta_cases_deaths.csv"),na="")
+write_csv(crossdelta_complete %>%
+            filter(data_source=="WHO"),paste0(out.dir,"cross_delta_cases_deaths.csv"),na="")
 
 series_delta_case_deaths <- case_death_delta("series",ncov_data,country_data) %>%
   filter(periodval=="7 days" &
@@ -222,5 +225,6 @@ series_delta_case_deaths <- case_death_delta("series",ncov_data,country_data) %>
                                      inc_cat_simple == "High/Substantial" & perc_change_cat_simple == "Increasing" ~ "Substantial/High Incidence, Increasing")) %>%
   mutate(country_code_and_data_source = paste0(country_code, data_source, sep = " "))
 
-write_csv(series_delta_case_deaths,paste0(out.dir,"series_delta_cases_deaths.csv"),na="")
+write_csv(series_delta_case_deaths %>%
+            filter(data_source=="WHO"),paste0(out.dir,"series_delta_cases_deaths.csv"),na="")
 
