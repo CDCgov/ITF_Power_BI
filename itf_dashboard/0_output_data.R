@@ -1,6 +1,7 @@
 # Code that uses existing R functions to output CSVs for ITF Power BI Dashboard
 
 library(readr)
+library(data.table)
 
 # Path to all local R functions
 rfunctions.dir <- "./Rfunctions/"
@@ -59,7 +60,8 @@ write_csv(df_ncov,paste0(output.dir,"cases_deaths.csv"),na="")
 # write_csv(testing_data,paste0(output.dir,"testing_data.csv"),na="")
 # write_csv(testing_cross,paste0(output.dir,"testing_cross.csv"),na="")
 
-df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+# df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+df_gmob_raw <- data.table::fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
 
 # Getting google mobility dataset
 fun_gmob <- dget(paste0(rfunctions.dir, "gmob.R"))
@@ -95,7 +97,7 @@ write_csv(gmob,paste0(output.dir,"gmob.csv"),na="")
 #vaccine data
 fun_vax <- dget(paste0(rfunctions.dir, "get_vax_data.R"))
 vax_dict <- fun_vax(rfunctions.dir)
-#write.csv(vax_dict$all, paste0(output.dir, "vaccinations_all.csv"), na="", row.names=FALSE)
+# write.csv(vax_dict$all, paste0(output.dir, "vaccinations_all.csv"), na="", row.names=FALSE)
 write.csv(vax_dict$all %>% filter(count_or_rate=="Count"), paste0(output.dir,"vaccinations_all_counts.csv"), na="", row.names = FALSE)
 write.csv(vax_dict$all %>% filter(count_or_rate=="Rate"), paste0(output.dir,"vaccinations_all_rates.csv"), na="", row.names = FALSE)
 write.csv(vax_dict$manufacturers, paste0(output.dir, "vaccinations_manufacturers.csv"), na="", row.names=FALSE)
