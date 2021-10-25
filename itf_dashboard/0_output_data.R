@@ -60,8 +60,8 @@ write_csv(df_ncov,paste0(output.dir,"cases_deaths.csv"),na="")
 # write_csv(testing_data,paste0(output.dir,"testing_data.csv"),na="")
 # write_csv(testing_cross,paste0(output.dir,"testing_cross.csv"),na="")
 
-# df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
-df_gmob_raw <- data.table::fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+# df_gmob_raw <- data.table::fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
 
 # Getting google mobility dataset
 fun_gmob <- dget(paste0(rfunctions.dir, "gmob.R"))
