@@ -1,7 +1,5 @@
 # Code that uses existing R functions to output CSVs for ITF Power BI Dashboard
 
- 
-
 library(readr)
 library(data.table)
 
