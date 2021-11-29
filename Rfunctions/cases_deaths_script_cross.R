@@ -98,7 +98,9 @@ cat2_lw <- ifelse(is.finite(min(cat2_range, na.rm = T)), min(cat2_range, na.rm =
 cat3_lw <- ifelse(is.finite(min(cat3_range, na.rm = T)), min(cat3_range, na.rm = T), cat2_lw)
 cat4_lw <- ifelse(is.finite(min(cat4_range, na.rm = T)), min(cat4_range, na.rm = T), cat3_lw)
 cat5_lw <- ifelse(is.finite(min(cat5_range, na.rm = T)), min(cat5_range, na.rm = T), cat4_lw)
-cat6_lw <- ifelse(is.finite(min(cat6_range, na.rm = T)), min(cat6_range, na.rm = T), cat6_lw)
+cat6_lw <- ifelse(is.finite(min(cat6_range, na.rm = T)), min(cat6_range, na.rm = T), cat5_lw)
+
+
 
 
 
