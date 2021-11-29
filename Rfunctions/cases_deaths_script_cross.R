@@ -102,8 +102,6 @@ cat6_lw <- ifelse(is.finite(min(cat6_range, na.rm = T)), min(cat6_range, na.rm =
 
 
 
-
-
 legend_labs <- c(
   paste0("", format(cat2_lw, big.mark=",",scientific=FALSE)), 
   paste0("", format(cat3_lw, big.mark=",",scientific=FALSE)), 
