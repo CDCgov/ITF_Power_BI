@@ -1,4 +1,7 @@
 #Code to generate CSVs ITF Power BI CDC COVID Tracker Views
+#Set working directory
+setwd(paste0("C:/Users/", Sys.getenv("USERNAME"),
+             "/OneDrive - CDC/GitHub/ITF_Power_BI"))  
 
 # Path to all local R functions
 rfunctions.dir <- "./Rfunctions/"
