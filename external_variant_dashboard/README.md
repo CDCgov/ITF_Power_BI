@@ -1,1 +1,1 @@
-# External Variant Dashboard (CDC COVID Data Tracker)
+# External Variant Dashboard (COVID Data Tracker)
