@@ -8,15 +8,15 @@ setwd(paste0("C:/Users/", Sys.getenv("USERNAME"),
 # Path to all R functions on GitHub
 rfunctions.dir <- "./Rfunctions/"
 
-# Directory for team folder (where WHO variant data is placed)
+# Directory for teams folder (where WHO variant data is placed)
 dir.teams <- paste0("C:/Users/", Sys.getenv("USERNAME"),
                    "/CDC/ITF-COVID19-SAVI - Documents/")
 
-# Github root for this dashboard
+# root for this dashboard
 dir.root <- "./external_variant_dashboard/"
 
 #output directory to write csvs
-outdir <- paste0(dir.root,"output/")
+out.dir <- paste0(dir.root,"output/")
 
 
 #read in packages needed to run code
@@ -120,7 +120,7 @@ df.variants.full <-
   mutate(variant_date = paste0("Data as of ", as.character(variant_file_date - 1)))
 
 #export CSV
-write.csv(df.variants.full, paste0(outdir, "variants.csv"), fileEncoding="UTF-8", row.names=FALSE, na="")
+write.csv(df.variants.full, paste0(out.dir, "variants.csv"), fileEncoding="UTF-8", row.names=FALSE, na="")
 
 
   
