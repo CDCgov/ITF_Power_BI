@@ -25,6 +25,7 @@ jobs:
       - name: Install System Dependencies
         run: |
           sudo apt-get install libcurl4-openssl-dev
+          sudo R CMD javareconf
         shell: bash
       - uses: r-lib/actions/setup-renv@v2
         with:
