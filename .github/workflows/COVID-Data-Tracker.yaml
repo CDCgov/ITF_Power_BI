@@ -22,11 +22,10 @@ jobs:
         with:
           r-version: 'release'
           use-public-rspm: true
-      - name: Install system Dependencies
+      - name: Install System Dependencies
         run: |
-          renv::install("remotes")
-          remotes::system_requirements("ubuntu", "20.04")
-        shell: Rscript {0}
+          apt-get install libcurl4-openssl-dev
+        shell: bash
       - uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 2
