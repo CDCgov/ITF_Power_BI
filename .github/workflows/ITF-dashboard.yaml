@@ -9,7 +9,7 @@ on:
 name: itf-dashboard
 
 jobs:
-  COVID-Data-Tracker:
+  itf-dsahboard:
     runs-on: ubuntu-20.04
 
     env:
