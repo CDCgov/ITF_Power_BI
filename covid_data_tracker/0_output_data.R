@@ -1,5 +1,8 @@
 #Code to generate CSVs ITF Power BI CDC COVID Tracker Views
 
+# load packages
+library(testthat)
+
 # Path to all local R functions
 rfunctions.dir <- "Rfunctions/"
 
@@ -56,6 +59,11 @@ cross_dfx_complete<-cross_dfx %>%
   mutate(qvals=if_else(is.na(qvals),"absent",qvals)) %>%
   #re-order names
   select(names(cross_dfx))
+
+# guard condition: stop script run if dataset is empty
+test_that("Check if datasets are updated or erased", {
+  expect_gt(length(cross_dfx_complete$Indicator), 1)
+})
 
 # Create time interval data
 cross_cases_deaths <- cross_dfx_complete %>%
