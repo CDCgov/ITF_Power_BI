@@ -1,5 +1,4 @@
 #Code to generate CSVs ITF Power BI CDC COVID Tracker Views
-#Set working directory
 
 # Path to all local R functions
 rfunctions.dir <- "Rfunctions/"
