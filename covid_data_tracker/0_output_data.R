@@ -1,13 +1,11 @@
 #Code to generate CSVs ITF Power BI CDC COVID Tracker Views
 #Set working directory
-setwd(paste0("C:/Users/", Sys.getenv("USERNAME"),
-             "/OneDrive - CDC/GitHub/ITF_Power_BI"))  
 
 # Path to all local R functions
-rfunctions.dir <- "./Rfunctions/"
+rfunctions.dir <- "Rfunctions/"
 
 # Root for this project
-dir.root <- "./covid_data_tracker/"
+dir.root <- "covid_data_tracker/"
 
 # Output directory to write data
 out.dir <- paste0(dir.root,"output/")
@@ -25,7 +23,7 @@ country_data <- fun_country(rfunctions.dir)
 fun_country_date <- dget(paste0(rfunctions.dir,"get_country_date.R"))
 print("running country date code")
 df_country_date <- fun_country_date(rfunctions.dir, country_data)
-write_csv(df_country_date,paste0(out.dir,"lookup_country_date.csv"),na="")
+data.table::fwrite(df_country_date,paste0(out.dir,"lookup_country_date.csv"),na="")
 
 # get the base jhu and who dataframes
 fun_jhu <- dget(paste0(rfunctions.dir, "get_jhu_data.R"))
@@ -39,11 +37,6 @@ df_who <- fun_who(rfunctions.dir, df_country_date)
 fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
 print("running country case death code")
 ncov_data <- fun_ncov(rfunctions.dir, df_jhu, df_who)
-
-# #trajectory raw data
-# traj_series <- dget(paste0(rfunctions.dir, "trajectory_function_final_v2.R"))
-# print("running trajectory code")
-# traj_out_series<-traj_series("date",rfunctions.dir) #needs library(data.table)
 
 #cases & deaths
 cases_deaths_script_cross <- dget(paste0(rfunctions.dir, "cases_deaths_script_cross.R"))
@@ -74,7 +67,7 @@ cross_cases_deaths <- cross_dfx_complete %>%
     periodval %in% c("30 days") ~ "x4",
     periodval %in% c("Cumulative") ~ "x5"
   ))
-write_csv(cross_cases_deaths %>%
+data.table::fwrite(cross_cases_deaths %>%
             filter(data_source=="WHO"),paste0(out.dir,"cross_cases_deaths.csv"),na="")
 
 cross_cases_deaths_table <- cross_dfx_complete %>%
@@ -90,47 +83,8 @@ cross_cases_deaths_table <- cross_dfx_complete %>%
            if_else(Indicator=="Cases", "Cases reported ", "Deaths reported "),
            if_else(periodval %in% c("Cumulative"), "", paste0("in the past ", periodval)
                    )))
-write_csv(cross_cases_deaths_table %>%
+data.table::fwrite(cross_cases_deaths_table %>%
             filter(data_source=="WHO"),paste0(out.dir,"cross_cases_deaths_table.csv"),na="")
-
-# #trajectory data -formatted
-# trajectory_output<-dget(paste0(rfunctions.dir, "trajectory_output.R"))
-# print("running trajectory output code")
-# tseriesx<-trajectory_output(traj_out_series,country_data)
-# 
-# #classification labels function for trajectory categories
-# hbg.7labels <- c("High burden and growing",
-#                  "High burden and not growing",
-#                  "Not high burden but growing",
-#                  "Not high burden and not growing",
-#                  "<5 cases reported in the past 2 weeks")
-# 
-# # get longitudinal data (i.e. curve data)
-# traj_series <- tseriesx %>%
-#   mutate(hbg.7catx = if_else(is.na(hbg.7catx), hbg.7labels[5], hbg.7catx)) %>%
-#   mutate(hbg.7cat = if_else(is.na(hbg.7cat), 5, hbg.7cat)) %>%
-#   mutate_if(is.numeric, list(~replace_na(., 0)))
-# write_csv(traj_series,paste0(out.dir,"traj_series.csv"),na="")
-# 
-# 
-# # get cross-sectional data (i.e. map data)
-# traj_cross<-tseriesx %>% select(-ou_date_match, -ou_date_src_match) %>% filter(!is.na(date)) %>% filter(date %in% max(date))
-#   
-# traj_cross_complete<-traj_cross %>%
-#   #create empty rows for country/indicator/data source pairs without data in original source
-#   complete(country_code,nesting(data_source,datatype,date_text,date,rate_cut,slope_cut)) %>%
-#   #fill in values for population, maptitle, tabtitle according to the combinations of other variables values
-#   group_by(country_code,datatype,date_text,date,rate_cut,slope_cut) %>%
-#   fill(country,.direction="downup") %>%
-#   fill(pop,.direction="downup") %>%
-#   fill(rate_cut,.direction="downup") %>%
-#   fill(slope_cut,.direction="downup") %>%
-#   ungroup() %>%
-#   mutate(ou_cut_src_match=paste(country_code,slope_cut,rate_cut,data_source,sep="_")) %>%
-#   mutate(hbg.7catx=replace_na(hbg.7catx,"<5 cases reported in the past 2 weeks")) %>% 
-#   mutate(daily.ci.change = round(daily.ci.change, 2))
-# 
-# write_csv(traj_cross_complete,paste0(out.dir,"traj_cross.csv"),na="")
 
 
 #case/death rate of change data
@@ -193,7 +147,7 @@ crossdelta_complete<-cross_delta_case_deaths %>%
   select(names(cross_delta_case_deaths), perc_change_clean, incidence_7days, inc_cat, perc_change_cat, inc_cat_simple, perc_change_cat_simple, traj_cat_simple, country_code_and_data_source) 
 
 
-write_csv(crossdelta_complete %>%
+data.table::fwrite(crossdelta_complete %>%
             filter(data_source=="WHO"),paste0(out.dir,"cross_delta_cases_deaths.csv"),na="")
 
 series_delta_case_deaths <- case_death_delta("series",ncov_data,country_data) %>%
@@ -228,6 +182,6 @@ series_delta_case_deaths <- case_death_delta("series",ncov_data,country_data) %>
                                      inc_cat_simple == "High/Substantial" & perc_change_cat_simple == "Increasing" ~ "Substantial/High Incidence, Increasing")) %>%
   mutate(country_code_and_data_source = paste0(country_code, data_source, sep = " "))
 
-write_csv(series_delta_case_deaths %>%
+data.table::fwrite(series_delta_case_deaths %>%
             filter(data_source=="WHO"),paste0(out.dir,"series_delta_cases_deaths.csv"),na="")
 
