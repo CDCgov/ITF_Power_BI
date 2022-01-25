@@ -3,7 +3,7 @@
 on:
   schedule:
     # Run at 0830ET M-F (time in UTC, so offset by 5)
-    - cron: '30 13 * * 1,2,3,4,5'
+    - cron: '0 3 * * 1,2,3,4,5'
 
 name: COVID-Data-Tracker
 

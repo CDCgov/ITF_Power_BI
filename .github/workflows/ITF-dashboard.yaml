@@ -1,10 +1,9 @@
 # For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
 # https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
 on:
-  push:
-    branches: [ dev ]
-  pull_request:
-    branches: [ dev ]
+  schedule:
+    # Run at 0830ET M-F (time in UTC, so offset by 5)
+    - cron: '0 3 * * 1,2,3,4,5'
 
 name: itf-dashboard
 
@@ -49,5 +48,5 @@ jobs:
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git commit -am 'Data Update: itf_dashboard ${TIME}' || echo "No changes to commit"
+          git commit -am 'Data Update: itf_dashboard $TIME' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
