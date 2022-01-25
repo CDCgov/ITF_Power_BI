@@ -10,7 +10,7 @@ name: COVID-Data-Tracker
 
 jobs:
   COVID-Data-Tracker:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -22,6 +22,10 @@ jobs:
         with:
           r-version: 'release'
           use-public-rspm: true
+      - name: Install system Dependencies
+        run: |
+          remotes::system_requirements("ubuntu", "20.04")
+        shell: Rscript {0}
       - uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 2
