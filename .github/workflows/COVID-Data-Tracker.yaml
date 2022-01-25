@@ -24,6 +24,7 @@ jobs:
           use-public-rspm: true
       - name: Install system Dependencies
         run: |
+          renv::install("remotes")
           remotes::system_requirements("ubuntu", "20.04")
         shell: Rscript {0}
       - uses: r-lib/actions/setup-renv@v2
