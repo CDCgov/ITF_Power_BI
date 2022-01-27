@@ -17,9 +17,14 @@ root.dir <- "./itf_dashboard/"
 output.dir <- paste0(root.dir,"output/")
 
 #country data
-fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
-df_country <- fun_country(rfunctions.dir)
-write_csv(df_country,paste0(output.dir,"country_data.csv"),na="")
+# BUG: Data source is gone. This needs to be offloaded to SaviR
+# where the metadata is present in onetable and updated automtically
+# because it differs from that process, and thus all the routine reports.
+# fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
+# df_country <- fun_country(rfunctions.dir)
+# write_csv(df_country,paste0(output.dir,"country_data.csv"),na="")
+
+df_country <- read_csv(paste0(output.dir,"country_data.csv"))
 
 #index country and date
 fun_country_date <- dget(paste0(rfunctions.dir, "get_country_date.R"))
