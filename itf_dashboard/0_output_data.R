@@ -2,7 +2,7 @@
 
 #Set working directory
 setwd(paste0("C:/Users/", Sys.getenv("USERNAME"),
-             "/OneDrive - CDC/GitHub"))  
+             "/OneDrive - CDC/ITF_Power_BI"))  
 
 library(readr)
 library(data.table)
