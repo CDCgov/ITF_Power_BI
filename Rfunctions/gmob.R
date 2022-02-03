@@ -18,7 +18,8 @@ function(rfunctions.dir, df_country, df_gmob_raw){
           "tidyverse",
           "openxlsx",
           "passport",
-          "readxl"))
+          "readxl",
+          "data.table"))
   
   # Take out all NAs in the dataset and replace with zero
   remove_nas <- function(df) { 
@@ -34,11 +35,13 @@ function(rfunctions.dir, df_country, df_gmob_raw){
     # Function to get the country metadata 
     fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
     df_country <- fun_country(rfunctions.dir)
+    df_country$iso2code[df_country$country=="Namibia"] <- "NA"
+    
   }
   
   # If google mobility not present as input, download it from google
   if (missing(df_gmob_raw)) {
-    df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+    df_gmob_raw <- data.table::fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
   }
   
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,7 +72,7 @@ function(rfunctions.dir, df_country, df_gmob_raw){
   
   # setdiff(unique(gmob1$iso2code), unique(df$iso2code))
   
-  # Join the Google mobility data to the JHU data for incidence
+  # Create unique ID to join the Google mobility data to the WHO/JHU data for incidence
   dfx <- left_join(gmob1, df) %>% 
     dplyr::mutate(ou_date_match = paste(iso3code, Date, sep="_")) 
   

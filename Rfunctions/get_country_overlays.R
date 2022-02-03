@@ -11,13 +11,29 @@ function(rfunctions.dir, df_ncov, df_gmob_raw) {
   ldpkg(c("tidyverse",
           "zoo",
           "passport",
-          "stringr"))
+          "stringr",
+          "SaviR"))
 
   # If NCOV base dataframe is missing as input, then call the script to generate it
   if (missing(df_ncov)) {
     # Function to get NCOV base data - cases and deaths
-    fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
-    df_ncov <- fun_ncov(rfunctions.dir)
+    # fun_ncov <- dget(paste0(rfunctions.dir, "get_ncov_data.R"))
+    # df_ncov <- fun_ncov(rfunctions.dir)
+    
+    df_ncov<-get_covid_df() %>%
+      #replace Other with JG to link to Onetable
+      mutate(country_code=case_when(country=="Other"~"OT",TRUE~country_code),
+             country=case_when(country %in% c("China","Hong Kong","Taiwan","Macau") & source=="JHU"~paste0(country,"-JHU"),
+                               country %in% c("China") & source=="WHO"~paste0(country,"-WHO"),
+                               TRUE~country),
+             ) %>%  
+      rename(iso2code=country_code,
+         data_source=source) %>%
+      left_join(onetable,by="iso2code")   %>%
+      rename(country_code=id)
+
+    
+    
   }
   
   # If google mobility not present as input, download it from google
@@ -26,17 +42,22 @@ function(rfunctions.dir, df_ncov, df_gmob_raw) {
   }
   
   ncov_data <- df_ncov %>%
-    select(!`Country Code`) %>%
-    rename_all(tolower) %>%
-    rename_all(gsub, pattern=" ", replacement="_") %>%
-    mutate(new_cases = case_when(new_cases < 0 ~ 0, new_cases >= 0 ~ new_cases),
-           new_deaths = case_when(new_deaths < 0 ~ 0, new_deaths >= 0 ~ new_deaths)) %>%
-    mutate(mort = 1000000 * new_deaths / population_2020,
-           inc = 100000 * new_cases / population_2020,
-           mort_cum = 1000000 * cumulative_deaths / population_2020,
-           inc_cum = 100000 * cumulative_cases / population_2020) %>%
+    # select(!`Country Code`) %>%
+    # rename_all(tolower) %>%
+    # rename_all(gsub, pattern=" ", replacement="_") %>%
+    # mutate(new_cases = case_when(new_cases < 0 ~ 0, new_cases >= 0 ~ new_cases),
+    #        new_deaths = case_when(new_deaths < 0 ~ 0, new_deaths >= 0 ~ new_deaths)) %>%
+    # mutate(mort = 1000000 * new_deaths / population_2020,
+    #        inc = 100000 * new_cases / population_2020,
+    #        mort_cum = 1000000 * cumulative_deaths / population_2020,
+    #        inc_cum = 100000 * cumulative_cases / population_2020) %>%
+    mutate(mort = 1000000 * new_deaths / population,
+           inc = 100000 * new_cases / population,
+           mort_cum = 1000000 * cumulative_deaths / population,
+           inc_cum = 100000 * cumulative_cases / population) %>%
     mutate(ou_date_match = paste(country_code, date, sep="_")) %>%
-    filter(population_2020>0) %>%
+    #filter(population_2020>0) %>%
+    filter(population>0) %>%
     arrange(country, data_source, date) %>%
     group_by(country, data_source) %>%
     mutate(inc_ma7 = rollmean(inc, 7, align='right',fill=NA),
