@@ -1,6 +1,6 @@
 #Set working directory
 setwd(paste0("C:/Users/", Sys.getenv("USERNAME"),
-             "/OneDrive - CDC/GitHub/ITF_Power_BI"))  
+             "/OneDrive - CDC/ITF_Power_BI"))  
 
 #Code to generate CSVs ITF Power BI CDC COVID Tracker Views - Variant Map
 
