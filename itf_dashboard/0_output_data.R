@@ -108,8 +108,12 @@ savi_coviddf<-get_covid_df() %>%
   mutate(country_code=case_when(country=="Other"~"OT",TRUE~country_code),
          country=case_when(country %in% c("China","Hong Kong","Taiwan","Macau") & source=="JHU"~paste0(country,"-JHU"),
                            country %in% c("China") & source=="WHO"~paste0(country,"-WHO"),
-                           TRUE~country))
-
+                           TRUE~country),
+         iso2code=country_code) %>%
+  left_join(select(onetable2,iso2code,id),by="iso2code") %>%
+  mutate(ou_date_match = paste(id, date, sep="_")) %>%
+  select(-iso2code,-id)
+  
 data.table::fwrite(savi_coviddf, paste0(output.dir, "cases_deaths.csv"), na="", row.names=FALSE)
 
 # prep for input to overlay function 
