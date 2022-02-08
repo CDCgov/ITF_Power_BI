@@ -1,7 +1,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ============= Functions used in code ~~~~~~~===============
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function(rfunctions.dir, df_ncov, df_gmob_raw) {
+function(rfunctions.dir, df_ncov) {
   
   # Pulling in the load package function R file
   # Load function to install list of packages
@@ -34,11 +34,6 @@ function(rfunctions.dir, df_ncov, df_gmob_raw) {
 
     
     
-  }
-  
-  # If google mobility not present as input, download it from google
-  if (missing(df_gmob_raw)) {
-    df_gmob_raw <- read.csv("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
   }
   
   ncov_data <- df_ncov %>%
@@ -78,30 +73,7 @@ function(rfunctions.dir, df_ncov, df_gmob_raw) {
     rename(country_name = countryname,
            country_code = countrycode) 
 
-
-  #Get Movement Data
-  df.movement <- df_gmob_raw %>%
-    rename_all(tolower) %>%
-    select_all(~gsub("_percent_change_from_baseline","",.)) %>%
-    filter(sub_region_1=="" & sub_region_2=="" & metro_area=="") %>%
-    rename(country = country_region) %>%
-    mutate(date = as.Date(date)) %>%
-    mutate(country_code = parse_country(country, to="iso3c")) %>%
-    mutate(ou_date_match = paste(country_code, date, sep="_")) %>%
-    arrange(country_code, date) %>%
-    group_by(country_code) %>%
-    mutate(retail_and_recreation = rollmean(retail_and_recreation, 7, align="right", fill=NA)) %>%
-    mutate(grocery_and_pharmacy = rollmean(grocery_and_pharmacy, 7, align="right", fill=NA)) %>%
-    mutate(parks = rollmean(parks, 7, align="right", fill=NA)) %>%
-    mutate(transit_stations = rollmean(transit_stations, 7, align="right", fill=NA)) %>%
-    mutate(workplaces = rollmean(workplaces, 7, align="right", fill=NA)) %>%
-    mutate(residential = rollmean(residential, 7, align="right", fill=NA)) %>%
-    filter(date >= min(date)+6) %>%
-    ungroup() %>%
-    pivot_longer(cols=c("retail_and_recreation", "grocery_and_pharmacy", "parks", "transit_stations", "workplaces", "residential"), names_to="mobility_type", values_to="mobility_value") %>%
-    select(date, country, country_code, ou_date_match, mobility_type, mobility_value)
-    
-  overlay_list <- list("cases_deaths" = ncov_data, "stringency" = df.oxford, "mobility" = df.movement)
+  overlay_list <- list("cases_deaths" = ncov_data, "stringency" = df.oxford)
   
   return(overlay_list)
 }

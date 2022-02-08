@@ -189,12 +189,12 @@ data.table::fwrite(owid_vax, paste0(output.dir, "vax_wide.csv"), na="", row.name
 
 # mobility data for vaccine Tracker overlays --------------
 
-df_gmob_raw <- data.table::fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
+# df_gmob_raw <- data.table::fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", encoding="UTF-8")
 
-# Getting google mobility dataset
-fun_gmob <- dget(paste0(rfunctions.dir, "gmob.R"))
-gmob <- fun_gmob(rfunctions.dir, df_country, df_gmob_raw)
-data.table::fwrite(gmob,paste0(output.dir,"gmob.csv"),na="")
+# # Getting google mobility dataset
+# fun_gmob <- dget(paste0(rfunctions.dir, "gmob.R"))
+# gmob <- fun_gmob(rfunctions.dir, df_country, df_gmob_raw)
+# data.table::fwrite(gmob,paste0(output.dir,"gmob.csv"),na="")
 
 #vaccine data for TRACKER - eventually need to align this with interval Vax data, which pulls from SaviR  ----------------------
 fun_vax <- dget(paste0(rfunctions.dir, "get_vax_data.R"))
@@ -208,7 +208,6 @@ data.table::fwrite(vax_dict$categories, paste0(output.dir, "vaccinations_categor
 
 # overlay data
 fun_overlay <- dget(paste0(rfunctions.dir, "get_country_overlays.R"))
-overlay_dict <- fun_overlay(rfunctions.dir, df_ncov, df_gmob_raw)
+overlay_dict <- fun_overlay(rfunctions.dir, df_ncov)
 data.table::fwrite(overlay_dict$cases_deaths, paste0(output.dir, "overlay_cases_deaths.csv"), na="", row.names=FALSE)
 data.table::fwrite(overlay_dict$stringency, paste0(output.dir, "overlay_stringency.csv"), na="", row.names=FALSE)
-data.table::fwrite(overlay_dict$mobility, paste0(output.dir, "overlay_mobility.csv"), na="", row.names=FALSE)
