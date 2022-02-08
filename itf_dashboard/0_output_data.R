@@ -202,6 +202,19 @@ data.table::fwrite(vax_dict$manufacturers, paste0(output.dir, "vaccinations_manu
 data.table::fwrite(vax_dict$rollout, paste0(output.dir, "vaccinations_rollout.csv"), na="", row.names=FALSE)
 data.table::fwrite(vax_dict$categories, paste0(output.dir, "vaccinations_categories.csv"), na="", row.names=FALSE)
 
+
+#Run Testing Data Algorithms
+testing <- get_testing()
+testing_long <- get_testing_long()
+preferred_tests14 <- get_preferred_tests14(testing_long)
+preferred_testpos7 <- get_preferred_testpos7(testing_long)
+
+data.table::fwrite(testing, paste0(output.dir, "testing.csv"), na="", row.names=FALSE)
+data.table::fwrite(testing_long, paste0(output.dir, "testing_long.csv"), na="", row.names=FALSE)
+data.table::fwrite(preferred_tests14, paste0(output.dir, "preferred_tests14.csv"), na="", row.names=FALSE)
+data.table::fwrite(preferred_testpos7, paste0(output.dir, "preferred_testpos7.csv"), na="", row.names=FALSE)
+
+
 # overlay data
 fun_overlay <- dget(paste0(rfunctions.dir, "get_country_overlays.R"))
 overlay_dict <- fun_overlay(rfunctions.dir, df_ncov)
