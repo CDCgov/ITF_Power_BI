@@ -1,4 +1,6 @@
 # Code that uses existing R functions to output CSVs for ITF Power BI Dashboard
+setwd(paste0("C:/Users/", Sys.getenv("USERNAME"),
+             "/OneDrive - CDC/ITF_Power_BI"))  
 
 library(readr)
 library(data.table)
