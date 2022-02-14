@@ -1,4 +1,5 @@
 # ITF_Power_BI Repository
+[![covid_data_tracker](https://github.com/CDCgov/ITF_Power_BI/actions/workflows/covid_data_tracker.yaml/badge.svg)](https://github.com/CDCgov/ITF_Power_BI/actions/workflows/covid_data_tracker.yaml) [![itf-dashboard](https://github.com/CDCgov/ITF_Power_BI/actions/workflows/itf_dashboard.yaml/badge.svg)](https://github.com/CDCgov/ITF_Power_BI/actions/workflows/itf_dashboard.yaml)  
 
 This document has completed governance review per local and agency processes. This material is a draft.
 
