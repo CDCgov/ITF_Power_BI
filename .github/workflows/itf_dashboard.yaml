@@ -1,0 +1,52 @@
+# For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
+# https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
+on:
+  schedule:
+    # Run at 1600ET M-F (time in UTC, so offset by 5)
+    - cron: '0 21 * * 1,2,3,4,5'
+
+name: itf-dashboard
+
+jobs:
+  itf-dashboard:
+    runs-on: ubuntu-20.04
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-pandoc@master
+      - uses: r-lib/actions/setup-r@master
+        with:
+          r-version: 'release'
+          use-public-rspm: true
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+          sudo R CMD javareconf
+        shell: bash
+      - uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 2
+      - name: Run Data Pull
+        env:
+          _R_CHECK_CRAN_INCOMING_REMOTE_: false
+        run: |
+          source("itf_dashboard/0_output_data.R")
+        shell: Rscript {0}
+      - name: Get Time
+        id: time
+        uses: nanzm/get-time-action@v1.1
+        with:
+          timeZone: -5
+          format: 'YYYY-MM-DD-HH-mm-ss'
+      - name: Commit Changes
+        if: success()
+        env:
+          TIME: "${{ steps.time.outputs.time }}"
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git commit -am 'Automated Data Update: itf_dashboard $TIME' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
