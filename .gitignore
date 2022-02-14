@@ -44,3 +44,6 @@ docs/
 
 # translation temp files
 po/*~
+
+# Renv
+renv/library/*
