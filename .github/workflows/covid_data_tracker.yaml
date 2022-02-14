@@ -5,10 +5,10 @@ on:
     # Run at 1600ET M-F (time in UTC, so offset by 5)
     - cron: '0 21 * * 1,2,3,4,5'
 
-name: itf-dashboard
+name: covid_data_tracker
 
 jobs:
-  itf-dashboard:
+  covid_data_tracker:
     runs-on: ubuntu-20.04
 
     env:
