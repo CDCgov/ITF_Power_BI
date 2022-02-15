@@ -45,10 +45,9 @@ jobs:
           format: 'YYYY-MM-DD-HH-mm-ss'
       - name: Commit Changes
         if: success()
-        env:
-          TIME: "${{ steps.time.outputs.time }}"
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git commit -am 'Automated Data Update: itf_dashboard $TIME' || echo "No changes to commit"
+          git pull
+          git commit -am 'Automated Data Update: itf_dashboard ${{ steps.time.outputs.time }}' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
