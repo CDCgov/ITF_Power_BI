@@ -4,8 +4,8 @@ on:
   push:
     branches: [ master ]
   schedule:
-    # Run at 1600ET M-F (time in UTC, so offset by 5)
-    - cron: '0 21 * * 1,2,3,4,5'
+    # Run at 1535ET M-F (time in UTC, so offset by 5)
+    - cron: '35 20 * * 1,2,3,4,5'
 
 name: covid_data_tracker
 
