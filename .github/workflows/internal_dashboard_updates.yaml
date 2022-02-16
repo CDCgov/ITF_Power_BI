@@ -6,6 +6,7 @@ on:
     # Run at 1535ET M-F (time in UTC, so offset by 5)
     - cron: '35 20 * * 1,2,3,4,5'
 
+name: "ITF Internal Dashboard Refresh"
 
 jobs:
   itf-dashboard:
