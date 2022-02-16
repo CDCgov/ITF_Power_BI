@@ -2,6 +2,8 @@
 # https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
 on:
   workflow_dispatch:
+  push:
+    branches: [ master ]
   schedule:
     # Run at 1535ET M-F (time in UTC, so offset by 5)
     - cron: '35 20 * * 1,2,3,4,5'
