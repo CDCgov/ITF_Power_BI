@@ -16,7 +16,9 @@ source(paste0(rfunctions.dir,"packages_for_Power_BI.R"))
 #country metadata
 fun_country <- dget(paste0(rfunctions.dir, "get_country.R"))
 print("running country code")
-country_data <- fun_country(rfunctions.dir)
+country_data <- fun_country(rfunctions.dir) 
+# Correcting Namibia's ISO code
+country_data$iso2code[country_data$country=="Namibia"] <- "NA"
 
 #country date metadata
 fun_country_date <- dget(paste0(rfunctions.dir,"get_country_date.R"))

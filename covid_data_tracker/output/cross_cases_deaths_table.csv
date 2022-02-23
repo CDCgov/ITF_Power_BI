@@ -149,7 +149,7 @@ Cases,14 days,WHO,MUS,2022-02-22,1386129,cross,0,0,Cases reported in the past 14
 Cases,14 days,WHO,MWI,2022-02-22,20308502,cross,384,1.9,Cases reported in the past 14 days
 Cases,14 days,WHO,MYS,2022-02-22,33519406,cross,321525,959.2,Cases reported in the past 14 days
 Cases,14 days,WHO,MYT,2022-02-22,0,cross,114,,Cases reported in the past 14 days
-Cases,14 days,WHO,NAM,2022-02-22,2678191,cross,0,0,Cases reported in the past 14 days
+Cases,14 days,WHO,NAM,2022-02-22,2678191,cross,590,22,Cases reported in the past 14 days
 Cases,14 days,WHO,NCL,2022-02-22,293608,cross,16698,5687.2,Cases reported in the past 14 days
 Cases,14 days,WHO,NER,2022-02-22,23605767,cross,52,0.2,Cases reported in the past 14 days
 Cases,14 days,WHO,NGA,2022-02-22,219463862,cross,513,0.2,Cases reported in the past 14 days
@@ -387,7 +387,7 @@ Cases,24 hours,WHO,MUS,2022-02-22,1386129,cross,0,0,Cases reported in the past 2
 Cases,24 hours,WHO,MWI,2022-02-22,20308502,cross,9,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MYS,2022-02-22,33519406,cross,25099,74.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MYT,2022-02-22,0,cross,0,,Cases reported in the past 24 hours
-Cases,24 hours,WHO,NAM,2022-02-22,2678191,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,NAM,2022-02-22,2678191,cross,121,4.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NCL,2022-02-22,293608,cross,1441,490.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NER,2022-02-22,23605767,cross,5,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NGA,2022-02-22,219463862,cross,50,0,Cases reported in the past 24 hours
@@ -625,7 +625,7 @@ Cases,30 days,WHO,MUS,2022-02-22,1386129,cross,644,46.5,Cases reported in the pa
 Cases,30 days,WHO,MWI,2022-02-22,20308502,cross,1463,7.2,Cases reported in the past 30 days
 Cases,30 days,WHO,MYS,2022-02-22,33519406,cross,417690,1246.1,Cases reported in the past 30 days
 Cases,30 days,WHO,MYT,2022-02-22,0,cross,940,,Cases reported in the past 30 days
-Cases,30 days,WHO,NAM,2022-02-22,2678191,cross,0,0,Cases reported in the past 30 days
+Cases,30 days,WHO,NAM,2022-02-22,2678191,cross,2007,74.9,Cases reported in the past 30 days
 Cases,30 days,WHO,NCL,2022-02-22,293608,cross,30131,10262.3,Cases reported in the past 30 days
 Cases,30 days,WHO,NER,2022-02-22,23605767,cross,201,0.9,Cases reported in the past 30 days
 Cases,30 days,WHO,NGA,2022-02-22,219463862,cross,2334,1.1,Cases reported in the past 30 days
@@ -863,7 +863,7 @@ Cases,7 days,WHO,MUS,2022-02-22,1386129,cross,0,0,Cases reported in the past 7 d
 Cases,7 days,WHO,MWI,2022-02-22,20308502,cross,195,1,Cases reported in the past 7 days
 Cases,7 days,WHO,MYS,2022-02-22,33519406,cross,185229,552.6,Cases reported in the past 7 days
 Cases,7 days,WHO,MYT,2022-02-22,0,cross,59,,Cases reported in the past 7 days
-Cases,7 days,WHO,NAM,2022-02-22,2678191,cross,0,0,Cases reported in the past 7 days
+Cases,7 days,WHO,NAM,2022-02-22,2678191,cross,224,8.4,Cases reported in the past 7 days
 Cases,7 days,WHO,NCL,2022-02-22,293608,cross,6940,2363.7,Cases reported in the past 7 days
 Cases,7 days,WHO,NER,2022-02-22,23605767,cross,31,0.1,Cases reported in the past 7 days
 Cases,7 days,WHO,NGA,2022-02-22,219463862,cross,277,0.1,Cases reported in the past 7 days
@@ -1101,7 +1101,7 @@ Cases,Cumulative,WHO,MUS,2022-02-22,1386129,cross,70862,5112.2,Cumulative Cases 
 Cases,Cumulative,WHO,MWI,2022-02-22,20308502,cross,85228,419.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,MYS,2022-02-22,33519406,cross,3246779,9686.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,MYT,2022-02-22,0,cross,36631,,Cumulative Cases reported 
-Cases,Cumulative,WHO,NAM,2022-02-22,2678191,cross,0,0,Cumulative Cases reported 
+Cases,Cumulative,WHO,NAM,2022-02-22,2678191,cross,157034,5863.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,NCL,2022-02-22,293608,cross,45462,15483.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,NER,2022-02-22,23605767,cross,8743,37,Cumulative Cases reported 
 Cases,Cumulative,WHO,NGA,2022-02-22,219463862,cross,254293,115.9,Cumulative Cases reported 
@@ -1339,7 +1339,7 @@ Deaths,14 days,WHO,MUS,2022-02-22,1386129,cross,0,0,Deaths reported in the past 
 Deaths,14 days,WHO,MWI,2022-02-22,20308502,cross,33,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MYS,2022-02-22,33519406,cross,347,1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MYT,2022-02-22,0,cross,0,,Deaths reported in the past 14 days
-Deaths,14 days,WHO,NAM,2022-02-22,2678191,cross,0,0,Deaths reported in the past 14 days
+Deaths,14 days,WHO,NAM,2022-02-22,2678191,cross,22,0.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NCL,2022-02-22,293608,cross,3,1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NER,2022-02-22,23605767,cross,3,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,NGA,2022-02-22,219463862,cross,3,0,Deaths reported in the past 14 days
@@ -1577,7 +1577,7 @@ Deaths,24 hours,WHO,MUS,2022-02-22,1386129,cross,0,0,Deaths reported in the past
 Deaths,24 hours,WHO,MWI,2022-02-22,20308502,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MYS,2022-02-22,33519406,cross,43,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MYT,2022-02-22,0,cross,0,,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,NAM,2022-02-22,2678191,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,NAM,2022-02-22,2678191,cross,5,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NCL,2022-02-22,293608,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NER,2022-02-22,23605767,cross,3,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,NGA,2022-02-22,219463862,cross,0,0,Deaths reported in the past 24 hours
@@ -1815,7 +1815,7 @@ Deaths,30 days,WHO,MUS,2022-02-22,1386129,cross,0,0,Deaths reported in the past 
 Deaths,30 days,WHO,MWI,2022-02-22,20308502,cross,87,0.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MYS,2022-02-22,33519406,cross,507,1.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MYT,2022-02-22,0,cross,0,,Deaths reported in the past 30 days
-Deaths,30 days,WHO,NAM,2022-02-22,2678191,cross,0,0,Deaths reported in the past 30 days
+Deaths,30 days,WHO,NAM,2022-02-22,2678191,cross,100,3.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NCL,2022-02-22,293608,cross,5,1.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NER,2022-02-22,23605767,cross,11,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,NGA,2022-02-22,219463862,cross,18,0,Deaths reported in the past 30 days
@@ -2053,7 +2053,7 @@ Deaths,7 days,WHO,MUS,2022-02-22,1386129,cross,0,0,Deaths reported in the past 7
 Deaths,7 days,WHO,MWI,2022-02-22,20308502,cross,8,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MYS,2022-02-22,33519406,cross,241,0.7,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MYT,2022-02-22,0,cross,0,,Deaths reported in the past 7 days
-Deaths,7 days,WHO,NAM,2022-02-22,2678191,cross,0,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,NAM,2022-02-22,2678191,cross,7,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NCL,2022-02-22,293608,cross,3,1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NER,2022-02-22,23605767,cross,3,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,NGA,2022-02-22,219463862,cross,1,0,Deaths reported in the past 7 days
@@ -2291,7 +2291,7 @@ Deaths,Cumulative,WHO,MUS,2022-02-22,1386129,cross,786,56.7,Cumulative Deaths re
 Deaths,Cumulative,WHO,MWI,2022-02-22,20308502,cross,2606,12.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MYS,2022-02-22,33519406,cross,32390,96.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MYT,2022-02-22,0,cross,187,,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,NAM,2022-02-22,2678191,cross,0,0,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,NAM,2022-02-22,2678191,cross,4002,149.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NCL,2022-02-22,293608,cross,287,97.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NER,2022-02-22,23605767,cross,306,1.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,NGA,2022-02-22,219463862,cross,3142,1.4,Cumulative Deaths reported 
