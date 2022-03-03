@@ -5,11 +5,11 @@ cat_num,raw_field,data_field,data_suffix,count_or_rate,tick_value
 4,total_vaccinations,Cumulative Doses Administered, ,Count,1e+06
 5,total_vaccinations,Cumulative Doses Administered, ,Count,1e+07
 6,total_vaccinations,Cumulative Doses Administered, ,Count,5e+08
-1,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,0.05
-2,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,1
-3,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,5
-4,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,10
-5,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,20
+1,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,5
+2,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,10
+3,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,20
+4,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,50
+5,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,70
 6,total_vaccinations_per_hundred,Cumulative Doses Administered,Per 100 people,Rate,200
 1,people_vaccinated,Cumulative People Vaccinated (1 or more), ,Count,1000
 2,people_vaccinated,Cumulative People Vaccinated (1 or more), ,Count,10000
@@ -17,11 +17,11 @@ cat_num,raw_field,data_field,data_suffix,count_or_rate,tick_value
 4,people_vaccinated,Cumulative People Vaccinated (1 or more), ,Count,1e+06
 5,people_vaccinated,Cumulative People Vaccinated (1 or more), ,Count,1e+07
 6,people_vaccinated,Cumulative People Vaccinated (1 or more), ,Count,5e+08
-1,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,0.05
-2,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,1
-3,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,5
-4,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,10
-5,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,20
+1,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,5
+2,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,10
+3,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,20
+4,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,50
+5,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,70
 6,people_vaccinated_per_hundred,Cumulative People Vaccinated (1 or more),Per 100 people,Rate,100
 1,people_fully_vaccinated,Cumulative People Vaccinated (Fully), ,Count,1000
 2,people_fully_vaccinated,Cumulative People Vaccinated (Fully), ,Count,10000
@@ -29,11 +29,11 @@ cat_num,raw_field,data_field,data_suffix,count_or_rate,tick_value
 4,people_fully_vaccinated,Cumulative People Vaccinated (Fully), ,Count,1e+06
 5,people_fully_vaccinated,Cumulative People Vaccinated (Fully), ,Count,1e+07
 6,people_fully_vaccinated,Cumulative People Vaccinated (Fully), ,Count,5e+08
-1,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,0.05
-2,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,1
-3,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,5
-4,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,10
-5,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,20
+1,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,5
+2,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,10
+3,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,20
+4,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,50
+5,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,70
 6,people_fully_vaccinated_per_hundred,Cumulative People Vaccinated (Fully),Per 100 people,Rate,100
 1,daily_vaccinations,Daily Doses Administered (7-day average), ,Count,10
 2,daily_vaccinations,Daily Doses Administered (7-day average), ,Count,100
@@ -47,3 +47,27 @@ cat_num,raw_field,data_field,data_suffix,count_or_rate,tick_value
 4,daily_vaccinations_per_million,Daily Doses Administered (7-day average),Per 1M people,Rate,100
 5,daily_vaccinations_per_million,Daily Doses Administered (7-day average),Per 1M people,Rate,1000
 6,daily_vaccinations_per_million,Daily Doses Administered (7-day average),Per 1M people,Rate,1e+05
+1,daily_people_vaccinated,Daily People Vaccinatd  (7-day average), ,Count,10
+2,daily_people_vaccinated,Daily People Vaccinatd  (7-day average), ,Count,100
+3,daily_people_vaccinated,Daily People Vaccinatd  (7-day average), ,Count,1000
+4,daily_people_vaccinated,Daily People Vaccinatd  (7-day average), ,Count,10000
+5,daily_people_vaccinated,Daily People Vaccinatd  (7-day average), ,Count,1e+05
+6,daily_people_vaccinated,Daily People Vaccinatd  (7-day average), ,Count,5e+06
+1,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,5
+2,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,10
+3,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,20
+4,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,50
+5,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,70
+6,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,200
+1,total_boosters,Cumulative Booster Doses Administered, ,Count,1000
+2,total_boosters,Cumulative Booster Doses Administered, ,Count,10000
+3,total_boosters,Cumulative Booster Doses Administered, ,Count,1e+05
+4,total_boosters,Cumulative Booster Doses Administered, ,Count,1e+06
+5,total_boosters,Cumulative Booster Doses Administered, ,Count,1e+07
+6,total_boosters,Cumulative Booster Doses Administered, ,Count,5e+08
+1,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,5
+2,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,10
+3,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,20
+4,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,50
+5,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,70
+6,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,100
