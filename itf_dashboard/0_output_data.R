@@ -79,7 +79,8 @@ onetable1<-onetable %>%
            incomelevel_value == "Lower middle income"~ 203,
            incomelevel_value == "Upper middle income" ~ 202,
            incomelevel_value ==  "Not classified" ~ 209,
-           TRUE~205))
+           TRUE~205)) %>%
+  distinct()
 
 #create row for "Other"--------
 otherdf<-data.frame(
