@@ -71,6 +71,10 @@ china_adm2_data <- china_data_raw %>%
   mutate(
     city_en = if_else(province_en %in% non_adm2, province_en, city_en),
     city_zh = if_else(province_en %in% non_adm2, province_zh, city_zh),
+    city_confirmed = if_else(city_en %in% non_adm2, province_confirmed, city_confirmed),
+    city_recovered = if_else(city_en %in% non_adm2, province_recovered, city_recovered),
+    city_suspected = if_else(city_en %in% non_adm2, province_suspected, city_suspected),
+    city_deaths = if_else(city_en %in% non_adm2, province_deaths, city_deaths),
   ) %>%
   # Dropping ADM1 entries, we have JHU data for that
   filter(city_en != "", !province_en %in% prov_city) %>%
