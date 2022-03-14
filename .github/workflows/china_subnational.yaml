@@ -1,0 +1,53 @@
+# For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
+# https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
+on:
+  workflow_dispatch:
+  schedule:
+    # Run at 0000 Shanghai time (time in UTC, so offset by 8)
+    - cron: '00 16 * * *'
+
+name: "China Sub-national Data Pull"
+
+jobs:
+  china-subnational:
+    runs-on: ubuntu-20.04
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: "master"
+      - uses: r-lib/actions/setup-pandoc@master
+      - uses: r-lib/actions/setup-r@master
+        with:
+          r-version: 'release'
+          use-public-rspm: true
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get install libcurl4-openssl-dev libudunits2-dev libgdal-dev
+          sudo R CMD javareconf
+        shell: bash
+      - uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 2
+      - name: Run Data Pull
+        env:
+          _R_CHECK_CRAN_INCOMING_REMOTE_: false
+        run: |
+          source("itf_dashboard/china_adm2_cases.R")
+        shell: Rscript {0}
+      - name: Get Time
+        id: time
+        uses: nanzm/get-time-action@v1.1
+        with:
+          timeZone: -5
+          format: 'YYYY-MM-DD HH:mm'
+      - name: Commit Changes
+        if: success()
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git commit -am 'Automated Data Update: China Subnational ${{ steps.time.outputs.time }}' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
