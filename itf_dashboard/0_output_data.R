@@ -222,3 +222,18 @@ fun_overlay <- dget(paste0(rfunctions.dir, "get_country_overlays.R"))
 overlay_dict <- fun_overlay(rfunctions.dir, df_ncov)
 data.table::fwrite(overlay_dict$cases_deaths, paste0(output.dir, "overlay_cases_deaths.csv"), na="", row.names=FALSE)
 data.table::fwrite(overlay_dict$stringency, paste0(output.dir, "overlay_stringency.csv"), na="", row.names=FALSE)
+
+#hospitalization data
+
+source(paste0(rfunctions.dir,"get_hospital_data.R"))
+hosp_list<-hospdata_combine()
+hospdata<-hosp_list$hospdata
+ecdc_indicators<-hosp_list$ecdc_indicators
+owid_indicators<-hosp_list$owid_indicators
+
+hospdata_recent<-cross_hosp(hospdata)
+hospdata_long<-long_hosp_fill(hospdata,ecdc_indicators,owid_indicators)
+
+
+data.table::fwrite(hospdata_long,paste0(output.dir,"hosp_data_long.csv"),row.names=FALSE)
+data.table::fwrite(hospdata_recent,paste0(output.dir, "hosp_data_latest.csv"), row.names=FALSE)
