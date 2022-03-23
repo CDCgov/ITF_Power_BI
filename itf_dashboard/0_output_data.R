@@ -144,22 +144,11 @@ data.table::fwrite(testing1, paste0(output.dir, "owid_testing.csv"), na="", row.
 
 #vaccine data for Summary page- Internal DB source  -----
 owid_vax<-get_vax()  %>%
-  mutate(id=iso_code) %>%
   #need to add missing countries 
-  right_join(select(onetable1, id),by="id") %>%
-  mutate(iso_code=case_when(is.na(iso_code)~id,TRUE~iso_code)) %>%
-  #add all iso codes
-  select(-id) %>%
-  #need complete data for otherview
-  complete(iso_code,nesting(date)) %>%
-  # arrange(iso_code,date) %>%
-  group_by(iso_code) %>%
-  tidyr::fill(people_vaccinated,.direction="down") %>%
-  tidyr::fill(people_vaccinated_per_hundred,.direction="down") %>%
-  tidyr::fill(people_fully_vaccinated,.direction="down") %>%
-  tidyr::fill(people_fully_vaccinated_per_hundred,.direction="down") %>%
-  tidyr::fill(daily_vaccinations_per_hundred,.direction="down") %>%
-  ungroup() %>%
+  #right_join(select(onetable1, id),by="id") %>%
+  #carry forward all indicators that aren't already carried forward
+  calc_vax_carryforward(c("daily_vaccinations","daily_vaccinations_per_million","daily_people_vaccinated","daily_people_vaccinated_per_hundred",
+                          "daily_vaccinations_per_hundred")) %>%  
   #add some more columns for dashboard - the Vaccination_Tracker query brings in population data, but I am not sure if that's necessary
   mutate(
     people_vaccinated_per100_bin=case_when(
