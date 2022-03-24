@@ -49,7 +49,7 @@ data.table::fwrite(df_country_date,paste0(output.dir,"index_data.csv"),na="")
 
 # OneTable -------
 onetable1<-onetable %>%
-  select(-geometry) %>%
+  select(-geometry, -who_region_desc) %>%
   rename(Country=who_country) %>%
   mutate(state_region=case_when(is.na(state_region)~"Non-State Region",TRUE~as.character(state_region)),
          who_region=case_when(is.na(who_region)~"Other",TRUE~as.character(who_region)),
