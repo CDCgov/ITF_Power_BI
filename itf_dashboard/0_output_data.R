@@ -104,22 +104,20 @@ data.table::fwrite(onetable2, paste0(output.dir, "onetable.csv"), na="", row.nam
 # Case/Death data ---------------------------
 savi_coviddf<-get_covid_df() %>%
   #replace Other with JG to link to Onetable
-  mutate(country_code=case_when(country=="Other"~"OT",TRUE~country_code),
+  mutate(iso2code=case_when(country=="Other"~"OT",TRUE~iso2code),
          country=case_when(country %in% c("China","Hong Kong","Taiwan","Macau") & source=="JHU"~paste0(country,"-JHU"),
                            country %in% c("China") & source=="WHO"~paste0(country,"-WHO"),
-                           TRUE~country),
-         iso2code=country_code) %>%
+                           TRUE~country)) %>%
   left_join(select(onetable2,iso2code,id),by="iso2code") %>%
   mutate(ou_date_match = paste(id, date, sep="_")) %>%
-  select(-iso2code,-id)
+  select(-id)
   
 data.table::fwrite(savi_coviddf, paste0(output.dir, "cases_deaths.csv"), na="", row.names=FALSE)
 
 # prep for input to overlay function 
 df_ncov <- savi_coviddf %>%  
-  rename(iso2code=country_code,
-         data_source=source) %>%
-  left_join(onetable,by="iso2code")   %>%
+  rename(data_source=source) %>%
+  left_join(select(onetable, -geometry), by="iso2code")   %>%
   rename(country_code=id)
 
 

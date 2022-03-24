@@ -102,10 +102,10 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.10.8.1.0",
+      "Version": "0.10.7.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "303dcd8a3fca86087e341ed5cc360abf"
+      "Hash": "14ad1fed2ee50fbfdfd52ace20eb02d0"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
@@ -130,15 +130,15 @@
     },
     "SaviR": {
       "Package": "SaviR",
-      "Version": "0.1.0",
+      "Version": "0.2.0",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "CDCGov",
       "RemoteRepo": "SaviR",
       "RemoteRef": "master",
-      "RemoteSha": "ea626641b35b8e075bed987cd948558434bb472e",
-      "Hash": "ef282c0d50beec23a8a9bfde47a598bf"
+      "RemoteSha": "a18cb5db505bcb3a98596295abb7490687519d72",
+      "Hash": "e02b8cedd5ed164b2b9709fb6aec6fd0"
     },
     "SparseM": {
       "Package": "SparseM",
@@ -254,10 +254,10 @@
     },
     "carData": {
       "Package": "carData",
-      "Version": "3.0-5",
+      "Version": "3.0-4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ac6cdb8552c61bd36b0e54d07cf2aab7"
+      "Hash": "7ff5c94cec207b3fd9774cfaa5157738"
     },
     "caret": {
       "Package": "caret",
@@ -954,10 +954,10 @@
     },
     "openxlsx": {
       "Package": "openxlsx",
-      "Version": "4.2.5",
+      "Version": "4.2.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fc5e0e85d3a1e4282f04f303627b7e72"
+      "Hash": "f1b1ca1254ccb485dccc9c0dc65a2c36"
     },
     "pROC": {
       "Package": "pROC",
@@ -1101,10 +1101,10 @@
     },
     "rJava": {
       "Package": "rJava",
-      "Version": "1.0-6",
+      "Version": "1.0-5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0415819f6baa75d86d52483f7292b623"
+      "Hash": "8de045f6ab6a11448c75450aeedc2247"
     },
     "rappdirs": {
       "Package": "rappdirs",
