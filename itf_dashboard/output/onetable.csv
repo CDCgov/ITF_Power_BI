@@ -2,6 +2,7 @@ id,iso2code,state_region,who_region,Country,incomelevel_value,population,eightee
 ABW,AW,Non-State Region,AMRO,Aruba,High income,107195,84384,ABW,101,9,201
 AFG,AF,South and Central Asia,EMRO,Afghanistan,Low income,39835428,20507567,AFG,104,4,204
 AGO,AO,Sub-Saharan Africa,AFRO,Angola,Lower middle income,33933611,15968509,AGO,105,5,203
+AIA,AI,Non-State Region,AMRO,Anguilla,,15125,,AIA,101,9,205
 ALB,AL,Europe and Eurasia,EURO,Albania,Upper middle income,2872934,2273605,ALB,102,2,202
 AND,AD,Europe and Eurasia,EURO,Andorra,High income,77354,,AND,102,2,201
 ARE,AE,Near East (Middle East and Northern Africa),EMRO,United Arab Emirates,High income,9991083,8252069,ARE,104,3,201
@@ -15,12 +16,14 @@ AZE,AZ,Europe and Eurasia,EURO,Azerbaijan,Upper middle income,10223344,7444476,A
 BDI,BI,Sub-Saharan Africa,AFRO,Burundi,Low income,12255429,5942602,BDI,105,5,204
 BEL,BE,Europe and Eurasia,EURO,Belgium,High income,11632334,9267131,BEL,102,2,201
 BEN,BJ,Sub-Saharan Africa,AFRO,Benin,Lower middle income,12451031,6437397,BEN,105,5,203
+BES,BQ,Non-State Region,AMRO,"Bonaire, Sint Eustatius, and Saba",,26445,,BES,101,9,205
 BFA,BF,Sub-Saharan Africa,AFRO,Burkina Faso,Low income,21497097,10540124,BFA,105,5,204
 BGD,BD,South and Central Asia,SEARO,Bangladesh,Lower middle income,166303494,113308040,BGD,103,4,203
 BGR,BG,Europe and Eurasia,EURO,Bulgaria,Upper middle income,6896655,5681820,BGR,102,2,202
 BHR,BH,Near East (Middle East and Northern Africa),EMRO,Bahrain,High income,1748295,1375286,BHR,104,3,201
 BHS,BS,Western Hemisphere,AMRO,Bahamas,High income,396914,292972,BHS,101,6,201
 BIH,BA,Europe and Eurasia,EURO,Bosnia and Herzegovina,Upper middle income,3263459,2698625,BIH,102,2,202
+BLM,BL,Non-State Region,AMRO,Saint Barthélemy,,9909,,BLM,101,9,205
 BLR,BY,Europe and Eurasia,EURO,Belarus,Upper middle income,9442867,7536043,BLR,102,2,202
 BLZ,BZ,Western Hemisphere,AMRO,Belize,Lower middle income,404915,264839,BLZ,101,6,203
 BMU,BM,Non-State Region,AMRO,Bermuda,High income,62092,,BMU,101,9,201
@@ -33,13 +36,13 @@ BWA,BW,Sub-Saharan Africa,AFRO,Botswana,Upper middle income,2397240,1464869,BWA,
 CAF,CF,Sub-Saharan Africa,AFRO,Central African Republic,Low income,4919987,2426346,CAF,105,5,204
 CAN,CA,Western Hemisphere,AMRO,Canada,High income,38067913,30879381,CAN,101,6,201
 CHE,CH,Europe and Eurasia,EURO,Switzerland,High income,8715494,7154966,CHE,102,2,201
-CHI,JG,Non-State Region,Other,,High income,175244,143718,CHI,109,9,201
 CHL,CL,Western Hemisphere,AMRO,Chile,High income,19212362,14820628,CHL,101,6,201
 CHN,CN,East Asia and the Pacific,WPRO,China,Upper middle income,1444216102,1140663686,CHN,106,1,202
 CIV,CI,Sub-Saharan Africa,AFRO,Cote d'Ivoire,Lower middle income,27053629,14057569,CIV,105,5,203
 CMR,CM,Sub-Saharan Africa,AFRO,Cameroon,Lower middle income,27224262,14028700,CMR,105,5,203
 COD,CD,Sub-Saharan Africa,AFRO,Congo DR,Low income,92377986,44100058,COD,105,5,204
 COG,CG,Sub-Saharan Africa,AFRO,Congo,Lower middle income,5657017,2970221,COG,105,5,203
+COK,CK,Non-State Region,WPRO,Cook Islands,,17572,,COK,106,9,205
 COL,CO,Western Hemisphere,AMRO,Colombia,Upper middle income,51265841,37587127,COL,101,6,202
 COM,KM,Sub-Saharan Africa,AFRO,Comoros,Lower middle income,888456,487896,COM,105,5,203
 CPV,CV,Sub-Saharan Africa,AFRO,Cabo Verde,Lower middle income,561901,377024,CPV,105,5,203
@@ -63,15 +66,18 @@ EST,EE,Europe and Eurasia,EURO,Estonia,High income,1325188,1066085,EST,102,2,201
 ETH,ET,Sub-Saharan Africa,AFRO,Ethiopia,Low income,117876226,63261612,ETH,105,5,204
 FIN,FI,Europe and Eurasia,EURO,Finland,High income,5548361,4498946,FIN,102,2,201
 FJI,FJ,East Asia and the Pacific,WPRO,Fiji,Upper middle income,902899,595504,FJI,106,1,202
+FLK,FK,Non-State Region,AMRO,Falkland Islands,,3528,,FLK,101,9,205
 FRA,FR,Europe and Eurasia,EURO,France,High income,65426177,51615974,FRA,102,2,201
 FRO,FO,Non-State Region,EURO,Faroe Islands,High income,49053,,FRO,102,9,201
 FSM,FM,East Asia and the Pacific,WPRO,Micronesia,Lower middle income,116255,73383,FSM,106,1,203
 GAB,GA,Sub-Saharan Africa,AFRO,Gabon,Upper middle income,2278829,1304694,GAB,105,5,202
 GBR,GB,Europe and Eurasia,EURO,United Kingdom,High income,68207114,53930490,GBR,102,2,201
 GEO,GE,Europe and Eurasia,EURO,Georgia,Upper middle income,3979773,3038010,GEO,102,2,202
+GGY,GG,Non-State Region,EURO,Guernsey,,67334,,GGY,102,9,205
 GHA,GH,Sub-Saharan Africa,AFRO,Ghana,Lower middle income,31732128,18073230,GHA,105,5,203
 GIB,GI,Non-State Region,EURO,Gibraltar,High income,33691,,GIB,102,9,201
 GIN,GN,Sub-Saharan Africa,AFRO,Guinea,Low income,13497237,6784085,GIN,105,5,204
+GLP,GP,Non-State Region,AMRO,Guadeloupe,,400013,309490,GLP,101,9,205
 GMB,GM,Sub-Saharan Africa,AFRO,Gambia,Low income,2486937,1233944,GMB,105,5,204
 GNB,GW,Sub-Saharan Africa,AFRO,Guinea-Bissau,Low income,2015490,1043284,GNB,105,5,204
 GNQ,GQ,Sub-Saharan Africa,AFRO,Equatorial Guinea,Upper middle income,1449891,836991,GNQ,105,5,202
@@ -79,6 +85,7 @@ GRC,GR,Europe and Eurasia,EURO,Greece,High income,10370747,8658460,GRC,102,2,201
 GRD,GD,Western Hemisphere,AMRO,Grenada,Upper middle income,113015,81539,GRD,101,6,202
 GRL,GL,Non-State Region,EURO,Greenland,High income,56868,,GRL,102,9,201
 GTM,GT,Western Hemisphere,AMRO,Guatemala,Upper middle income,18249868,11081003,GTM,101,6,202
+GUF,GF,Non-State Region,AMRO,French Guiana,,306450,191879,GUF,101,9,205
 GUM,GU,Non-State Region,WPRO,Guam,High income,170184,121852,GUM,106,9,201
 GUY,GY,Western Hemisphere,AMRO,Guyana,Upper middle income,790329,530133,GUY,101,6,202
 HKG,HK,Non-State Region,WPRO,Hong Kong,High income,7552800,6410583,HKG,106,9,201
@@ -96,6 +103,7 @@ ISL,IS,Europe and Eurasia,EURO,Iceland,High income,343360,264299,ISL,102,2,201
 ISR,IL,Near East (Middle East and Northern Africa),EURO,Israel,High income,8789776,5937684,ISR,102,3,201
 ITA,IT,Europe and Eurasia,EURO,Italy,High income,60367471,50914814,ITA,102,2,201
 JAM,JM,Western Hemisphere,AMRO,Jamaica,Upper middle income,2973462,2147044,JAM,101,6,202
+JEY,JE,Non-State Region,EURO,Jersey,,101476,,JEY,102,9,205
 JOR,JO,Near East (Middle East and Northern Africa),EMRO,Jordan,Upper middle income,10269022,6328859,JOR,104,3,202
 JPN,JP,East Asia and the Pacific,WPRO,Japan,High income,126050796,107164335,JPN,106,1,201
 KAZ,KZ,South and Central Asia,EURO,Kazakhstan,Upper middle income,18994958,12686782,KAZ,102,4,202
@@ -135,14 +143,18 @@ MNG,MN,East Asia and the Pacific,WPRO,Mongolia,Lower middle income,3329282,21493
 MNP,MP,Non-State Region,WPRO,Northern Mariana Islands,High income,57910,,MNP,106,9,201
 MOZ,MZ,Sub-Saharan Africa,AFRO,Mozambique,Low income,32163045,15824391,MOZ,105,5,204
 MRT,MR,Sub-Saharan Africa,AFRO,Mauritania,Lower middle income,4775110,2591838,MRT,105,5,203
+MSR,MS,Non-State Region,AMRO,Montserrat,,4981,,MSR,101,9,205
+MTQ,MQ,Non-State Region,AMRO,Martinique,,374743,302372,MTQ,101,9,205
 MUS,MU,Sub-Saharan Africa,AFRO,Mauritius,Upper middle income,1273428,1010249,MUS,105,5,202
 MWI,MW,Sub-Saharan Africa,AFRO,Malawi,Low income,19647681,9895700,MWI,105,5,204
 MYS,MY,East Asia and the Pacific,WPRO,Malaysia,Upper middle income,32776195,23606444,MYS,106,1,202
+MYT,YT,Non-State Region,AFRO,Mayotte,,279507,153066,MYT,105,9,205
 NAM,NA,Sub-Saharan Africa,AFRO,Namibia,Upper middle income,2587344,1485339,NAM,105,5,202
 NCL,NC,Non-State Region,WPRO,New Caledonia,High income,288217,212714,NCL,106,9,201
 NER,NE,Sub-Saharan Africa,AFRO,Niger,Low income,25130810,10958406,NER,105,5,204
 NGA,NG,Sub-Saharan Africa,AFRO,Nigeria,Lower middle income,211400704,105841979,NGA,105,5,203
 NIC,NI,Western Hemisphere,AMRO,Nicaragua,Lower middle income,6702379,4384121,NIC,101,6,203
+NIU,NU,Non-State Region,WPRO,Niue,,1614,,NIU,106,9,205
 NLD,NL,Europe and Eurasia,EURO,Netherlands,High income,17173094,13907252,NLD,102,2,201
 NOR,NO,Europe and Eurasia,EURO,Norway,High income,5465629,4335476,NOR,102,2,201
 NPL,NP,South and Central Asia,SEARO,Nepal,Lower middle income,29674920,19497648,NPL,103,4,203
@@ -151,6 +163,7 @@ NZL,NZ,East Asia and the Pacific,WPRO,New Zealand,High income,4860642,3737691,NZ
 OMN,OM,Near East (Middle East and Northern Africa),EMRO,Oman,High income,5223376,3877681,OMN,104,3,201
 PAK,PK,South and Central Asia,EMRO,Pakistan,Lower middle income,225199929,133748111,PAK,104,4,203
 PAN,PA,Western Hemisphere,AMRO,Panama,Upper middle income,4381583,3014490,PAN,101,6,202
+PCN,PN,Non-State Region,WPRO,Pitcairn Islands,,50,,PCN,106,9,205
 PER,PE,Western Hemisphere,AMRO,Peru,Upper middle income,33359416,23621467,PER,101,6,202
 PHL,PH,East Asia and the Pacific,WPRO,Philippines,Lower middle income,111046910,71885584,PHL,106,1,203
 PLW,PW,East Asia and the Pacific,WPRO,Palau,High income,18174,,PLW,106,1,201
@@ -163,6 +176,7 @@ PRY,PY,Western Hemisphere,AMRO,Paraguay,Upper middle income,7219641,4756226,PRY,
 PSE,PS,Near East (Middle East and Northern Africa),EMRO,Palestinian Territory,Lower middle income,5222756,2916367,PSE,104,3,203
 PYF,PF,Non-State Region,WPRO,French Polynesia,High income,282534,207248,PYF,106,9,201
 QAT,QA,Near East (Middle East and Northern Africa),EMRO,Qatar,High income,2930524,2462368,QAT,104,3,201
+REU,RE,Non-State Region,AFRO,Réunion,,901696,660778,REU,105,9,205
 ROU,RO,Europe and Eurasia,EURO,Romania,Upper middle income,19127772,15548710,ROU,102,2,202
 RUS,RU,Europe and Eurasia,EURO,Russia,Upper middle income,145912022,114438259,RUS,102,2,202
 RWA,RW,Sub-Saharan Africa,AFRO,Rwanda,Low income,13276517,7208063,RWA,105,5,204
@@ -170,11 +184,13 @@ SAU,SA,Near East (Middle East and Northern Africa),EMRO,Saudi Arabia,High income
 SDN,SD,Sub-Saharan Africa,EMRO,Sudan,Low income,44909351,24179389,SDN,104,5,204
 SEN,SN,Sub-Saharan Africa,AFRO,Senegal,Lower middle income,17196308,8792559,SEN,105,5,203
 SGP,SG,East Asia and the Pacific,WPRO,Singapore,High income,5896684,5016588,SGP,106,1,201
+SHN,SH,Non-State Region,AFRO,Saint Helena,,6095,,SHN,105,9,205
 SLB,SB,East Asia and the Pacific,WPRO,Solomon Islands,Lower middle income,703995,379418,SLB,106,1,203
 SLE,SL,Sub-Saharan Africa,AFRO,Sierra Leone,Low income,8141343,4332193,SLE,105,5,204
 SLV,SV,Western Hemisphere,AMRO,El Salvador,Lower middle income,6518500,4460545,SLV,101,6,203
 SMR,SM,Europe and Eurasia,EURO,San Marino,High income,34010,,SMR,102,2,201
 SOM,SO,Sub-Saharan Africa,EMRO,Somalia,Low income,16359500,7680879,SOM,104,5,204
+SPM,PM,Non-State Region,AMRO,Saint Pierre and Miquelon,,5771,,SPM,101,9,205
 SRB,RS,Europe and Eurasia,EURO,Serbia,Upper middle income,8697547,7069537,SRB,102,2,202
 SSD,SS,Sub-Saharan Africa,AFRO,South Sudan,Low income,11381377,5952777,SSD,105,5,204
 STP,ST,Sub-Saharan Africa,AFRO,Sao Tome and Principe,Lower middle income,223364,115090,STP,105,5,203
@@ -191,6 +207,7 @@ TCD,TD,Sub-Saharan Africa,AFRO,Chad,Low income,16914985,7908934,TCD,105,5,204
 TGO,TG,Sub-Saharan Africa,AFRO,Togo,Low income,8478242,4493855,TGO,105,5,204
 THA,TH,East Asia and the Pacific,SEARO,Thailand,Upper middle income,69950844,55997858,THA,103,1,202
 TJK,TJ,South and Central Asia,EURO,Tajikistan,Lower middle income,9749625,5598433,TJK,102,4,203
+TKL,TK,Non-State Region,WPRO,Tokelau,,1368,,TKL,106,9,205
 TKM,TM,South and Central Asia,EURO,Turkmenistan,Upper middle income,6117933,3947590,TKM,102,4,202
 TLS,TL,East Asia and the Pacific,SEARO,Timor-Leste,Lower middle income,1343875,758773,TLS,103,1,203
 TON,TO,East Asia and the Pacific,WPRO,Tonga,Upper middle income,106759,63068,TON,106,1,202
@@ -205,36 +222,18 @@ UKR,UA,Europe and Eurasia,EURO,Ukraine,Lower middle income,43466822,35283949,UKR
 URY,UY,Western Hemisphere,AMRO,Uruguay,High income,3485152,2636586,URY,101,6,201
 USA,US,US,AMRO,United States of America,High income,332915074,259393206,USA,101,7,201
 UZB,UZ,South and Central Asia,EURO,Uzbekistan,Lower middle income,33935765,22605456,UZB,102,4,203
+VAT,VA,Europe and Eurasia,EURO,Holy See,,812,,VAT,102,2,205
 VCT,VC,Western Hemisphere,AMRO,Saint Vincent and the Grenadines,Upper middle income,111269,82014,VCT,101,6,202
 VEN,VE,Western Hemisphere,AMRO,Venezuela,Not classified,28704947,19532657,VEN,101,6,209
 VGB,VG,Non-State Region,AMRO,British Virgin Islands,High income,30423,,VGB,101,9,201
 VIR,VI,Non-State Region,AMRO,"Virgin Islands, US",High income,104218,80324,VIR,101,9,201
 VNM,VN,East Asia and the Pacific,WPRO,Viet Nam,Lower middle income,98168829,71432854,VNM,106,1,203
 VUT,VU,East Asia and the Pacific,WPRO,Vanuatu,Lower middle income,314464,174869,VUT,106,1,203
+WLF,WF,Non-State Region,WPRO,Wallis and Futuna,,11094,,WLF,106,9,205
 WSM,WS,East Asia and the Pacific,WPRO,Samoa,Lower middle income,200144,113695,WSM,106,1,203
 XKX,XK,Non-State Region,EURO,Kosovo,Upper middle income,1935259,,CS-KM,102,9,202
 YEM,YE,Near East (Middle East and Northern Africa),EMRO,Yemen,Low income,30490639,16782912,YEM,104,3,204
 ZAF,ZA,Sub-Saharan Africa,AFRO,South Africa,Upper middle income,60041996,39806445,ZAF,105,5,202
 ZMB,ZM,Sub-Saharan Africa,AFRO,Zambia,Lower middle income,18920657,9326364,ZMB,105,5,203
 ZWE,ZW,Sub-Saharan Africa,AFRO,Zimbabwe,Lower middle income,15092171,7814779,ZWE,105,5,203
-AIA,AI,Non-State Region,AMRO,Anguilla,,15125,,AIA,101,9,205
-BLM,BL,Non-State Region,AMRO,Saint Barthélemy,,9909,,BLM,101,9,205
-BES,BQ,Non-State Region,AMRO,"Bonaire, Sint Eustatius, and Saba",,26445,,BES,101,9,205
-COK,CK,Non-State Region,WPRO,Cook Islands,,17572,,COK,106,9,205
-FLK,FK,Non-State Region,AMRO,Falkland Islands,,3528,,FLK,101,9,205
-GUF,GF,Non-State Region,AMRO,French Guiana,,306450,191879,GUF,101,9,205
-GGY,GG,Non-State Region,EURO,Guernsey,,67334,,GGY,102,9,205
-GLP,GP,Non-State Region,AMRO,Guadeloupe,,400013,309490,GLP,101,9,205
-JEY,JE,Non-State Region,EURO,Jersey,,101476,,JEY,102,9,205
-MTQ,MQ,Non-State Region,AMRO,Martinique,,374743,302372,MTQ,101,9,205
-MSR,MS,Non-State Region,AMRO,Montserrat,,4981,,MSR,101,9,205
-NIU,NU,Non-State Region,WPRO,Niue,,1614,,NIU,106,9,205
-SPM,PM,Non-State Region,AMRO,Saint Pierre and Miquelon,,5771,,SPM,101,9,205
-PCN,PN,Non-State Region,WPRO,Pitcairn Islands,,50,,PCN,106,9,205
-REU,RE,Non-State Region,AFRO,Réunion,,901696,660778,REU,105,9,205
-SHN,SH,Non-State Region,AFRO,Saint Helena,,6095,,SHN,105,9,205
-TKL,TK,Non-State Region,WPRO,Tokelau,,1368,,TKL,106,9,205
-VAT,VA,Europe and Eurasia,EURO,Holy See,,812,,VAT,102,2,205
-WLF,WF,Non-State Region,WPRO,Wallis and Futuna,,11094,,WLF,106,9,205
-MYT,YT,Non-State Region,AFRO,Mayotte,,279507,153066,MYT,105,9,205
 OTH,OT,Other,Other,Other,Other,,,,109,8,205
