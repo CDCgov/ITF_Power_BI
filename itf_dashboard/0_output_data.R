@@ -173,7 +173,27 @@ owid_vax<-vax %>%
       people_vaccinated_per_hundred<40 & people_vaccinated_per_hundred>=30~5,
       people_vaccinated_per_hundred<60 & people_vaccinated_per_hundred>=40~6,
       people_vaccinated_per_hundred<70 & people_vaccinated_per_hundred>=60~7,
-      people_vaccinated_per_hundred>=70~8))
+      people_vaccinated_per_hundred>=70~8),
+    people_fully_vaccinated_per100_bin=case_when(
+      is.na(people_fully_vaccinated_per_hundred)~"No data",
+      people_fully_vaccinated_per_hundred<3~"<3",
+      people_fully_vaccinated_per_hundred<10 & people_fully_vaccinated_per_hundred>=3~"3 - <10",
+      people_fully_vaccinated_per_hundred<20 & people_fully_vaccinated_per_hundred>=10~"10 - <20",
+      people_fully_vaccinated_per_hundred<30 & people_fully_vaccinated_per_hundred>=20~"20 - <30",
+      people_fully_vaccinated_per_hundred<40 & people_fully_vaccinated_per_hundred>=30~"30 - <40",
+      people_fully_vaccinated_per_hundred<60 & people_fully_vaccinated_per_hundred>=40~"40 - <60",
+      people_fully_vaccinated_per_hundred<70 & people_fully_vaccinated_per_hundred>=60~"60 - <70",
+      people_fully_vaccinated_per_hundred>=70~"70+"),
+    people_fully_vaccinated_per100_binorder=case_when(
+      is.na(people_fully_vaccinated_per_hundred)~0,
+      people_fully_vaccinated_per_hundred<3~1,
+      people_fully_vaccinated_per_hundred<10 & people_fully_vaccinated_per_hundred>=3~2,
+      people_fully_vaccinated_per_hundred<20 & people_fully_vaccinated_per_hundred>=10~3,
+      people_fully_vaccinated_per_hundred<30 & people_fully_vaccinated_per_hundred>=20~4,
+      people_fully_vaccinated_per_hundred<40 & people_fully_vaccinated_per_hundred>=30~5,
+      people_fully_vaccinated_per_hundred<60 & people_fully_vaccinated_per_hundred>=40~6,
+      people_fully_vaccinated_per_hundred<70 & people_fully_vaccinated_per_hundred>=60~7,
+      people_fully_vaccinated_per_hundred>=70~8))
 data.table::fwrite(owid_vax, paste0(output.dir, "vax_wide.csv"), na="", row.names=FALSE)
 
 
