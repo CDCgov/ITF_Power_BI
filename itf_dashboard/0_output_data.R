@@ -139,12 +139,17 @@ testing1<-data.table::fread(owid_test_source, data.table = F, showProgress = F, 
 data.table::fwrite(testing1, paste0(output.dir, "owid_testing.csv"), na="", row.names=FALSE)
 
 
-
 #vaccine data for Summary page- Internal DB source  -----
-owid_vax<-get_vax()  %>%
-  #need to add missing countries 
-  #right_join(select(onetable1, id),by="id") %>%
-  #carry forward all indicators that aren't already carried forward
+vax<-get_vax() 
+all_dates <- seq.Date(from=as.Date(min(vax$date)), to=as.Date(max(vax$date)), by="day")
+
+
+
+owid_vax<-vax %>%
+  #need to add missing dates
+  tidyr::complete(id, date = all_dates) %>%
+  #carry forward all indicators
+  calc_vax_carryforward() %>%
   calc_vax_carryforward(c("daily_vaccinations","daily_vaccinations_per_million","daily_people_vaccinated","daily_people_vaccinated_per_hundred",
                           "daily_vaccinations_per_hundred")) %>%  
   #add some more columns for dashboard - the Vaccination_Tracker query brings in population data, but I am not sure if that's necessary
