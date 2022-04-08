@@ -215,6 +215,7 @@ data.table::fwrite(vax_dict$all %>% filter(count_or_rate=="Rate"), paste0(output
 data.table::fwrite(vax_dict$manufacturers, paste0(output.dir, "vaccinations_manufacturers.csv"), na="", row.names=FALSE)
 data.table::fwrite(vax_dict$rollout, paste0(output.dir, "vaccinations_rollout.csv"), na="", row.names=FALSE)
 data.table::fwrite(vax_dict$categories, paste0(output.dir, "vaccinations_categories.csv"), na="", row.names=FALSE)
+data.table::fwrite(vax_dict$age, paste0(output.dir,"vaccinations_by_age.csv"), na="", row.names = FALSE)
 
 
 #Run Testing Data Algorithms
