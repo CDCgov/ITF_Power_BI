@@ -29,7 +29,7 @@ out_folder <- file.path("itf_dashboard", "output")
 # Calculate the date based on local HKG time
 # (Where updates are pushed at 00 hours local time)
 current_hkg_time <- Sys.time()
-# attr(current_hkg_time, "tzone") <- "Asia/Shanghai" # BODGE
+attr(current_hkg_time, "tzone") <- "Asia/Shanghai"
 data_date <- format(current_hkg_time, "%Y.%m.%d")
 
 # Create string
