@@ -132,7 +132,7 @@ df_ncov <- savi_coviddf %>%
 # pulling directly from OWID because we need tests_per_case
 owid_test_source = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
 testing1<-data.table::fread(owid_test_source, data.table = F, showProgress = F, verbose = F) %>%
-  select(iso_code,date,positive_rate,new_tests,new_tests_smoothed,new_cases_smoothed,total_tests,new_tests_smoothed_per_thousand,new_tests_per_thousand,tests_per_case) %>%
+  select(iso_code,date,positive_rate,new_tests,new_tests_smoothed,population,new_cases_smoothed,total_tests,new_tests_smoothed_per_thousand,new_tests_per_thousand,tests_per_case) %>%
   mutate(iso_code = recode(iso_code, "OWID_KOS" = "XKX")) %>%
   filter(!grepl("OWID", iso_code)) 
 
