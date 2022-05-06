@@ -4,6 +4,7 @@ library(readr)
 library(dplyr)
 library(data.table)
 library(SaviR)
+library(zoo)
 
 # Path to all local R functions
 rfunctions.dir <- "./Rfunctions/"
@@ -132,10 +133,20 @@ df_ncov <- savi_coviddf %>%
 # pulling directly from OWID because we need tests_per_case
 owid_test_source = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
 testing1<-data.table::fread(owid_test_source, data.table = F, showProgress = F, verbose = F) %>%
-  select(iso_code,date,positive_rate,new_tests,new_tests_smoothed,population,new_cases_smoothed,total_tests,new_tests_smoothed_per_thousand,new_tests_per_thousand,tests_per_case) %>%
+  select(iso_code,date,positive_rate,new_tests,total_tests,new_tests_smoothed_per_thousand,new_tests_per_thousand,tests_per_case,new_tests_smoothed,new_cases_smoothed,population) %>%
   mutate(iso_code = recode(iso_code, "OWID_KOS" = "XKX")) %>%
-  filter(!grepl("OWID", iso_code)) 
-
+  filter(!grepl("OWID", iso_code)) %>%
+  #filling in dates here instead of in PBI DAX
+  group_by(iso_code) %>%
+  arrange(date) %>%
+  mutate(
+    tests_per_case_filled = zoo::na.locf(tests_per_case, na.rm = F, maxgap = 14),
+    new_tests_per_thousand_filled = zoo::na.locf(new_tests_smoothed_per_thousand, na.rm = F, maxgap = 14),
+    positive_rate_filled = zoo::na.locf(positive_rate, na.rm = F, maxgap = 14),
+    positive_cases_filled = zoo::na.locf(new_cases_smoothed, na.rm = F, maxgap = 14),
+    new_tests_filled = zoo::na.locf(new_tests_smoothed, na.rm = F, maxgap = 14)
+    )
+    
 data.table::fwrite(testing1, paste0(output.dir, "owid_testing.csv"), na="", row.names=FALSE)
 
 
