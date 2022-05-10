@@ -35,11 +35,13 @@ Citation: Dong E, Du H, Gardner L. An interactive web-based dashboard to track C
 https://covid19.who.int/WHO-COVID-19-global-data.csv
 More info here: https://covid19.who.int/
 
-#### Our World In Data Testing data set:
+#### Our World In Data Testing, Hospitalization, and Vaccination data sets:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv
+https://github.com/owid/covid-19-data/blob/master/public/data/hospitalizations/covid-hospitalizations.csv
+https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 
-More info here: https://ourworldindata.org/coronavirus-testing
+More info here: https://ourworldindata.org/coronavirus-testing, https://ourworldindata.org/covid-hospitalizations,  https://ourworldindata.org/covid-vaccinations
 
 Even more info here: https://github.com/owid/covid-19-data/blob/master/public/data/README.md
 
