@@ -206,7 +206,15 @@ function(rfunctions.dir) {
   cats$tick_value[rate_daily_filter(cats)] <- rate_daily_ticks[cats$cat_num[rate_daily_filter(cats)]]
   
   
-  
+  #calculate daily count column for rollout
+  man<-man %>%
+    arrange(date) %>%
+    group_by(location, vaccine) %>%
+    mutate(daily_vaccinations=case_when(
+      is.na(lag(total_vaccinations)) ~ total_vaccinations,
+      TRUE ~ total_vaccinations - lag(total_vaccinations))) %>%
+    ungroup() %>%
+    mutate(iso3code=parse_country(location,to="iso3c"))
   
   
   

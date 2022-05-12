@@ -471,10 +471,11 @@ Lithuania,LTU,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/Bio
 Lithuania,LTU,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-11,Ministry of Health,https://experience.arcgis.com/experience/cab84dcfe0464c2a8050a78f817924ca/page/page_3/,Novavax
 Lithuania,LTU,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-11,Ministry of Health,https://experience.arcgis.com/experience/cab84dcfe0464c2a8050a78f817924ca/page/page_3/,Oxford/AstraZeneca
 Lithuania,LTU,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-11,Ministry of Health,https://experience.arcgis.com/experience/cab84dcfe0464c2a8050a78f817924ca/page/page_3/,Pfizer/BioNTech
-Luxembourg,LUX,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Johnson&Johnson
-Luxembourg,LUX,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Moderna
-Luxembourg,LUX,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Oxford/AstraZeneca
-Luxembourg,LUX,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Pfizer/BioNTech
+Luxembourg,LUX,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Johnson&Johnson
+Luxembourg,LUX,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Moderna
+Luxembourg,LUX,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Novavax
+Luxembourg,LUX,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Oxford/AstraZeneca
+Luxembourg,LUX,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-09,Government of Luxembourg,https://data.public.lu/en/datasets/donnees-covid19/#_,Pfizer/BioNTech
 Macao,MAC,"Pfizer/BioNTech, Sinopharm/Beijing",2022-05-11,Government of Macao,https://www.ssm.gov.mo/docs/19164/19164_5f289eb56b344f92adf9b17430f65fc2_000_.pdf,Pfizer/BioNTech
 Macao,MAC,"Pfizer/BioNTech, Sinopharm/Beijing",2022-05-11,Government of Macao,https://www.ssm.gov.mo/docs/19164/19164_5f289eb56b344f92adf9b17430f65fc2_000_.pdf,Sinopharm/Beijing
 Madagascar,MDG,"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing",2022-05-08,World Health Organization,https://covid19.who.int/,Johnson&Johnson
@@ -634,12 +635,12 @@ Poland,POL,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTe
 Poland,POL,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-10,Ministry of Health,https://www.gov.pl/web/szczepimysie/raport-szczepien-przeciwko-covid-19,Novavax
 Poland,POL,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-10,Ministry of Health,https://www.gov.pl/web/szczepimysie/raport-szczepien-przeciwko-covid-19,Oxford/AstraZeneca
 Poland,POL,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-10,Ministry of Health,https://www.gov.pl/web/szczepimysie/raport-szczepien-przeciwko-covid-19,Pfizer/BioNTech
-Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-04-24,World Health Organization,https://covid19.who.int/,Johnson&Johnson
-Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-04-24,World Health Organization,https://covid19.who.int/,Moderna
-Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-04-24,World Health Organization,https://covid19.who.int/,Oxford/AstraZeneca
-Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-04-24,World Health Organization,https://covid19.who.int/,Pfizer/BioNTech
-Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-04-24,World Health Organization,https://covid19.who.int/,Sinopharm/Beijing
-Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-04-24,World Health Organization,https://covid19.who.int/,Sinovac
+Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-05-01,World Health Organization,https://covid19.who.int/,Johnson&Johnson
+Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-05-01,World Health Organization,https://covid19.who.int/,Moderna
+Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-05-01,World Health Organization,https://covid19.who.int/,Oxford/AstraZeneca
+Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-05-01,World Health Organization,https://covid19.who.int/,Pfizer/BioNTech
+Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-05-01,World Health Organization,https://covid19.who.int/,Sinopharm/Beijing
+Portugal,PRT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-05-01,World Health Organization,https://covid19.who.int/,Sinovac
 Qatar,QAT,"Moderna, Pfizer/BioNTech",2022-05-11,Ministry of Public Health,https://covid19.moph.gov.qa/EN/Pages/Vaccination-Program-Data.aspx,Moderna
 Qatar,QAT,"Moderna, Pfizer/BioNTech",2022-05-11,Ministry of Public Health,https://covid19.moph.gov.qa/EN/Pages/Vaccination-Program-Data.aspx,Pfizer/BioNTech
 Romania,ROU,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-05-10,Government of Romania via datelazi.ro,https://datelazi.ro/,Johnson&Johnson
