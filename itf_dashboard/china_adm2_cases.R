@@ -30,11 +30,11 @@ inc_from_cum <- function(x, n=1L) {
 out_folder <- file.path("itf_dashboard", "output")
 # NOTE: We could also do the webscrape ourselves.
 
-# Calculate the date based on local HKG time
-# (Where updates are pushed at 00 hours local time)
-current_hkg_time <- Sys.time()
-attr(current_hkg_time, "tzone") <- "Asia/Shanghai"
-data_date <- format(current_hkg_time, "%Y.%m.%d")
+# Calculate the date based on UTC time
+# (Where updates are pushed at 1800 hours)
+current_UTC_time <- Sys.time()
+attr(current_UTC_time, "tzone") <- "UTC"
+data_date <- format(current_UTC_time, "%Y.%m.%d")
 
 # Non-adm2 to keep
 non_adm2 <- c("Hong Kong", "Taiwan", "Macau")
