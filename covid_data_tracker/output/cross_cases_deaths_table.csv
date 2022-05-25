@@ -1,7 +1,7 @@
 Indicator,periodval,data_source,country_code,Date,pop,dftype,Counts,Rate,tabtitlex
 Cases,14 days,WHO,ABW,2022-05-24,120917,cross,955,789.8,Cases reported in the past 14 days
 Cases,14 days,WHO,AFG,2022-05-24,37466414,cross,761,2,Cases reported in the past 14 days
-Cases,14 days,WHO,AGO,2022-05-24,33642646,cross,19,0.1,Cases reported in the past 14 days
+Cases,14 days,WHO,AGO,2022-05-24,33642646,cross,103,0.3,Cases reported in the past 14 days
 Cases,14 days,WHO,AIA,2022-05-24,18403,cross,415,2255.1,Cases reported in the past 14 days
 Cases,14 days,WHO,ALB,2022-05-24,3088385,cross,509,16.5,Cases reported in the past 14 days
 Cases,14 days,WHO,AND,2022-05-24,85645,cross,855,998.3,Cases reported in the past 14 days
@@ -10,7 +10,7 @@ Cases,14 days,WHO,ARG,2022-05-24,45864941,cross,77476,168.9,Cases reported in th
 Cases,14 days,WHO,ARM,2022-05-24,3011609,cross,39,1.3,Cases reported in the past 14 days
 Cases,14 days,WHO,ASM,2022-05-24,46366,cross,118,254.5,Cases reported in the past 14 days
 Cases,14 days,WHO,ATG,2022-05-24,99175,cross,279,281.3,Cases reported in the past 14 days
-Cases,14 days,WHO,AUS,2022-05-24,25809973,cross,699334,2709.5,Cases reported in the past 14 days
+Cases,14 days,WHO,AUS,2022-05-24,25809973,cross,697279,2701.6,Cases reported in the past 14 days
 Cases,14 days,WHO,AUT,2022-05-24,8884864,cross,50853,572.4,Cases reported in the past 14 days
 Cases,14 days,WHO,AZE,2022-05-24,10282283,cross,82,0.8,Cases reported in the past 14 days
 Cases,14 days,WHO,BDI,2022-05-24,12241065,cross,681,5.6,Cases reported in the past 14 days
@@ -35,26 +35,26 @@ Cases,14 days,WHO,BTN,2022-05-24,857423,cross,84,9.8,Cases reported in the past 
 Cases,14 days,WHO,BWA,2022-05-24,2350667,cross,496,21.1,Cases reported in the past 14 days
 Cases,14 days,WHO,CAF,2022-05-24,5357984,cross,6,0.1,Cases reported in the past 14 days
 Cases,14 days,WHO,CAN,2022-05-24,37943231,cross,49676,130.9,Cases reported in the past 14 days
-Cases,14 days,WHO,CHE,2022-05-24,8453550,cross,9910,117.2,Cases reported in the past 14 days
+Cases,14 days,WHO,CHE,2022-05-24,8453550,cross,17966,212.5,Cases reported in the past 14 days
 Cases,14 days,WHO,CHL,2022-05-24,18307925,cross,65987,360.4,Cases reported in the past 14 days
-Cases,14 days,WHO,CHN,2022-05-24,1397897720,cross,993889,71.1,Cases reported in the past 14 days
+Cases,14 days,WHO,CHN,2022-05-24,1397897720,cross,993833,71.1,Cases reported in the past 14 days
 Cases,14 days,WHO,CIV,2022-05-24,28088455,cross,96,0.3,Cases reported in the past 14 days
-Cases,14 days,WHO,CMR,2022-05-24,28524175,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,COD,2022-05-24,105044646,cross,0,0,Cases reported in the past 14 days
+Cases,14 days,WHO,CMR,2022-05-24,28524175,cross,23,0.1,Cases reported in the past 14 days
+Cases,14 days,WHO,COD,2022-05-24,105044646,cross,403,0.4,Cases reported in the past 14 days
 Cases,14 days,WHO,COG,2022-05-24,5417414,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,COK,2022-05-24,8327,cross,237,2846.2,Cases reported in the past 14 days
 Cases,14 days,WHO,COL,2022-05-24,50355650,cross,5466,10.9,Cases reported in the past 14 days
-Cases,14 days,WHO,COM,2022-05-24,864335,cross,6,0.7,Cases reported in the past 14 days
-Cases,14 days,WHO,CPV,2022-05-24,589451,cross,92,15.6,Cases reported in the past 14 days
+Cases,14 days,WHO,COM,2022-05-24,864335,cross,12,1.4,Cases reported in the past 14 days
+Cases,14 days,WHO,CPV,2022-05-24,589451,cross,97,16.5,Cases reported in the past 14 days
 Cases,14 days,WHO,CRI,2022-05-24,5151140,cross,20243,393,Cases reported in the past 14 days
 Cases,14 days,WHO,CUB,2022-05-24,11032343,cross,959,8.7,Cases reported in the past 14 days
 Cases,14 days,WHO,CUW,2022-05-24,151885,cross,819,539.2,Cases reported in the past 14 days
 Cases,14 days,WHO,CYM,2022-05-24,63131,cross,1649,2612,Cases reported in the past 14 days
 Cases,14 days,WHO,CYP,2022-05-24,1281506,cross,4525,353.1,Cases reported in the past 14 days
-Cases,14 days,WHO,CZE,2022-05-24,10702596,cross,5144,48.1,Cases reported in the past 14 days
-Cases,14 days,WHO,DEU,2022-05-24,79903481,cross,645398,807.7,Cases reported in the past 14 days
+Cases,14 days,WHO,CZE,2022-05-24,10702596,cross,5143,48.1,Cases reported in the past 14 days
+Cases,14 days,WHO,DEU,2022-05-24,79903481,cross,659678,825.6,Cases reported in the past 14 days
 Cases,14 days,WHO,DJI,2022-05-24,938413,cross,44,4.7,Cases reported in the past 14 days
-Cases,14 days,WHO,DMA,2022-05-24,74584,cross,1259,1688,Cases reported in the past 14 days
+Cases,14 days,WHO,DMA,2022-05-24,74584,cross,1421,1905.2,Cases reported in the past 14 days
 Cases,14 days,WHO,DNK,2022-05-24,5894687,cross,7056,119.7,Cases reported in the past 14 days
 Cases,14 days,WHO,DOM,2022-05-24,10597348,cross,1444,13.6,Cases reported in the past 14 days
 Cases,14 days,WHO,DZA,2022-05-24,43576691,cross,55,0.1,Cases reported in the past 14 days
@@ -67,14 +67,14 @@ Cases,14 days,WHO,ETH,2022-05-24,110871031,cross,663,0.6,Cases reported in the p
 Cases,14 days,WHO,FIN,2022-05-24,5587442,cross,13845,247.8,Cases reported in the past 14 days
 Cases,14 days,WHO,FJI,2022-05-24,939535,cross,173,18.4,Cases reported in the past 14 days
 Cases,14 days,WHO,FLK,2022-05-24,3198,cross,1216,38023.8,Cases reported in the past 14 days
-Cases,14 days,WHO,FRA,2022-05-24,68084217,cross,365966,537.5,Cases reported in the past 14 days
+Cases,14 days,WHO,FRA,2022-05-24,68084217,cross,362714,532.7,Cases reported in the past 14 days
 Cases,14 days,WHO,FRO,2022-05-24,51943,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,FSM,2022-05-24,101675,cross,0,0,Cases reported in the past 14 days
+Cases,14 days,WHO,FSM,2022-05-24,101675,cross,23,22.6,Cases reported in the past 14 days
 Cases,14 days,WHO,GAB,2022-05-24,2284912,cross,14,0.6,Cases reported in the past 14 days
-Cases,14 days,WHO,GBR,2022-05-24,67081000,cross,103122,153.7,Cases reported in the past 14 days
-Cases,14 days,WHO,GEO,2022-05-24,4933674,cross,0,0,Cases reported in the past 14 days
+Cases,14 days,WHO,GBR,2022-05-24,67081000,cross,105336,157,Cases reported in the past 14 days
+Cases,14 days,WHO,GEO,2022-05-24,4933674,cross,1347,27.3,Cases reported in the past 14 days
 Cases,14 days,WHO,GGY,2022-05-24,67334,cross,496,736.6,Cases reported in the past 14 days
-Cases,14 days,WHO,GHA,2022-05-24,32372889,cross,71,0.2,Cases reported in the past 14 days
+Cases,14 days,WHO,GHA,2022-05-24,32372889,cross,90,0.3,Cases reported in the past 14 days
 Cases,14 days,WHO,GIB,2022-05-24,29516,cross,277,938.5,Cases reported in the past 14 days
 Cases,14 days,WHO,GIN,2022-05-24,12877894,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,GLP,2022-05-24,0,cross,5349,,Cases reported in the past 14 days
@@ -99,8 +99,8 @@ Cases,14 days,WHO,IND,2022-05-24,1339330514,cross,32379,2.4,Cases reported in th
 Cases,14 days,WHO,IRL,2022-05-24,5224884,cross,5508,105.4,Cases reported in the past 14 days
 Cases,14 days,WHO,IRN,2022-05-24,85888910,cross,4562,5.3,Cases reported in the past 14 days
 Cases,14 days,WHO,IRQ,2022-05-24,39650145,cross,1647,4.2,Cases reported in the past 14 days
-Cases,14 days,WHO,ISL,2022-05-24,354234,cross,1223,345.3,Cases reported in the past 14 days
-Cases,14 days,WHO,ISR,2022-05-24,8787045,cross,28761,327.3,Cases reported in the past 14 days
+Cases,14 days,WHO,ISL,2022-05-24,354234,cross,1456,411,Cases reported in the past 14 days
+Cases,14 days,WHO,ISR,2022-05-24,8787045,cross,28803,327.8,Cases reported in the past 14 days
 Cases,14 days,WHO,ITA,2022-05-24,62390364,cross,441154,707.1,Cases reported in the past 14 days
 Cases,14 days,WHO,JAM,2022-05-24,2816602,cross,3333,118.3,Cases reported in the past 14 days
 Cases,14 days,WHO,JEY,2022-05-24,101476,cross,320,315.3,Cases reported in the past 14 days
@@ -112,24 +112,24 @@ Cases,14 days,WHO,KGZ,2022-05-24,6018789,cross,0,0,Cases reported in the past 14
 Cases,14 days,WHO,KHM,2022-05-24,17304363,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,KIR,2022-05-24,113001,cross,5,4.4,Cases reported in the past 14 days
 Cases,14 days,WHO,KNA,2022-05-24,54149,cross,80,147.7,Cases reported in the past 14 days
-Cases,14 days,WHO,KOR,2022-05-24,51715162,cross,379116,733.1,Cases reported in the past 14 days
+Cases,14 days,WHO,KOR,2022-05-24,51715162,cross,379098,733.1,Cases reported in the past 14 days
 Cases,14 days,WHO,KWT,2022-05-24,3032065,cross,707,23.3,Cases reported in the past 14 days
-Cases,14 days,WHO,LAO,2022-05-24,7574356,cross,805,10.6,Cases reported in the past 14 days
+Cases,14 days,WHO,LAO,2022-05-24,7574356,cross,845,11.2,Cases reported in the past 14 days
 Cases,14 days,WHO,LBN,2022-05-24,5261372,cross,1065,20.2,Cases reported in the past 14 days
 Cases,14 days,WHO,LBR,2022-05-24,5214030,cross,4,0.1,Cases reported in the past 14 days
 Cases,14 days,WHO,LBY,2022-05-24,7017224,cross,68,1,Cases reported in the past 14 days
 Cases,14 days,WHO,LCA,2022-05-24,166637,cross,1235,741.1,Cases reported in the past 14 days
-Cases,14 days,WHO,LIE,2022-05-24,39425,cross,57,144.6,Cases reported in the past 14 days
-Cases,14 days,WHO,LKA,2022-05-24,23044123,cross,168,0.7,Cases reported in the past 14 days
-Cases,14 days,WHO,LSO,2022-05-24,2177740,cross,93,4.3,Cases reported in the past 14 days
-Cases,14 days,WHO,LTU,2022-05-24,2711566,cross,1892,69.8,Cases reported in the past 14 days
+Cases,14 days,WHO,LIE,2022-05-24,39425,cross,116,294.2,Cases reported in the past 14 days
+Cases,14 days,WHO,LKA,2022-05-24,23044123,cross,182,0.8,Cases reported in the past 14 days
+Cases,14 days,WHO,LSO,2022-05-24,2177740,cross,146,6.7,Cases reported in the past 14 days
+Cases,14 days,WHO,LTU,2022-05-24,2711566,cross,1903,70.2,Cases reported in the past 14 days
 Cases,14 days,WHO,LUX,2022-05-24,639589,cross,4583,716.6,Cases reported in the past 14 days
 Cases,14 days,WHO,LVA,2022-05-24,1862687,cross,2566,137.8,Cases reported in the past 14 days
 Cases,14 days,WHO,MAC,2022-05-24,630396,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,MAF,2022-05-24,0,cross,131,,Cases reported in the past 14 days
 Cases,14 days,WHO,MAR,2022-05-24,36561813,cross,1433,3.9,Cases reported in the past 14 days
 Cases,14 days,WHO,MCO,2022-05-24,31223,cross,178,570.1,Cases reported in the past 14 days
-Cases,14 days,WHO,MDA,2022-05-24,3323875,cross,326,9.8,Cases reported in the past 14 days
+Cases,14 days,WHO,MDA,2022-05-24,3323875,cross,579,17.4,Cases reported in the past 14 days
 Cases,14 days,WHO,MDG,2022-05-24,27534354,cross,78,0.3,Cases reported in the past 14 days
 Cases,14 days,WHO,MDV,2022-05-24,390669,cross,141,36.1,Cases reported in the past 14 days
 Cases,14 days,WHO,MEX,2022-05-24,130207371,cross,10710,8.2,Cases reported in the past 14 days
@@ -137,7 +137,7 @@ Cases,14 days,WHO,MHL,2022-05-24,78831,cross,0,0,Cases reported in the past 14 d
 Cases,14 days,WHO,MKD,2022-05-24,2128262,cross,1054,49.5,Cases reported in the past 14 days
 Cases,14 days,WHO,MLI,2022-05-24,20137527,cross,117,0.6,Cases reported in the past 14 days
 Cases,14 days,WHO,MLT,2022-05-24,460891,cross,1195,259.3,Cases reported in the past 14 days
-Cases,14 days,WHO,MMR,2022-05-24,57069099,cross,161,0.3,Cases reported in the past 14 days
+Cases,14 days,WHO,MMR,2022-05-24,57069099,cross,172,0.3,Cases reported in the past 14 days
 Cases,14 days,WHO,MNE,2022-05-24,607414,cross,924,152.1,Cases reported in the past 14 days
 Cases,14 days,WHO,MNG,2022-05-24,3198913,cross,1808,56.5,Cases reported in the past 14 days
 Cases,14 days,WHO,MNP,2022-05-24,51659,cross,28,54.2,Cases reported in the past 14 days
@@ -152,14 +152,14 @@ Cases,14 days,WHO,MYT,2022-05-24,0,cross,160,,Cases reported in the past 14 days
 Cases,14 days,WHO,NAM,2022-05-24,2678191,cross,1329,49.6,Cases reported in the past 14 days
 Cases,14 days,WHO,NCL,2022-05-24,293608,cross,763,259.9,Cases reported in the past 14 days
 Cases,14 days,WHO,NER,2022-05-24,23605767,cross,45,0.2,Cases reported in the past 14 days
-Cases,14 days,WHO,NGA,2022-05-24,219463862,cross,135,0.1,Cases reported in the past 14 days
+Cases,14 days,WHO,NGA,2022-05-24,219463862,cross,170,0.1,Cases reported in the past 14 days
 Cases,14 days,WHO,NIC,2022-05-24,6243931,cross,51,0.8,Cases reported in the past 14 days
 Cases,14 days,WHO,NIU,2022-05-24,2000,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,NLD,2022-05-24,17337403,cross,16334,94.2,Cases reported in the past 14 days
+Cases,14 days,WHO,NLD,2022-05-24,17337403,cross,16333,94.2,Cases reported in the past 14 days
 Cases,14 days,WHO,NOR,2022-05-24,5509591,cross,3240,58.8,Cases reported in the past 14 days
 Cases,14 days,WHO,NPL,2022-05-24,30424878,cross,127,0.4,Cases reported in the past 14 days
 Cases,14 days,WHO,NRU,2022-05-24,9770,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,NZL,2022-05-24,4991442,cross,107316,2150,Cases reported in the past 14 days
+Cases,14 days,WHO,NZL,2022-05-24,4991442,cross,107250,2148.7,Cases reported in the past 14 days
 Cases,14 days,WHO,OMN,2022-05-24,3694755,cross,167,4.5,Cases reported in the past 14 days
 Cases,14 days,WHO,OTH,2022-05-24,0,cross,0,,Cases reported in the past 14 days
 Cases,14 days,WHO,PAK,2022-05-24,238181034,cross,1035,0.4,Cases reported in the past 14 days
@@ -168,11 +168,11 @@ Cases,14 days,WHO,PCN,2022-05-24,50,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,PER,2022-05-24,32201224,cross,6260,19.4,Cases reported in the past 14 days
 Cases,14 days,WHO,PHL,2022-05-24,110818325,cross,2330,2.1,Cases reported in the past 14 days
 Cases,14 days,WHO,PLW,2022-05-24,21613,cross,235,1087.3,Cases reported in the past 14 days
-Cases,14 days,WHO,PNG,2022-05-24,7399757,cross,564,7.6,Cases reported in the past 14 days
+Cases,14 days,WHO,PNG,2022-05-24,7399757,cross,577,7.8,Cases reported in the past 14 days
 Cases,14 days,WHO,POL,2022-05-24,38185913,cross,4688,12.3,Cases reported in the past 14 days
 Cases,14 days,WHO,PRI,2022-05-24,3142779,cross,63002,2004.7,Cases reported in the past 14 days
 Cases,14 days,WHO,PRK,2022-05-24,25831360,cross,0,0,Cases reported in the past 14 days
-Cases,14 days,WHO,PRT,2022-05-24,10263850,cross,352482,3434.2,Cases reported in the past 14 days
+Cases,14 days,WHO,PRT,2022-05-24,10263850,cross,352037,3429.9,Cases reported in the past 14 days
 Cases,14 days,WHO,PRY,2022-05-24,7272639,cross,354,4.9,Cases reported in the past 14 days
 Cases,14 days,WHO,PSE,2022-05-24,4906308,cross,380,7.7,Cases reported in the past 14 days
 Cases,14 days,WHO,PYF,2022-05-24,297154,cross,112,37.7,Cases reported in the past 14 days
@@ -197,7 +197,7 @@ Cases,14 days,WHO,SSD,2022-05-24,10984074,cross,62,0.6,Cases reported in the pas
 Cases,14 days,WHO,STP,2022-05-24,213948,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,SUR,2022-05-24,614749,cross,847,137.8,Cases reported in the past 14 days
 Cases,14 days,WHO,SVK,2022-05-24,5436066,cross,3151,58,Cases reported in the past 14 days
-Cases,14 days,WHO,SVN,2022-05-24,2102106,cross,6529,310.6,Cases reported in the past 14 days
+Cases,14 days,WHO,SVN,2022-05-24,2102106,cross,6541,311.2,Cases reported in the past 14 days
 Cases,14 days,WHO,SWE,2022-05-24,10261767,cross,2653,25.9,Cases reported in the past 14 days
 Cases,14 days,WHO,SWZ,2022-05-24,1113276,cross,987,88.7,Cases reported in the past 14 days
 Cases,14 days,WHO,SXM,2022-05-24,44564,cross,58,130.1,Cases reported in the past 14 days
@@ -229,7 +229,7 @@ Cases,14 days,WHO,VEN,2022-05-24,29069153,cross,594,2,Cases reported in the past
 Cases,14 days,WHO,VGB,2022-05-24,37891,cross,223,588.5,Cases reported in the past 14 days
 Cases,14 days,WHO,VIR,2022-05-24,0,cross,1501,,Cases reported in the past 14 days
 Cases,14 days,WHO,VNM,2022-05-24,102789598,cross,31707,30.8,Cases reported in the past 14 days
-Cases,14 days,WHO,VUT,2022-05-24,303009,cross,603,199,Cases reported in the past 14 days
+Cases,14 days,WHO,VUT,2022-05-24,303009,cross,637,210.2,Cases reported in the past 14 days
 Cases,14 days,WHO,WLF,2022-05-24,15851,cross,0,0,Cases reported in the past 14 days
 Cases,14 days,WHO,WSM,2022-05-24,204898,cross,1456,710.6,Cases reported in the past 14 days
 Cases,14 days,WHO,XKX,2022-05-24,1935259,cross,163,8.4,Cases reported in the past 14 days
@@ -248,7 +248,7 @@ Cases,24 hours,WHO,ARG,2022-05-24,45864941,cross,0,0,Cases reported in the past 
 Cases,24 hours,WHO,ARM,2022-05-24,3011609,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ASM,2022-05-24,46366,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ATG,2022-05-24,99175,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,AUS,2022-05-24,25809973,cross,34322,133,Cases reported in the past 24 hours
+Cases,24 hours,WHO,AUS,2022-05-24,25809973,cross,32267,125,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AUT,2022-05-24,8884864,cross,1770,19.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,AZE,2022-05-24,10282283,cross,2,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BDI,2022-05-24,12241065,cross,0,0,Cases reported in the past 24 hours
@@ -265,7 +265,7 @@ Cases,24 hours,WHO,BLM,2022-05-24,7116,cross,0,0,Cases reported in the past 24 h
 Cases,24 hours,WHO,BLR,2022-05-24,9441842,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BLZ,2022-05-24,405633,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BMU,2022-05-24,72084,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,BOL,2022-05-24,11758869,cross,294,2.5,Cases reported in the past 24 hours
+Cases,24 hours,WHO,BOL,2022-05-24,11758869,cross,564,4.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BRA,2022-05-24,213445417,cross,12613,5.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BRB,2022-05-24,301865,cross,187,61.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,BRN,2022-05-24,471103,cross,269,57.1,Cases reported in the past 24 hours
@@ -273,9 +273,9 @@ Cases,24 hours,WHO,BTN,2022-05-24,857423,cross,0,0,Cases reported in the past 24
 Cases,24 hours,WHO,BWA,2022-05-24,2350667,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CAF,2022-05-24,5357984,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CAN,2022-05-24,37943231,cross,1505,4,Cases reported in the past 24 hours
-Cases,24 hours,WHO,CHE,2022-05-24,8453550,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,CHE,2022-05-24,8453550,cross,924,10.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CHL,2022-05-24,18307925,cross,4225,23.1,Cases reported in the past 24 hours
-Cases,24 hours,WHO,CHN,2022-05-24,1397897720,cross,66533,4.8,Cases reported in the past 24 hours
+Cases,24 hours,WHO,CHN,2022-05-24,1397897720,cross,66477,4.8,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CIV,2022-05-24,28088455,cross,2,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CMR,2022-05-24,28524175,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,COD,2022-05-24,105044646,cross,0,0,Cases reported in the past 24 hours
@@ -289,8 +289,8 @@ Cases,24 hours,WHO,CUB,2022-05-24,11032343,cross,37,0.3,Cases reported in the pa
 Cases,24 hours,WHO,CUW,2022-05-24,151885,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CYM,2022-05-24,63131,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,CYP,2022-05-24,1281506,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,CZE,2022-05-24,10702596,cross,408,3.8,Cases reported in the past 24 hours
-Cases,24 hours,WHO,DEU,2022-05-24,79903481,cross,32460,40.6,Cases reported in the past 24 hours
+Cases,24 hours,WHO,CZE,2022-05-24,10702596,cross,407,3.8,Cases reported in the past 24 hours
+Cases,24 hours,WHO,DEU,2022-05-24,79903481,cross,44384,55.5,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DJI,2022-05-24,938413,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DMA,2022-05-24,74584,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,DNK,2022-05-24,5894687,cross,0,0,Cases reported in the past 24 hours
@@ -305,11 +305,11 @@ Cases,24 hours,WHO,ETH,2022-05-24,110871031,cross,50,0,Cases reported in the pas
 Cases,24 hours,WHO,FIN,2022-05-24,5587442,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FJI,2022-05-24,939535,cross,57,6.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FLK,2022-05-24,3198,cross,482,15071.9,Cases reported in the past 24 hours
-Cases,24 hours,WHO,FRA,2022-05-24,68084217,cross,7638,11.2,Cases reported in the past 24 hours
+Cases,24 hours,WHO,FRA,2022-05-24,68084217,cross,1134,1.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FRO,2022-05-24,51943,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,FSM,2022-05-24,101675,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GAB,2022-05-24,2284912,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,GBR,2022-05-24,67081000,cross,3843,5.7,Cases reported in the past 24 hours
+Cases,24 hours,WHO,GBR,2022-05-24,67081000,cross,5415,8.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GEO,2022-05-24,4933674,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GGY,2022-05-24,67334,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,GHA,2022-05-24,32372889,cross,0,0,Cases reported in the past 24 hours
@@ -337,8 +337,8 @@ Cases,24 hours,WHO,IND,2022-05-24,1339330514,cross,1675,0.1,Cases reported in th
 Cases,24 hours,WHO,IRL,2022-05-24,5224884,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IRN,2022-05-24,85888910,cross,268,0.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,IRQ,2022-05-24,39650145,cross,118,0.3,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ISL,2022-05-24,354234,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,ISR,2022-05-24,8787045,cross,2116,24.1,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ISL,2022-05-24,354234,cross,103,29.1,Cases reported in the past 24 hours
+Cases,24 hours,WHO,ISR,2022-05-24,8787045,cross,2140,24.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,ITA,2022-05-24,62390364,cross,10021,16.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JAM,2022-05-24,2816602,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,JEY,2022-05-24,101476,cross,0,0,Cases reported in the past 24 hours
@@ -350,17 +350,17 @@ Cases,24 hours,WHO,KGZ,2022-05-24,6018789,cross,0,0,Cases reported in the past 2
 Cases,24 hours,WHO,KHM,2022-05-24,17304363,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,KIR,2022-05-24,113001,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,KNA,2022-05-24,54149,cross,2,3.7,Cases reported in the past 24 hours
-Cases,24 hours,WHO,KOR,2022-05-24,51715162,cross,26344,50.9,Cases reported in the past 24 hours
+Cases,24 hours,WHO,KOR,2022-05-24,51715162,cross,26326,50.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,KWT,2022-05-24,3032065,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,LAO,2022-05-24,7574356,cross,16,0.2,Cases reported in the past 24 hours
+Cases,24 hours,WHO,LAO,2022-05-24,7574356,cross,56,0.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LBN,2022-05-24,5261372,cross,64,1.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LBR,2022-05-24,5214030,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LBY,2022-05-24,7017224,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LCA,2022-05-24,166637,cross,56,33.6,Cases reported in the past 24 hours
-Cases,24 hours,WHO,LIE,2022-05-24,39425,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,LKA,2022-05-24,23044123,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,LIE,2022-05-24,39425,cross,14,35.5,Cases reported in the past 24 hours
+Cases,24 hours,WHO,LKA,2022-05-24,23044123,cross,14,0.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LSO,2022-05-24,2177740,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,LTU,2022-05-24,2711566,cross,220,8.1,Cases reported in the past 24 hours
+Cases,24 hours,WHO,LTU,2022-05-24,2711566,cross,226,8.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LUX,2022-05-24,639589,cross,13,2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,LVA,2022-05-24,1862687,cross,51,2.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MAC,2022-05-24,630396,cross,0,0,Cases reported in the past 24 hours
@@ -375,7 +375,7 @@ Cases,24 hours,WHO,MHL,2022-05-24,78831,cross,0,0,Cases reported in the past 24 
 Cases,24 hours,WHO,MKD,2022-05-24,2128262,cross,151,7.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MLI,2022-05-24,20137527,cross,1,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MLT,2022-05-24,460891,cross,67,14.5,Cases reported in the past 24 hours
-Cases,24 hours,WHO,MMR,2022-05-24,57069099,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,MMR,2022-05-24,57069099,cross,11,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MNE,2022-05-24,607414,cross,39,6.4,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MNG,2022-05-24,3198913,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,MNP,2022-05-24,51659,cross,18,34.8,Cases reported in the past 24 hours
@@ -390,14 +390,14 @@ Cases,24 hours,WHO,MYT,2022-05-24,0,cross,0,,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NAM,2022-05-24,2678191,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NCL,2022-05-24,293608,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NER,2022-05-24,23605767,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,NGA,2022-05-24,219463862,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,NGA,2022-05-24,219463862,cross,35,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NIC,2022-05-24,6243931,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NIU,2022-05-24,2000,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,NLD,2022-05-24,17337403,cross,737,4.3,Cases reported in the past 24 hours
+Cases,24 hours,WHO,NLD,2022-05-24,17337403,cross,735,4.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NOR,2022-05-24,5509591,cross,51,0.9,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NPL,2022-05-24,30424878,cross,11,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,NRU,2022-05-24,9770,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,NZL,2022-05-24,4991442,cross,8500,170.3,Cases reported in the past 24 hours
+Cases,24 hours,WHO,NZL,2022-05-24,4991442,cross,8434,169,Cases reported in the past 24 hours
 Cases,24 hours,WHO,OMN,2022-05-24,3694755,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,OTH,2022-05-24,0,cross,0,,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PAK,2022-05-24,238181034,cross,110,0,Cases reported in the past 24 hours
@@ -406,11 +406,11 @@ Cases,24 hours,WHO,PCN,2022-05-24,50,cross,0,0,Cases reported in the past 24 hou
 Cases,24 hours,WHO,PER,2022-05-24,32201224,cross,751,2.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PHL,2022-05-24,110818325,cross,191,0.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PLW,2022-05-24,21613,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,PNG,2022-05-24,7399757,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,PNG,2022-05-24,7399757,cross,13,0.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,POL,2022-05-24,38185913,cross,419,1.1,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PRI,2022-05-24,3142779,cross,2650,84.3,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PRK,2022-05-24,25831360,cross,0,0,Cases reported in the past 24 hours
-Cases,24 hours,WHO,PRT,2022-05-24,10263850,cross,10024,97.7,Cases reported in the past 24 hours
+Cases,24 hours,WHO,PRT,2022-05-24,10263850,cross,9821,95.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PRY,2022-05-24,7272639,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PSE,2022-05-24,4906308,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,PYF,2022-05-24,297154,cross,22,7.4,Cases reported in the past 24 hours
@@ -435,7 +435,7 @@ Cases,24 hours,WHO,SSD,2022-05-24,10984074,cross,0,0,Cases reported in the past 
 Cases,24 hours,WHO,STP,2022-05-24,213948,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SUR,2022-05-24,614749,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SVK,2022-05-24,5436066,cross,196,3.6,Cases reported in the past 24 hours
-Cases,24 hours,WHO,SVN,2022-05-24,2102106,cross,86,4.1,Cases reported in the past 24 hours
+Cases,24 hours,WHO,SVN,2022-05-24,2102106,cross,88,4.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SWE,2022-05-24,10261767,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SWZ,2022-05-24,1113276,cross,52,4.7,Cases reported in the past 24 hours
 Cases,24 hours,WHO,SXM,2022-05-24,44564,cross,0,0,Cases reported in the past 24 hours
@@ -467,7 +467,7 @@ Cases,24 hours,WHO,VEN,2022-05-24,29069153,cross,77,0.3,Cases reported in the pa
 Cases,24 hours,WHO,VGB,2022-05-24,37891,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,VIR,2022-05-24,0,cross,0,,Cases reported in the past 24 hours
 Cases,24 hours,WHO,VNM,2022-05-24,102789598,cross,1179,1.1,Cases reported in the past 24 hours
-Cases,24 hours,WHO,VUT,2022-05-24,303009,cross,0,0,Cases reported in the past 24 hours
+Cases,24 hours,WHO,VUT,2022-05-24,303009,cross,34,11.2,Cases reported in the past 24 hours
 Cases,24 hours,WHO,WLF,2022-05-24,15851,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,WSM,2022-05-24,204898,cross,0,0,Cases reported in the past 24 hours
 Cases,24 hours,WHO,XKX,2022-05-24,1935259,cross,1,0.1,Cases reported in the past 24 hours
@@ -477,7 +477,7 @@ Cases,24 hours,WHO,ZMB,2022-05-24,19077816,cross,0,0,Cases reported in the past 
 Cases,24 hours,WHO,ZWE,2022-05-24,14829988,cross,227,1.5,Cases reported in the past 24 hours
 Cases,30 days,WHO,ABW,2022-05-24,120917,cross,1474,1219,Cases reported in the past 30 days
 Cases,30 days,WHO,AFG,2022-05-24,37466414,cross,1123,3,Cases reported in the past 30 days
-Cases,30 days,WHO,AGO,2022-05-24,33642646,cross,146,0.4,Cases reported in the past 30 days
+Cases,30 days,WHO,AGO,2022-05-24,33642646,cross,209,0.6,Cases reported in the past 30 days
 Cases,30 days,WHO,AIA,2022-05-24,18403,cross,472,2564.8,Cases reported in the past 30 days
 Cases,30 days,WHO,ALB,2022-05-24,3088385,cross,1090,35.3,Cases reported in the past 30 days
 Cases,30 days,WHO,AND,2022-05-24,85645,cross,1559,1820.3,Cases reported in the past 30 days
@@ -486,7 +486,7 @@ Cases,30 days,WHO,ARG,2022-05-24,45864941,cross,106565,232.3,Cases reported in t
 Cases,30 days,WHO,ARM,2022-05-24,3011609,cross,114,3.8,Cases reported in the past 30 days
 Cases,30 days,WHO,ASM,2022-05-24,46366,cross,379,817.4,Cases reported in the past 30 days
 Cases,30 days,WHO,ATG,2022-05-24,99175,cross,371,374.1,Cases reported in the past 30 days
-Cases,30 days,WHO,AUS,2022-05-24,25809973,cross,1517348,5878.9,Cases reported in the past 30 days
+Cases,30 days,WHO,AUS,2022-05-24,25809973,cross,1515293,5871,Cases reported in the past 30 days
 Cases,30 days,WHO,AUT,2022-05-24,8884864,cross,139329,1568.2,Cases reported in the past 30 days
 Cases,30 days,WHO,AZE,2022-05-24,10282283,cross,238,2.3,Cases reported in the past 30 days
 Cases,30 days,WHO,BDI,2022-05-24,12241065,cross,2753,22.5,Cases reported in the past 30 days
@@ -511,26 +511,26 @@ Cases,30 days,WHO,BTN,2022-05-24,857423,cross,1843,214.9,Cases reported in the p
 Cases,30 days,WHO,BWA,2022-05-24,2350667,cross,622,26.5,Cases reported in the past 30 days
 Cases,30 days,WHO,CAF,2022-05-24,5357984,cross,17,0.3,Cases reported in the past 30 days
 Cases,30 days,WHO,CAN,2022-05-24,37943231,cross,156285,411.9,Cases reported in the past 30 days
-Cases,30 days,WHO,CHE,2022-05-24,8453550,cross,43825,518.4,Cases reported in the past 30 days
+Cases,30 days,WHO,CHE,2022-05-24,8453550,cross,51888,613.8,Cases reported in the past 30 days
 Cases,30 days,WHO,CHL,2022-05-24,18307925,cross,102898,562,Cases reported in the past 30 days
-Cases,30 days,WHO,CHN,2022-05-24,1397897720,cross,1362435,97.5,Cases reported in the past 30 days
+Cases,30 days,WHO,CHN,2022-05-24,1397897720,cross,1362379,97.5,Cases reported in the past 30 days
 Cases,30 days,WHO,CIV,2022-05-24,28088455,cross,183,0.7,Cases reported in the past 30 days
-Cases,30 days,WHO,CMR,2022-05-24,28524175,cross,0,0,Cases reported in the past 30 days
-Cases,30 days,WHO,COD,2022-05-24,105044646,cross,482,0.5,Cases reported in the past 30 days
+Cases,30 days,WHO,CMR,2022-05-24,28524175,cross,97,0.3,Cases reported in the past 30 days
+Cases,30 days,WHO,COD,2022-05-24,105044646,cross,885,0.8,Cases reported in the past 30 days
 Cases,30 days,WHO,COG,2022-05-24,5417414,cross,23,0.4,Cases reported in the past 30 days
 Cases,30 days,WHO,COK,2022-05-24,8327,cross,1053,12645.6,Cases reported in the past 30 days
 Cases,30 days,WHO,COL,2022-05-24,50355650,cross,8308,16.5,Cases reported in the past 30 days
-Cases,30 days,WHO,COM,2022-05-24,864335,cross,9,1,Cases reported in the past 30 days
-Cases,30 days,WHO,CPV,2022-05-24,589451,cross,168,28.5,Cases reported in the past 30 days
+Cases,30 days,WHO,COM,2022-05-24,864335,cross,15,1.7,Cases reported in the past 30 days
+Cases,30 days,WHO,CPV,2022-05-24,589451,cross,173,29.3,Cases reported in the past 30 days
 Cases,30 days,WHO,CRI,2022-05-24,5151140,cross,29749,577.5,Cases reported in the past 30 days
 Cases,30 days,WHO,CUB,2022-05-24,11032343,cross,3530,32,Cases reported in the past 30 days
 Cases,30 days,WHO,CUW,2022-05-24,151885,cross,1420,934.9,Cases reported in the past 30 days
 Cases,30 days,WHO,CYM,2022-05-24,63131,cross,2722,4311.7,Cases reported in the past 30 days
 Cases,30 days,WHO,CYP,2022-05-24,1281506,cross,17870,1394.5,Cases reported in the past 30 days
-Cases,30 days,WHO,CZE,2022-05-24,10702596,cross,22871,213.7,Cases reported in the past 30 days
-Cases,30 days,WHO,DEU,2022-05-24,79903481,cross,1821001,2279,Cases reported in the past 30 days
+Cases,30 days,WHO,CZE,2022-05-24,10702596,cross,22870,213.7,Cases reported in the past 30 days
+Cases,30 days,WHO,DEU,2022-05-24,79903481,cross,1835588,2297.3,Cases reported in the past 30 days
 Cases,30 days,WHO,DJI,2022-05-24,938413,cross,64,6.8,Cases reported in the past 30 days
-Cases,30 days,WHO,DMA,2022-05-24,74584,cross,1719,2304.8,Cases reported in the past 30 days
+Cases,30 days,WHO,DMA,2022-05-24,74584,cross,1881,2522,Cases reported in the past 30 days
 Cases,30 days,WHO,DNK,2022-05-24,5894687,cross,21938,372.2,Cases reported in the past 30 days
 Cases,30 days,WHO,DOM,2022-05-24,10597348,cross,2385,22.5,Cases reported in the past 30 days
 Cases,30 days,WHO,DZA,2022-05-24,43576691,cross,94,0.2,Cases reported in the past 30 days
@@ -543,14 +543,14 @@ Cases,30 days,WHO,ETH,2022-05-24,110871031,cross,1006,0.9,Cases reported in the 
 Cases,30 days,WHO,FIN,2022-05-24,5587442,cross,55572,994.6,Cases reported in the past 30 days
 Cases,30 days,WHO,FJI,2022-05-24,939535,cross,374,39.8,Cases reported in the past 30 days
 Cases,30 days,WHO,FLK,2022-05-24,3198,cross,1456,45528.5,Cases reported in the past 30 days
-Cases,30 days,WHO,FRA,2022-05-24,68084217,cross,1052024,1545.2,Cases reported in the past 30 days
+Cases,30 days,WHO,FRA,2022-05-24,68084217,cross,1048772,1540.4,Cases reported in the past 30 days
 Cases,30 days,WHO,FRO,2022-05-24,51943,cross,0,0,Cases reported in the past 30 days
-Cases,30 days,WHO,FSM,2022-05-24,101675,cross,7,6.9,Cases reported in the past 30 days
+Cases,30 days,WHO,FSM,2022-05-24,101675,cross,30,29.5,Cases reported in the past 30 days
 Cases,30 days,WHO,GAB,2022-05-24,2284912,cross,25,1.1,Cases reported in the past 30 days
-Cases,30 days,WHO,GBR,2022-05-24,67081000,cross,287174,428.1,Cases reported in the past 30 days
-Cases,30 days,WHO,GEO,2022-05-24,4933674,cross,966,19.6,Cases reported in the past 30 days
+Cases,30 days,WHO,GBR,2022-05-24,67081000,cross,289391,431.4,Cases reported in the past 30 days
+Cases,30 days,WHO,GEO,2022-05-24,4933674,cross,2313,46.9,Cases reported in the past 30 days
 Cases,30 days,WHO,GGY,2022-05-24,67334,cross,1127,1673.7,Cases reported in the past 30 days
-Cases,30 days,WHO,GHA,2022-05-24,32372889,cross,179,0.6,Cases reported in the past 30 days
+Cases,30 days,WHO,GHA,2022-05-24,32372889,cross,198,0.6,Cases reported in the past 30 days
 Cases,30 days,WHO,GIB,2022-05-24,29516,cross,567,1921,Cases reported in the past 30 days
 Cases,30 days,WHO,GIN,2022-05-24,12877894,cross,112,0.9,Cases reported in the past 30 days
 Cases,30 days,WHO,GLP,2022-05-24,0,cross,10258,,Cases reported in the past 30 days
@@ -575,8 +575,8 @@ Cases,30 days,WHO,IND,2022-05-24,1339330514,cross,82523,6.2,Cases reported in th
 Cases,30 days,WHO,IRL,2022-05-24,5224884,cross,18605,356.1,Cases reported in the past 30 days
 Cases,30 days,WHO,IRN,2022-05-24,85888910,cross,14809,17.2,Cases reported in the past 30 days
 Cases,30 days,WHO,IRQ,2022-05-24,39650145,cross,3246,8.2,Cases reported in the past 30 days
-Cases,30 days,WHO,ISL,2022-05-24,354234,cross,2190,618.2,Cases reported in the past 30 days
-Cases,30 days,WHO,ISR,2022-05-24,8787045,cross,69748,793.8,Cases reported in the past 30 days
+Cases,30 days,WHO,ISL,2022-05-24,354234,cross,2423,684,Cases reported in the past 30 days
+Cases,30 days,WHO,ISR,2022-05-24,8787045,cross,69790,794.2,Cases reported in the past 30 days
 Cases,30 days,WHO,ITA,2022-05-24,62390364,cross,1178364,1888.7,Cases reported in the past 30 days
 Cases,30 days,WHO,JAM,2022-05-24,2816602,cross,5171,183.6,Cases reported in the past 30 days
 Cases,30 days,WHO,JEY,2022-05-24,101476,cross,967,952.9,Cases reported in the past 30 days
@@ -588,24 +588,24 @@ Cases,30 days,WHO,KGZ,2022-05-24,6018789,cross,10,0.2,Cases reported in the past
 Cases,30 days,WHO,KHM,2022-05-24,17304363,cross,62,0.4,Cases reported in the past 30 days
 Cases,30 days,WHO,KIR,2022-05-24,113001,cross,22,19.5,Cases reported in the past 30 days
 Cases,30 days,WHO,KNA,2022-05-24,54149,cross,109,201.3,Cases reported in the past 30 days
-Cases,30 days,WHO,KOR,2022-05-24,51715162,cross,1098791,2124.7,Cases reported in the past 30 days
+Cases,30 days,WHO,KOR,2022-05-24,51715162,cross,1098773,2124.7,Cases reported in the past 30 days
 Cases,30 days,WHO,KWT,2022-05-24,3032065,cross,1487,49,Cases reported in the past 30 days
-Cases,30 days,WHO,LAO,2022-05-24,7574356,cross,4851,64,Cases reported in the past 30 days
+Cases,30 days,WHO,LAO,2022-05-24,7574356,cross,4891,64.6,Cases reported in the past 30 days
 Cases,30 days,WHO,LBN,2022-05-24,5261372,cross,2320,44.1,Cases reported in the past 30 days
 Cases,30 days,WHO,LBR,2022-05-24,5214030,cross,21,0.4,Cases reported in the past 30 days
 Cases,30 days,WHO,LBY,2022-05-24,7017224,cross,83,1.2,Cases reported in the past 30 days
 Cases,30 days,WHO,LCA,2022-05-24,166637,cross,1788,1073,Cases reported in the past 30 days
-Cases,30 days,WHO,LIE,2022-05-24,39425,cross,255,646.8,Cases reported in the past 30 days
-Cases,30 days,WHO,LKA,2022-05-24,23044123,cross,605,2.6,Cases reported in the past 30 days
-Cases,30 days,WHO,LSO,2022-05-24,2177740,cross,192,8.8,Cases reported in the past 30 days
-Cases,30 days,WHO,LTU,2022-05-24,2711566,cross,7139,263.3,Cases reported in the past 30 days
+Cases,30 days,WHO,LIE,2022-05-24,39425,cross,314,796.4,Cases reported in the past 30 days
+Cases,30 days,WHO,LKA,2022-05-24,23044123,cross,619,2.7,Cases reported in the past 30 days
+Cases,30 days,WHO,LSO,2022-05-24,2177740,cross,245,11.3,Cases reported in the past 30 days
+Cases,30 days,WHO,LTU,2022-05-24,2711566,cross,7150,263.7,Cases reported in the past 30 days
 Cases,30 days,WHO,LUX,2022-05-24,639589,cross,12143,1898.6,Cases reported in the past 30 days
 Cases,30 days,WHO,LVA,2022-05-24,1862687,cross,7776,417.5,Cases reported in the past 30 days
 Cases,30 days,WHO,MAC,2022-05-24,630396,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,MAF,2022-05-24,0,cross,302,,Cases reported in the past 30 days
 Cases,30 days,WHO,MAR,2022-05-24,36561813,cross,2046,5.6,Cases reported in the past 30 days
 Cases,30 days,WHO,MCO,2022-05-24,31223,cross,520,1665.4,Cases reported in the past 30 days
-Cases,30 days,WHO,MDA,2022-05-24,3323875,cross,1506,45.3,Cases reported in the past 30 days
+Cases,30 days,WHO,MDA,2022-05-24,3323875,cross,1759,52.9,Cases reported in the past 30 days
 Cases,30 days,WHO,MDG,2022-05-24,27534354,cross,162,0.6,Cases reported in the past 30 days
 Cases,30 days,WHO,MDV,2022-05-24,390669,cross,462,118.3,Cases reported in the past 30 days
 Cases,30 days,WHO,MEX,2022-05-24,130207371,cross,18527,14.2,Cases reported in the past 30 days
@@ -613,7 +613,7 @@ Cases,30 days,WHO,MHL,2022-05-24,78831,cross,2,2.5,Cases reported in the past 30
 Cases,30 days,WHO,MKD,2022-05-24,2128262,cross,2311,108.6,Cases reported in the past 30 days
 Cases,30 days,WHO,MLI,2022-05-24,20137527,cross,330,1.6,Cases reported in the past 30 days
 Cases,30 days,WHO,MLT,2022-05-24,460891,cross,3714,805.8,Cases reported in the past 30 days
-Cases,30 days,WHO,MMR,2022-05-24,57069099,cross,478,0.8,Cases reported in the past 30 days
+Cases,30 days,WHO,MMR,2022-05-24,57069099,cross,489,0.9,Cases reported in the past 30 days
 Cases,30 days,WHO,MNE,2022-05-24,607414,cross,2137,351.8,Cases reported in the past 30 days
 Cases,30 days,WHO,MNG,2022-05-24,3198913,cross,3614,113,Cases reported in the past 30 days
 Cases,30 days,WHO,MNP,2022-05-24,51659,cross,112,216.8,Cases reported in the past 30 days
@@ -628,14 +628,14 @@ Cases,30 days,WHO,MYT,2022-05-24,0,cross,485,,Cases reported in the past 30 days
 Cases,30 days,WHO,NAM,2022-05-24,2678191,cross,2282,85.2,Cases reported in the past 30 days
 Cases,30 days,WHO,NCL,2022-05-24,293608,cross,1093,372.3,Cases reported in the past 30 days
 Cases,30 days,WHO,NER,2022-05-24,23605767,cross,117,0.5,Cases reported in the past 30 days
-Cases,30 days,WHO,NGA,2022-05-24,219463862,cross,252,0.1,Cases reported in the past 30 days
+Cases,30 days,WHO,NGA,2022-05-24,219463862,cross,287,0.1,Cases reported in the past 30 days
 Cases,30 days,WHO,NIC,2022-05-24,6243931,cross,102,1.6,Cases reported in the past 30 days
 Cases,30 days,WHO,NIU,2022-05-24,2000,cross,1,50,Cases reported in the past 30 days
-Cases,30 days,WHO,NLD,2022-05-24,17337403,cross,40334,232.6,Cases reported in the past 30 days
+Cases,30 days,WHO,NLD,2022-05-24,17337403,cross,40333,232.6,Cases reported in the past 30 days
 Cases,30 days,WHO,NOR,2022-05-24,5509591,cross,7658,139,Cases reported in the past 30 days
 Cases,30 days,WHO,NPL,2022-05-24,30424878,cross,344,1.1,Cases reported in the past 30 days
 Cases,30 days,WHO,NRU,2022-05-24,9770,cross,0,0,Cases reported in the past 30 days
-Cases,30 days,WHO,NZL,2022-05-24,4991442,cross,227687,4561.5,Cases reported in the past 30 days
+Cases,30 days,WHO,NZL,2022-05-24,4991442,cross,227621,4560.2,Cases reported in the past 30 days
 Cases,30 days,WHO,OMN,2022-05-24,3694755,cross,437,11.8,Cases reported in the past 30 days
 Cases,30 days,WHO,OTH,2022-05-24,0,cross,0,,Cases reported in the past 30 days
 Cases,30 days,WHO,PAK,2022-05-24,238181034,cross,2086,0.9,Cases reported in the past 30 days
@@ -644,11 +644,11 @@ Cases,30 days,WHO,PCN,2022-05-24,50,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,PER,2022-05-24,32201224,cross,16699,51.9,Cases reported in the past 30 days
 Cases,30 days,WHO,PHL,2022-05-24,110818325,cross,5202,4.7,Cases reported in the past 30 days
 Cases,30 days,WHO,PLW,2022-05-24,21613,cross,688,3183.3,Cases reported in the past 30 days
-Cases,30 days,WHO,PNG,2022-05-24,7399757,cross,603,8.1,Cases reported in the past 30 days
+Cases,30 days,WHO,PNG,2022-05-24,7399757,cross,616,8.3,Cases reported in the past 30 days
 Cases,30 days,WHO,POL,2022-05-24,38185913,cross,14818,38.8,Cases reported in the past 30 days
 Cases,30 days,WHO,PRI,2022-05-24,3142779,cross,126685,4031,Cases reported in the past 30 days
 Cases,30 days,WHO,PRK,2022-05-24,25831360,cross,0,0,Cases reported in the past 30 days
-Cases,30 days,WHO,PRT,2022-05-24,10263850,cross,539726,5258.5,Cases reported in the past 30 days
+Cases,30 days,WHO,PRT,2022-05-24,10263850,cross,539258,5254,Cases reported in the past 30 days
 Cases,30 days,WHO,PRY,2022-05-24,7272639,cross,1249,17.2,Cases reported in the past 30 days
 Cases,30 days,WHO,PSE,2022-05-24,4906308,cross,697,14.2,Cases reported in the past 30 days
 Cases,30 days,WHO,PYF,2022-05-24,297154,cross,250,84.1,Cases reported in the past 30 days
@@ -673,7 +673,7 @@ Cases,30 days,WHO,SSD,2022-05-24,10984074,cross,137,1.2,Cases reported in the pa
 Cases,30 days,WHO,STP,2022-05-24,213948,cross,17,7.9,Cases reported in the past 30 days
 Cases,30 days,WHO,SUR,2022-05-24,614749,cross,938,152.6,Cases reported in the past 30 days
 Cases,30 days,WHO,SVK,2022-05-24,5436066,cross,13878,255.3,Cases reported in the past 30 days
-Cases,30 days,WHO,SVN,2022-05-24,2102106,cross,18507,880.4,Cases reported in the past 30 days
+Cases,30 days,WHO,SVN,2022-05-24,2102106,cross,18522,881.1,Cases reported in the past 30 days
 Cases,30 days,WHO,SWE,2022-05-24,10261767,cross,7216,70.3,Cases reported in the past 30 days
 Cases,30 days,WHO,SWZ,2022-05-24,1113276,cross,1918,172.3,Cases reported in the past 30 days
 Cases,30 days,WHO,SXM,2022-05-24,44564,cross,203,455.5,Cases reported in the past 30 days
@@ -705,7 +705,7 @@ Cases,30 days,WHO,VEN,2022-05-24,29069153,cross,1255,4.3,Cases reported in the p
 Cases,30 days,WHO,VGB,2022-05-24,37891,cross,394,1039.8,Cases reported in the past 30 days
 Cases,30 days,WHO,VIR,2022-05-24,0,cross,2763,,Cases reported in the past 30 days
 Cases,30 days,WHO,VNM,2022-05-24,102789598,cross,155377,151.2,Cases reported in the past 30 days
-Cases,30 days,WHO,VUT,2022-05-24,303009,cross,2116,698.3,Cases reported in the past 30 days
+Cases,30 days,WHO,VUT,2022-05-24,303009,cross,2150,709.5,Cases reported in the past 30 days
 Cases,30 days,WHO,WLF,2022-05-24,15851,cross,0,0,Cases reported in the past 30 days
 Cases,30 days,WHO,WSM,2022-05-24,204898,cross,5588,2727.2,Cases reported in the past 30 days
 Cases,30 days,WHO,XKX,2022-05-24,1935259,cross,356,18.4,Cases reported in the past 30 days
@@ -715,7 +715,7 @@ Cases,30 days,WHO,ZMB,2022-05-24,19077816,cross,771,4,Cases reported in the past
 Cases,30 days,WHO,ZWE,2022-05-24,14829988,cross,3405,23,Cases reported in the past 30 days
 Cases,7 days,WHO,ABW,2022-05-24,120917,cross,586,484.6,Cases reported in the past 7 days
 Cases,7 days,WHO,AFG,2022-05-24,37466414,cross,450,1.2,Cases reported in the past 7 days
-Cases,7 days,WHO,AGO,2022-05-24,33642646,cross,0,0,Cases reported in the past 7 days
+Cases,7 days,WHO,AGO,2022-05-24,33642646,cross,46,0.1,Cases reported in the past 7 days
 Cases,7 days,WHO,AIA,2022-05-24,18403,cross,219,1190,Cases reported in the past 7 days
 Cases,7 days,WHO,ALB,2022-05-24,3088385,cross,260,8.4,Cases reported in the past 7 days
 Cases,7 days,WHO,AND,2022-05-24,85645,cross,416,485.7,Cases reported in the past 7 days
@@ -724,7 +724,7 @@ Cases,7 days,WHO,ARG,2022-05-24,45864941,cross,43487,94.8,Cases reported in the 
 Cases,7 days,WHO,ARM,2022-05-24,3011609,cross,19,0.6,Cases reported in the past 7 days
 Cases,7 days,WHO,ASM,2022-05-24,46366,cross,38,82,Cases reported in the past 7 days
 Cases,7 days,WHO,ATG,2022-05-24,99175,cross,147,148.2,Cases reported in the past 7 days
-Cases,7 days,WHO,AUS,2022-05-24,25809973,cross,350313,1357.3,Cases reported in the past 7 days
+Cases,7 days,WHO,AUS,2022-05-24,25809973,cross,348258,1349.3,Cases reported in the past 7 days
 Cases,7 days,WHO,AUT,2022-05-24,8884864,cross,20616,232,Cases reported in the past 7 days
 Cases,7 days,WHO,AZE,2022-05-24,10282283,cross,41,0.4,Cases reported in the past 7 days
 Cases,7 days,WHO,BDI,2022-05-24,12241065,cross,291,2.4,Cases reported in the past 7 days
@@ -749,26 +749,26 @@ Cases,7 days,WHO,BTN,2022-05-24,857423,cross,40,4.7,Cases reported in the past 7
 Cases,7 days,WHO,BWA,2022-05-24,2350667,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,CAF,2022-05-24,5357984,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,CAN,2022-05-24,37943231,cross,19766,52.1,Cases reported in the past 7 days
-Cases,7 days,WHO,CHE,2022-05-24,8453550,cross,2,0,Cases reported in the past 7 days
+Cases,7 days,WHO,CHE,2022-05-24,8453550,cross,7413,87.7,Cases reported in the past 7 days
 Cases,7 days,WHO,CHL,2022-05-24,18307925,cross,38023,207.7,Cases reported in the past 7 days
-Cases,7 days,WHO,CHN,2022-05-24,1397897720,cross,558573,40,Cases reported in the past 7 days
+Cases,7 days,WHO,CHN,2022-05-24,1397897720,cross,558517,40,Cases reported in the past 7 days
 Cases,7 days,WHO,CIV,2022-05-24,28088455,cross,62,0.2,Cases reported in the past 7 days
 Cases,7 days,WHO,CMR,2022-05-24,28524175,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,COD,2022-05-24,105044646,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,COG,2022-05-24,5417414,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,COK,2022-05-24,8327,cross,100,1200.9,Cases reported in the past 7 days
 Cases,7 days,WHO,COL,2022-05-24,50355650,cross,3795,7.5,Cases reported in the past 7 days
-Cases,7 days,WHO,COM,2022-05-24,864335,cross,3,0.3,Cases reported in the past 7 days
-Cases,7 days,WHO,CPV,2022-05-24,589451,cross,45,7.6,Cases reported in the past 7 days
+Cases,7 days,WHO,COM,2022-05-24,864335,cross,9,1,Cases reported in the past 7 days
+Cases,7 days,WHO,CPV,2022-05-24,589451,cross,50,8.5,Cases reported in the past 7 days
 Cases,7 days,WHO,CRI,2022-05-24,5151140,cross,11369,220.7,Cases reported in the past 7 days
 Cases,7 days,WHO,CUB,2022-05-24,11032343,cross,355,3.2,Cases reported in the past 7 days
 Cases,7 days,WHO,CUW,2022-05-24,151885,cross,475,312.7,Cases reported in the past 7 days
 Cases,7 days,WHO,CYM,2022-05-24,63131,cross,899,1424,Cases reported in the past 7 days
 Cases,7 days,WHO,CYP,2022-05-24,1281506,cross,2103,164.1,Cases reported in the past 7 days
-Cases,7 days,WHO,CZE,2022-05-24,10702596,cross,2085,19.5,Cases reported in the past 7 days
-Cases,7 days,WHO,DEU,2022-05-24,79903481,cross,256374,320.9,Cases reported in the past 7 days
+Cases,7 days,WHO,CZE,2022-05-24,10702596,cross,2084,19.5,Cases reported in the past 7 days
+Cases,7 days,WHO,DEU,2022-05-24,79903481,cross,270423,338.4,Cases reported in the past 7 days
 Cases,7 days,WHO,DJI,2022-05-24,938413,cross,44,4.7,Cases reported in the past 7 days
-Cases,7 days,WHO,DMA,2022-05-24,74584,cross,636,852.7,Cases reported in the past 7 days
+Cases,7 days,WHO,DMA,2022-05-24,74584,cross,798,1069.9,Cases reported in the past 7 days
 Cases,7 days,WHO,DNK,2022-05-24,5894687,cross,2211,37.5,Cases reported in the past 7 days
 Cases,7 days,WHO,DOM,2022-05-24,10597348,cross,803,7.6,Cases reported in the past 7 days
 Cases,7 days,WHO,DZA,2022-05-24,43576691,cross,32,0.1,Cases reported in the past 7 days
@@ -781,14 +781,14 @@ Cases,7 days,WHO,ETH,2022-05-24,110871031,cross,432,0.4,Cases reported in the pa
 Cases,7 days,WHO,FIN,2022-05-24,5587442,cross,2407,43.1,Cases reported in the past 7 days
 Cases,7 days,WHO,FJI,2022-05-24,939535,cross,86,9.2,Cases reported in the past 7 days
 Cases,7 days,WHO,FLK,2022-05-24,3198,cross,482,15071.9,Cases reported in the past 7 days
-Cases,7 days,WHO,FRA,2022-05-24,68084217,cross,161475,237.2,Cases reported in the past 7 days
+Cases,7 days,WHO,FRA,2022-05-24,68084217,cross,158223,232.4,Cases reported in the past 7 days
 Cases,7 days,WHO,FRO,2022-05-24,51943,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,FSM,2022-05-24,101675,cross,0,0,Cases reported in the past 7 days
+Cases,7 days,WHO,FSM,2022-05-24,101675,cross,23,22.6,Cases reported in the past 7 days
 Cases,7 days,WHO,GAB,2022-05-24,2284912,cross,14,0.6,Cases reported in the past 7 days
-Cases,7 days,WHO,GBR,2022-05-24,67081000,cross,45632,68,Cases reported in the past 7 days
-Cases,7 days,WHO,GEO,2022-05-24,4933674,cross,0,0,Cases reported in the past 7 days
+Cases,7 days,WHO,GBR,2022-05-24,67081000,cross,47796,71.3,Cases reported in the past 7 days
+Cases,7 days,WHO,GEO,2022-05-24,4933674,cross,602,12.2,Cases reported in the past 7 days
 Cases,7 days,WHO,GGY,2022-05-24,67334,cross,258,383.2,Cases reported in the past 7 days
-Cases,7 days,WHO,GHA,2022-05-24,32372889,cross,19,0.1,Cases reported in the past 7 days
+Cases,7 days,WHO,GHA,2022-05-24,32372889,cross,38,0.1,Cases reported in the past 7 days
 Cases,7 days,WHO,GIB,2022-05-24,29516,cross,144,487.9,Cases reported in the past 7 days
 Cases,7 days,WHO,GIN,2022-05-24,12877894,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,GLP,2022-05-24,0,cross,2773,,Cases reported in the past 7 days
@@ -813,8 +813,8 @@ Cases,7 days,WHO,IND,2022-05-24,1339330514,cross,14698,1.1,Cases reported in the
 Cases,7 days,WHO,IRL,2022-05-24,5224884,cross,1196,22.9,Cases reported in the past 7 days
 Cases,7 days,WHO,IRN,2022-05-24,85888910,cross,1887,2.2,Cases reported in the past 7 days
 Cases,7 days,WHO,IRQ,2022-05-24,39650145,cross,810,2,Cases reported in the past 7 days
-Cases,7 days,WHO,ISL,2022-05-24,354234,cross,575,162.3,Cases reported in the past 7 days
-Cases,7 days,WHO,ISR,2022-05-24,8787045,cross,13933,158.6,Cases reported in the past 7 days
+Cases,7 days,WHO,ISL,2022-05-24,354234,cross,808,228.1,Cases reported in the past 7 days
+Cases,7 days,WHO,ISR,2022-05-24,8787045,cross,13973,159,Cases reported in the past 7 days
 Cases,7 days,WHO,ITA,2022-05-24,62390364,cross,185924,298,Cases reported in the past 7 days
 Cases,7 days,WHO,JAM,2022-05-24,2816602,cross,1751,62.2,Cases reported in the past 7 days
 Cases,7 days,WHO,JEY,2022-05-24,101476,cross,108,106.4,Cases reported in the past 7 days
@@ -826,24 +826,24 @@ Cases,7 days,WHO,KGZ,2022-05-24,6018789,cross,0,0,Cases reported in the past 7 d
 Cases,7 days,WHO,KHM,2022-05-24,17304363,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,KIR,2022-05-24,113001,cross,5,4.4,Cases reported in the past 7 days
 Cases,7 days,WHO,KNA,2022-05-24,54149,cross,61,112.7,Cases reported in the past 7 days
-Cases,7 days,WHO,KOR,2022-05-24,51715162,cross,163593,316.3,Cases reported in the past 7 days
+Cases,7 days,WHO,KOR,2022-05-24,51715162,cross,163575,316.3,Cases reported in the past 7 days
 Cases,7 days,WHO,KWT,2022-05-24,3032065,cross,307,10.1,Cases reported in the past 7 days
-Cases,7 days,WHO,LAO,2022-05-24,7574356,cross,310,4.1,Cases reported in the past 7 days
+Cases,7 days,WHO,LAO,2022-05-24,7574356,cross,350,4.6,Cases reported in the past 7 days
 Cases,7 days,WHO,LBN,2022-05-24,5261372,cross,566,10.8,Cases reported in the past 7 days
 Cases,7 days,WHO,LBR,2022-05-24,5214030,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,LBY,2022-05-24,7017224,cross,33,0.5,Cases reported in the past 7 days
 Cases,7 days,WHO,LCA,2022-05-24,166637,cross,678,406.9,Cases reported in the past 7 days
-Cases,7 days,WHO,LIE,2022-05-24,39425,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,LKA,2022-05-24,23044123,cross,76,0.3,Cases reported in the past 7 days
-Cases,7 days,WHO,LSO,2022-05-24,2177740,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,LTU,2022-05-24,2711566,cross,865,31.9,Cases reported in the past 7 days
+Cases,7 days,WHO,LIE,2022-05-24,39425,cross,59,149.7,Cases reported in the past 7 days
+Cases,7 days,WHO,LKA,2022-05-24,23044123,cross,90,0.4,Cases reported in the past 7 days
+Cases,7 days,WHO,LSO,2022-05-24,2177740,cross,53,2.4,Cases reported in the past 7 days
+Cases,7 days,WHO,LTU,2022-05-24,2711566,cross,872,32.2,Cases reported in the past 7 days
 Cases,7 days,WHO,LUX,2022-05-24,639589,cross,1879,293.8,Cases reported in the past 7 days
 Cases,7 days,WHO,LVA,2022-05-24,1862687,cross,1163,62.4,Cases reported in the past 7 days
 Cases,7 days,WHO,MAC,2022-05-24,630396,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,MAF,2022-05-24,0,cross,66,,Cases reported in the past 7 days
 Cases,7 days,WHO,MAR,2022-05-24,36561813,cross,867,2.4,Cases reported in the past 7 days
 Cases,7 days,WHO,MCO,2022-05-24,31223,cross,89,285,Cases reported in the past 7 days
-Cases,7 days,WHO,MDA,2022-05-24,3323875,cross,0,0,Cases reported in the past 7 days
+Cases,7 days,WHO,MDA,2022-05-24,3323875,cross,253,7.6,Cases reported in the past 7 days
 Cases,7 days,WHO,MDG,2022-05-24,27534354,cross,38,0.1,Cases reported in the past 7 days
 Cases,7 days,WHO,MDV,2022-05-24,390669,cross,68,17.4,Cases reported in the past 7 days
 Cases,7 days,WHO,MEX,2022-05-24,130207371,cross,5800,4.5,Cases reported in the past 7 days
@@ -851,7 +851,7 @@ Cases,7 days,WHO,MHL,2022-05-24,78831,cross,0,0,Cases reported in the past 7 day
 Cases,7 days,WHO,MKD,2022-05-24,2128262,cross,492,23.1,Cases reported in the past 7 days
 Cases,7 days,WHO,MLI,2022-05-24,20137527,cross,43,0.2,Cases reported in the past 7 days
 Cases,7 days,WHO,MLT,2022-05-24,460891,cross,541,117.4,Cases reported in the past 7 days
-Cases,7 days,WHO,MMR,2022-05-24,57069099,cross,59,0.1,Cases reported in the past 7 days
+Cases,7 days,WHO,MMR,2022-05-24,57069099,cross,70,0.1,Cases reported in the past 7 days
 Cases,7 days,WHO,MNE,2022-05-24,607414,cross,435,71.6,Cases reported in the past 7 days
 Cases,7 days,WHO,MNG,2022-05-24,3198913,cross,1808,56.5,Cases reported in the past 7 days
 Cases,7 days,WHO,MNP,2022-05-24,51659,cross,28,54.2,Cases reported in the past 7 days
@@ -866,14 +866,14 @@ Cases,7 days,WHO,MYT,2022-05-24,0,cross,0,,Cases reported in the past 7 days
 Cases,7 days,WHO,NAM,2022-05-24,2678191,cross,202,7.5,Cases reported in the past 7 days
 Cases,7 days,WHO,NCL,2022-05-24,293608,cross,452,153.9,Cases reported in the past 7 days
 Cases,7 days,WHO,NER,2022-05-24,23605767,cross,18,0.1,Cases reported in the past 7 days
-Cases,7 days,WHO,NGA,2022-05-24,219463862,cross,48,0,Cases reported in the past 7 days
+Cases,7 days,WHO,NGA,2022-05-24,219463862,cross,83,0,Cases reported in the past 7 days
 Cases,7 days,WHO,NIC,2022-05-24,6243931,cross,26,0.4,Cases reported in the past 7 days
 Cases,7 days,WHO,NIU,2022-05-24,2000,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,NLD,2022-05-24,17337403,cross,7619,43.9,Cases reported in the past 7 days
+Cases,7 days,WHO,NLD,2022-05-24,17337403,cross,7618,43.9,Cases reported in the past 7 days
 Cases,7 days,WHO,NOR,2022-05-24,5509591,cross,1474,26.8,Cases reported in the past 7 days
 Cases,7 days,WHO,NPL,2022-05-24,30424878,cross,65,0.2,Cases reported in the past 7 days
 Cases,7 days,WHO,NRU,2022-05-24,9770,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,NZL,2022-05-24,4991442,cross,48433,970.3,Cases reported in the past 7 days
+Cases,7 days,WHO,NZL,2022-05-24,4991442,cross,48367,969,Cases reported in the past 7 days
 Cases,7 days,WHO,OMN,2022-05-24,3694755,cross,46,1.2,Cases reported in the past 7 days
 Cases,7 days,WHO,OTH,2022-05-24,0,cross,0,,Cases reported in the past 7 days
 Cases,7 days,WHO,PAK,2022-05-24,238181034,cross,484,0.2,Cases reported in the past 7 days
@@ -882,11 +882,11 @@ Cases,7 days,WHO,PCN,2022-05-24,50,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,PER,2022-05-24,32201224,cross,3619,11.2,Cases reported in the past 7 days
 Cases,7 days,WHO,PHL,2022-05-24,110818325,cross,1245,1.1,Cases reported in the past 7 days
 Cases,7 days,WHO,PLW,2022-05-24,21613,cross,88,407.2,Cases reported in the past 7 days
-Cases,7 days,WHO,PNG,2022-05-24,7399757,cross,127,1.7,Cases reported in the past 7 days
+Cases,7 days,WHO,PNG,2022-05-24,7399757,cross,140,1.9,Cases reported in the past 7 days
 Cases,7 days,WHO,POL,2022-05-24,38185913,cross,1974,5.2,Cases reported in the past 7 days
 Cases,7 days,WHO,PRI,2022-05-24,3142779,cross,30268,963.1,Cases reported in the past 7 days
 Cases,7 days,WHO,PRK,2022-05-24,25831360,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,PRT,2022-05-24,10263850,cross,191715,1867.9,Cases reported in the past 7 days
+Cases,7 days,WHO,PRT,2022-05-24,10263850,cross,191284,1863.7,Cases reported in the past 7 days
 Cases,7 days,WHO,PRY,2022-05-24,7272639,cross,354,4.9,Cases reported in the past 7 days
 Cases,7 days,WHO,PSE,2022-05-24,4906308,cross,117,2.4,Cases reported in the past 7 days
 Cases,7 days,WHO,PYF,2022-05-24,297154,cross,62,20.9,Cases reported in the past 7 days
@@ -911,7 +911,7 @@ Cases,7 days,WHO,SSD,2022-05-24,10984074,cross,27,0.2,Cases reported in the past
 Cases,7 days,WHO,STP,2022-05-24,213948,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,SUR,2022-05-24,614749,cross,232,37.7,Cases reported in the past 7 days
 Cases,7 days,WHO,SVK,2022-05-24,5436066,cross,1282,23.6,Cases reported in the past 7 days
-Cases,7 days,WHO,SVN,2022-05-24,2102106,cross,2733,130,Cases reported in the past 7 days
+Cases,7 days,WHO,SVN,2022-05-24,2102106,cross,2745,130.6,Cases reported in the past 7 days
 Cases,7 days,WHO,SWE,2022-05-24,10261767,cross,990,9.6,Cases reported in the past 7 days
 Cases,7 days,WHO,SWZ,2022-05-24,1113276,cross,427,38.4,Cases reported in the past 7 days
 Cases,7 days,WHO,SXM,2022-05-24,44564,cross,0,0,Cases reported in the past 7 days
@@ -943,17 +943,17 @@ Cases,7 days,WHO,VEN,2022-05-24,29069153,cross,323,1.1,Cases reported in the pas
 Cases,7 days,WHO,VGB,2022-05-24,37891,cross,117,308.8,Cases reported in the past 7 days
 Cases,7 days,WHO,VIR,2022-05-24,0,cross,817,,Cases reported in the past 7 days
 Cases,7 days,WHO,VNM,2022-05-24,102789598,cross,11886,11.6,Cases reported in the past 7 days
-Cases,7 days,WHO,VUT,2022-05-24,303009,cross,187,61.7,Cases reported in the past 7 days
+Cases,7 days,WHO,VUT,2022-05-24,303009,cross,221,72.9,Cases reported in the past 7 days
 Cases,7 days,WHO,WLF,2022-05-24,15851,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,WSM,2022-05-24,204898,cross,711,347,Cases reported in the past 7 days
 Cases,7 days,WHO,XKX,2022-05-24,1935259,cross,68,3.5,Cases reported in the past 7 days
 Cases,7 days,WHO,YEM,2022-05-24,30399243,cross,0,0,Cases reported in the past 7 days
 Cases,7 days,WHO,ZAF,2022-05-24,56978635,cross,36789,64.6,Cases reported in the past 7 days
 Cases,7 days,WHO,ZMB,2022-05-24,19077816,cross,0,0,Cases reported in the past 7 days
-Cases,7 days,WHO,ZWE,2022-05-24,14829988,cross,1667,11.2,Cases reported in the past 7 days
+Cases,7 days,WHO,ZWE,2022-05-24,14829988,cross,1608,10.8,Cases reported in the past 7 days
 Cases,Cumulative,WHO,ABW,2022-05-24,120917,cross,35920,29706.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,AFG,2022-05-24,37466414,cross,179771,479.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,AGO,2022-05-24,33642646,cross,99433,295.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,AGO,2022-05-24,33642646,cross,99527,295.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,AIA,2022-05-24,18403,cross,3203,17404.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,ALB,2022-05-24,3088385,cross,275881,8932.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,AND,2022-05-24,85645,cross,42572,49707.5,Cumulative Cases reported 
@@ -962,7 +962,7 @@ Cases,Cumulative,WHO,ARG,2022-05-24,45864941,cross,9178795,20012.7,Cumulative Ca
 Cases,Cumulative,WHO,ARM,2022-05-24,3011609,cross,422939,14043.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,ASM,2022-05-24,46366,cross,6087,13128.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,ATG,2022-05-24,99175,cross,7942,8008.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,AUS,2022-05-24,25809973,cross,6979827,27043.1,Cumulative Cases reported 
+Cases,Cumulative,WHO,AUS,2022-05-24,25809973,cross,6977772,27035.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,AUT,2022-05-24,8884864,cross,4274095,48105.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,AZE,2022-05-24,10282283,cross,792714,7709.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,BDI,2022-05-24,12241065,cross,41897,342.3,Cumulative Cases reported 
@@ -987,26 +987,26 @@ Cases,Cumulative,WHO,BTN,2022-05-24,857423,cross,59614,6952.7,Cumulative Cases r
 Cases,Cumulative,WHO,BWA,2022-05-24,2350667,cross,306696,13047.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,CAF,2022-05-24,5357984,cross,14371,268.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,CAN,2022-05-24,37943231,cross,3847537,10140.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,CHE,2022-05-24,8453550,cross,3642606,43089.7,Cumulative Cases reported 
+Cases,Cumulative,WHO,CHE,2022-05-24,8453550,cross,3650661,43184.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,CHL,2022-05-24,18307925,cross,3647361,19922.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,CHN,2022-05-24,1397897720,cross,2371526,169.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,CHN,2022-05-24,1397897720,cross,2371470,169.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,CIV,2022-05-24,28088455,cross,82070,292.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,CMR,2022-05-24,28524175,cross,119780,419.9,Cumulative Cases reported 
-Cases,Cumulative,WHO,COD,2022-05-24,105044646,cross,87633,83.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,CMR,2022-05-24,28524175,cross,119947,420.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,COD,2022-05-24,105044646,cross,88036,83.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,COG,2022-05-24,5417414,cross,24052,444,Cumulative Cases reported 
 Cases,Cumulative,WHO,COK,2022-05-24,8327,cross,5543,66566.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,COL,2022-05-24,50355650,cross,6099111,12112.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,COM,2022-05-24,864335,cross,8114,938.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,CPV,2022-05-24,589451,cross,56172,9529.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,COM,2022-05-24,864335,cross,8120,939.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,CPV,2022-05-24,589451,cross,56177,9530.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,CRI,2022-05-24,5151140,cross,877533,17035.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,CUB,2022-05-24,11032343,cross,1105016,10016.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,CUW,2022-05-24,151885,cross,43149,28409,Cumulative Cases reported 
 Cases,Cumulative,WHO,CYM,2022-05-24,63131,cross,24477,38771.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,CYP,2022-05-24,1281506,cross,488189,38094.9,Cumulative Cases reported 
-Cases,Cumulative,WHO,CZE,2022-05-24,10702596,cross,3918537,36613,Cumulative Cases reported 
-Cases,Cumulative,WHO,DEU,2022-05-24,79903481,cross,26109965,32676.9,Cumulative Cases reported 
+Cases,Cumulative,WHO,CZE,2022-05-24,10702596,cross,3918539,36613,Cumulative Cases reported 
+Cases,Cumulative,WHO,DEU,2022-05-24,79903481,cross,26126363,32697.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,DJI,2022-05-24,938413,cross,15675,1670.4,Cumulative Cases reported 
-Cases,Cumulative,WHO,DMA,2022-05-24,74584,cross,13752,18438.3,Cumulative Cases reported 
+Cases,Cumulative,WHO,DMA,2022-05-24,74584,cross,13914,18655.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,DNK,2022-05-24,5894687,cross,3130952,53114.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,DOM,2022-05-24,10597348,cross,581464,5486.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,DZA,2022-05-24,43576691,cross,265855,610.1,Cumulative Cases reported 
@@ -1019,14 +1019,14 @@ Cases,Cumulative,WHO,ETH,2022-05-24,110871031,cross,471423,425.2,Cumulative Case
 Cases,Cumulative,WHO,FIN,2022-05-24,5587442,cross,1081221,19350.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,FJI,2022-05-24,939535,cross,64898,6907.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,FLK,2022-05-24,3198,cross,1608,50281.4,Cumulative Cases reported 
-Cases,Cumulative,WHO,FRA,2022-05-24,68084217,cross,28490162,41845.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,FRA,2022-05-24,68084217,cross,28486910,41840.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,FRO,2022-05-24,51943,cross,34658,66723.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,FSM,2022-05-24,101675,cross,7,6.9,Cumulative Cases reported 
+Cases,Cumulative,WHO,FSM,2022-05-24,101675,cross,30,29.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,GAB,2022-05-24,2284912,cross,47622,2084.2,Cumulative Cases reported 
-Cases,Cumulative,WHO,GBR,2022-05-24,67081000,cross,22264684,33190.7,Cumulative Cases reported 
-Cases,Cumulative,WHO,GEO,2022-05-24,4933674,cross,1655221,33549.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,GBR,2022-05-24,67081000,cross,22266908,33194.1,Cumulative Cases reported 
+Cases,Cumulative,WHO,GEO,2022-05-24,4933674,cross,1656568,33576.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,GGY,2022-05-24,67334,cross,25328,37615.5,Cumulative Cases reported 
-Cases,Cumulative,WHO,GHA,2022-05-24,32372889,cross,161351,498.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,GHA,2022-05-24,32372889,cross,161370,498.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,GIB,2022-05-24,29516,cross,18273,61908.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,GIN,2022-05-24,12877894,cross,36661,284.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,GLP,2022-05-24,0,cross,157865,,Cumulative Cases reported 
@@ -1051,8 +1051,8 @@ Cases,Cumulative,WHO,IND,2022-05-24,1339330514,cross,43140068,3221,Cumulative Ca
 Cases,Cumulative,WHO,IRL,2022-05-24,5224884,cross,1551835,29700.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,IRN,2022-05-24,85888910,cross,7230321,8418.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,IRQ,2022-05-24,39650145,cross,2327387,5869.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,ISL,2022-05-24,354234,cross,187262,52863.9,Cumulative Cases reported 
-Cases,Cumulative,WHO,ISR,2022-05-24,8787045,cross,4125769,46952.9,Cumulative Cases reported 
+Cases,Cumulative,WHO,ISL,2022-05-24,354234,cross,187495,52929.7,Cumulative Cases reported 
+Cases,Cumulative,WHO,ISR,2022-05-24,8787045,cross,4125814,46953.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,ITA,2022-05-24,62390364,cross,17257573,27660.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,JAM,2022-05-24,2816602,cross,134660,4780.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,JEY,2022-05-24,101476,cross,50439,49705.3,Cumulative Cases reported 
@@ -1064,24 +1064,24 @@ Cases,Cumulative,WHO,KGZ,2022-05-24,6018789,cross,200993,3339.4,Cumulative Cases
 Cases,Cumulative,WHO,KHM,2022-05-24,17304363,cross,136262,787.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,KIR,2022-05-24,113001,cross,3098,2741.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,KNA,2022-05-24,54149,cross,5671,10473,Cumulative Cases reported 
-Cases,Cumulative,WHO,KOR,2022-05-24,51715162,cross,17993985,34794.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,KOR,2022-05-24,51715162,cross,17993967,34794.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,KWT,2022-05-24,3032065,cross,632781,20869.6,Cumulative Cases reported 
-Cases,Cumulative,WHO,LAO,2022-05-24,7574356,cross,209744,2769.1,Cumulative Cases reported 
+Cases,Cumulative,WHO,LAO,2022-05-24,7574356,cross,209784,2769.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,LBN,2022-05-24,5261372,cross,1098640,20881.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,LBR,2022-05-24,5214030,cross,7455,143,Cumulative Cases reported 
 Cases,Cumulative,WHO,LBY,2022-05-24,7017224,cross,501987,7153.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,LCA,2022-05-24,166637,cross,25013,15010.5,Cumulative Cases reported 
-Cases,Cumulative,WHO,LIE,2022-05-24,39425,cross,17331,43959.4,Cumulative Cases reported 
-Cases,Cumulative,WHO,LKA,2022-05-24,23044123,cross,663765,2880.4,Cumulative Cases reported 
-Cases,Cumulative,WHO,LSO,2022-05-24,2177740,cross,33305,1529.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,LTU,2022-05-24,2711566,cross,1061779,39157.4,Cumulative Cases reported 
+Cases,Cumulative,WHO,LIE,2022-05-24,39425,cross,17390,44109.1,Cumulative Cases reported 
+Cases,Cumulative,WHO,LKA,2022-05-24,23044123,cross,663779,2880.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,LSO,2022-05-24,2177740,cross,33358,1531.8,Cumulative Cases reported 
+Cases,Cumulative,WHO,LTU,2022-05-24,2711566,cross,1061790,39157.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,LUX,2022-05-24,639589,cross,246761,38581.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,LVA,2022-05-24,1862687,cross,827201,44409,Cumulative Cases reported 
 Cases,Cumulative,WHO,MAC,2022-05-24,630396,cross,0,0,Cumulative Cases reported 
 Cases,Cumulative,WHO,MAF,2022-05-24,0,cross,10618,,Cumulative Cases reported 
 Cases,Cumulative,WHO,MAR,2022-05-24,36561813,cross,1166716,3191.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,MCO,2022-05-24,31223,cross,12124,38830.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,MDA,2022-05-24,3323875,cross,518492,15599,Cumulative Cases reported 
+Cases,Cumulative,WHO,MDA,2022-05-24,3323875,cross,518745,15606.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,MDG,2022-05-24,27534354,cross,64314,233.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,MDV,2022-05-24,390669,cross,179662,45988.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,MEX,2022-05-24,130207371,cross,5759773,4423.5,Cumulative Cases reported 
@@ -1089,7 +1089,7 @@ Cases,Cumulative,WHO,MHL,2022-05-24,78831,cross,17,21.6,Cumulative Cases reporte
 Cases,Cumulative,WHO,MKD,2022-05-24,2128262,cross,311350,14629.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,MLI,2022-05-24,20137527,cross,31057,154.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,MLT,2022-05-24,460891,cross,94113,20419.8,Cumulative Cases reported 
-Cases,Cumulative,WHO,MMR,2022-05-24,57069099,cross,613227,1074.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,MMR,2022-05-24,57069099,cross,613238,1074.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,MNE,2022-05-24,607414,cross,236757,38977.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,MNG,2022-05-24,3198913,cross,924035,28885.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,MNP,2022-05-24,51659,cross,11333,21938.1,Cumulative Cases reported 
@@ -1104,14 +1104,14 @@ Cases,Cumulative,WHO,MYT,2022-05-24,0,cross,37523,,Cumulative Cases reported
 Cases,Cumulative,WHO,NAM,2022-05-24,2678191,cross,160640,5998.1,Cumulative Cases reported 
 Cases,Cumulative,WHO,NCL,2022-05-24,293608,cross,61650,20997.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,NER,2022-05-24,23605767,cross,9031,38.3,Cumulative Cases reported 
-Cases,Cumulative,WHO,NGA,2022-05-24,219463862,cross,255937,116.6,Cumulative Cases reported 
+Cases,Cumulative,WHO,NGA,2022-05-24,219463862,cross,255972,116.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,NIC,2022-05-24,6243931,cross,14473,231.8,Cumulative Cases reported 
 Cases,Cumulative,WHO,NIU,2022-05-24,2000,cross,9,450,Cumulative Cases reported 
-Cases,Cumulative,WHO,NLD,2022-05-24,17337403,cross,8077873,46592.2,Cumulative Cases reported 
+Cases,Cumulative,WHO,NLD,2022-05-24,17337403,cross,8077872,46592.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,NOR,2022-05-24,5509591,cross,1431486,25981.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,NPL,2022-05-24,30424878,cross,979087,3218,Cumulative Cases reported 
 Cases,Cumulative,WHO,NRU,2022-05-24,9770,cross,3,30.7,Cumulative Cases reported 
-Cases,Cumulative,WHO,NZL,2022-05-24,4991442,cross,1109145,22220.9,Cumulative Cases reported 
+Cases,Cumulative,WHO,NZL,2022-05-24,4991442,cross,1109079,22219.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,OMN,2022-05-24,3694755,cross,389473,10541.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,OTH,2022-05-24,0,cross,764,,Cumulative Cases reported 
 Cases,Cumulative,WHO,PAK,2022-05-24,238181034,cross,1529837,642.3,Cumulative Cases reported 
@@ -1120,11 +1120,11 @@ Cases,Cumulative,WHO,PCN,2022-05-24,50,cross,0,0,Cumulative Cases reported
 Cases,Cumulative,WHO,PER,2022-05-24,32201224,cross,3576042,11105.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,PHL,2022-05-24,110818325,cross,3689132,3329,Cumulative Cases reported 
 Cases,Cumulative,WHO,PLW,2022-05-24,21613,cross,4967,22981.5,Cumulative Cases reported 
-Cases,Cumulative,WHO,PNG,2022-05-24,7399757,cross,44403,600.1,Cumulative Cases reported 
+Cases,Cumulative,WHO,PNG,2022-05-24,7399757,cross,44416,600.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,POL,2022-05-24,38185913,cross,6006015,15728.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,PRI,2022-05-24,3142779,cross,639258,20340.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,PRK,2022-05-24,25831360,cross,0,0,Cumulative Cases reported 
-Cases,Cumulative,WHO,PRT,2022-05-24,10263850,cross,4508817,43929.1,Cumulative Cases reported 
+Cases,Cumulative,WHO,PRT,2022-05-24,10263850,cross,4508183,43922.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,PRY,2022-05-24,7272639,cross,650283,8941.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,PSE,2022-05-24,4906308,cross,657573,13402.6,Cumulative Cases reported 
 Cases,Cumulative,WHO,PYF,2022-05-24,297154,cross,72898,24532.1,Cumulative Cases reported 
@@ -1149,7 +1149,7 @@ Cases,Cumulative,WHO,SSD,2022-05-24,10984074,cross,17575,160,Cumulative Cases re
 Cases,Cumulative,WHO,STP,2022-05-24,213948,cross,5970,2790.4,Cumulative Cases reported 
 Cases,Cumulative,WHO,SUR,2022-05-24,614749,cross,80240,13052.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,SVK,2022-05-24,5436066,cross,1788686,32904.1,Cumulative Cases reported 
-Cases,Cumulative,WHO,SVN,2022-05-24,2102106,cross,1022600,48646.5,Cumulative Cases reported 
+Cases,Cumulative,WHO,SVN,2022-05-24,2102106,cross,1022618,48647.3,Cumulative Cases reported 
 Cases,Cumulative,WHO,SWE,2022-05-24,10261767,cross,2506607,24426.7,Cumulative Cases reported 
 Cases,Cumulative,WHO,SWZ,2022-05-24,1113276,cross,72202,6485.5,Cumulative Cases reported 
 Cases,Cumulative,WHO,SXM,2022-05-24,44564,cross,10123,22715.6,Cumulative Cases reported 
@@ -1181,7 +1181,7 @@ Cases,Cumulative,WHO,VEN,2022-05-24,29069153,cross,523343,1800.3,Cumulative Case
 Cases,Cumulative,WHO,VGB,2022-05-24,37891,cross,6690,17655.9,Cumulative Cases reported 
 Cases,Cumulative,WHO,VIR,2022-05-24,0,cross,18854,,Cumulative Cases reported 
 Cases,Cumulative,WHO,VNM,2022-05-24,102789598,cross,10710066,10419.4,Cumulative Cases reported 
-Cases,Cumulative,WHO,VUT,2022-05-24,303009,cross,8666,2860,Cumulative Cases reported 
+Cases,Cumulative,WHO,VUT,2022-05-24,303009,cross,8700,2871.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,WLF,2022-05-24,15851,cross,454,2864.2,Cumulative Cases reported 
 Cases,Cumulative,WHO,WSM,2022-05-24,204898,cross,12382,6043,Cumulative Cases reported 
 Cases,Cumulative,WHO,XKX,2022-05-24,1935259,cross,228266,11795.1,Cumulative Cases reported 
@@ -1225,7 +1225,7 @@ Deaths,14 days,WHO,BTN,2022-05-24,857423,cross,0,0,Deaths reported in the past 1
 Deaths,14 days,WHO,BWA,2022-05-24,2350667,cross,5,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CAF,2022-05-24,5357984,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CAN,2022-05-24,37943231,cross,777,2,Deaths reported in the past 14 days
-Deaths,14 days,WHO,CHE,2022-05-24,8453550,cross,8,0.1,Deaths reported in the past 14 days
+Deaths,14 days,WHO,CHE,2022-05-24,8453550,cross,18,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CHL,2022-05-24,18307925,cross,171,0.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CHN,2022-05-24,1397897720,cross,561,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CIV,2022-05-24,28088455,cross,0,0,Deaths reported in the past 14 days
@@ -1234,15 +1234,15 @@ Deaths,14 days,WHO,COD,2022-05-24,105044646,cross,0,0,Deaths reported in the pas
 Deaths,14 days,WHO,COG,2022-05-24,5417414,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,COK,2022-05-24,8327,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,COL,2022-05-24,50355650,cross,24,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,COM,2022-05-24,864335,cross,0,0,Deaths reported in the past 14 days
+Deaths,14 days,WHO,COM,2022-05-24,864335,cross,1,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CPV,2022-05-24,589451,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CRI,2022-05-24,5151140,cross,51,1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CUB,2022-05-24,11032343,cross,2,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CUW,2022-05-24,151885,cross,2,1.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CYM,2022-05-24,63131,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,CYP,2022-05-24,1281506,cross,30,2.3,Deaths reported in the past 14 days
-Deaths,14 days,WHO,CZE,2022-05-24,10702596,cross,27,0.3,Deaths reported in the past 14 days
-Deaths,14 days,WHO,DEU,2022-05-24,79903481,cross,211,0.3,Deaths reported in the past 14 days
+Deaths,14 days,WHO,CZE,2022-05-24,10702596,cross,30,0.3,Deaths reported in the past 14 days
+Deaths,14 days,WHO,DEU,2022-05-24,79903481,cross,257,0.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DJI,2022-05-24,938413,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DMA,2022-05-24,74584,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,DNK,2022-05-24,5894687,cross,68,1.2,Deaths reported in the past 14 days
@@ -1257,12 +1257,12 @@ Deaths,14 days,WHO,ETH,2022-05-24,110871031,cross,2,0,Deaths reported in the pas
 Deaths,14 days,WHO,FIN,2022-05-24,5587442,cross,3,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,FJI,2022-05-24,939535,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,FLK,2022-05-24,3198,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,FRA,2022-05-24,68084217,cross,1038,1.5,Deaths reported in the past 14 days
+Deaths,14 days,WHO,FRA,2022-05-24,68084217,cross,1031,1.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,FRO,2022-05-24,51943,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,FSM,2022-05-24,101675,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GAB,2022-05-24,2284912,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,GBR,2022-05-24,67081000,cross,971,1.4,Deaths reported in the past 14 days
-Deaths,14 days,WHO,GEO,2022-05-24,4933674,cross,0,0,Deaths reported in the past 14 days
+Deaths,14 days,WHO,GBR,2022-05-24,67081000,cross,1095,1.6,Deaths reported in the past 14 days
+Deaths,14 days,WHO,GEO,2022-05-24,4933674,cross,9,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GGY,2022-05-24,67334,cross,2,3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GHA,2022-05-24,32372889,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,GIB,2022-05-24,29516,cross,0,0,Deaths reported in the past 14 days
@@ -1310,16 +1310,16 @@ Deaths,14 days,WHO,LBR,2022-05-24,5214030,cross,0,0,Deaths reported in the past 
 Deaths,14 days,WHO,LBY,2022-05-24,7017224,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LCA,2022-05-24,166637,cross,2,1.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LIE,2022-05-24,39425,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,LKA,2022-05-24,23044123,cross,3,0,Deaths reported in the past 14 days
+Deaths,14 days,WHO,LKA,2022-05-24,23044123,cross,4,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LSO,2022-05-24,2177740,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,LTU,2022-05-24,2711566,cross,12,0.4,Deaths reported in the past 14 days
+Deaths,14 days,WHO,LTU,2022-05-24,2711566,cross,13,0.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LUX,2022-05-24,639589,cross,6,0.9,Deaths reported in the past 14 days
 Deaths,14 days,WHO,LVA,2022-05-24,1862687,cross,25,1.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MAC,2022-05-24,630396,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MAF,2022-05-24,0,cross,0,,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MAR,2022-05-24,36561813,cross,4,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MCO,2022-05-24,31223,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,MDA,2022-05-24,3323875,cross,5,0.2,Deaths reported in the past 14 days
+Deaths,14 days,WHO,MDA,2022-05-24,3323875,cross,21,0.6,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MDG,2022-05-24,27534354,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MDV,2022-05-24,390669,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,MEX,2022-05-24,130207371,cross,40,0,Deaths reported in the past 14 days
@@ -1362,7 +1362,7 @@ Deaths,14 days,WHO,PNG,2022-05-24,7399757,cross,0,0,Deaths reported in the past 
 Deaths,14 days,WHO,POL,2022-05-24,38185913,cross,134,0.4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,PRI,2022-05-24,3142779,cross,78,2.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,PRK,2022-05-24,25831360,cross,0,0,Deaths reported in the past 14 days
-Deaths,14 days,WHO,PRT,2022-05-24,10263850,cross,411,4,Deaths reported in the past 14 days
+Deaths,14 days,WHO,PRT,2022-05-24,10263850,cross,414,4,Deaths reported in the past 14 days
 Deaths,14 days,WHO,PRY,2022-05-24,7272639,cross,4,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,PSE,2022-05-24,4906308,cross,3,0.1,Deaths reported in the past 14 days
 Deaths,14 days,WHO,PYF,2022-05-24,297154,cross,1,0.3,Deaths reported in the past 14 days
@@ -1387,7 +1387,7 @@ Deaths,14 days,WHO,SSD,2022-05-24,10984074,cross,0,0,Deaths reported in the past
 Deaths,14 days,WHO,STP,2022-05-24,213948,cross,0,0,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SUR,2022-05-24,614749,cross,11,1.8,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SVK,2022-05-24,5436066,cross,89,1.6,Deaths reported in the past 14 days
-Deaths,14 days,WHO,SVN,2022-05-24,2102106,cross,27,1.3,Deaths reported in the past 14 days
+Deaths,14 days,WHO,SVN,2022-05-24,2102106,cross,31,1.5,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SWE,2022-05-24,10261767,cross,19,0.2,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SWZ,2022-05-24,1113276,cross,3,0.3,Deaths reported in the past 14 days
 Deaths,14 days,WHO,SXM,2022-05-24,44564,cross,0,0,Deaths reported in the past 14 days
@@ -1479,8 +1479,8 @@ Deaths,24 hours,WHO,CUB,2022-05-24,11032343,cross,0,0,Deaths reported in the pas
 Deaths,24 hours,WHO,CUW,2022-05-24,151885,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CYM,2022-05-24,63131,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,CYP,2022-05-24,1281506,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,CZE,2022-05-24,10702596,cross,1,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,DEU,2022-05-24,79903481,cross,11,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,CZE,2022-05-24,10702596,cross,4,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,DEU,2022-05-24,79903481,cross,13,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,DJI,2022-05-24,938413,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,DMA,2022-05-24,74584,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,DNK,2022-05-24,5894687,cross,0,0,Deaths reported in the past 24 hours
@@ -1495,11 +1495,11 @@ Deaths,24 hours,WHO,ETH,2022-05-24,110871031,cross,0,0,Deaths reported in the pa
 Deaths,24 hours,WHO,FIN,2022-05-24,5587442,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,FJI,2022-05-24,939535,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,FLK,2022-05-24,3198,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,FRA,2022-05-24,68084217,cross,89,0.1,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,FRA,2022-05-24,68084217,cross,75,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,FRO,2022-05-24,51943,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,FSM,2022-05-24,101675,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GAB,2022-05-24,2284912,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,GBR,2022-05-24,67081000,cross,1,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,GBR,2022-05-24,67081000,cross,36,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GEO,2022-05-24,4933674,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GGY,2022-05-24,67334,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,GHA,2022-05-24,32372889,cross,0,0,Deaths reported in the past 24 hours
@@ -1548,9 +1548,9 @@ Deaths,24 hours,WHO,LBR,2022-05-24,5214030,cross,0,0,Deaths reported in the past
 Deaths,24 hours,WHO,LBY,2022-05-24,7017224,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LCA,2022-05-24,166637,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LIE,2022-05-24,39425,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,LKA,2022-05-24,23044123,cross,0,0,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,LKA,2022-05-24,23044123,cross,1,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LSO,2022-05-24,2177740,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,LTU,2022-05-24,2711566,cross,2,0.1,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,LTU,2022-05-24,2711566,cross,3,0.1,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LUX,2022-05-24,639589,cross,1,0.2,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,LVA,2022-05-24,1862687,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,MAC,2022-05-24,630396,cross,0,0,Deaths reported in the past 24 hours
@@ -1600,7 +1600,7 @@ Deaths,24 hours,WHO,PNG,2022-05-24,7399757,cross,0,0,Deaths reported in the past
 Deaths,24 hours,WHO,POL,2022-05-24,38185913,cross,16,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,PRI,2022-05-24,3142779,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,PRK,2022-05-24,25831360,cross,0,0,Deaths reported in the past 24 hours
-Deaths,24 hours,WHO,PRT,2022-05-24,10263850,cross,36,0.4,Deaths reported in the past 24 hours
+Deaths,24 hours,WHO,PRT,2022-05-24,10263850,cross,39,0.4,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,PRY,2022-05-24,7272639,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,PSE,2022-05-24,4906308,cross,0,0,Deaths reported in the past 24 hours
 Deaths,24 hours,WHO,PYF,2022-05-24,297154,cross,0,0,Deaths reported in the past 24 hours
@@ -1701,24 +1701,24 @@ Deaths,30 days,WHO,BTN,2022-05-24,857423,cross,1,0.1,Deaths reported in the past
 Deaths,30 days,WHO,BWA,2022-05-24,2350667,cross,6,0.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CAF,2022-05-24,5357984,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CAN,2022-05-24,37943231,cross,1942,5.1,Deaths reported in the past 30 days
-Deaths,30 days,WHO,CHE,2022-05-24,8453550,cross,42,0.5,Deaths reported in the past 30 days
+Deaths,30 days,WHO,CHE,2022-05-24,8453550,cross,52,0.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CHL,2022-05-24,18307925,cross,435,2.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CHN,2022-05-24,1397897720,cross,1213,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CIV,2022-05-24,28088455,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,CMR,2022-05-24,28524175,cross,0,0,Deaths reported in the past 30 days
+Deaths,30 days,WHO,CMR,2022-05-24,28524175,cross,3,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,COD,2022-05-24,105044646,cross,1,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,COG,2022-05-24,5417414,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,COK,2022-05-24,8327,cross,1,12,Deaths reported in the past 30 days
 Deaths,30 days,WHO,COL,2022-05-24,50355650,cross,68,0.1,Deaths reported in the past 30 days
-Deaths,30 days,WHO,COM,2022-05-24,864335,cross,0,0,Deaths reported in the past 30 days
+Deaths,30 days,WHO,COM,2022-05-24,864335,cross,1,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CPV,2022-05-24,589451,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CRI,2022-05-24,5151140,cross,89,1.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CUB,2022-05-24,11032343,cross,6,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CUW,2022-05-24,151885,cross,5,3.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CYM,2022-05-24,63131,cross,1,1.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,CYP,2022-05-24,1281506,cross,51,4,Deaths reported in the past 30 days
-Deaths,30 days,WHO,CZE,2022-05-24,10702596,cross,161,1.5,Deaths reported in the past 30 days
-Deaths,30 days,WHO,DEU,2022-05-24,79903481,cross,994,1.2,Deaths reported in the past 30 days
+Deaths,30 days,WHO,CZE,2022-05-24,10702596,cross,166,1.6,Deaths reported in the past 30 days
+Deaths,30 days,WHO,DEU,2022-05-24,79903481,cross,1071,1.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DJI,2022-05-24,938413,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DMA,2022-05-24,74584,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,DNK,2022-05-24,5894687,cross,240,4.1,Deaths reported in the past 30 days
@@ -1733,12 +1733,12 @@ Deaths,30 days,WHO,ETH,2022-05-24,110871031,cross,2,0,Deaths reported in the pas
 Deaths,30 days,WHO,FIN,2022-05-24,5587442,cross,112,2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,FJI,2022-05-24,939535,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,FLK,2022-05-24,3198,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,FRA,2022-05-24,68084217,cross,2861,4.2,Deaths reported in the past 30 days
+Deaths,30 days,WHO,FRA,2022-05-24,68084217,cross,2854,4.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,FRO,2022-05-24,51943,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,FSM,2022-05-24,101675,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GAB,2022-05-24,2284912,cross,1,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,GBR,2022-05-24,67081000,cross,3563,5.3,Deaths reported in the past 30 days
-Deaths,30 days,WHO,GEO,2022-05-24,4933674,cross,11,0.2,Deaths reported in the past 30 days
+Deaths,30 days,WHO,GBR,2022-05-24,67081000,cross,3689,5.5,Deaths reported in the past 30 days
+Deaths,30 days,WHO,GEO,2022-05-24,4933674,cross,20,0.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GGY,2022-05-24,67334,cross,4,5.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GHA,2022-05-24,32372889,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,GIB,2022-05-24,29516,cross,1,3.4,Deaths reported in the past 30 days
@@ -1786,16 +1786,16 @@ Deaths,30 days,WHO,LBR,2022-05-24,5214030,cross,0,0,Deaths reported in the past 
 Deaths,30 days,WHO,LBY,2022-05-24,7017224,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LCA,2022-05-24,166637,cross,2,1.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LIE,2022-05-24,39425,cross,1,2.5,Deaths reported in the past 30 days
-Deaths,30 days,WHO,LKA,2022-05-24,23044123,cross,10,0,Deaths reported in the past 30 days
+Deaths,30 days,WHO,LKA,2022-05-24,23044123,cross,11,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LSO,2022-05-24,2177740,cross,1,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,LTU,2022-05-24,2711566,cross,68,2.5,Deaths reported in the past 30 days
+Deaths,30 days,WHO,LTU,2022-05-24,2711566,cross,69,2.5,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LUX,2022-05-24,639589,cross,17,2.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,LVA,2022-05-24,1862687,cross,87,4.7,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MAC,2022-05-24,630396,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MAF,2022-05-24,0,cross,0,,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MAR,2022-05-24,36561813,cross,10,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MCO,2022-05-24,31223,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,MDA,2022-05-24,3323875,cross,32,1,Deaths reported in the past 30 days
+Deaths,30 days,WHO,MDA,2022-05-24,3323875,cross,48,1.4,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MDG,2022-05-24,27534354,cross,2,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MDV,2022-05-24,390669,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,MEX,2022-05-24,130207371,cross,125,0.1,Deaths reported in the past 30 days
@@ -1838,7 +1838,7 @@ Deaths,30 days,WHO,PNG,2022-05-24,7399757,cross,2,0,Deaths reported in the past 
 Deaths,30 days,WHO,POL,2022-05-24,38185913,cross,336,0.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,PRI,2022-05-24,3142779,cross,120,3.8,Deaths reported in the past 30 days
 Deaths,30 days,WHO,PRK,2022-05-24,25831360,cross,0,0,Deaths reported in the past 30 days
-Deaths,30 days,WHO,PRT,2022-05-24,10263850,cross,705,6.9,Deaths reported in the past 30 days
+Deaths,30 days,WHO,PRT,2022-05-24,10263850,cross,709,6.9,Deaths reported in the past 30 days
 Deaths,30 days,WHO,PRY,2022-05-24,7272639,cross,90,1.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,PSE,2022-05-24,4906308,cross,3,0.1,Deaths reported in the past 30 days
 Deaths,30 days,WHO,PYF,2022-05-24,297154,cross,1,0.3,Deaths reported in the past 30 days
@@ -1863,7 +1863,7 @@ Deaths,30 days,WHO,SSD,2022-05-24,10984074,cross,0,0,Deaths reported in the past
 Deaths,30 days,WHO,STP,2022-05-24,213948,cross,0,0,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SUR,2022-05-24,614749,cross,12,2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SVK,2022-05-24,5436066,cross,244,4.5,Deaths reported in the past 30 days
-Deaths,30 days,WHO,SVN,2022-05-24,2102106,cross,127,6,Deaths reported in the past 30 days
+Deaths,30 days,WHO,SVN,2022-05-24,2102106,cross,131,6.2,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SWE,2022-05-24,10261767,cross,138,1.3,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SWZ,2022-05-24,1113276,cross,7,0.6,Deaths reported in the past 30 days
 Deaths,30 days,WHO,SXM,2022-05-24,44564,cross,0,0,Deaths reported in the past 30 days
@@ -1939,7 +1939,7 @@ Deaths,7 days,WHO,BTN,2022-05-24,857423,cross,0,0,Deaths reported in the past 7 
 Deaths,7 days,WHO,BWA,2022-05-24,2350667,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CAF,2022-05-24,5357984,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CAN,2022-05-24,37943231,cross,253,0.7,Deaths reported in the past 7 days
-Deaths,7 days,WHO,CHE,2022-05-24,8453550,cross,0,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,CHE,2022-05-24,8453550,cross,8,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CHL,2022-05-24,18307925,cross,85,0.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CHN,2022-05-24,1397897720,cross,358,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CIV,2022-05-24,28088455,cross,0,0,Deaths reported in the past 7 days
@@ -1948,15 +1948,15 @@ Deaths,7 days,WHO,COD,2022-05-24,105044646,cross,0,0,Deaths reported in the past
 Deaths,7 days,WHO,COG,2022-05-24,5417414,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,COK,2022-05-24,8327,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,COL,2022-05-24,50355650,cross,12,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,COM,2022-05-24,864335,cross,0,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,COM,2022-05-24,864335,cross,1,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CPV,2022-05-24,589451,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CRI,2022-05-24,5151140,cross,28,0.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CUB,2022-05-24,11032343,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CUW,2022-05-24,151885,cross,1,0.7,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CYM,2022-05-24,63131,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,CYP,2022-05-24,1281506,cross,6,0.5,Deaths reported in the past 7 days
-Deaths,7 days,WHO,CZE,2022-05-24,10702596,cross,11,0.1,Deaths reported in the past 7 days
-Deaths,7 days,WHO,DEU,2022-05-24,79903481,cross,57,0.1,Deaths reported in the past 7 days
+Deaths,7 days,WHO,CZE,2022-05-24,10702596,cross,14,0.1,Deaths reported in the past 7 days
+Deaths,7 days,WHO,DEU,2022-05-24,79903481,cross,86,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DJI,2022-05-24,938413,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DMA,2022-05-24,74584,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,DNK,2022-05-24,5894687,cross,19,0.3,Deaths reported in the past 7 days
@@ -1971,12 +1971,12 @@ Deaths,7 days,WHO,ETH,2022-05-24,110871031,cross,0,0,Deaths reported in the past
 Deaths,7 days,WHO,FIN,2022-05-24,5587442,cross,1,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,FJI,2022-05-24,939535,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,FLK,2022-05-24,3198,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,FRA,2022-05-24,68084217,cross,426,0.6,Deaths reported in the past 7 days
+Deaths,7 days,WHO,FRA,2022-05-24,68084217,cross,419,0.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,FRO,2022-05-24,51943,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,FSM,2022-05-24,101675,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GAB,2022-05-24,2284912,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,GBR,2022-05-24,67081000,cross,268,0.4,Deaths reported in the past 7 days
-Deaths,7 days,WHO,GEO,2022-05-24,4933674,cross,0,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,GBR,2022-05-24,67081000,cross,384,0.6,Deaths reported in the past 7 days
+Deaths,7 days,WHO,GEO,2022-05-24,4933674,cross,1,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GGY,2022-05-24,67334,cross,1,1.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GHA,2022-05-24,32372889,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,GIB,2022-05-24,29516,cross,0,0,Deaths reported in the past 7 days
@@ -2024,16 +2024,16 @@ Deaths,7 days,WHO,LBR,2022-05-24,5214030,cross,0,0,Deaths reported in the past 7
 Deaths,7 days,WHO,LBY,2022-05-24,7017224,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LCA,2022-05-24,166637,cross,2,1.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LIE,2022-05-24,39425,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,LKA,2022-05-24,23044123,cross,1,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,LKA,2022-05-24,23044123,cross,2,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LSO,2022-05-24,2177740,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,LTU,2022-05-24,2711566,cross,7,0.3,Deaths reported in the past 7 days
+Deaths,7 days,WHO,LTU,2022-05-24,2711566,cross,8,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LUX,2022-05-24,639589,cross,3,0.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,LVA,2022-05-24,1862687,cross,12,0.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MAC,2022-05-24,630396,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MAF,2022-05-24,0,cross,0,,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MAR,2022-05-24,36561813,cross,3,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MCO,2022-05-24,31223,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,MDA,2022-05-24,3323875,cross,0,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,MDA,2022-05-24,3323875,cross,16,0.5,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MDG,2022-05-24,27534354,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MDV,2022-05-24,390669,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,MEX,2022-05-24,130207371,cross,13,0,Deaths reported in the past 7 days
@@ -2070,13 +2070,13 @@ Deaths,7 days,WHO,PAK,2022-05-24,238181034,cross,3,0,Deaths reported in the past
 Deaths,7 days,WHO,PAN,2022-05-24,3928646,cross,22,0.6,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PCN,2022-05-24,50,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PER,2022-05-24,32201224,cross,66,0.2,Deaths reported in the past 7 days
-Deaths,7 days,WHO,PHL,2022-05-24,110818325,cross,0,0,Deaths reported in the past 7 days
+Deaths,7 days,WHO,PHL,2022-05-24,110818325,cross,3,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PLW,2022-05-24,21613,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PNG,2022-05-24,7399757,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,POL,2022-05-24,38185913,cross,67,0.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PRI,2022-05-24,3142779,cross,53,1.7,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PRK,2022-05-24,25831360,cross,0,0,Deaths reported in the past 7 days
-Deaths,7 days,WHO,PRT,2022-05-24,10263850,cross,219,2.1,Deaths reported in the past 7 days
+Deaths,7 days,WHO,PRT,2022-05-24,10263850,cross,222,2.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PRY,2022-05-24,7272639,cross,4,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PSE,2022-05-24,4906308,cross,1,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,PYF,2022-05-24,297154,cross,0,0,Deaths reported in the past 7 days
@@ -2101,7 +2101,7 @@ Deaths,7 days,WHO,SSD,2022-05-24,10984074,cross,0,0,Deaths reported in the past 
 Deaths,7 days,WHO,STP,2022-05-24,213948,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SUR,2022-05-24,614749,cross,2,0.3,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SVK,2022-05-24,5436066,cross,21,0.4,Deaths reported in the past 7 days
-Deaths,7 days,WHO,SVN,2022-05-24,2102106,cross,2,0.1,Deaths reported in the past 7 days
+Deaths,7 days,WHO,SVN,2022-05-24,2102106,cross,5,0.2,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SWE,2022-05-24,10261767,cross,0,0,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SWZ,2022-05-24,1113276,cross,1,0.1,Deaths reported in the past 7 days
 Deaths,7 days,WHO,SXM,2022-05-24,44564,cross,0,0,Deaths reported in the past 7 days
@@ -2177,24 +2177,24 @@ Deaths,Cumulative,WHO,BTN,2022-05-24,857423,cross,21,2.4,Cumulative Deaths repor
 Deaths,Cumulative,WHO,BWA,2022-05-24,2350667,cross,2695,114.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CAF,2022-05-24,5357984,cross,113,2.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CAN,2022-05-24,37943231,cross,40695,107.3,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,CHE,2022-05-24,8453550,cross,13231,156.5,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,CHE,2022-05-24,8453550,cross,13242,156.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CHL,2022-05-24,18307925,cross,57810,315.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CHN,2022-05-24,1397897720,cross,16030,1.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CIV,2022-05-24,28088455,cross,799,2.8,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,CMR,2022-05-24,28524175,cross,1927,6.8,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,CMR,2022-05-24,28524175,cross,1930,6.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,COD,2022-05-24,105044646,cross,1338,1.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,COG,2022-05-24,5417414,cross,385,7.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,COK,2022-05-24,8327,cross,1,12,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,COL,2022-05-24,50355650,cross,139833,277.7,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,COM,2022-05-24,864335,cross,160,18.5,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,COM,2022-05-24,864335,cross,161,18.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CPV,2022-05-24,589451,cross,401,68,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CRI,2022-05-24,5151140,cross,8472,164.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CUB,2022-05-24,11032343,cross,8529,77.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CUW,2022-05-24,151885,cross,276,181.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CYM,2022-05-24,63131,cross,28,44.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,CYP,2022-05-24,1281506,cross,1057,82.5,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,CZE,2022-05-24,10702596,cross,40270,376.3,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,DEU,2022-05-24,79903481,cross,138485,173.3,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,CZE,2022-05-24,10702596,cross,40275,376.3,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,DEU,2022-05-24,79903481,cross,138640,173.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DJI,2022-05-24,938413,cross,189,20.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DMA,2022-05-24,74584,cross,63,84.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,DNK,2022-05-24,5894687,cross,6312,107.1,Cumulative Deaths reported 
@@ -2209,12 +2209,12 @@ Deaths,Cumulative,WHO,ETH,2022-05-24,110871031,cross,7512,6.8,Cumulative Deaths 
 Deaths,Cumulative,WHO,FIN,2022-05-24,5587442,cross,4406,78.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,FJI,2022-05-24,939535,cross,862,91.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,FLK,2022-05-24,3198,cross,0,0,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,FRA,2022-05-24,68084217,cross,144649,212.5,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,FRA,2022-05-24,68084217,cross,144642,212.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,FRO,2022-05-24,51943,cross,28,53.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,FSM,2022-05-24,101675,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GAB,2022-05-24,2284912,cross,304,13.3,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,GBR,2022-05-24,67081000,cross,178085,265.5,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,GEO,2022-05-24,4933674,cross,16811,340.7,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,GBR,2022-05-24,67081000,cross,178214,265.7,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,GEO,2022-05-24,4933674,cross,16820,340.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GGY,2022-05-24,67334,cross,47,69.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GHA,2022-05-24,32372889,cross,1445,4.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,GIB,2022-05-24,29516,cross,102,345.6,Cumulative Deaths reported 
@@ -2262,16 +2262,16 @@ Deaths,Cumulative,WHO,LBR,2022-05-24,5214030,cross,294,5.6,Cumulative Deaths rep
 Deaths,Cumulative,WHO,LBY,2022-05-24,7017224,cross,6430,91.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LCA,2022-05-24,166637,cross,370,222,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LIE,2022-05-24,39425,cross,83,210.5,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,LKA,2022-05-24,23044123,cross,16512,71.7,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,LKA,2022-05-24,23044123,cross,16513,71.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LSO,2022-05-24,2177740,cross,698,32.1,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,LTU,2022-05-24,2711566,cross,9137,337,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,LTU,2022-05-24,2711566,cross,9136,336.9,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LUX,2022-05-24,639589,cross,1076,168.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,LVA,2022-05-24,1862687,cross,5815,312.2,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MAC,2022-05-24,630396,cross,0,0,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MAF,2022-05-24,0,cross,44,,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MAR,2022-05-24,36561813,cross,16075,44,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MCO,2022-05-24,31223,cross,57,182.6,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,MDA,2022-05-24,3323875,cross,11521,346.6,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,MDA,2022-05-24,3323875,cross,11537,347.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MDG,2022-05-24,27534354,cross,1393,5.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MDV,2022-05-24,390669,cross,298,76.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,MEX,2022-05-24,130207371,cross,324768,249.4,Cumulative Deaths reported 
@@ -2314,7 +2314,7 @@ Deaths,Cumulative,WHO,PNG,2022-05-24,7399757,cross,651,8.8,Cumulative Deaths rep
 Deaths,Cumulative,WHO,POL,2022-05-24,38185913,cross,116284,304.5,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,PRI,2022-05-24,3142779,cross,4310,137.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,PRK,2022-05-24,25831360,cross,0,0,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,PRT,2022-05-24,10263850,cross,22885,223,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,PRT,2022-05-24,10263850,cross,22889,223,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,PRY,2022-05-24,7272639,cross,18885,259.7,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,PSE,2022-05-24,4906308,cross,5660,115.4,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,PYF,2022-05-24,297154,cross,649,218.4,Cumulative Deaths reported 
@@ -2339,7 +2339,7 @@ Deaths,Cumulative,WHO,SSD,2022-05-24,10984074,cross,138,1.3,Cumulative Deaths re
 Deaths,Cumulative,WHO,STP,2022-05-24,213948,cross,73,34.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SUR,2022-05-24,614749,cross,1339,217.8,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SVK,2022-05-24,5436066,cross,20083,369.4,Cumulative Deaths reported 
-Deaths,Cumulative,WHO,SVN,2022-05-24,2102106,cross,7760,369.2,Cumulative Deaths reported 
+Deaths,Cumulative,WHO,SVN,2022-05-24,2102106,cross,7764,369.3,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SWE,2022-05-24,10261767,cross,18941,184.6,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SWZ,2022-05-24,1113276,cross,1404,126.1,Cumulative Deaths reported 
 Deaths,Cumulative,WHO,SXM,2022-05-24,44564,cross,86,193,Cumulative Deaths reported 
