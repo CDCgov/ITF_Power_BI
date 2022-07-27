@@ -63,7 +63,7 @@ function(rfunctions.dir, df_ncov) {
     pivot_longer(cols=c("inc_ma7", "mort_ma7"), names_to="cases_death_type", values_to="cases_death_value")
 
   #Get Policy Stringency Data
-  df.oxford.raw <- data.table::fread("https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv")
+  df.oxford.raw <- data.table::fread("https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker-legacy/main/legacy_data_202207/OxCGRT_latest.csv")
   df.oxford <- df.oxford.raw %>%
     rename_all(tolower) %>%
     filter(jurisdiction == "NAT_TOTAL") %>%
