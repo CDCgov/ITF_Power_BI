@@ -352,11 +352,11 @@ Iceland,ISL,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022
 Iceland,ISL,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-03-29,Directorate of Health,https://www.covid.is/tolulegar-upplysingar-boluefni,Moderna
 Iceland,ISL,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-03-29,Directorate of Health,https://www.covid.is/tolulegar-upplysingar-boluefni,Oxford/AstraZeneca
 Iceland,ISL,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-03-29,Directorate of Health,https://www.covid.is/tolulegar-upplysingar-boluefni,Pfizer/BioNTech
-India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-11,Government of India,https://dashboard.cowin.gov.in/,Corbevax
-India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-11,Government of India,https://dashboard.cowin.gov.in/,Covaxin
-India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-11,Government of India,https://dashboard.cowin.gov.in/,Novavax
-India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-11,Government of India,https://dashboard.cowin.gov.in/,Oxford/AstraZeneca
-India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-11,Government of India,https://dashboard.cowin.gov.in/,Sputnik V
+India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-12,Government of India,https://dashboard.cowin.gov.in/,Corbevax
+India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-12,Government of India,https://dashboard.cowin.gov.in/,Covaxin
+India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-12,Government of India,https://dashboard.cowin.gov.in/,Novavax
+India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-12,Government of India,https://dashboard.cowin.gov.in/,Oxford/AstraZeneca
+India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2022-10-12,Government of India,https://dashboard.cowin.gov.in/,Sputnik V
 Indonesia,IDN,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-10-02,Government of Indonesia,https://covid19.who.int/,Johnson&Johnson
 Indonesia,IDN,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-10-02,Government of Indonesia,https://covid19.who.int/,Moderna
 Indonesia,IDN,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-10-02,Government of Indonesia,https://covid19.who.int/,Novavax
@@ -405,10 +405,10 @@ Jamaica,JAM,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022
 Jamaica,JAM,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-10,Ministry of Health,https://vaccination.moh.gov.jm,Moderna
 Jamaica,JAM,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-10,Ministry of Health,https://vaccination.moh.gov.jm,Oxford/AstraZeneca
 Jamaica,JAM,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-10,Ministry of Health,https://vaccination.moh.gov.jm,Pfizer/BioNTech
-Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-11,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Moderna
-Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-11,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Novavax
-Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-11,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Oxford/AstraZeneca
-Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-11,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Pfizer/BioNTech
+Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-12,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Moderna
+Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-12,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Novavax
+Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-12,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Oxford/AstraZeneca
+Japan,JPN,"Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-12,Prime Minister's Office,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,Pfizer/BioNTech
 Jersey,JEY,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-02,Government of Jersey,https://www.gov.je/Datasets/ListOpenData?ListName=COVID19Weekly&clean=true,Moderna
 Jersey,JEY,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-02,Government of Jersey,https://www.gov.je/Datasets/ListOpenData?ListName=COVID19Weekly&clean=true,Oxford/AstraZeneca
 Jersey,JEY,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-02,Government of Jersey,https://www.gov.je/Datasets/ListOpenData?ListName=COVID19Weekly&clean=true,Pfizer/BioNTech
@@ -684,8 +684,8 @@ Romania,ROU,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022
 Romania,ROU,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-09-18,Government of Romania via datelazi.ro,https://covid19.who.int/,Moderna
 Romania,ROU,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-09-18,Government of Romania via datelazi.ro,https://covid19.who.int/,Oxford/AstraZeneca
 Romania,ROU,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-09-18,Government of Romania via datelazi.ro,https://covid19.who.int/,Pfizer/BioNTech
-Russia,RUS,"EpiVacCorona, Sputnik V",2022-10-10,Official data from local governments via gogov.ru,https://gogov.ru/articles/covid-v-stats,EpiVacCorona
-Russia,RUS,"EpiVacCorona, Sputnik V",2022-10-10,Official data from local governments via gogov.ru,https://gogov.ru/articles/covid-v-stats,Sputnik V
+Russia,RUS,"EpiVacCorona, Sputnik V",2022-10-12,Official data from local governments via gogov.ru,https://gogov.ru/articles/covid-v-stats,EpiVacCorona
+Russia,RUS,"EpiVacCorona, Sputnik V",2022-10-12,Official data from local governments via gogov.ru,https://gogov.ru/articles/covid-v-stats,Sputnik V
 Rwanda,RWA,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V",2022-09-25,World Health Organization,https://covid19.who.int/,Johnson&Johnson
 Rwanda,RWA,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V",2022-09-25,World Health Organization,https://covid19.who.int/,Moderna
 Rwanda,RWA,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V",2022-09-25,World Health Organization,https://covid19.who.int/,Oxford/AstraZeneca
@@ -752,8 +752,8 @@ Somalia,SOM,"CanSino, Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfi
 Somalia,SOM,"CanSino, Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik Light, Sputnik V",2022-10-02,World Health Organization,https://covid19.who.int/,Sinovac
 Somalia,SOM,"CanSino, Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik Light, Sputnik V",2022-10-02,World Health Organization,https://covid19.who.int/,Sputnik Light
 Somalia,SOM,"CanSino, Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik Light, Sputnik V",2022-10-02,World Health Organization,https://covid19.who.int/,Sputnik V
-South Africa,ZAF,"Johnson&Johnson, Pfizer/BioNTech",2022-10-11,Ministry of Health,https://sacoronavirus.co.za/latest-vaccine-statistics/,Johnson&Johnson
-South Africa,ZAF,"Johnson&Johnson, Pfizer/BioNTech",2022-10-11,Ministry of Health,https://sacoronavirus.co.za/latest-vaccine-statistics/,Pfizer/BioNTech
+South Africa,ZAF,"Johnson&Johnson, Pfizer/BioNTech",2022-10-12,Ministry of Health,https://sacoronavirus.co.za/latest-vaccine-statistics/,Johnson&Johnson
+South Africa,ZAF,"Johnson&Johnson, Pfizer/BioNTech",2022-10-12,Ministry of Health,https://sacoronavirus.co.za/latest-vaccine-statistics/,Pfizer/BioNTech
 South Korea,KOR,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-10,Korea Centers for Disease Control and Prevention,https://ncv.kdca.go.kr/,Johnson&Johnson
 South Korea,KOR,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-10,Korea Centers for Disease Control and Prevention,https://ncv.kdca.go.kr/,Moderna
 South Korea,KOR,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2022-10-10,Korea Centers for Disease Control and Prevention,https://ncv.kdca.go.kr/,Novavax
