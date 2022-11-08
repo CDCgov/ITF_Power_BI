@@ -6,20 +6,20 @@ Daily hospital occupancy per million,2022-11-03,53.29,AUS,OWID
 Daily ICU occupancy,2022-11-03,37,AUS,OWID
 Daily ICU occupancy per million,2022-11-03,1.413,AUS,OWID
 Daily hospital occupancy,2022-10-30,1882,AUT,ECDC
-Daily hospital occupancy,2022-11-07,1257,AUT,OWID
-Daily hospital occupancy per million,2022-11-07,140.61,AUT,OWID
+Daily hospital occupancy,2022-11-08,1190,AUT,OWID
+Daily hospital occupancy per million,2022-11-08,133.115,AUT,OWID
 Daily ICU occupancy,2022-10-30,100,AUT,ECDC
-Daily ICU occupancy,2022-11-07,85,AUT,OWID
-Daily ICU occupancy per million,2022-11-07,9.508,AUT,OWID
+Daily ICU occupancy,2022-11-08,78,AUT,OWID
+Daily ICU occupancy per million,2022-11-08,8.725,AUT,OWID
 Daily hospital occupancy,2022-10-27,1218,BEL,ECDC
-Daily hospital occupancy,2022-11-03,901,BEL,OWID
-Daily hospital occupancy per million,2022-11-03,77.3,BEL,OWID
+Daily hospital occupancy,2022-11-07,841,BEL,OWID
+Daily hospital occupancy per million,2022-11-07,72.152,BEL,OWID
 Daily ICU occupancy,2022-10-27,69,BEL,ECDC
-Daily ICU occupancy,2022-11-03,59,BEL,OWID
-Daily ICU occupancy per million,2022-11-03,5.062,BEL,OWID
-Weekly new hospital admissions,2022-11-03,383,BEL,OWID
+Daily ICU occupancy,2022-11-07,61,BEL,OWID
+Daily ICU occupancy per million,2022-11-07,5.233,BEL,OWID
+Weekly new hospital admissions,2022-11-07,339,BEL,OWID
 Weekly new hospital admissions per 100k,2022-10-16,6.389394607887,BEL,ECDC
-Weekly new hospital admissions per million,2022-11-03,32.859,BEL,OWID
+Weekly new hospital admissions per million,2022-11-07,29.084,BEL,OWID
 Daily hospital occupancy,2022-10-30,733,BGR,ECDC
 Daily hospital occupancy,2022-10-30,733,BGR,OWID
 Daily hospital occupancy per million,2022-10-30,108.081,BGR,OWID
@@ -40,14 +40,14 @@ Daily hospital occupancy,2022-10-31,6234,CAN,OWID
 Daily hospital occupancy per million,2022-10-31,162.114,CAN,OWID
 Daily ICU occupancy,2022-10-31,248,CAN,OWID
 Daily ICU occupancy per million,2022-10-31,6.449,CAN,OWID
-Daily hospital occupancy,2022-10-31,1049,CHE,OWID
-Daily hospital occupancy per million,2022-10-31,120.016,CHE,OWID
-Daily ICU occupancy,2022-10-31,63,CHE,OWID
-Daily ICU occupancy per million,2022-10-31,7.208,CHE,OWID
-Weekly new hospital admissions,2022-11-01,126,CHE,OWID
-Weekly new hospital admissions per million,2022-11-01,14.416,CHE,OWID
-Daily ICU occupancy,2022-11-07,117,CHL,OWID
-Daily ICU occupancy per million,2022-11-07,5.968,CHL,OWID
+Daily hospital occupancy,2022-11-07,903,CHE,OWID
+Daily hospital occupancy per million,2022-11-07,103.313,CHE,OWID
+Daily ICU occupancy,2022-11-07,46,CHE,OWID
+Daily ICU occupancy per million,2022-11-07,5.263,CHE,OWID
+Weekly new hospital admissions,2022-11-04,171,CHE,OWID
+Weekly new hospital admissions per million,2022-11-04,19.564,CHE,OWID
+Daily ICU occupancy,2022-11-08,108,CHL,OWID
+Daily ICU occupancy per million,2022-11-08,5.509,CHL,OWID
 Weekly new hospital admissions,2022-10-28,543,CHL,OWID
 Weekly new hospital admissions per million,2022-10-28,27.699,CHL,OWID
 Weekly new ICU admissions,2022-11-02,49,CHL,OWID
@@ -62,11 +62,11 @@ Weekly new ICU admissions,2022-05-29,1,CYP,OWID
 Weekly new ICU admissions per 100k,2022-05-29,0.111606270933151,CYP,ECDC
 Weekly new ICU admissions per million,2022-05-29,1.116,CYP,OWID
 Daily hospital occupancy,2022-10-30,747,CZE,ECDC
-Daily hospital occupancy,2022-11-06,495,CZE,OWID
-Daily hospital occupancy per million,2022-11-06,47.17,CZE,OWID
+Daily hospital occupancy,2022-11-07,580,CZE,OWID
+Daily hospital occupancy per million,2022-11-07,55.27,CZE,OWID
 Daily ICU occupancy,2022-10-30,75,CZE,ECDC
-Daily ICU occupancy,2022-11-06,43,CZE,OWID
-Daily ICU occupancy per million,2022-11-06,4.098,CZE,OWID
+Daily ICU occupancy,2022-11-07,48,CZE,OWID
+Daily ICU occupancy per million,2022-11-07,4.574,CZE,OWID
 Weekly new hospital admissions,2022-11-05,628,CZE,OWID
 Weekly new hospital admissions per 100k,2022-10-30,7.66227889069264,CZE,ECDC
 Weekly new hospital admissions per million,2022-11-05,59.844,CZE,OWID
@@ -74,36 +74,36 @@ Weekly new ICU admissions,2022-11-05,54,CZE,OWID
 Weekly new ICU admissions per 100k,2022-10-30,0.626064250824886,CZE,ECDC
 Weekly new ICU admissions per million,2022-11-05,5.146,CZE,OWID
 Daily ICU occupancy,2022-10-30,1711,DEU,ECDC
-Daily ICU occupancy,2022-11-07,1311,DEU,OWID
-Daily ICU occupancy per million,2022-11-07,15.725,DEU,OWID
-Weekly new hospital admissions,2022-11-07,5523,DEU,OWID
+Daily ICU occupancy,2022-11-08,1286,DEU,OWID
+Daily ICU occupancy per million,2022-11-08,15.425,DEU,OWID
+Weekly new hospital admissions,2022-11-08,6014,DEU,OWID
 Weekly new hospital admissions per 100k,2022-10-09,13.1609595575763,DEU,ECDC
-Weekly new hospital admissions per million,2022-11-07,66.247,DEU,OWID
-Weekly new ICU admissions,2022-11-06,1025,DEU,OWID
-Weekly new ICU admissions per million,2022-11-06,12.295,DEU,OWID
+Weekly new hospital admissions per million,2022-11-08,72.136,DEU,OWID
+Weekly new ICU admissions,2022-11-07,1009,DEU,OWID
+Weekly new ICU admissions per million,2022-11-07,12.103,DEU,OWID
 Daily hospital occupancy,2022-10-28,475,DNK,ECDC
-Daily hospital occupancy,2022-11-07,368,DNK,OWID
-Daily hospital occupancy per million,2022-11-07,62.561,DNK,OWID
+Daily hospital occupancy,2022-11-08,335,DNK,OWID
+Daily hospital occupancy per million,2022-11-08,56.951,DNK,OWID
 Daily ICU occupancy,2022-10-28,11,DNK,ECDC
 Daily ICU occupancy,2022-11-03,16,DNK,OWID
 Daily ICU occupancy per million,2022-11-03,2.72,DNK,OWID
-Weekly new hospital admissions,2022-11-06,314,DNK,OWID
+Weekly new hospital admissions,2022-11-07,292,DNK,OWID
 Weekly new hospital admissions per 100k,2022-05-15,5.15406987446158,DNK,ECDC
-Weekly new hospital admissions per million,2022-11-06,53.381,DNK,OWID
+Weekly new hospital admissions per million,2022-11-07,49.641,DNK,OWID
 Daily ICU occupancy,2022-10-28,0,DZA,OWID
 Daily ICU occupancy per million,2022-10-28,0,DZA,OWID
 Daily hospital occupancy,2022-10-28,3337,ESP,ECDC
-Daily hospital occupancy,2022-11-03,3165,ESP,OWID
-Daily hospital occupancy per million,2022-11-03,66.549,ESP,OWID
+Daily hospital occupancy,2022-11-07,3205,ESP,OWID
+Daily hospital occupancy per million,2022-11-07,67.391,ESP,OWID
 Daily ICU occupancy,2022-10-30,176,ESP,ECDC
-Daily ICU occupancy,2022-11-03,185,ESP,OWID
-Daily ICU occupancy per million,2022-11-03,3.89,ESP,OWID
-Weekly new hospital admissions,2022-11-03,2590,ESP,OWID
+Daily ICU occupancy,2022-11-07,215,ESP,OWID
+Daily ICU occupancy per million,2022-11-07,4.521,ESP,OWID
+Weekly new hospital admissions,2022-11-07,2724,ESP,OWID
 Weekly new hospital admissions per 100k,2022-10-30,1.32282122957183,ESP,ECDC
-Weekly new hospital admissions per million,2022-11-03,54.459,ESP,OWID
-Weekly new ICU admissions,2022-11-03,154,ESP,OWID
+Weekly new hospital admissions per million,2022-11-07,57.277,ESP,OWID
+Weekly new ICU admissions,2022-11-07,153,ESP,OWID
 Weekly new ICU admissions per 100k,2022-10-30,0.0590733563445154,ESP,ECDC
-Weekly new ICU admissions per million,2022-11-03,3.238,ESP,OWID
+Weekly new ICU admissions per million,2022-11-07,3.217,ESP,OWID
 Daily hospital occupancy,2022-10-30,217,EST,ECDC
 Daily hospital occupancy,2022-10-30,217,EST,OWID
 Daily hospital occupancy per million,2022-10-30,163.642,EST,OWID
@@ -123,17 +123,17 @@ Daily ICU occupancy,2022-10-27,16,FIN,ECDC
 Daily ICU occupancy,2022-11-03,10,FIN,OWID
 Daily ICU occupancy per million,2022-11-03,1.805,FIN,OWID
 Daily hospital occupancy,2022-10-30,19497,FRA,ECDC
-Daily hospital occupancy,2022-11-04,18794,FRA,OWID
-Daily hospital occupancy per million,2022-11-04,277.145,FRA,OWID
+Daily hospital occupancy,2022-11-07,18500,FRA,OWID
+Daily hospital occupancy per million,2022-11-07,272.809,FRA,OWID
 Daily ICU occupancy,2022-10-30,1024,FRA,ECDC
-Daily ICU occupancy,2022-11-04,1029,FRA,OWID
-Daily ICU occupancy per million,2022-11-04,15.174,FRA,OWID
-Weekly new hospital admissions,2022-11-04,4614,FRA,OWID
+Daily ICU occupancy,2022-11-07,1015,FRA,OWID
+Daily ICU occupancy per million,2022-11-07,14.968,FRA,OWID
+Weekly new hospital admissions,2022-11-07,4441,FRA,OWID
 Weekly new hospital admissions per 100k,2022-10-30,1.29625038366499,FRA,ECDC
-Weekly new hospital admissions per million,2022-11-04,68.04,FRA,OWID
-Weekly new ICU admissions,2022-11-04,465,FRA,OWID
+Weekly new hospital admissions per million,2022-11-07,65.489,FRA,OWID
+Weekly new ICU admissions,2022-11-07,448,FRA,OWID
 Weekly new ICU admissions per 100k,2022-10-30,0.116765998072445,FRA,ECDC
-Weekly new ICU admissions per million,2022-11-04,6.857,FRA,OWID
+Weekly new ICU admissions per million,2022-11-07,6.606,FRA,OWID
 Daily hospital occupancy,2022-10-27,10661,GBR,OWID
 Daily hospital occupancy per million,2022-10-27,157.92,GBR,OWID
 Daily ICU occupancy,2022-05-22,175,GBR,OWID
@@ -176,14 +176,14 @@ Daily ICU occupancy per million,2022-09-18,2.682,ISL,OWID
 Weekly new hospital admissions,2022-06-12,9,ISL,OWID
 Weekly new hospital admissions per 100k,2022-06-12,2.44040000867698,ISL,ECDC
 Weekly new hospital admissions per million,2022-06-12,24.404,ISL,OWID
-Daily hospital occupancy,2022-11-06,285,ISR,OWID
-Daily hospital occupancy per million,2022-11-06,30.162,ISR,OWID
-Daily ICU occupancy,2022-11-06,31,ISR,OWID
-Daily ICU occupancy per million,2022-11-06,3.281,ISR,OWID
-Weekly new hospital admissions,2022-11-06,170,ISR,OWID
-Weekly new hospital admissions per million,2022-11-06,17.991,ISR,OWID
-Weekly new ICU admissions,2022-11-05,12,ISR,OWID
-Weekly new ICU admissions per million,2022-11-05,1.27,ISR,OWID
+Daily hospital occupancy,2022-11-08,288,ISR,OWID
+Daily hospital occupancy per million,2022-11-08,30.479,ISR,OWID
+Daily ICU occupancy,2022-11-08,33,ISR,OWID
+Daily ICU occupancy per million,2022-11-08,3.492,ISR,OWID
+Weekly new hospital admissions,2022-11-08,198,ISR,OWID
+Weekly new hospital admissions per million,2022-11-08,20.955,ISR,OWID
+Weekly new ICU admissions,2022-11-07,13,ISR,OWID
+Weekly new ICU admissions per million,2022-11-07,1.376,ISR,OWID
 Daily hospital occupancy,2022-11-03,6842,ITA,OWID
 Daily hospital occupancy per million,2022-11-03,115.892,ITA,OWID
 Daily ICU occupancy,2022-11-03,238,ITA,OWID
@@ -255,17 +255,17 @@ Daily ICU occupancy per million,2022-11-07,2.151,MYS,OWID
 Weekly new hospital admissions,2022-11-07,2854,MYS,OWID
 Weekly new hospital admissions per million,2022-11-07,84.094,MYS,OWID
 Daily hospital occupancy,2022-10-30,1078,NLD,ECDC
-Daily hospital occupancy,2022-11-07,816,NLD,OWID
-Daily hospital occupancy per million,2022-11-07,46.459,NLD,OWID
+Daily hospital occupancy,2022-11-08,816,NLD,OWID
+Daily hospital occupancy per million,2022-11-08,46.459,NLD,OWID
 Daily ICU occupancy,2022-10-30,56,NLD,ECDC
-Daily ICU occupancy,2022-11-07,39,NLD,OWID
-Daily ICU occupancy per million,2022-11-07,2.22,NLD,OWID
-Weekly new hospital admissions,2022-11-07,669,NLD,OWID
+Daily ICU occupancy,2022-11-08,33,NLD,OWID
+Daily ICU occupancy per million,2022-11-08,1.879,NLD,OWID
+Weekly new hospital admissions,2022-11-08,649,NLD,OWID
 Weekly new hospital admissions per 100k,2022-10-30,2.68377031389526,NLD,ECDC
-Weekly new hospital admissions per million,2022-11-07,38.089,NLD,OWID
-Weekly new ICU admissions,2022-11-07,50,NLD,OWID
+Weekly new hospital admissions per million,2022-11-08,36.951,NLD,OWID
+Weekly new ICU admissions,2022-11-08,39,NLD,OWID
 Weekly new ICU admissions per 100k,2022-10-30,0.206003691471705,NLD,ECDC
-Weekly new ICU admissions per million,2022-11-07,2.847,NLD,OWID
+Weekly new ICU admissions per million,2022-11-08,2.22,NLD,OWID
 Daily hospital occupancy,2022-03-22,467,NOR,ECDC
 Daily hospital occupancy,2022-03-22,467,NOR,OWID
 Daily hospital occupancy per million,2022-03-22,85.935,NOR,OWID
@@ -315,16 +315,16 @@ Daily hospital occupancy per million,2022-10-30,45.831,ROU,OWID
 Daily ICU occupancy,2022-10-30,95,ROU,ECDC
 Daily ICU occupancy,2022-10-30,95,ROU,OWID
 Daily ICU occupancy per million,2022-10-30,4.832,ROU,OWID
-Weekly new hospital admissions,2022-11-07,6808,RUS,OWID
-Weekly new hospital admissions per million,2022-11-07,47.045,RUS,OWID
+Weekly new hospital admissions,2022-11-08,6833,RUS,OWID
+Weekly new hospital admissions per million,2022-11-08,47.217,RUS,OWID
 Weekly new hospital admissions,2022-10-30,707,SGP,OWID
 Weekly new hospital admissions per million,2022-10-30,125.421,SGP,OWID
 Weekly new ICU admissions,2022-10-30,14,SGP,OWID
 Weekly new ICU admissions per million,2022-10-30,2.484,SGP,OWID
-Daily hospital occupancy,2022-11-06,297,SRB,OWID
-Daily hospital occupancy per million,2022-11-06,43.222,SRB,OWID
-Daily ICU occupancy,2022-11-06,20,SRB,OWID
-Daily ICU occupancy per million,2022-11-06,2.911,SRB,OWID
+Daily hospital occupancy,2022-11-07,288,SRB,OWID
+Daily hospital occupancy per million,2022-11-07,41.912,SRB,OWID
+Daily ICU occupancy,2022-11-07,18,SRB,OWID
+Daily ICU occupancy per million,2022-11-07,2.619,SRB,OWID
 Daily hospital occupancy,2022-10-30,538,SVK,ECDC
 Daily hospital occupancy,2022-10-30,538,SVK,OWID
 Daily hospital occupancy per million,2022-10-30,95.332,SVK,OWID
@@ -356,12 +356,12 @@ Daily ICU occupancy,2022-10-18,24,SWE,ECDC
 Daily ICU occupancy,2022-03-11,46,SWE,OWID
 Daily ICU occupancy per million,2022-03-11,4.36,SWE,OWID
 Weekly new ICU admissions per 100k,2022-10-30,0.105980223126908,SWE,ECDC
-Daily hospital occupancy,2022-11-05,21647,USA,OWID
-Daily hospital occupancy per million,2022-11-05,63.99,USA,OWID
-Daily ICU occupancy,2022-11-05,2598,USA,OWID
-Daily ICU occupancy per million,2022-11-05,7.68,USA,OWID
-Weekly new hospital admissions,2022-11-05,24791,USA,OWID
-Weekly new hospital admissions per million,2022-11-05,73.283,USA,OWID
+Daily hospital occupancy,2022-11-06,21815,USA,OWID
+Daily hospital occupancy per million,2022-11-06,64.486,USA,OWID
+Daily ICU occupancy,2022-11-06,2586,USA,OWID
+Daily ICU occupancy per million,2022-11-06,7.644,USA,OWID
+Weekly new hospital admissions,2022-11-06,25615,USA,OWID
+Weekly new hospital admissions per million,2022-11-06,75.719,USA,OWID
 Daily hospital occupancy,2022-07-26,1035,ZAF,OWID
 Daily hospital occupancy per million,2022-07-26,17.281,ZAF,OWID
 Daily ICU occupancy,2022-07-26,108,ZAF,OWID
