@@ -137,7 +137,7 @@
       "RemoteUsername": "CDCGov",
       "RemoteRepo": "SaviR",
       "RemoteRef": "master",
-      "RemoteSha": "a18cb5db505bcb3a98596295abb7490687519d72",
+      "RemoteSha": "40c9d444018517291455ae2c12176b108206fb3f",
       "Hash": "e02b8cedd5ed164b2b9709fb6aec6fd0"
     },
     "SparseM": {
@@ -548,7 +548,7 @@
     },
     "gdtools": {
       "Package": "gdtools",
-      "Version": "0.2.3",
+      "Version": "0.2.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "12a524de5a491ff39debb9311fc0763f"
