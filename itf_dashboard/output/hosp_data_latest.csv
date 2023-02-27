@@ -6,11 +6,11 @@ Daily hospital occupancy per million,2023-02-23,49.699,AUS,OWID
 Daily ICU occupancy,2023-02-23,36,AUS,OWID
 Daily ICU occupancy per million,2023-02-23,1.375,AUS,OWID
 Daily hospital occupancy,2023-02-19,1021,AUT,ECDC
-Daily hospital occupancy,2023-02-24,1417,AUT,OWID
-Daily hospital occupancy per million,2023-02-24,158.508,AUT,OWID
+Daily hospital occupancy,2023-02-26,1417,AUT,OWID
+Daily hospital occupancy per million,2023-02-26,158.508,AUT,OWID
 Daily ICU occupancy,2023-02-19,54,AUT,ECDC
-Daily ICU occupancy,2023-02-24,75,AUT,OWID
-Daily ICU occupancy per million,2023-02-24,8.39,AUT,OWID
+Daily ICU occupancy,2023-02-26,75,AUT,OWID
+Daily ICU occupancy per million,2023-02-26,8.39,AUT,OWID
 Daily hospital occupancy,2023-02-15,1222,BEL,ECDC
 Daily hospital occupancy,2023-02-22,1570,BEL,OWID
 Daily hospital occupancy per million,2023-02-22,134.695,BEL,OWID
@@ -59,31 +59,31 @@ Weekly new ICU admissions,2023-01-22,1,CYP,OWID
 Weekly new ICU admissions per 100k,2023-01-22,0.111606270933151,CYP,ECDC
 Weekly new ICU admissions per million,2023-01-22,1.116,CYP,OWID
 Daily hospital occupancy,2022-11-28,539,CZE,ECDC
-Daily hospital occupancy,2023-02-23,683,CZE,OWID
-Daily hospital occupancy per million,2023-02-23,65.085,CZE,OWID
+Daily hospital occupancy,2023-02-26,572,CZE,OWID
+Daily hospital occupancy per million,2023-02-26,54.507,CZE,OWID
 Daily ICU occupancy,2022-11-28,20,CZE,ECDC
-Daily ICU occupancy,2023-02-23,37,CZE,OWID
-Daily ICU occupancy per million,2023-02-23,3.526,CZE,OWID
-Weekly new hospital admissions,2023-02-18,609,CZE,OWID
+Daily ICU occupancy,2023-02-26,32,CZE,OWID
+Daily ICU occupancy per million,2023-02-26,3.049,CZE,OWID
+Weekly new hospital admissions,2023-02-25,828,CZE,OWID
 Weekly new hospital admissions per 100k,2023-02-19,3.30786186256731,CZE,ECDC
-Weekly new hospital admissions per million,2023-02-18,58.033,CZE,OWID
-Weekly new ICU admissions,2023-02-18,22,CZE,OWID
+Weekly new hospital admissions per million,2023-02-25,78.902,CZE,OWID
+Weekly new ICU admissions,2023-02-25,27,CZE,OWID
 Weekly new ICU admissions per 100k,2023-02-19,0.214917578641379,CZE,ECDC
-Weekly new ICU admissions per million,2023-02-18,2.096,CZE,OWID
+Weekly new ICU admissions per million,2023-02-25,2.573,CZE,OWID
 Daily ICU occupancy,2023-02-19,758,DEU,ECDC
-Daily ICU occupancy,2023-02-24,1017,DEU,OWID
-Daily ICU occupancy per million,2023-02-24,12.199,DEU,OWID
-Weekly new hospital admissions,2023-02-24,6781,DEU,OWID
+Daily ICU occupancy,2023-02-26,1041,DEU,OWID
+Daily ICU occupancy per million,2023-02-26,12.487,DEU,OWID
+Weekly new hospital admissions,2023-02-27,6629,DEU,OWID
 Weekly new hospital admissions per 100k,2022-11-06,8.70662894708078,DEU,ECDC
-Weekly new hospital admissions per million,2023-02-24,81.336,DEU,OWID
-Weekly new ICU admissions,2023-02-23,953,DEU,OWID
-Weekly new ICU admissions per million,2023-02-23,11.431,DEU,OWID
+Weekly new hospital admissions per million,2023-02-27,79.513,DEU,OWID
+Weekly new ICU admissions,2023-02-25,980,DEU,OWID
+Weekly new ICU admissions per million,2023-02-25,11.755,DEU,OWID
 Daily hospital occupancy,2023-01-11,484,DNK,ECDC
 Daily hospital occupancy,2023-02-24,199,DNK,OWID
 Daily hospital occupancy per million,2023-02-24,33.831,DNK,OWID
 Daily ICU occupancy,2023-01-11,15,DNK,ECDC
-Daily ICU occupancy,2023-02-23,8,DNK,OWID
-Daily ICU occupancy per million,2023-02-23,1.36,DNK,OWID
+Daily ICU occupancy,2023-02-26,5,DNK,OWID
+Daily ICU occupancy per million,2023-02-26,0.85,DNK,OWID
 Weekly new hospital admissions,2023-02-23,189,DNK,OWID
 Weekly new hospital admissions per 100k,2022-05-15,5.15406987446158,DNK,ECDC
 Weekly new hospital admissions per million,2023-02-23,32.131,DNK,OWID
@@ -120,17 +120,17 @@ Daily ICU occupancy,2022-12-01,17,FIN,ECDC
 Daily ICU occupancy,2022-12-01,17,FIN,OWID
 Daily ICU occupancy per million,2022-12-01,3.068,FIN,OWID
 Daily hospital occupancy,2023-02-19,13315,FRA,ECDC
-Daily hospital occupancy,2023-02-23,12991,FRA,OWID
-Daily hospital occupancy per million,2023-02-23,191.571,FRA,OWID
+Daily hospital occupancy,2023-02-24,12958,FRA,OWID
+Daily hospital occupancy per million,2023-02-24,191.084,FRA,OWID
 Daily ICU occupancy,2023-02-19,779,FRA,ECDC
-Daily ICU occupancy,2023-02-23,733,FRA,OWID
-Daily ICU occupancy per million,2023-02-23,10.809,FRA,OWID
-Weekly new hospital admissions,2023-02-23,2036,FRA,OWID
+Daily ICU occupancy,2023-02-24,731,FRA,OWID
+Daily ICU occupancy per million,2023-02-24,10.78,FRA,OWID
+Weekly new hospital admissions,2023-02-24,1981,FRA,OWID
 Weekly new hospital admissions per 100k,2023-02-19,2.56441780576825,FRA,ECDC
-Weekly new hospital admissions per million,2023-02-23,30.024,FRA,OWID
-Weekly new ICU admissions,2023-02-23,190,FRA,OWID
+Weekly new hospital admissions per million,2023-02-24,29.213,FRA,OWID
+Weekly new ICU admissions,2023-02-24,188,FRA,OWID
 Weekly new ICU admissions per 100k,2023-02-19,0.258658856489593,FRA,ECDC
-Weekly new ICU admissions per million,2023-02-23,2.802,FRA,OWID
+Weekly new ICU admissions per million,2023-02-24,2.772,FRA,OWID
 Daily hospital occupancy,2023-02-16,8194,GBR,OWID
 Daily hospital occupancy per million,2023-02-16,121.377,GBR,OWID
 Daily ICU occupancy,2022-05-22,175,GBR,OWID
@@ -173,14 +173,14 @@ Daily ICU occupancy per million,2022-09-18,2.682,ISL,OWID
 Weekly new hospital admissions,2023-02-12,8,ISL,OWID
 Weekly new hospital admissions per 100k,2023-02-12,2.16924445215731,ISL,ECDC
 Weekly new hospital admissions per million,2023-02-12,21.692,ISL,OWID
-Daily hospital occupancy,2023-02-24,335,ISR,OWID
-Daily hospital occupancy per million,2023-02-24,35.453,ISR,OWID
-Daily ICU occupancy,2023-02-24,19,ISR,OWID
-Daily ICU occupancy per million,2023-02-24,2.011,ISR,OWID
-Weekly new hospital admissions,2023-02-24,246,ISR,OWID
-Weekly new hospital admissions per million,2023-02-24,26.035,ISR,OWID
-Weekly new ICU admissions,2023-02-23,8,ISR,OWID
-Weekly new ICU admissions per million,2023-02-23,0.847,ISR,OWID
+Daily hospital occupancy,2023-02-26,366,ISR,OWID
+Daily hospital occupancy per million,2023-02-26,38.734,ISR,OWID
+Daily ICU occupancy,2023-02-26,19,ISR,OWID
+Daily ICU occupancy per million,2023-02-26,2.011,ISR,OWID
+Weekly new hospital admissions,2023-02-26,273,ISR,OWID
+Weekly new hospital admissions per million,2023-02-26,28.892,ISR,OWID
+Weekly new ICU admissions,2023-02-25,10,ISR,OWID
+Weekly new ICU admissions per million,2023-02-25,1.058,ISR,OWID
 Daily hospital occupancy,2023-02-23,3464,ITA,OWID
 Daily hospital occupancy per million,2023-02-23,58.675,ITA,OWID
 Daily ICU occupancy,2023-02-23,133,ITA,OWID
@@ -248,12 +248,12 @@ Weekly new hospital admissions per million,2023-02-19,34.877,MLT,OWID
 Weekly new ICU admissions,2023-01-29,1,MLT,OWID
 Weekly new ICU admissions per 100k,2023-01-29,0.193760899050572,MLT,ECDC
 Weekly new ICU admissions per million,2023-01-29,1.938,MLT,OWID
-Daily hospital occupancy,2023-02-24,108,MYS,OWID
-Daily hospital occupancy per million,2023-02-24,3.182,MYS,OWID
-Daily ICU occupancy,2023-02-24,9,MYS,OWID
-Daily ICU occupancy per million,2023-02-24,0.265,MYS,OWID
-Weekly new hospital admissions,2023-02-24,227,MYS,OWID
-Weekly new hospital admissions per million,2023-02-24,6.689,MYS,OWID
+Daily hospital occupancy,2023-02-26,126,MYS,OWID
+Daily hospital occupancy per million,2023-02-26,3.713,MYS,OWID
+Daily ICU occupancy,2023-02-26,10,MYS,OWID
+Daily ICU occupancy per million,2023-02-26,0.295,MYS,OWID
+Weekly new hospital admissions,2023-02-26,250,MYS,OWID
+Weekly new hospital admissions per million,2023-02-26,7.366,MYS,OWID
 Daily hospital occupancy,2023-02-19,386,NLD,ECDC
 Daily hospital occupancy,2023-02-24,566,NLD,OWID
 Daily hospital occupancy per million,2023-02-24,32.225,NLD,OWID
@@ -315,16 +315,16 @@ Daily hospital occupancy per million,2023-02-19,55.241,ROU,OWID
 Daily ICU occupancy,2023-02-19,102,ROU,ECDC
 Daily ICU occupancy,2023-02-19,102,ROU,OWID
 Daily ICU occupancy per million,2023-02-19,5.188,ROU,OWID
-Weekly new hospital admissions,2023-02-24,8990,RUS,OWID
-Weekly new hospital admissions per million,2023-02-24,62.123,RUS,OWID
+Weekly new hospital admissions,2023-02-26,8342,RUS,OWID
+Weekly new hospital admissions per million,2023-02-26,57.645,RUS,OWID
 Weekly new hospital admissions,2023-02-05,83,SGP,OWID
 Weekly new hospital admissions per million,2023-02-05,14.724,SGP,OWID
 Weekly new ICU admissions,2023-02-05,0,SGP,OWID
 Weekly new ICU admissions per million,2023-02-05,0,SGP,OWID
-Daily hospital occupancy,2023-02-23,265,SRB,OWID
-Daily hospital occupancy per million,2023-02-23,38.565,SRB,OWID
-Daily ICU occupancy,2023-02-23,23,SRB,OWID
-Daily ICU occupancy per million,2023-02-23,3.347,SRB,OWID
+Daily hospital occupancy,2023-02-26,250,SRB,OWID
+Daily hospital occupancy per million,2023-02-26,36.382,SRB,OWID
+Daily ICU occupancy,2023-02-26,16,SRB,OWID
+Daily ICU occupancy per million,2023-02-26,2.328,SRB,OWID
 Daily hospital occupancy,2023-02-19,364,SVK,ECDC
 Daily hospital occupancy,2023-02-19,364,SVK,OWID
 Daily hospital occupancy per million,2023-02-19,64.499,SVK,OWID
@@ -356,12 +356,12 @@ Daily ICU occupancy,2022-10-18,24,SWE,ECDC
 Daily ICU occupancy,2023-02-24,9,SWE,OWID
 Daily ICU occupancy per million,2023-02-24,0.853,SWE,OWID
 Weekly new ICU admissions per 100k,2023-02-19,0.0481728286940491,SWE,ECDC
-Daily hospital occupancy,2023-02-22,22470,USA,OWID
-Daily hospital occupancy per million,2023-02-22,66.422,USA,OWID
-Daily ICU occupancy,2023-02-22,2887,USA,OWID
-Daily ICU occupancy per million,2023-02-22,8.534,USA,OWID
-Weekly new hospital admissions,2023-02-22,25387,USA,OWID
-Weekly new hospital admissions per million,2023-02-22,75.045,USA,OWID
+Daily hospital occupancy,2023-02-24,21926,USA,OWID
+Daily hospital occupancy per million,2023-02-24,64.814,USA,OWID
+Daily ICU occupancy,2023-02-24,2836,USA,OWID
+Daily ICU occupancy per million,2023-02-24,8.383,USA,OWID
+Weekly new hospital admissions,2023-02-24,24907,USA,OWID
+Weekly new hospital admissions per million,2023-02-24,73.626,USA,OWID
 Daily hospital occupancy,2022-07-26,1035,ZAF,OWID
 Daily hospital occupancy per million,2022-07-26,17.281,ZAF,OWID
 Daily ICU occupancy,2022-07-26,108,ZAF,OWID
