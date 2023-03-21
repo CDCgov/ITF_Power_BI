@@ -1,7 +1,13 @@
-# ITF_Power_BI Repository
+# ITF_Power_BI Repository (ARCHIVED)
 [![ITF Internal Dashboard Refresh](https://github.com/CDCgov/ITF_Power_BI/actions/workflows/internal_dashboard_updates.yaml/badge.svg)](https://github.com/CDCgov/ITF_Power_BI/actions/workflows/internal_dashboard_updates.yaml)
 
-This document has completed governance review per local and agency processes. This material is a draft.
+## Project Archived
+
+This repository contained the first working data streams for the global COVID-19 dashboards maintained by the International Task Force.
+The data model required writing directly to CSV files that were tracked in this repository, which became increasingly difficult to manage and update.
+A code-only repository has superceded this one, using GitHub actions to write out data into CDC AZDL storage. Development will continue there.
+
+[New Repository](https://github.com/CDCgov/ITF-Dashboard)
 
 ## Project Description:
 
